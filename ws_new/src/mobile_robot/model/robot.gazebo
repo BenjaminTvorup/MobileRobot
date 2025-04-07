@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Gazebo-Specific Properties -->
+
+  <!-- Body with custom dark grey material -->
+  <gazebo reference="body_link">
+    <mu1>1.0</mu1>
+    <mu2>1.0</mu2>
+    <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>0.3 0.3 0.3 1</diffuse>
+      <specular>0.5 0.5 0.5 1</specular>
+      <emissive>0 0 0 1</emissive>
+    </material>
+  </gazebo>
+
+  <!-- Legs with matching dark grey material -->
+  <gazebo reference="fl_leg">
+    <mu1>1.0</mu1>
+    <mu2>1.0</mu2>
+    <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>0.3 0.3 0.3 1</diffuse>
+      <specular>0.5 0.5 0.5 1</specular>
+      <emissive>0 0 0 1</emissive>
+    </material>
+  </gazebo>
+  <gazebo reference="fr_leg">
+    <mu1>1.0</mu1>
+    <mu2>1.0</mu2>
+    <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>0.3 0.3 0.3 1</diffuse>
+      <specular>0.5 0.5 0.5 1</specular>
+      <emissive>0 0 0 1</emissive>
+    </material>
+  </gazebo>
+  <gazebo reference="bl_leg">
+    <mu1>1.0</mu1>
+    <mu2>1.0</mu2>
+    <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>0.3 0.3 0.3 1</diffuse>
+      <specular>0.5 0.5 0.5 1</specular>
+      <emissive>0 0 0 1</emissive>
+    </material>
+  </gazebo>
+  <gazebo reference="br_leg">
+    <mu1>1.0</mu1>
+    <mu2>1.0</mu2>
+    <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>0.3 0.3 0.3 1</diffuse>
+      <specular>0.5 0.5 0.5 1</specular>
+      <emissive>0 0 0 1</emissive>
+    </material>
+  </gazebo>
+
+  <!-- Wheels set to black -->
+  <gazebo reference="fl_wheel">
+    <mu1>0.1</mu1>
+    <mu2>0.1</mu2>
+    <material>Gazebo/Black</material>
+  </gazebo>
+  <gazebo reference="fr_wheel">
+    <mu1>0.1</mu1>
+    <mu2>0.1</mu2>
+    <material>Gazebo/Black</material>
+  </gazebo>
+  <gazebo reference="bl_wheel">
+    <mu1>0.7</mu1>
+    <mu2>0.7</mu2>
+    <material>Gazebo/Black</material>
+  </gazebo>
+  <gazebo reference="br_wheel">
+    <mu1>0.7</mu1>
+    <mu2>0.7</mu2>
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+<!--gazebo>
+  <!-plugin name="gz::sim::systems::AckermannSteering" filename="gz-sim-ackermann-steering-system"->
+    <!- <robot_sim_type>gz_ros2_control/GazeboSimSystem</robot_sim_type> ->
+  <plugin name="gazebo_ros_control" filename="libgazebo_ros2_control.so">
+      <robot_sim_type>gazebo_ros2_control/GazeboSystem</robot_sim_type>
+    <parameters>$(find mobile_robot)/config/ackermann_controllers.yaml</parameters>
+    <odometry_frame>odom</odometry_frame>
+    <robot_base_frame>base_link</robot_base_frame>
+    <publish_odom>true</publish_odom>
+    <tf_topic>/tf</tf_topic>
+    <odom_topic>/odom</odom_topic>
+    <publish_odom_tf>true</publish_odom_tf>
+    <publish_wheel_tf>true</publish_wheel_tf>
+  </plugin>
+</gazebo-->
+
+<gazebo>
+  <plugin name="gz_ros2_control" filename="libgazebo_ros2_control.so">
+    <parameters>$(find mobile_robot)/config/ackermann_controllers.yaml</parameters>
+  </plugin>
+</gazebo> 
+
+
+<!-- <gazebo>
+  <plugin name="gz::sim::systems::AckermannSteering" filename="gz-sim-ackermann-steering-system">
+    <parameters>$(find mobile_robot)/config/ackermann_controllers.yaml</parameters>
+  </plugin>
+</gazebo>  -->
+
+<gazebo reference="imu_link">
+  <sensor name="imu_sensor" type="imu">
+    <always_on>true</always_on>
+    <update_rate>100</update_rate>
+    <topic>/demo/imu</topic>
+    <imu>
+      <noise>
+        <type>gaussian</type>
+        <rate>
+          <mean>0.0</mean>
+          <stddev>0.01</stddev>
+        </rate>
+        <accel>
+          <mean>0.0</mean>
+          <stddev>0.05</stddev>
+        </accel>
+      </noise>
+    </imu>
+  </sensor>
+</gazebo>
+
+
+</robot>
