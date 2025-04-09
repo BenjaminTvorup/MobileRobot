@@ -1,0 +1,10 @@
+/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg/CMakeFiles/uninstall.dir
+/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg/CMakeFiles/my_kinematics_pkg_uninstall.dir
+/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg/CMakeFiles/kinematics_node.dir
+/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg/CMakeFiles/test.dir
+/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg/CMakeFiles/edit_cache.dir
+/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg/CMakeFiles/rebuild_cache.dir
+/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg/CMakeFiles/list_install_components.dir
+/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg/CMakeFiles/install.dir
+/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg/CMakeFiles/install/local.dir
+/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg/CMakeFiles/install/strip.dir

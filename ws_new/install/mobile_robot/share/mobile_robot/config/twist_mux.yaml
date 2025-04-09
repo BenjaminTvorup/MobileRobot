@@ -1,0 +1,16 @@
+twist_mux:
+  ros__parameters:
+    output_topic: /cmd_vel_out  
+    topics:
+      navigation:
+        topic: cmd_vel
+        timeout: 0.5
+        priority: 10
+      tracker:
+        topic: cmd_vel_tracker
+        timeout: 0.5
+        priority: 20
+
+#It configures the twist_mux node to select between multiple velocity
+# command topics (cmd_vel, cmd_vel_tracker) based on their priority and timeout, 
+#publishing the selected one to /cmd_vel_out

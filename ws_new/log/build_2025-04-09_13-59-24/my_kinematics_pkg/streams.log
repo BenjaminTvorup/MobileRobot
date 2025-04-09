@@ -1,0 +1,25 @@
+[0.130s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg -- -j8 -l8
+[1.389s] [ 50%] [32mBuilding CXX object CMakeFiles/kinematics_node.dir/src/kinematics_node.cpp.o[0m
+[19.440s] [100%] [32m[1mLinking CXX executable kinematics_node[0m
+[21.509s] [100%] Built target kinematics_node
+[21.524s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg -- -j8 -l8
+[21.543s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg
+[21.580s] -- Install configuration: ""
+[21.623s] -- Installing: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/lib/my_kinematics_pkg/kinematics_node
+[21.642s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/lib/my_kinematics_pkg/kinematics_node" to ""
+[21.643s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/ament_index/resource_index/package_run_dependencies/my_kinematics_pkg
+[21.644s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/ament_index/resource_index/parent_prefix_path/my_kinematics_pkg
+[21.644s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/environment/ament_prefix_path.sh
+[21.644s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/environment/ament_prefix_path.dsv
+[21.645s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/environment/path.sh
+[21.646s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/environment/path.dsv
+[21.646s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/local_setup.bash
+[21.646s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/local_setup.sh
+[21.647s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/local_setup.zsh
+[21.647s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/local_setup.dsv
+[21.647s] -- Installing: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/package.dsv
+[21.648s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/ament_index/resource_index/packages/my_kinematics_pkg
+[21.648s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/cmake/my_kinematics_pkgConfig.cmake
+[21.648s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/cmake/my_kinematics_pkgConfig-version.cmake
+[21.648s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/package.xml
+[21.649s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg

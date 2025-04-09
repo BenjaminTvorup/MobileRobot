@@ -1,0 +1,39 @@
+[0.046s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/ws_new/install/publisher_subscriber:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/mobile_robot -- -j8 -l8
+[0.381s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/ws_new/install/publisher_subscriber:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/mobile_robot -- -j8 -l8
+[0.383s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/ws_new/install/publisher_subscriber:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/mobile_robot
+[0.397s] -- Install configuration: ""
+[0.397s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//launch
+[0.398s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//launch/gazebo_model_environement.launch.py
+[0.398s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//launch/gazebo_model.launch.py
+[0.398s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//launch/test.launch.py
+[0.399s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//launch/camera.launch.py
+[0.399s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//model
+[0.399s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//model/robot_new.xacro
+[0.399s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//model/empty_world.world
+[0.400s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//model/robot.gazebo
+[0.400s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//model/robot.xacro
+[0.400s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//config
+[0.400s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//config/main.rviz
+[0.401s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//config/mapper_params_online_async.yaml
+[0.401s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//config/ackermann_controllers.yaml
+[0.401s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//config/nav2_params.yaml
+[0.401s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//config/ekf.yaml
+[0.402s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//config/gz_bridge.yaml
+[0.402s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//config/twist_mux.yaml
+[0.403s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//config/carlikebot:controllers.yaml
+[0.407s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/ament_index/resource_index/package_run_dependencies/mobile_robot
+[0.407s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/ament_index/resource_index/parent_prefix_path/mobile_robot
+[0.408s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.sh
+[0.408s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.dsv
+[0.408s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/environment/path.sh
+[0.408s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/environment/path.dsv
+[0.409s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/local_setup.bash
+[0.409s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/local_setup.sh
+[0.409s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/local_setup.zsh
+[0.410s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/local_setup.dsv
+[0.410s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/package.dsv
+[0.410s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/ament_index/resource_index/packages/mobile_robot
+[0.410s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig.cmake
+[0.411s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig-version.cmake
+[0.411s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/package.xml
+[0.447s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/ws_new/install/publisher_subscriber:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/mobile_robot

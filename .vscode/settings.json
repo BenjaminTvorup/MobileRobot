@@ -1,0 +1,5 @@
+{
+    "cmake.sourceDirectory": "/home/thomas/MobileRobot/ws_new/src/my_kinematics_pkg",
+    "C_Cpp.errorSquiggles": "disabled",
+    "ros.distro": "jazzy"
+}
