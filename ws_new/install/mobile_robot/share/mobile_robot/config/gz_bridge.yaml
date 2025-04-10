@@ -18,12 +18,12 @@
   gz_type_name: "gz.msgs.Model"
   direction: GZ_TO_ROS
 
-# imu
-- ros_topic_name: "/demo/imu"
-  gz_topic_name: "/demo/imu"
+- ros_topic_name: "/imu/data"
+  gz_topic_name: "/imu/data"
   ros_type_name: "sensor_msgs/msg/Imu"
   gz_type_name: "gz.msgs.IMU"
   direction: GZ_TO_ROS
+
 
 # Odemetry
 - ros_topic_name: "/demo/odom"
