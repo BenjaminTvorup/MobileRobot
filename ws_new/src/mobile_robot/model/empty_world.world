@@ -157,6 +157,7 @@
     <heading_deg>180</heading_deg>
   </spherical_coordinates>
 
+
     <model name="ground_plane">
       <static>true</static>
       <link name="link">

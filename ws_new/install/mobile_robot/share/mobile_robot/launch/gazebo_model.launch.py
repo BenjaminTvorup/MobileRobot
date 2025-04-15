@@ -201,6 +201,29 @@ def generate_launch_description():
         ]
     )
 
+
+
+    # Node from the package that contains your KinematicsNode
+    kinematics_node = Node(
+        package='my_kinematics_pkg',  # Package where your node is built
+        executable='kinematics_node', # The executable name produced (as specified in package.xml and CMakeLists.txt)
+        name='kinematics_node',       # (Optional) Node name at runtime
+        output='screen'               # Redirects output to the screen for easier debugging
+    )
+
+
+    ekf_node = Node(
+        package='robot_localization',
+        executable='ekf_node',
+        name='ekf_filter_node',
+        output='screen',
+        parameters=[
+            '/home/thomas/MobileRobot/ws_new/src/mobile_robot/config/ekf.yaml',
+            {'use_sim_time': True}  # Ensure the node uses simulated time
+        ]
+        #arguments=['--ros-args', '--log-level', 'DEBUG']
+    )
+
     # Define the launch description
     return LaunchDescription([
         use_sim_time_arg,
@@ -220,4 +243,6 @@ def generate_launch_description():
         #twist_mux,
         #nav2_controller_node,
         #lifecycle_manager_node
+        kinematics_node
+        #ekf_node
     ])  

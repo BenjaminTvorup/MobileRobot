@@ -66,3 +66,10 @@
   ros_type_name: "tf2_msgs/msg/TFMessage"  
   gz_type_name: "gz.msgs.Pose_V"  
   direction: GZ_TO_ROS  
+
+#GPS
+- ros_topic_name: "/gps/fix"
+  gz_topic_name: "/model/your_robot/gps_sensor/nav_sat_fix"
+  ros_type_name: "sensor_msgs/msg/NavSatFix"
+  gz_type_name: "gz.msgs.NavSatFix"
+  direction: GZ_TO_ROS

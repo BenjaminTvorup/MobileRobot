@@ -18,7 +18,7 @@ find_package(xacro REQUIRED)
 # Install directories
 
 install(
-  DIRECTORY launch model config
+  DIRECTORY launch model config description
   DESTINATION share/${PROJECT_NAME}/
 )
 

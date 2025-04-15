@@ -1,0 +1,35 @@
+running egg_info
+creating ../../../build/publisher_subscriber/publisher_subscriber.egg-info
+writing ../../../build/publisher_subscriber/publisher_subscriber.egg-info/PKG-INFO
+writing dependency_links to ../../../build/publisher_subscriber/publisher_subscriber.egg-info/dependency_links.txt
+writing entry points to ../../../build/publisher_subscriber/publisher_subscriber.egg-info/entry_points.txt
+writing requirements to ../../../build/publisher_subscriber/publisher_subscriber.egg-info/requires.txt
+writing top-level names to ../../../build/publisher_subscriber/publisher_subscriber.egg-info/top_level.txt
+writing manifest file '../../../build/publisher_subscriber/publisher_subscriber.egg-info/SOURCES.txt'
+reading manifest file '../../../build/publisher_subscriber/publisher_subscriber.egg-info/SOURCES.txt'
+writing manifest file '../../../build/publisher_subscriber/publisher_subscriber.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/thomas/MobileRobot/build/publisher_subscriber/build
+creating /home/thomas/MobileRobot/build/publisher_subscriber/build/lib
+creating /home/thomas/MobileRobot/build/publisher_subscriber/build/lib/publisher_subscriber
+copying publisher_subscriber/__init__.py -> /home/thomas/MobileRobot/build/publisher_subscriber/build/lib/publisher_subscriber
+copying publisher_subscriber/playback_node.py -> /home/thomas/MobileRobot/build/publisher_subscriber/build/lib/publisher_subscriber
+running install
+running install_lib
+creating /home/thomas/MobileRobot/install/publisher_subscriber/lib/python3.12/site-packages/publisher_subscriber
+copying /home/thomas/MobileRobot/build/publisher_subscriber/build/lib/publisher_subscriber/__init__.py -> /home/thomas/MobileRobot/install/publisher_subscriber/lib/python3.12/site-packages/publisher_subscriber
+copying /home/thomas/MobileRobot/build/publisher_subscriber/build/lib/publisher_subscriber/playback_node.py -> /home/thomas/MobileRobot/install/publisher_subscriber/lib/python3.12/site-packages/publisher_subscriber
+byte-compiling /home/thomas/MobileRobot/install/publisher_subscriber/lib/python3.12/site-packages/publisher_subscriber/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/thomas/MobileRobot/install/publisher_subscriber/lib/python3.12/site-packages/publisher_subscriber/playback_node.py to playback_node.cpython-312.pyc
+running install_data
+creating /home/thomas/MobileRobot/install/publisher_subscriber/share/ament_index
+creating /home/thomas/MobileRobot/install/publisher_subscriber/share/ament_index/resource_index
+creating /home/thomas/MobileRobot/install/publisher_subscriber/share/ament_index/resource_index/packages
+copying resource/publisher_subscriber -> /home/thomas/MobileRobot/install/publisher_subscriber/share/ament_index/resource_index/packages
+copying package.xml -> /home/thomas/MobileRobot/install/publisher_subscriber/share/publisher_subscriber
+running install_egg_info
+Copying ../../../build/publisher_subscriber/publisher_subscriber.egg-info to /home/thomas/MobileRobot/install/publisher_subscriber/lib/python3.12/site-packages/publisher_subscriber-0.0.0-py3.12.egg-info
+running install_scripts
+Installing playback_node script to /home/thomas/MobileRobot/install/publisher_subscriber/lib/publisher_subscriber
+writing list of installed files to '/home/thomas/MobileRobot/build/publisher_subscriber/install.log'

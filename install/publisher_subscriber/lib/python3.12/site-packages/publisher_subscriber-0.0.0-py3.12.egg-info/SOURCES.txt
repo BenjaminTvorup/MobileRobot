@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../../../build/publisher_subscriber/publisher_subscriber.egg-info/PKG-INFO
+../../../build/publisher_subscriber/publisher_subscriber.egg-info/SOURCES.txt
+../../../build/publisher_subscriber/publisher_subscriber.egg-info/dependency_links.txt
+../../../build/publisher_subscriber/publisher_subscriber.egg-info/entry_points.txt
+../../../build/publisher_subscriber/publisher_subscriber.egg-info/requires.txt
+../../../build/publisher_subscriber/publisher_subscriber.egg-info/top_level.txt
+../../../build/publisher_subscriber/publisher_subscriber.egg-info/zip-safe
+publisher_subscriber/__init__.py
+publisher_subscriber/playback_node.py
+resource/publisher_subscriber
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

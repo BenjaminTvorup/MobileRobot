@@ -36,13 +36,13 @@ private:
         // Retrieve joint values:
         // Assumes that joint_states has the steering angles at indexes 2 and 4
         // and the rear wheel velocities at indexes 0 and 1.
-        double phi = (msg->position[2] + msg->position[4]) / 2.0; // Average steering angle
+        double delta = (msg->position[2] + msg->position[4]) / 2.0; // Average steering angle
         double w_left = msg->velocity[0];  // Rear left wheel (bl_wheel_joint)
         double w_right = msg->velocity[1]; // Rear right wheel (br_wheel_joint)
         double r = 0.235; // Rear wheel radius (meters)
         double L = 1.364; // Wheelbase (meters)
         double v = (w_left + w_right) / 2.0 * r; // Linear velocity (meters per second)
-        double omega = (v / L) * std::tan(phi);   // Angular velocity (radians per second)
+        double omega = (v / L) * std::tan(delta);   // Angular velocity (radians per second)
 
         // Update the robot's pose using simple kinematics:
         theta_ += omega * dt;

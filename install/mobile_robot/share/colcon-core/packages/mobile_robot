@@ -1,0 +1,1 @@
+controller_manager:geometry_msgs:gz_ros2_control:joint_state_publisher:joint_state_publisher_gui:nav2_controller:nav2_lifecycle_manager:numpy:rclpy:robot_localization:robot_state_publisher:ros_gz_bridge:ros_gz_sim:rviz:tf2_ros:xacro

@@ -158,7 +158,12 @@
     <joint name="${prefix}_wheel_joint" type="${wheel_joint_type}">
       <parent link="${prefix}_leg"/>
       <child link="${prefix}_wheel"/>
-      <origin xyz="0 0 ${-leg_length_z}" rpy="0 0 ${PI/2}"/>
+      <xacro:if value="${prefix == 'bl'}">
+        <origin xyz="0 0.15 ${-leg_length_z}" rpy="0 0 ${PI/2}"/>
+      </xacro:if>
+      <xacro:if value="${prefix == 'br'}">
+        <origin xyz="0 -0.15 ${-leg_length_z}" rpy="0 0 ${PI/2}"/>
+      </xacro:if>
       <axis xyz="1 0 0"/>
       <dynamics damping="0.01"/>
       <!-- If the joint is revolute, then apply limits -->
@@ -243,6 +248,27 @@
     <child link="imu_link"/>
     <origin xyz="0 0 0.1" rpy="0 0 0"/>
   </joint>
+
+
+  <link name="gps_link">
+    <inertial>
+      <mass>0.1</mass>
+      <inertia>
+        <ixx>0.001</ixx>
+        <iyy>0.001</iyy>
+        <izz>0.001</izz>
+      </inertia>
+    </inertial>
+  </link>
+
+
+
+  <joint name="gps_joint" type="fixed">
+    <parent link="base_link"/>
+    <child link="gps_link"/>
+    <origin xyz="0 0 0.2" rpy="0 0 0"/> <!-- Adjust height as needed -->
+  </joint>
+
 
 
 
@@ -357,13 +383,18 @@
   <!-- Include Gazebo-specific file -->
   <!-- This file contains additional Gazebo configurations -->
   <xacro:include filename="$(find mobile_robot)/model/robot.gazebo"/>
+  <!-- <xacro:include filename="$(find mobile_robot)/description/gps.xacro"/> -->
+
+  <!-- <xacro:include filename="$(find mobile_robot)/description/camera.xacro" />
+  <xacro:include filename="$(find mobile_robot)/description/lidar.xacro" /> -->
 
 
-    <!--
-    <xacro:include filename="$(find mobile_robot)/description/"camera.xacro" />
-    <xacro:include filename="$(find mobile_robot)/description/"lidar.xacro" />
-    <xacro:include filename="$(find mobile_robot)/description/"gps.xacro" />
-    -->
+
+
+  
+
+    
+    
 </robot>
 
 

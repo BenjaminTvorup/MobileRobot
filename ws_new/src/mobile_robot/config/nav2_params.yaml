@@ -91,3 +91,13 @@ global_costmap:
         plugin: "nav2_costmap_2d::InflationLayer"
         cost_scaling_factor: 3.0
         inflation_radius: 0.55
+  
+  waypoint_follower:
+  ros__parameters:
+    plugin: "nav2_gps_waypoint_follower::GPSWaypointFollower"
+    loop_rate: 10.0
+    stop_on_failure: false
+    waypoint_task_executor_plugin: "wait_at_waypoint"
+    wait_at_waypoint:
+      plugin: "nav2_waypoint_follower::WaitAtWaypoint"
+      wait_timeout: 5.0 
