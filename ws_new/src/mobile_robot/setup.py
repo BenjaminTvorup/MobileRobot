@@ -15,7 +15,8 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'playback_node = mobile_robot.robot_nodes.playback_node:main',
+            # New node entry point for your navigation file
+            'navigation = navigation.navigation:main',
         ],
     },
 )

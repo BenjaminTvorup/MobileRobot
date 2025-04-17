@@ -12,17 +12,10 @@ def generate_launch_description():
     ekf_local_config = os.path.join(pkg_share, 'config', 'ekf.yaml')
     navsat_transform_config = os.path.join(pkg_share, 'config', 'navsat_transform.yaml')
 
-    # Gazebo simulation (assuming you have a Gazebo launch file)
-    gazebo_launch = IncludeLaunchDescription(
-        PythonLaunchDescriptionSource(
-            os.path.join(get_package_share_directory('your_gazebo_package'), 'launch', 'gazebo.launch.py')
-        )
-    )
-
     # robot_localization: EKF for local odometry
     ekf_local = Node(
         package='robot_localization',
-        executable='ekf_localization_node',
+        executable='ekf_node',  
         name='ekf',
         output='screen',
         parameters=[ekf_local_config],
@@ -37,8 +30,8 @@ def generate_launch_description():
         output='screen',
         parameters=[navsat_transform_config],
         remappings=[
-            ('/imu/data', '/imu/data'),
-            ('/gps/fix', '/gps/fix'),
+            ('/imu', '/imu/data'),
+            ('/gps/fix','/gps/fix'),
             ('/odometry/filtered', '/odometry/filtered'),
             ('/odometry/gps', '/odometry/gps')
         ]
@@ -65,9 +58,9 @@ def generate_launch_description():
     )
 
     return LaunchDescription([
-        gazebo_launch,
         ekf_local,
-        navsat_transform,
-        nav2_bringup,
-        waypoint_follower
+        navsat_transform
+        
+        #nav2_bringup,
+        #waypoint_follower
     ])

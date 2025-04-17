@@ -46,8 +46,8 @@ private:
 
         // Update the robot's pose using simple kinematics:
         theta_ += omega * dt;
-        x_ += v * std::cos(theta_) * dt;
-        y_ += v * std::sin(theta_) * dt;
+        x_ -= v * std::cos(theta_) * dt;
+        y_ -= v * std::sin(theta_) * dt;
 
         // Publish odometry message:
         nav_msgs::msg::Odometry odom;

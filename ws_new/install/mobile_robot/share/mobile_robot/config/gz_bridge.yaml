@@ -69,7 +69,7 @@
 
 #GPS
 - ros_topic_name: "/gps/fix"
-  gz_topic_name: "/model/your_robot/gps_sensor/nav_sat_fix"
+  gz_topic_name: "/navsat/fix"  # i could not find the gz_topic because nothing is being pulished. becaus of the plugin
   ros_type_name: "sensor_msgs/msg/NavSatFix"
-  gz_type_name: "gz.msgs.NavSatFix"
+  gz_type_name: "gz.msgs.NavSat"
   direction: GZ_TO_ROS

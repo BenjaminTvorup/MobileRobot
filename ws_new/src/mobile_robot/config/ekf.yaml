@@ -30,7 +30,10 @@ ekf_node_odom:
         map_frame: map              # Defaults to "map" if unspecified
         odom_frame: odom            # Defaults to "odom" if unspecified
         base_link_frame: base_link  # Defaults to "base_link" if unspecified
-        world_frame: odom           # Defaults to the value of odom_frame if unspecified
+#        world_frame: odom           # Defaults to the value of odom_frame if unspecified
+        world_frame: map 
+        
+
         
         #odom0: /demo/odom
         odom0: /odom_my
@@ -45,4 +48,3 @@ ekf_node_odom:
                         true, true, true]   # vroll, vpitch, vyaw
 
 
-                      

@@ -1,0 +1,37 @@
+[6.242s] Invoking command in '/home/thomas/MobileRobot/ws_new/src/navigation': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/thomas/MobileRobot/ws_new/build/navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/navigation build --build-base /home/thomas/MobileRobot/ws_new/build/navigation/build install --record /home/thomas/MobileRobot/ws_new/build/navigation/install.log --single-version-externally-managed install_data
+[6.650s] running egg_info
+[6.651s] creating ../../build/navigation/navigation.egg-info
+[6.680s] writing ../../build/navigation/navigation.egg-info/PKG-INFO
+[6.680s] writing dependency_links to ../../build/navigation/navigation.egg-info/dependency_links.txt
+[6.680s] writing entry points to ../../build/navigation/navigation.egg-info/entry_points.txt
+[6.681s] writing requirements to ../../build/navigation/navigation.egg-info/requires.txt
+[6.681s] writing top-level names to ../../build/navigation/navigation.egg-info/top_level.txt
+[6.681s] writing manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'
+[6.745s] reading manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'
+[6.746s] writing manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'
+[6.746s] running build
+[6.747s] running build_py
+[6.747s] creating /home/thomas/MobileRobot/ws_new/build/navigation/build
+[6.747s] creating /home/thomas/MobileRobot/ws_new/build/navigation/build/lib
+[6.747s] creating /home/thomas/MobileRobot/ws_new/build/navigation/build/lib/navigation
+[6.748s] copying navigation/__init__.py -> /home/thomas/MobileRobot/ws_new/build/navigation/build/lib/navigation
+[6.748s] copying navigation/nav_node.py -> /home/thomas/MobileRobot/ws_new/build/navigation/build/lib/navigation
+[6.748s] running install
+[6.758s] running install_lib
+[6.789s] creating /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation
+[6.789s] copying /home/thomas/MobileRobot/ws_new/build/navigation/build/lib/navigation/__init__.py -> /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation
+[6.790s] copying /home/thomas/MobileRobot/ws_new/build/navigation/build/lib/navigation/nav_node.py -> /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation
+[6.791s] byte-compiling /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation/__init__.py to __init__.cpython-312.pyc
+[6.791s] byte-compiling /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation/nav_node.py to nav_node.cpython-312.pyc
+[6.792s] running install_data
+[6.792s] creating /home/thomas/MobileRobot/ws_new/install/navigation/share/ament_index
+[6.793s] creating /home/thomas/MobileRobot/ws_new/install/navigation/share/ament_index/resource_index
+[6.793s] creating /home/thomas/MobileRobot/ws_new/install/navigation/share/ament_index/resource_index/packages
+[6.793s] copying resource/navigation -> /home/thomas/MobileRobot/ws_new/install/navigation/share/ament_index/resource_index/packages
+[6.793s] copying package.xml -> /home/thomas/MobileRobot/ws_new/install/navigation/share/navigation
+[6.793s] running install_egg_info
+[6.829s] Copying ../../build/navigation/navigation.egg-info to /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation-0.0.0-py3.12.egg-info
+[6.830s] running install_scripts
+[7.038s] Installing nav_node script to /home/thomas/MobileRobot/ws_new/install/navigation/lib/navigation
+[7.039s] writing list of installed files to '/home/thomas/MobileRobot/ws_new/build/navigation/install.log'
+[7.086s] Invoked command in '/home/thomas/MobileRobot/ws_new/src/navigation' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/thomas/MobileRobot/ws_new/build/navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/navigation build --build-base /home/thomas/MobileRobot/ws_new/build/navigation/build install --record /home/thomas/MobileRobot/ws_new/build/navigation/install.log --single-version-externally-managed install_data

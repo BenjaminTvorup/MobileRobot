@@ -56,8 +56,6 @@ def generate_launch_description():
     robot_description_config = xacro.process_file(path_model_file)
     robot_description = robot_description_config.toxml()
 
-    
-
 
 
 

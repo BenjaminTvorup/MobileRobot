@@ -28,6 +28,7 @@
   <depend>geometry_msgs</depend>
   <depend>tf2_ros</depend>
   <depend>numpy</depend>
+  <depend>tf_transformations</depend>
 
   <export>
     <config_file package="mobile_robot" filename="config/ackermann_controllers.yaml" />
