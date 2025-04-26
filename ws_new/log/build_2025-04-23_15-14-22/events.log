@@ -1,0 +1,6 @@
+[0.000000] (-) TimerEvent: {}
+[0.000217] (-) JobUnselected: {'identifier': 'mobile_robot'}
+[0.000290] (-) JobUnselected: {'identifier': 'my_kinematics_pkg'}
+[0.000333] (-) JobUnselected: {'identifier': 'navigation'}
+[0.000366] (-) JobUnselected: {'identifier': 'publisher_subscriber'}
+[0.000398] (-) EventReactorShutdown: {}

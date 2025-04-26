@@ -1,0 +1,11 @@
+<root main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <Sequence name="NavigateWithReplanning">
+      <PipelineSequence>
+        <GoalUpdater/>
+        <ComputePathToPose/>
+        <FollowPath/>
+      </PipelineSequence>
+    </Sequence>
+  </BehaviorTree>
+</root>

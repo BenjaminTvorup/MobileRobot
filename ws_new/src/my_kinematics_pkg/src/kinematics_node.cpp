@@ -68,6 +68,33 @@ private:
         odom.twist.twist.linear.x = v;
         odom.twist.twist.angular.z = omega;
 
+        // Set covariance values
+        for (int i = 0; i < 36; ++i) {
+            if (i == 0) {
+                if (std::abs(v) <= 0.05) {
+                    odom.twist.covariance[i] = 0.000001;
+                } else {
+                    odom.twist.covariance[i] = 0.0001;
+                }
+            } else if (i == 7) {
+                if (std::abs(v) <= 0.05) {
+                    odom.twist.covariance[i] = 0.0001;
+                } else {
+                    odom.twist.covariance[i] = 0.001;
+                }
+            } else if (i == 35) {
+                if (std::abs(omega) <= 0.05) {
+                    odom.twist.covariance[i] = 0.00001;
+                } else {
+                    odom.twist.covariance[i] = 0.05;
+                }
+            } else if (i == 14 || i == 21 || i == 28) {
+                odom.twist.covariance[i] = 99999.0;
+            } else {
+                odom.twist.covariance[i] = 0.0;
+            }
+        }
+
         pub_->publish(odom);
 
         // Publish TF transform:

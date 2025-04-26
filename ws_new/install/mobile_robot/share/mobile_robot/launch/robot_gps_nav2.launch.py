@@ -7,7 +7,7 @@ from launch.launch_description_sources import PythonLaunchDescriptionSource
 
 def generate_launch_description():
     # Paths to configuration files
-    pkg_share = get_package_share_directory('mobile_robot')  # Replace with your package name
+    pkg_share = get_package_share_directory('mobile_robot')  
     nav2_params = os.path.join(pkg_share, 'config', 'nav2_params.yaml')
     ekf_local_config = os.path.join(pkg_share, 'config', 'ekf.yaml')
     navsat_transform_config = os.path.join(pkg_share, 'config', 'navsat_transform.yaml')
@@ -18,7 +18,7 @@ def generate_launch_description():
         executable='ekf_node',  
         name='ekf',
         output='screen',
-        parameters=[ekf_local_config],
+        parameters=[ekf_local_config, {'use_sim_time': True}],
         remappings=[('/odometry/filtered', '/odometry/filtered')]
     )
 
@@ -56,11 +56,20 @@ def generate_launch_description():
         output='screen',
         parameters=[nav2_params]
     )
+    
+    nav2_bt_navigator =   Node(
+        package='nav2_bt_navigator',
+        executable='bt_navigator',
+        name='bt_navigator',
+        output='screen',
+    )
+
 
     return LaunchDescription([
         ekf_local,
-        navsat_transform
+        navsat_transform,
         
         #nav2_bringup,
-        #waypoint_follower
+        #waypoint_follower,
+        #nav2_bt_navigator
     ])

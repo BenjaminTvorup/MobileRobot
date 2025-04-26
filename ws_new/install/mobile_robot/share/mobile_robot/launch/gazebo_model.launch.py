@@ -205,10 +205,11 @@ def generate_launch_description():
 
     # Node from the package that contains your KinematicsNode
     kinematics_node = Node(
-        package='my_kinematics_pkg',  # Package where your node is built
-        executable='kinematics_node', # The executable name produced (as specified in package.xml and CMakeLists.txt)
-        name='kinematics_node',       
-        output='screen'               # Redirects output to the screen for easier debugging
+        package='my_kinematics_pkg',
+        executable='kinematics_node',
+        name='kinematics_node',
+        output='screen',
+        parameters=[{'use_sim_time': True}]
     )
 
 
