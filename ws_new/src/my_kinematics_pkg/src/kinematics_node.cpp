@@ -58,6 +58,8 @@ private:
         odom.pose.pose.position.y = y_;
         odom.pose.pose.position.z = 0.0;
 
+
+
         tf2::Quaternion q;
         q.setRPY(0, 0, theta_);
         odom.pose.pose.orientation.x = q.x();
@@ -65,7 +67,7 @@ private:
         odom.pose.pose.orientation.z = q.z();
         odom.pose.pose.orientation.w = q.w();
 
-        odom.twist.twist.linear.x = v;
+        odom.twist.twist.linear.x =- v;
         odom.twist.twist.angular.z = omega;
 
         // Set covariance values
@@ -84,9 +86,9 @@ private:
                 }
             } else if (i == 35) {
                 if (std::abs(omega) <= 0.05) {
-                    odom.twist.covariance[i] = 0.00001;
+                    odom.twist.covariance[i] = 0.001;
                 } else {
-                    odom.twist.covariance[i] = 0.05;
+                    odom.twist.covariance[i] = 0.1;
                 }
             } else if (i == 14 || i == 21 || i == 28) {
                 odom.twist.covariance[i] = 99999.0;

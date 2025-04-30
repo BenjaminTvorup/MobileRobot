@@ -18,6 +18,7 @@
 /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//config/gz_bridge.yaml
 /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//config/waypoint_follower.yaml
 /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//config/twist_mux.yaml
+/home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//config/ekf1.yaml
 /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//config/map_server.yaml
 /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//description/lidar.xacro
 /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//description/gps.xacro

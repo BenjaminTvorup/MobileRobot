@@ -8,8 +8,11 @@ setup.py
 ../../build/navigation/navigation.egg-info/requires.txt
 ../../build/navigation/navigation.egg-info/top_level.txt
 ../../build/navigation/navigation.egg-info/zip-safe
+navigation/GPS_path_planing.py
 navigation/__init__.py
 navigation/gps_path_follow.py
+navigation/gps_save_xy_subscriber.py
+navigation/gps_save_xy_subscriber1.py
 navigation/nav_node.py
 navigation/waypoint_follow.py
 resource/navigation

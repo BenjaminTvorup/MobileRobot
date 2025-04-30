@@ -1,0 +1,215 @@
+# Navigate to the workspace
+cd ~/MobileRobot/ws_new
+
+# Build the workspace using colcon
+colcon build --packages-select mobile_robot
+	
+
+# if needing to activate the python environemnt
+source /home/thomas/venv/bin/activate
+
+
+# Source the setup.bash file to set up the environment
+source /opt/ros/jazzy/setup.bash
+
+source ~/MobileRobot/ws_new/install/setup.bash
+
+# Launch the robot model in Gazebo
+ros2 launch mobile_robot gazebo_model.launch.py
+
+
+# Control the robot using keyboard input
+source /opt/ros/iron/setup.bash  # Source ROS 2 environment
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+
+
+# Investigate available ROS 2 topics
+source ~/ws/install/setup.bash  # Source the workspace environment
+ros2 topic list  # List all active topics
+
+# Example: Echo the odometry topic to see the robot's position and velocity
+ros2 topic echo /odom
+
+# Investigate the available services in the system
+ros2 service list
+
+# Example: Call a service (replace <service_name> with the actual service)
+ros2 service call /<service_name> <service_type> 
+
+# Investigate available nodes
+ros2 node list  # List all active nodes
+
+# Example: Get detailed info on a node
+ros2 node info /<node_name>
+
+# Get a list of all parameters in a node
+ros2 param list /<node_name> 
+
+# Example: Get a specific parameter's value from a node
+ros2 param get /<node_name> <parameter_name>
+
+# instal with ros_distro
+export ROS_DISTRO=jazzy
+
+
+ros2 topic pub --rate 30 /ackermann_steering_controller/reference geometry_msgs/msg/TwistStamped "
+  twist:
+    linear:
+      x: 1.0
+      y: 0.0
+      z: 0.0
+    angular:
+      x: 0.0
+      y: 0.0
+      z: 0.1"
+      
+# move the robot    
+ros2 run publisher_subscriber playback_node	
+
+
+# get the exact issue:
+python3 ~/ws_new/src/mobile_robot/launch/gazebo_model.launch.py
+
+
+# rqt is a GUI tool for visualizing and debugging ROS
+rqt
+
+# prints live transform messages published on the /tf topic
+ros2 topic echo /tf
+
+# opens plotjuggler
+ros2 run plotjuggler plotjuggler
+
+# displays the velocity commands (linear and angular) being sent to control a robot’s movement
+ros2 topic echo /cmd_vel
+
+# shows details about the /tf topic, including its message type, publishers, and subscribers.
+ros2 topic info /tf 
+
+ros2 topic list
+
+
+
+
+
+
+ros2 topic pub --rate 30 /cmd_vel geometry_msgs/msg/Twist "
+  twist:
+    linear:
+      x: 1.0
+      y: 0.0
+      z: 0.0
+    angular:
+      x: 0.0
+      y: 0.0
+      z: 0.1"
+ros2 topic pub --rate 30 /cmd_vel geometry_msgs/msg/Twist "{linear: {x: 1.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.1}}"
+
+
+
+sudo find /opt/ros/jazzy/ -name "rclcpp.hpp"
+	
+	
+
+#to do##
+
+run launch file
+
+# Verify topics
+
+gazebo	 topic list
+gz topic -l
+
+
+
+# Look for /odom and /joint_states. Echo them to confirm:
+ros2 topic echo /demo/odom
+ros2 topic echo /joint_states
+
+
+# run node: in new terminal
+		
+source /opt/ros/jazzy/setup.bash
+source ~/MobileRobot/ws_new/install/setup.bash
+ros2 run my_kinematics_pkg kinematics_node
+
+
+# move the robot with command in new terminal or keys.
+
+
+#new terminal: Collect and Verify Data
+source /opt/ros/jazzy/setup.bash
+ros2 topic echo /demo/odom
+ros2 topic echo /odom_my
+
+
+#and then launch plot juggler and see
+
+ros2 run plotjuggler plotjuggler
+
+
+# imu data
+gz topic -e -t /imu/data
+
+
+# see active nodes
+ros2 node list
+
+# run python script.
+ros2 run my_package my_python_node
+
+
+
+
+# how to make an excecutable node
+thomas@thomas-OMEN-by-HP-Laptop:~/MobileRobot/ws_new/src/mobile_robot$ cd navigation
+thomas@thomas-OMEN-by-HP-Laptop:~/MobileRobot/ws_new/src/mobile_robot/navigation$ ls
+rtk_farm_navigation.py
+thomas@thomas-OMEN-by-HP-Laptop:~/MobileRobot/ws_new/src/mobile_robot/navigation$ touch navigation.py
+thomas@thomas-OMEN-by-HP-Laptop:~/MobileRobot/ws_new/src/mobile_robot/navigation$ chmod +x navigation.py
+thomas@thomas-OMEN-by-HP-Laptop:~/MobileRobot/ws_new/src/mobile_robot/navigation$ ls
+should be green!!
+
+ros2 topic pub /odometry/filtered nav_msgs/msg/Odometry "header:
+  stamp:
+    sec: 0
+    nanosec: 0
+  frame_id: 'odom'
+child_frame_id: 'base_link'
+pose:
+  pose:
+    position:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+    orientation:
+      x: 0.0
+      y: 0.0
+      z: 0.0
+      w: 1.0"
+      
+
+ros2 launch mobile_robot robot_gps_nav2.launch.py
+
+
+ros2 run tf2_tools view_frames
+
+
+ros2 node info /ekf
+
+ros2 action list
+
+ros2 launch nav2_bringup navigation_launch.py
+
+ros2 launch nav2_bringup navigation_launch.py map:=/home/thomas/MobileRobot/ws_new/src/mobile_robot/map/empty_map.yaml
+
+
+python3 src/mobile_robot/map/map_publisher.py
+
+ 
+
+
+	
+
+
+

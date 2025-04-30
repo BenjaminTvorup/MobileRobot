@@ -153,8 +153,7 @@
     </plugin>
 
     
-    
-
+  
   <spherical_coordinates>
     <surface_model>EARTH_WGS84</surface_model>
     <latitude_deg>38.161479</latitude_deg>

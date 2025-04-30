@@ -1,0 +1,5 @@
+  File "/home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation/gps_save_xy_subscriber.py", line 38
+    goal_pose.header.frame_id = 
+                                ^
+SyntaxError: invalid syntax
+

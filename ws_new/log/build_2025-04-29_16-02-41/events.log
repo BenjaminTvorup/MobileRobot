@@ -1,0 +1,299 @@
+[0.000000] (-) TimerEvent: {}
+[0.000359] (-) JobUnselected: {'identifier': 'mobile_robot'}
+[0.000449] (-) JobUnselected: {'identifier': 'navigation'}
+[0.000526] (-) JobUnselected: {'identifier': 'publisher_subscriber'}
+[0.000696] (my_kinematics_pkg) JobQueued: {'identifier': 'my_kinematics_pkg', 'dependencies': OrderedDict()}
+[0.002001] (my_kinematics_pkg) JobStarted: {'identifier': 'my_kinematics_pkg'}
+[0.041925] (my_kinematics_pkg) JobProgress: {'identifier': 'my_kinematics_pkg', 'progress': 'cmake'}
+[0.043412] (my_kinematics_pkg) JobProgress: {'identifier': 'my_kinematics_pkg', 'progress': 'build'}
+[0.046871] (my_kinematics_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg', '--', '-j8', '-l8'], 'cwd': '/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'thomas', 'LC_TIME': 'de_DE.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/thomas', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'SYSTEMD_EXEC_PID': '2649', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/home/thomas/dev_ws', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/thomas/MobileRobot/ws_new/install:/home/thomas/dev_ws/install:/home/thomas/mobile_robot/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'thomas', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'thomas', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/thomas/anaconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/thomas-OMEN-by-HP-Laptop:@/tmp/.ICE-unix/2609,unix/thomas-OMEN-by-HP-Laptop:/tmp/.ICE-unix/2609', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d64dd861_6640_42b8_bbf3_cef2dcbbcf76', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ZM3252', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/home/thomas/MobileRobot/ws_new/install/navigation:/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg:/home/thomas/MobileRobot/ws_new/install/mobile_robot:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/thomas/MobileRobot/ws_new/install/publisher_subscriber/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg:/home/thomas/MobileRobot/ws_new/install/mobile_robot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/home/thomas/MobileRobot/ws_new/install/navigation:/opt/ros/jazzy'}), 'shell': False}
+[0.099565] (-) TimerEvent: {}
+[0.200050] (-) TimerEvent: {}
+[0.252826] (my_kinematics_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/kinematics_node.dir/src/kinematics_node.cpp.o\x1b[0m\n'}
+[0.300159] (-) TimerEvent: {}
+[0.400968] (-) TimerEvent: {}
+[0.501317] (-) TimerEvent: {}
+[0.601707] (-) TimerEvent: {}
+[0.702090] (-) TimerEvent: {}
+[0.802487] (-) TimerEvent: {}
+[0.902843] (-) TimerEvent: {}
+[1.003283] (-) TimerEvent: {}
+[1.103628] (-) TimerEvent: {}
+[1.203960] (-) TimerEvent: {}
+[1.304314] (-) TimerEvent: {}
+[1.404763] (-) TimerEvent: {}
+[1.505112] (-) TimerEvent: {}
+[1.605966] (-) TimerEvent: {}
+[1.706321] (-) TimerEvent: {}
+[1.806754] (-) TimerEvent: {}
+[1.907121] (-) TimerEvent: {}
+[2.007524] (-) TimerEvent: {}
+[2.107906] (-) TimerEvent: {}
+[2.208263] (-) TimerEvent: {}
+[2.308657] (-) TimerEvent: {}
+[2.409235] (-) TimerEvent: {}
+[2.510037] (-) TimerEvent: {}
+[2.610558] (-) TimerEvent: {}
+[2.710950] (-) TimerEvent: {}
+[2.811388] (-) TimerEvent: {}
+[2.911978] (-) TimerEvent: {}
+[3.012412] (-) TimerEvent: {}
+[3.113040] (-) TimerEvent: {}
+[3.213456] (-) TimerEvent: {}
+[3.314047] (-) TimerEvent: {}
+[3.414489] (-) TimerEvent: {}
+[3.514918] (-) TimerEvent: {}
+[3.615853] (-) TimerEvent: {}
+[3.716418] (-) TimerEvent: {}
+[3.817018] (-) TimerEvent: {}
+[3.917695] (-) TimerEvent: {}
+[4.018637] (-) TimerEvent: {}
+[4.119000] (-) TimerEvent: {}
+[4.219404] (-) TimerEvent: {}
+[4.320014] (-) TimerEvent: {}
+[4.420353] (-) TimerEvent: {}
+[4.520957] (-) TimerEvent: {}
+[4.621791] (-) TimerEvent: {}
+[4.722465] (-) TimerEvent: {}
+[4.822825] (-) TimerEvent: {}
+[4.923307] (-) TimerEvent: {}
+[5.023687] (-) TimerEvent: {}
+[5.125429] (-) TimerEvent: {}
+[5.226047] (-) TimerEvent: {}
+[5.326844] (-) TimerEvent: {}
+[5.427429] (-) TimerEvent: {}
+[5.528265] (-) TimerEvent: {}
+[5.629798] (-) TimerEvent: {}
+[5.730304] (-) TimerEvent: {}
+[5.831192] (-) TimerEvent: {}
+[5.931698] (-) TimerEvent: {}
+[6.032053] (-) TimerEvent: {}
+[6.132512] (-) TimerEvent: {}
+[6.232899] (-) TimerEvent: {}
+[6.333271] (-) TimerEvent: {}
+[6.433616] (-) TimerEvent: {}
+[6.533939] (-) TimerEvent: {}
+[6.634298] (-) TimerEvent: {}
+[6.734662] (-) TimerEvent: {}
+[6.835042] (-) TimerEvent: {}
+[6.935349] (-) TimerEvent: {}
+[7.035925] (-) TimerEvent: {}
+[7.136294] (-) TimerEvent: {}
+[7.237417] (-) TimerEvent: {}
+[7.337981] (-) TimerEvent: {}
+[7.438538] (-) TimerEvent: {}
+[7.538989] (-) TimerEvent: {}
+[7.639440] (-) TimerEvent: {}
+[7.739986] (-) TimerEvent: {}
+[7.840664] (-) TimerEvent: {}
+[7.941239] (-) TimerEvent: {}
+[8.041614] (-) TimerEvent: {}
+[8.141966] (-) TimerEvent: {}
+[8.242302] (-) TimerEvent: {}
+[8.342756] (-) TimerEvent: {}
+[8.443624] (-) TimerEvent: {}
+[8.543946] (-) TimerEvent: {}
+[8.644367] (-) TimerEvent: {}
+[8.744784] (-) TimerEvent: {}
+[8.845612] (-) TimerEvent: {}
+[8.946751] (-) TimerEvent: {}
+[9.047198] (-) TimerEvent: {}
+[9.147952] (-) TimerEvent: {}
+[9.248420] (-) TimerEvent: {}
+[9.349104] (-) TimerEvent: {}
+[9.450650] (-) TimerEvent: {}
+[9.550972] (-) TimerEvent: {}
+[9.651679] (-) TimerEvent: {}
+[9.752384] (-) TimerEvent: {}
+[9.852733] (-) TimerEvent: {}
+[9.953142] (-) TimerEvent: {}
+[10.053496] (-) TimerEvent: {}
+[10.153850] (-) TimerEvent: {}
+[10.254178] (-) TimerEvent: {}
+[10.354569] (-) TimerEvent: {}
+[10.454905] (-) TimerEvent: {}
+[10.555315] (-) TimerEvent: {}
+[10.655767] (-) TimerEvent: {}
+[10.756237] (-) TimerEvent: {}
+[10.856606] (-) TimerEvent: {}
+[10.957076] (-) TimerEvent: {}
+[11.057451] (-) TimerEvent: {}
+[11.157895] (-) TimerEvent: {}
+[11.258332] (-) TimerEvent: {}
+[11.358904] (-) TimerEvent: {}
+[11.459320] (-) TimerEvent: {}
+[11.559777] (-) TimerEvent: {}
+[11.660356] (-) TimerEvent: {}
+[11.760698] (-) TimerEvent: {}
+[11.861142] (-) TimerEvent: {}
+[11.961514] (-) TimerEvent: {}
+[12.061878] (-) TimerEvent: {}
+[12.162365] (-) TimerEvent: {}
+[12.262775] (-) TimerEvent: {}
+[12.363166] (-) TimerEvent: {}
+[12.463666] (-) TimerEvent: {}
+[12.564174] (-) TimerEvent: {}
+[12.664646] (-) TimerEvent: {}
+[12.765577] (-) TimerEvent: {}
+[12.866762] (-) TimerEvent: {}
+[12.967162] (-) TimerEvent: {}
+[13.067500] (-) TimerEvent: {}
+[13.167876] (-) TimerEvent: {}
+[13.268571] (-) TimerEvent: {}
+[13.368876] (-) TimerEvent: {}
+[13.469231] (-) TimerEvent: {}
+[13.569562] (-) TimerEvent: {}
+[13.670395] (-) TimerEvent: {}
+[13.770804] (-) TimerEvent: {}
+[13.871167] (-) TimerEvent: {}
+[13.971525] (-) TimerEvent: {}
+[14.071957] (-) TimerEvent: {}
+[14.172434] (-) TimerEvent: {}
+[14.272768] (-) TimerEvent: {}
+[14.373229] (-) TimerEvent: {}
+[14.473731] (-) TimerEvent: {}
+[14.574187] (-) TimerEvent: {}
+[14.674561] (-) TimerEvent: {}
+[14.774962] (-) TimerEvent: {}
+[14.875531] (-) TimerEvent: {}
+[14.976369] (-) TimerEvent: {}
+[15.077234] (-) TimerEvent: {}
+[15.178062] (-) TimerEvent: {}
+[15.278658] (-) TimerEvent: {}
+[15.379026] (-) TimerEvent: {}
+[15.479445] (-) TimerEvent: {}
+[15.579936] (-) TimerEvent: {}
+[15.680774] (-) TimerEvent: {}
+[15.781442] (-) TimerEvent: {}
+[15.881993] (-) TimerEvent: {}
+[15.982342] (-) TimerEvent: {}
+[16.082714] (-) TimerEvent: {}
+[16.183520] (-) TimerEvent: {}
+[16.284627] (-) TimerEvent: {}
+[16.384989] (-) TimerEvent: {}
+[16.485518] (-) TimerEvent: {}
+[16.586961] (-) TimerEvent: {}
+[16.687628] (-) TimerEvent: {}
+[16.787961] (-) TimerEvent: {}
+[16.888320] (-) TimerEvent: {}
+[16.988762] (-) TimerEvent: {}
+[17.089158] (-) TimerEvent: {}
+[17.189755] (-) TimerEvent: {}
+[17.290162] (-) TimerEvent: {}
+[17.390548] (-) TimerEvent: {}
+[17.490985] (-) TimerEvent: {}
+[17.591353] (-) TimerEvent: {}
+[17.691961] (-) TimerEvent: {}
+[17.792545] (-) TimerEvent: {}
+[17.892915] (-) TimerEvent: {}
+[17.993569] (-) TimerEvent: {}
+[18.094073] (-) TimerEvent: {}
+[18.194776] (-) TimerEvent: {}
+[18.295523] (-) TimerEvent: {}
+[18.396958] (-) TimerEvent: {}
+[18.497414] (-) TimerEvent: {}
+[18.597836] (-) TimerEvent: {}
+[18.698263] (-) TimerEvent: {}
+[18.798885] (-) TimerEvent: {}
+[18.899489] (-) TimerEvent: {}
+[18.999811] (-) TimerEvent: {}
+[19.105547] (-) TimerEvent: {}
+[19.205990] (-) TimerEvent: {}
+[19.306797] (-) TimerEvent: {}
+[19.407186] (-) TimerEvent: {}
+[19.507737] (-) TimerEvent: {}
+[19.608177] (-) TimerEvent: {}
+[19.708655] (-) TimerEvent: {}
+[19.809189] (-) TimerEvent: {}
+[19.909553] (-) TimerEvent: {}
+[20.009861] (-) TimerEvent: {}
+[20.110198] (-) TimerEvent: {}
+[20.210712] (-) TimerEvent: {}
+[20.311221] (-) TimerEvent: {}
+[20.411586] (-) TimerEvent: {}
+[20.512298] (-) TimerEvent: {}
+[20.613110] (-) TimerEvent: {}
+[20.713717] (-) TimerEvent: {}
+[20.814300] (-) TimerEvent: {}
+[20.914776] (-) TimerEvent: {}
+[21.015405] (-) TimerEvent: {}
+[21.115746] (-) TimerEvent: {}
+[21.216279] (-) TimerEvent: {}
+[21.316733] (-) TimerEvent: {}
+[21.417095] (-) TimerEvent: {}
+[21.517430] (-) TimerEvent: {}
+[21.617792] (-) TimerEvent: {}
+[21.718693] (-) TimerEvent: {}
+[21.819264] (-) TimerEvent: {}
+[21.919764] (-) TimerEvent: {}
+[22.020272] (-) TimerEvent: {}
+[22.120678] (-) TimerEvent: {}
+[22.221244] (-) TimerEvent: {}
+[22.321840] (-) TimerEvent: {}
+[22.422324] (-) TimerEvent: {}
+[22.522721] (-) TimerEvent: {}
+[22.623137] (-) TimerEvent: {}
+[22.724051] (-) TimerEvent: {}
+[22.824453] (-) TimerEvent: {}
+[22.924916] (-) TimerEvent: {}
+[23.025449] (-) TimerEvent: {}
+[23.125858] (-) TimerEvent: {}
+[23.226226] (-) TimerEvent: {}
+[23.326598] (-) TimerEvent: {}
+[23.427124] (-) TimerEvent: {}
+[23.527453] (-) TimerEvent: {}
+[23.627840] (-) TimerEvent: {}
+[23.728602] (-) TimerEvent: {}
+[23.829373] (-) TimerEvent: {}
+[23.929999] (-) TimerEvent: {}
+[24.030445] (-) TimerEvent: {}
+[24.130785] (-) TimerEvent: {}
+[24.231155] (-) TimerEvent: {}
+[24.331493] (-) TimerEvent: {}
+[24.431889] (-) TimerEvent: {}
+[24.532438] (-) TimerEvent: {}
+[24.632814] (-) TimerEvent: {}
+[24.733162] (-) TimerEvent: {}
+[24.833510] (-) TimerEvent: {}
+[24.879714] (my_kinematics_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable kinematics_node\x1b[0m\n'}
+[24.933625] (-) TimerEvent: {}
+[25.034209] (-) TimerEvent: {}
+[25.134556] (-) TimerEvent: {}
+[25.234913] (-) TimerEvent: {}
+[25.335408] (-) TimerEvent: {}
+[25.436487] (-) TimerEvent: {}
+[25.536870] (-) TimerEvent: {}
+[25.637267] (-) TimerEvent: {}
+[25.737833] (-) TimerEvent: {}
+[25.838486] (-) TimerEvent: {}
+[25.939015] (-) TimerEvent: {}
+[26.039614] (-) TimerEvent: {}
+[26.140397] (-) TimerEvent: {}
+[26.197881] (my_kinematics_pkg) StdoutLine: {'line': b'[100%] Built target kinematics_node\n'}
+[26.240515] (-) TimerEvent: {}
+[26.340876] (-) TimerEvent: {}
+[26.362434] (my_kinematics_pkg) CommandEnded: {'returncode': 0}
+[26.363920] (my_kinematics_pkg) JobProgress: {'identifier': 'my_kinematics_pkg', 'progress': 'install'}
+[26.390336] (my_kinematics_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg'], 'cwd': '/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'thomas', 'LC_TIME': 'de_DE.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/thomas', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'SYSTEMD_EXEC_PID': '2649', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/home/thomas/dev_ws', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/thomas/MobileRobot/ws_new/install:/home/thomas/dev_ws/install:/home/thomas/mobile_robot/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'thomas', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'thomas', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/thomas/anaconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/thomas-OMEN-by-HP-Laptop:@/tmp/.ICE-unix/2609,unix/thomas-OMEN-by-HP-Laptop:/tmp/.ICE-unix/2609', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d64dd861_6640_42b8_bbf3_cef2dcbbcf76', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.ZM3252', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/home/thomas/MobileRobot/ws_new/install/navigation:/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg:/home/thomas/MobileRobot/ws_new/install/mobile_robot:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/thomas/MobileRobot/ws_new/install/publisher_subscriber/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg:/home/thomas/MobileRobot/ws_new/install/mobile_robot:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/home/thomas/MobileRobot/ws_new/install/navigation:/opt/ros/jazzy'}), 'shell': False}
+[26.418701] (my_kinematics_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.419324] (my_kinematics_pkg) StdoutLine: {'line': b'-- Installing: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/lib/my_kinematics_pkg/kinematics_node\n'}
+[26.436199] (my_kinematics_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/lib/my_kinematics_pkg/kinematics_node" to ""\n'}
+[26.436998] (my_kinematics_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/ament_index/resource_index/package_run_dependencies/my_kinematics_pkg\n'}
+[26.437419] (my_kinematics_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/ament_index/resource_index/parent_prefix_path/my_kinematics_pkg\n'}
+[26.437663] (my_kinematics_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/environment/ament_prefix_path.sh\n'}
+[26.437873] (my_kinematics_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/environment/ament_prefix_path.dsv\n'}
+[26.438055] (my_kinematics_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/environment/path.sh\n'}
+[26.438274] (my_kinematics_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/environment/path.dsv\n'}
+[26.438521] (my_kinematics_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/local_setup.bash\n'}
+[26.438726] (my_kinematics_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/local_setup.sh\n'}
+[26.438908] (my_kinematics_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/local_setup.zsh\n'}
+[26.439084] (my_kinematics_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/local_setup.dsv\n'}
+[26.439286] (my_kinematics_pkg) StdoutLine: {'line': b'-- Installing: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/package.dsv\n'}
+[26.441891] (my_kinematics_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/ament_index/resource_index/packages/my_kinematics_pkg\n'}
+[26.443739] (-) TimerEvent: {}
+[26.444024] (my_kinematics_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/cmake/my_kinematics_pkgConfig.cmake\n'}
+[26.448390] (my_kinematics_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/cmake/my_kinematics_pkgConfig-version.cmake\n'}
+[26.449127] (my_kinematics_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/package.xml\n'}
+[26.449344] (my_kinematics_pkg) CommandEnded: {'returncode': 0}
+[26.511873] (my_kinematics_pkg) JobEnded: {'identifier': 'my_kinematics_pkg', 'rc': 0}
+[26.513327] (-) EventReactorShutdown: {}

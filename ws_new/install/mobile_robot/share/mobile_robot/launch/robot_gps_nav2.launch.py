@@ -16,10 +16,11 @@ def generate_launch_description():
     ekf_local = Node(
         package='robot_localization',
         executable='ekf_node',  
-        name='ekf',
+        name='ekf_node_odom',
         output='screen',
         parameters=[ekf_local_config, {'use_sim_time': True}],
         remappings=[('/odometry/filtered', '/odometry/filtered')]
+        
     )
 
     # robot_localization: NavSat Transform for GPS
@@ -69,7 +70,7 @@ def generate_launch_description():
         ekf_local,
         navsat_transform,
         
-        #nav2_bringup,
+        #nav2_bringup
         #waypoint_follower,
         #nav2_bt_navigator
     ])

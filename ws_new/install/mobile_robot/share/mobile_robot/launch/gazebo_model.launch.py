@@ -18,17 +18,16 @@ def generate_launch_description():
     world_file_relative_path = 'model/empty_world.world'
     controller_file_relative_path = 'config/ackermann_controllers.yaml'
     rviz_config_file_path = 'config/main.rviz'
-
+    pkg_share = get_package_share_directory('mobile_robot')  
     
 
     path_model_file = os.path.join(get_package_share_directory(package_name), model_file_relative_path)
     path_world_file = os.path.join(get_package_share_directory(package_name), world_file_relative_path)
     controller_file = os.path.join(get_package_share_directory(package_name), controller_file_relative_path)
     rviz_config_file = os.path.join(get_package_share_directory(package_name),rviz_config_file_path )
+    ekf_local_config = os.path.join(pkg_share, 'config', 'ekf.yaml')
+    navsat_transform_config = os.path.join(pkg_share, 'config', 'navsat_transform.yaml')
 
-    #
-    #
-    #
 
     # These define configurable options that can be passed when running the launch file
     gui_arg = DeclareLaunchArgument(
@@ -215,14 +214,27 @@ def generate_launch_description():
 
     ekf_node = Node(
         package='robot_localization',
-        executable='ekf_node',
-        name='ekf_filter_node',
+        executable='ekf_node',  
+        name='ekf_node_odom',
         output='screen',
-        parameters=[
-            '/home/thomas/MobileRobot/ws_new/src/mobile_robot/config/ekf.yaml',
-            {'use_sim_time': True}  # Ensure the node uses simulated time
+        parameters=[ekf_local_config, {'use_sim_time': True}],
+        remappings=[('/odometry/filtered', '/odometry/filtered')]
+        
+    )
+
+        # robot_localization: NavSat Transform for GPS
+    navsat_transform = Node(
+        package='robot_localization',
+        executable='navsat_transform_node',
+        name='navsat_transform',
+        output='screen',
+        parameters=[navsat_transform_config],
+        remappings=[
+            ('/imu', '/imu/data'),
+            ('/gps/fix','/gps/fix'),
+            ('/odometry/filtered', '/odometry/filtered'),
+            ('/odometry/gps', '/odometry/gps')
         ]
-        #arguments=['--ros-args', '--log-level', 'DEBUG']
     )
 
     # Define the launch description
@@ -240,10 +252,11 @@ def generate_launch_description():
         joint_state_publisher_node,
         #joint_state_publisher_gui_node,
         #robot_localization_node,
-        rviz_node,
+        #rviz_node,
         #twist_mux,
         #nav2_controller_node,
-        #lifecycle_manager_node
-        kinematics_node
-        #ekf_node
+        #lifecycle_manage_node
+        #kinematics_node,
+        #ekf_node,
+        navsat_transform
     ])  

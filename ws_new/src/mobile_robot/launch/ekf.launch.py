@@ -27,16 +27,11 @@ def generate_launch_description():
         pkg_dir, "config", "ekf.yaml")
 
     return LaunchDescription(
-        [
-                        
-            launch_ros.actions.Node(
-                package="robot_localization",
-                executable="ekf_node",
-                name="ekf_node_odom",
-                output="screen",
-                parameters=[ekf_params, {"use_sim_time": True}],
-                remappings=[("odometry/filtered", "odometry/ekf")],
-            ),
-            
-        ]
+        [launch_ros.actions.Node(
+        package='robot_localization',
+        executable='ekf_node',  
+        name='ekf_node_odom',
+        output='screen',
+        parameters=[ekf_params, {'use_sim_time': True}],
+        remappings=[('/odometry/filtered', '/odometry/filtered')])]
     )

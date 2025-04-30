@@ -3,6 +3,7 @@
     "C_Cpp.errorSquiggles": "disabled",
     "ros.distro": "jazzy",
     "files.associations": {
-        "numbers": "cpp"
+        "numbers": "cpp",
+        "random": "cpp"
     }
 }
