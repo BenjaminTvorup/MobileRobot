@@ -5,14 +5,16 @@
   <!-- Define constant PI -->
   <xacro:property name="PI" value="3.1415926535897931"/>
   <!-- Base properties: mass, dimensions -->
-  <xacro:property name="base_mass" value="20.0"/> <!--  CHANGE Body mass (kg) -->
+  <!-- <xacro:property name="base_mass" value="20.0"/>  CHANGE Body mass (kg) -->
+  <xacro:property name="base_mass" value="0.0001"/> <!--  CHANGE Body mass (kg) -->
   <xacro:property name="base_length" value="1.718"/> <!-- Body length (m) -->
   <xacro:property name="base_width" value="1.0"/> <!-- Body width (m) -->
   <xacro:property name="base_height" value="0.3"/> <!-- Body height (m) -->
   <!-- Wheelbase is the distance between the front and rear axles -->
-  <xacro:property name="wheelbase" value="1.08"/> <!-- Distance between front and rear axles (m) -->
+  <xacro:property name="wheelbase" value="1.364"/> <!-- Distance between front and rear axles (m) -->
   <!-- Wheel properties -->
-  <xacro:property name="wheel_mass" value="1.0"/> <!-- Wheel mass (kg) -->
+  <!-- <xacro:property name="wheel_mass" value="1.0"/> Wheel mass (kg) -->
+  <xacro:property name="wheel_mass" value="0.0001"/> 
   <xacro:property name="wheel_len" value="0.241"/> <!-- Wheel width (m) -->
   <xacro:property name="wheel_radius" value="0.235"/> <!-- Wheel radius (m) -->
   <!-- Leg properties -->
@@ -20,7 +22,8 @@
   <xacro:property name="leg_length_y" value="0.040"/>
   <xacro:property name="leg_length_z" value="0.530"/>
   <xacro:property name="leg_angle" value="${radians(15)}"/> <!-- Leg tilt angle -->
-  <xacro:property name="leg_mass" value="10.0"/> <!-- Leg mass (kg) -->
+  <!-- <xacro:property name="leg_mass" value="10.0"/> Leg mass (kg) -->
+  <xacro:property name="leg_mass" value="0.00001"/>
 
   <!-- Macro for Legs with Wheels -->
   <!-- This macro instantiates a leg and its attached wheel. Parameters:

@@ -1,0 +1,5 @@
+[0.044s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/home/thomas/MobileRobot/ws_new/install/navigation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg -- -j8 -l8
+[0.562s] [ 50%] [32mBuilding CXX object CMakeFiles/kinematics_node.dir/src/kinematics_node.cpp.o[0m
+[0.751s] gmake[2]: *** [CMakeFiles/kinematics_node.dir/build.make:76: CMakeFiles/kinematics_node.dir/src/kinematics_node.cpp.o] Interrupt
+[0.752s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/kinematics_node.dir/all] Interrupt
+[0.753s] gmake: *** [Makefile:146: all] Interrupt

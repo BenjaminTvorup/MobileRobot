@@ -1,0 +1,319 @@
+[0.900s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.900s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7bfeb861b4a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7bfeb861b3e0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7bfeb861b3e0>>)
+[1.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.098s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.099s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.100s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/thomas/MobileRobot/ws_new'
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.100s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.101s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.219s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.220s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.221s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.222s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.222s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.223s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.224s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.225s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.226s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.227s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extensions ['ignore', 'ignore_ament_install']
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extension 'ignore'
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extension 'ignore_ament_install'
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extensions ['colcon_pkg']
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extension 'colcon_pkg'
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extensions ['colcon_meta']
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extension 'colcon_meta'
+[1.228s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extensions ['ros']
+[1.229s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extension 'ros'
+[1.242s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mobile_robot' with type 'ros.ament_cmake' and name 'mobile_robot'
+[1.243s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_kinematics_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_kinematics_pkg) by extension 'ignore'
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_kinematics_pkg) by extension 'ignore_ament_install'
+[1.244s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_kinematics_pkg) by extensions ['colcon_pkg']
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_kinematics_pkg) by extension 'colcon_pkg'
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_kinematics_pkg) by extensions ['colcon_meta']
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_kinematics_pkg) by extension 'colcon_meta'
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_kinematics_pkg) by extensions ['ros']
+[1.245s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_kinematics_pkg) by extension 'ros'
+[1.248s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_kinematics_pkg' with type 'ros.ament_cmake' and name 'my_kinematics_pkg'
+[1.248s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['ignore', 'ignore_ament_install']
+[1.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'ignore'
+[1.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'ignore_ament_install'
+[1.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['colcon_pkg']
+[1.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'colcon_pkg'
+[1.249s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['colcon_meta']
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'colcon_meta'
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['ros']
+[1.250s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'ros'
+[1.254s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigation' with type 'ros.ament_python' and name 'navigation'
+[1.254s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber) by extensions ['ignore', 'ignore_ament_install']
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber) by extension 'ignore'
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber) by extension 'ignore_ament_install'
+[1.255s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber) by extensions ['colcon_pkg']
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber) by extension 'colcon_pkg'
+[1.256s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber) by extensions ['colcon_meta']
+[1.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber) by extension 'colcon_meta'
+[1.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber) by extensions ['ros']
+[1.258s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber) by extension 'ros'
+[1.260s] DEBUG:colcon.colcon_core.package_identification:Package 'src/publisher_subscriber' with type 'ros.ament_python' and name 'publisher_subscriber'
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(vectors) by extensions ['ignore', 'ignore_ament_install']
+[1.260s] Level 1:colcon.colcon_core.package_identification:_identify(vectors) by extension 'ignore'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(vectors) by extension 'ignore_ament_install'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(vectors) by extensions ['colcon_pkg']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(vectors) by extension 'colcon_pkg'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(vectors) by extensions ['colcon_meta']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(vectors) by extension 'colcon_meta'
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(vectors) by extensions ['ros']
+[1.261s] Level 1:colcon.colcon_core.package_identification:_identify(vectors) by extension 'ros'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(vectors) by extensions ['cmake', 'python']
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(vectors) by extension 'cmake'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(vectors) by extension 'python'
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(vectors) by extensions ['python_setup_py']
+[1.262s] Level 1:colcon.colcon_core.package_identification:_identify(vectors) by extension 'python_setup_py'
+[1.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.356s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.371s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/thomas/MobileRobot/ws_new/install
+[1.373s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/thomas/dev_ws/install
+[1.374s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/thomas/mobile_robot/install
+[1.384s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 439 installed packages in /opt/ros/jazzy
+[1.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.693s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_args' from command line to 'None'
+[1.693s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_target' from command line to 'None'
+[1.693s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.693s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[1.693s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_clean_first' from command line to 'False'
+[1.693s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_force_configure' from command line to 'False'
+[1.693s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'ament_cmake_args' from command line to 'None'
+[1.693s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[1.693s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.694s] DEBUG:colcon.colcon_core.verb:Building package 'mobile_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thomas/MobileRobot/ws_new/build/mobile_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thomas/MobileRobot/ws_new/install/mobile_robot', 'merge_install': False, 'path': '/home/thomas/MobileRobot/ws_new/src/mobile_robot', 'symlink_install': False, 'test_result_base': None}
+[1.694s] Level 5:colcon.colcon_core.verb:set package 'my_kinematics_pkg' build argument 'cmake_args' from command line to 'None'
+[1.695s] Level 5:colcon.colcon_core.verb:set package 'my_kinematics_pkg' build argument 'cmake_target' from command line to 'None'
+[1.695s] Level 5:colcon.colcon_core.verb:set package 'my_kinematics_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.695s] Level 5:colcon.colcon_core.verb:set package 'my_kinematics_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[1.695s] Level 5:colcon.colcon_core.verb:set package 'my_kinematics_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[1.695s] Level 5:colcon.colcon_core.verb:set package 'my_kinematics_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[1.695s] Level 5:colcon.colcon_core.verb:set package 'my_kinematics_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[1.695s] Level 5:colcon.colcon_core.verb:set package 'my_kinematics_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[1.695s] Level 5:colcon.colcon_core.verb:set package 'my_kinematics_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.695s] DEBUG:colcon.colcon_core.verb:Building package 'my_kinematics_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg', 'merge_install': False, 'path': '/home/thomas/MobileRobot/ws_new/src/my_kinematics_pkg', 'symlink_install': False, 'test_result_base': None}
+[1.697s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_args' from command line to 'None'
+[1.697s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_target' from command line to 'None'
+[1.698s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.699s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[1.699s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_clean_first' from command line to 'False'
+[1.699s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_force_configure' from command line to 'False'
+[1.699s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'ament_cmake_args' from command line to 'None'
+[1.699s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[1.699s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.700s] DEBUG:colcon.colcon_core.verb:Building package 'navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thomas/MobileRobot/ws_new/build/navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thomas/MobileRobot/ws_new/install/navigation', 'merge_install': False, 'path': '/home/thomas/MobileRobot/ws_new/src/navigation', 'symlink_install': False, 'test_result_base': None}
+[1.701s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber' build argument 'cmake_args' from command line to 'None'
+[1.702s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber' build argument 'cmake_target' from command line to 'None'
+[1.702s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.702s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber' build argument 'cmake_clean_cache' from command line to 'False'
+[1.702s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber' build argument 'cmake_clean_first' from command line to 'False'
+[1.702s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber' build argument 'cmake_force_configure' from command line to 'False'
+[1.702s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber' build argument 'ament_cmake_args' from command line to 'None'
+[1.703s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber' build argument 'catkin_cmake_args' from command line to 'None'
+[1.703s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.703s] DEBUG:colcon.colcon_core.verb:Building package 'publisher_subscriber' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thomas/MobileRobot/ws_new/build/publisher_subscriber', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thomas/MobileRobot/ws_new/install/publisher_subscriber', 'merge_install': False, 'path': '/home/thomas/MobileRobot/ws_new/src/publisher_subscriber', 'symlink_install': False, 'test_result_base': None}
+[1.703s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.705s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.706s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/thomas/MobileRobot/ws_new/src/mobile_robot' with build type 'ament_cmake'
+[1.708s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/thomas/MobileRobot/ws_new/src/mobile_robot'
+[1.735s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.736s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.736s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.758s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/thomas/MobileRobot/ws_new/src/my_kinematics_pkg' with build type 'ament_cmake'
+[1.759s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/thomas/MobileRobot/ws_new/src/my_kinematics_pkg'
+[1.759s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.760s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.783s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/thomas/MobileRobot/ws_new/src/navigation' with build type 'ament_python'
+[1.784s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation', 'ament_prefix_path')
+[1.785s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thomas/MobileRobot/ws_new/install/navigation/share/navigation/hook/ament_prefix_path.ps1'
+[1.788s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thomas/MobileRobot/ws_new/install/navigation/share/navigation/hook/ament_prefix_path.dsv'
+[1.791s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thomas/MobileRobot/ws_new/install/navigation/share/navigation/hook/ament_prefix_path.sh'
+[1.795s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.795s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.817s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/thomas/MobileRobot/ws_new/src/publisher_subscriber' with build type 'ament_python'
+[1.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('publisher_subscriber', 'ament_prefix_path')
+[1.818s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thomas/MobileRobot/ws_new/install/publisher_subscriber/share/publisher_subscriber/hook/ament_prefix_path.ps1'
+[1.821s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thomas/MobileRobot/ws_new/install/publisher_subscriber/share/publisher_subscriber/hook/ament_prefix_path.dsv'
+[1.822s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thomas/MobileRobot/ws_new/install/publisher_subscriber/share/publisher_subscriber/hook/ament_prefix_path.sh'
+[1.826s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.826s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.869s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thomas/MobileRobot/ws_new/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/home/thomas/MobileRobot/ws_new/install/navigation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/mobile_robot -- -j8 -l8
+[1.883s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/home/thomas/MobileRobot/ws_new/install/navigation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg -- -j8 -l8
+[3.146s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/thomas/MobileRobot/ws_new/src/navigation'
+[3.147s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.147s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thomas/MobileRobot/ws_new/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/home/thomas/MobileRobot/ws_new/install/navigation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/mobile_robot -- -j8 -l8
+[3.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thomas/MobileRobot/ws_new/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/home/thomas/MobileRobot/ws_new/install/navigation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/mobile_robot
+[4.460s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/thomas/MobileRobot/ws_new/src/publisher_subscriber'
+[4.461s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.461s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.484s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/home/thomas/MobileRobot/ws_new/install/navigation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg -- -j8 -l8
+[4.486s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/home/thomas/MobileRobot/ws_new/install/navigation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg
+[4.522s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mobile_robot)
+[4.567s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/mobile_robot' for CMake module files
+[4.575s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/mobile_robot' for CMake config files
+[4.578s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobile_robot', 'cmake_prefix_path')
+[4.579s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/hook/cmake_prefix_path.ps1'
+[4.581s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/hook/cmake_prefix_path.dsv'
+[4.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/hook/cmake_prefix_path.sh'
+[4.594s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/mobile_robot/bin'
+[4.596s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/mobile_robot/lib/pkgconfig/mobile_robot.pc'
+[4.597s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thomas/MobileRobot/ws_new/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/home/thomas/MobileRobot/ws_new/install/navigation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/mobile_robot
+[4.597s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/mobile_robot/lib/python3.12/site-packages'
+[4.598s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/mobile_robot/bin'
+[4.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/package.ps1'
+[4.603s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/package.dsv'
+[4.607s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/package.sh'
+[4.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/package.bash'
+[4.615s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/package.zsh'
+[4.617s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thomas/MobileRobot/ws_new/install/mobile_robot/share/colcon-core/packages/mobile_robot)
+[4.620s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mobile_robot)
+[4.620s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/mobile_robot' for CMake module files
+[4.623s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/mobile_robot' for CMake config files
+[4.624s] Level 1:colcon.colcon_core.shell:create_environment_hook('mobile_robot', 'cmake_prefix_path')
+[4.625s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/hook/cmake_prefix_path.ps1'
+[4.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/hook/cmake_prefix_path.dsv'
+[4.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/hook/cmake_prefix_path.sh'
+[4.631s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/mobile_robot/bin'
+[4.633s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/mobile_robot/lib/pkgconfig/mobile_robot.pc'
+[4.634s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/mobile_robot/lib/python3.12/site-packages'
+[4.636s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/mobile_robot/bin'
+[4.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/package.ps1'
+[4.639s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/package.dsv'
+[4.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/package.sh'
+[4.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/package.bash'
+[4.644s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/package.zsh'
+[4.646s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thomas/MobileRobot/ws_new/install/mobile_robot/share/colcon-core/packages/mobile_robot)
+[4.656s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_kinematics_pkg)
+[4.657s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg' for CMake module files
+[4.661s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/home/thomas/MobileRobot/ws_new/install/navigation:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg
+[4.665s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg' for CMake config files
+[4.667s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_kinematics_pkg', 'cmake_prefix_path')
+[4.668s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/hook/cmake_prefix_path.ps1'
+[4.670s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/hook/cmake_prefix_path.dsv'
+[4.672s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/hook/cmake_prefix_path.sh'
+[4.675s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/lib'
+[4.676s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/bin'
+[4.677s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/lib/pkgconfig/my_kinematics_pkg.pc'
+[4.678s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/lib/python3.12/site-packages'
+[4.680s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/bin'
+[4.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/package.ps1'
+[4.683s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/package.dsv'
+[4.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/package.sh'
+[4.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/package.bash'
+[4.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/package.zsh'
+[4.688s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/colcon-core/packages/my_kinematics_pkg)
+[4.690s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_kinematics_pkg)
+[4.690s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg' for CMake module files
+[4.693s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg' for CMake config files
+[4.694s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_kinematics_pkg', 'cmake_prefix_path')
+[4.694s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/hook/cmake_prefix_path.ps1'
+[4.696s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/hook/cmake_prefix_path.dsv'
+[4.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/hook/cmake_prefix_path.sh'
+[4.699s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/lib'
+[4.700s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/bin'
+[4.700s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/lib/pkgconfig/my_kinematics_pkg.pc'
+[4.701s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/lib/python3.12/site-packages'
+[4.702s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/bin'
+[4.703s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/package.ps1'
+[4.706s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/package.dsv'
+[4.708s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/package.sh'
+[4.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/package.bash'
+[4.711s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/package.zsh'
+[4.713s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/colcon-core/packages/my_kinematics_pkg)
+[8.177s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thomas/MobileRobot/ws_new/src/publisher_subscriber': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/thomas/MobileRobot/ws_new/build/publisher_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/publisher_subscriber build --build-base /home/thomas/MobileRobot/ws_new/build/publisher_subscriber/build install --record /home/thomas/MobileRobot/ws_new/build/publisher_subscriber/install.log --single-version-externally-managed install_data
+[8.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thomas/MobileRobot/ws_new/src/navigation': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/thomas/MobileRobot/ws_new/build/navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/navigation build --build-base /home/thomas/MobileRobot/ws_new/build/navigation/build install --record /home/thomas/MobileRobot/ws_new/build/navigation/install.log --single-version-externally-managed install_data
+[11.715s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/navigation' for CMake module files
+[11.718s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/navigation' for CMake config files
+[11.722s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thomas/MobileRobot/ws_new/src/navigation' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/thomas/MobileRobot/ws_new/build/navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/navigation build --build-base /home/thomas/MobileRobot/ws_new/build/navigation/build install --record /home/thomas/MobileRobot/ws_new/build/navigation/install.log --single-version-externally-managed install_data
+[11.724s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/navigation/lib'
+[11.724s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/navigation/bin'
+[11.724s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/navigation/lib/pkgconfig/navigation.pc'
+[11.725s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages'
+[11.726s] Level 1:colcon.colcon_core.shell:create_environment_hook('navigation', 'pythonpath')
+[11.726s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thomas/MobileRobot/ws_new/install/navigation/share/navigation/hook/pythonpath.ps1'
+[11.728s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thomas/MobileRobot/ws_new/install/navigation/share/navigation/hook/pythonpath.dsv'
+[11.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thomas/MobileRobot/ws_new/install/navigation/share/navigation/hook/pythonpath.sh'
+[11.732s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/navigation/bin'
+[11.732s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(navigation)
+[11.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/navigation/share/navigation/package.ps1'
+[11.736s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thomas/MobileRobot/ws_new/install/navigation/share/navigation/package.dsv'
+[11.738s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/navigation/share/navigation/package.sh'
+[11.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/navigation/share/navigation/package.bash'
+[11.745s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/navigation/share/navigation/package.zsh'
+[11.746s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thomas/MobileRobot/ws_new/install/navigation/share/colcon-core/packages/navigation)
+[11.761s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/publisher_subscriber' for CMake module files
+[11.764s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thomas/MobileRobot/ws_new/src/publisher_subscriber' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/thomas/MobileRobot/ws_new/build/publisher_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/publisher_subscriber build --build-base /home/thomas/MobileRobot/ws_new/build/publisher_subscriber/build install --record /home/thomas/MobileRobot/ws_new/build/publisher_subscriber/install.log --single-version-externally-managed install_data
+[11.766s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/publisher_subscriber' for CMake config files
+[11.768s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/publisher_subscriber/lib'
+[11.769s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/publisher_subscriber/bin'
+[11.769s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/publisher_subscriber/lib/pkgconfig/publisher_subscriber.pc'
+[11.771s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/publisher_subscriber/lib/python3.12/site-packages'
+[11.771s] Level 1:colcon.colcon_core.shell:create_environment_hook('publisher_subscriber', 'pythonpath')
+[11.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thomas/MobileRobot/ws_new/install/publisher_subscriber/share/publisher_subscriber/hook/pythonpath.ps1'
+[11.777s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thomas/MobileRobot/ws_new/install/publisher_subscriber/share/publisher_subscriber/hook/pythonpath.dsv'
+[11.778s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thomas/MobileRobot/ws_new/install/publisher_subscriber/share/publisher_subscriber/hook/pythonpath.sh'
+[11.781s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/publisher_subscriber/bin'
+[11.781s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(publisher_subscriber)
+[11.782s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/publisher_subscriber/share/publisher_subscriber/package.ps1'
+[11.784s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thomas/MobileRobot/ws_new/install/publisher_subscriber/share/publisher_subscriber/package.dsv'
+[11.786s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/publisher_subscriber/share/publisher_subscriber/package.sh'
+[11.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/publisher_subscriber/share/publisher_subscriber/package.bash'
+[11.789s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/publisher_subscriber/share/publisher_subscriber/package.zsh'
+[11.791s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thomas/MobileRobot/ws_new/install/publisher_subscriber/share/colcon-core/packages/publisher_subscriber)
+[11.792s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.792s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.792s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.792s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.828s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.828s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.828s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.885s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.886s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thomas/MobileRobot/ws_new/install/local_setup.ps1'
+[11.888s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/thomas/MobileRobot/ws_new/install/_local_setup_util_ps1.py'
+[11.892s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thomas/MobileRobot/ws_new/install/setup.ps1'
+[11.896s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thomas/MobileRobot/ws_new/install/local_setup.sh'
+[11.898s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/thomas/MobileRobot/ws_new/install/_local_setup_util_sh.py'
+[11.900s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thomas/MobileRobot/ws_new/install/setup.sh'
+[11.904s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thomas/MobileRobot/ws_new/install/local_setup.bash'
+[11.906s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thomas/MobileRobot/ws_new/install/setup.bash'
+[11.910s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thomas/MobileRobot/ws_new/install/local_setup.zsh'
+[11.911s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thomas/MobileRobot/ws_new/install/setup.zsh'

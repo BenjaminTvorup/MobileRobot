@@ -123,14 +123,14 @@ def generate_launch_description():
     ])
 
     # Add twist_mux node
-#    twist_mux_params = os.path.join(get_package_share_directory(package_name), 'config', 'twist_mux.yaml')
-#    twist_mux = Node(   
-#        package="twist_mux",
-#        executable="twist_mux",
-#        parameters=[twist_mux_params, {'use_sim_time': True}],
+    twist_mux_params = os.path.join(get_package_share_directory(package_name), 'config', 'twist_mux.yaml')
+    twist_mux = Node(   
+        package="twist_mux",
+        executable="twist_mux",
+        parameters=[twist_mux_params, {'use_sim_time': True}],
 #        remappings=[('/cmd_vel_out', '/ackermann_steering_controller/cmd_vel')],
-#        output='screen'
-#    )
+        output='screen'
+    )
 
 
     # These are ROS 2 nodes added to the launch file to enhance functionality and visualization
@@ -252,11 +252,11 @@ def generate_launch_description():
         joint_state_publisher_node,
         #joint_state_publisher_gui_node,
         #robot_localization_node,
-        #rviz_node,
-        #twist_mux,
+        rviz_node,
+        twist_mux,
         #nav2_controller_node,
         #lifecycle_manage_node
-        #kinematics_node,
-        #ekf_node,
+        kinematics_node,
+        ekf_node,
         navsat_transform
     ])  

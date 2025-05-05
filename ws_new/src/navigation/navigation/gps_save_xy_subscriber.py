@@ -5,12 +5,8 @@ from nav_msgs.msg import Odometry
 from geometry_msgs.msg import PoseStamped
 from nav2_msgs.action import NavigateToPose
 
-
 def calculate_new_position(x, y, distance=0.1):
-    new_x = x
-    new_y = y + distance
-    return new_x, new_y
-
+    return x, y + distance
 
 class GpsSaveXySubscriber(Node):
     def __init__(self):
@@ -23,28 +19,34 @@ class GpsSaveXySubscriber(Node):
         )
         self.action_client = ActionClient(self, NavigateToPose, 'navigate_to_pose')
         self.received = False
+        self.goal_pose = None
+        self.timer = None
 
     def gps_callback(self, msg):
-        if not self.received:
-            x = msg.pose.pose.position.x
-            y = msg.pose.pose.position.y
-            self.get_logger().info(f"Current position: x = {x}, y = {y}")
+        if self.received:
+            return
 
-            x_new, y_new = calculate_new_position(x, y, distance=2.0)
-            self.get_logger().info(f"Target position: x = {x_new}, y = {y_new}")
+        x = msg.pose.pose.position.x
+        y = msg.pose.pose.position.y
+        self.get_logger().info(f"Current position: x = {x}, y = {y}")
 
-            # Create the goal pose
-            goal_pose = PoseStamped()
-            goal_pose.header.frame_id = 'map'
-            goal_pose.header.stamp = self.get_clock().now().to_msg()
-            goal_pose.pose.position.x = x_new
-            goal_pose.pose.position.y = y_new
-            goal_pose.pose.position.z = 0.0
-            goal_pose.pose.orientation.w = 1.0
+        x_new, y_new = calculate_new_position(x, y, distance=2.0)
+        self.get_logger().info(f"Target position: x = {x_new}, y = {y_new}")
 
-            # Send the goal
-            self.send_goal(goal_pose)
-            self.received = True
+        # Create goal
+        self.goal_pose = PoseStamped()
+        self.goal_pose.header.frame_id = 'odom'  # Assumes /odometry/gps is in 'odom'
+        self.goal_pose.header.stamp = self.get_clock().now().to_msg()
+        self.goal_pose.pose.position.x = x_new
+        self.goal_pose.pose.position.y = y_new
+        self.goal_pose.pose.orientation.w = 1.0
+
+        self.received = True
+        self.timer = self.create_timer(5.0, self.send_delayed_goal)
+
+    def send_delayed_goal(self):
+        self.timer.cancel()
+        self.send_goal(self.goal_pose)
 
     def send_goal(self, pose):
         if not self.action_client.wait_for_server(timeout_sec=5.0):
@@ -69,17 +71,13 @@ class GpsSaveXySubscriber(Node):
     def result_callback(self, future):
         result = future.result().result
         self.get_logger().info(f"Navigation completed with status: {result}")
-        # Optionally shut down after navigation completes
-        # rclpy.shutdown()
-
 
 def main(args=None):
     rclpy.init(args=args)
-    gps_subscriber = GpsSaveXySubscriber()
-    rclpy.spin(gps_subscriber)
-    gps_subscriber.destroy_node()
+    node = GpsSaveXySubscriber()
+    rclpy.spin(node)
+    node.destroy_node()
     rclpy.shutdown()
-
 
 if __name__ == '__main__':
     main()

@@ -1,0 +1,7 @@
+[01m[K/home/thomas/MobileRobot/ws_new/src/my_kinematics_pkg/src/kinematics_node.cpp:[m[K In member function ‘[01m[Kvoid KinematicsNode::[01;32m[Kcallback[m[K(sensor_msgs::msg::JointState_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/thomas/MobileRobot/ws_new/src/my_kinematics_pkg/src/kinematics_node.cpp:86:17:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   86 |                 [01;31m[K}[m[K
+      |                 [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/kinematics_node.dir/build.make:76: CMakeFiles/kinematics_node.dir/src/kinematics_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/kinematics_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

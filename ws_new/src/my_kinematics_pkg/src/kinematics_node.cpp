@@ -40,7 +40,7 @@ private:
         double w_left = msg->velocity[0];  // Rear left wheel (bl_wheel_joint)
         double w_right = msg->velocity[1]; // Rear right wheel (br_wheel_joint)
         double r = 0.235; // Rear wheel radius (meters)
-        double L = 1.364; // Wheelbase (meters)
+        double L = 1.28; // Wheelbase (meters)
         double v = (w_left + w_right) / 2.0 * r; // Linear velocity (meters per second)
         double omega = (v / L) * std::tan(delta);   // Angular velocity (radians per second)
 
@@ -54,8 +54,8 @@ private:
         odom.header.stamp = current_time;  // Use the current time stamp for odometry message
         odom.header.frame_id = "odom";
         odom.child_frame_id = "base_link";
-        odom.pose.pose.position.x = x_;
-        odom.pose.pose.position.y = y_;
+        odom.pose.pose.position.x = x_ +0.95;
+        odom.pose.pose.position.y = y_ -0.4;
         odom.pose.pose.position.z = 0.0;
 
 
@@ -67,7 +67,7 @@ private:
         odom.pose.pose.orientation.z = q.z();
         odom.pose.pose.orientation.w = q.w();
 
-        odom.twist.twist.linear.x =- v;
+        odom.twist.twist.linear.x =- v ;
         odom.twist.twist.angular.z = omega;
 
         // Set covariance values
@@ -80,15 +80,15 @@ private:
                 }
             } else if (i == 7) {
                 if (std::abs(v) <= 0.05) {
-                    odom.twist.covariance[i] = 0.0001;
+                    odom.twist.covariance[i] = 0.000001;
                 } else {
                     odom.twist.covariance[i] = 0.001;
                 }
             } else if (i == 35) {
                 if (std::abs(omega) <= 0.05) {
-                    odom.twist.covariance[i] = 0.001;
+                    odom.twist.covariance[i] = 0.0000001;
                 } else {
-                    odom.twist.covariance[i] = 0.1;
+                    odom.twist.covariance[i] = 0.5;
                 }
             } else if (i == 14 || i == 21 || i == 28) {
                 odom.twist.covariance[i] = 99999.0;

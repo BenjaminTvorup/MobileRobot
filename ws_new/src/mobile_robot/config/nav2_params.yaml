@@ -1,103 +1,188 @@
-nav2_controller:
+planner_server:
   ros__parameters:
-    # Update rate of the controller (Hz)
-    controller_frequency: 20.0
+    use_sim_time: True
+    planner_plugins: ["GridBased"]
+    GridBased:
+      plugin: "nav2_navfn_planner/NavfnPlanner"
+      tolerance: 0.5
+      use_astar: False
+      allow_unknown: True
 
-    # Progress checker plugin
-    progress_checker_plugin: "progress_checker"
-    progress_checker:
-      plugin: "nav2_controller::SimpleProgressChecker"
-      required_movement_radius: 0.1
-      movement_time_allowance: 10.0
-
-    # Goal checker plugin
-    goal_checker_plugins: ["general_goal_checker"]
-    general_goal_checker:
-      plugin: "nav2_controller::SimpleGoalChecker"
-      xy_goal_tolerance: 0.25
-      yaw_goal_tolerance: 0.25
-      stateful: true
-
-    # Controller plugin
+controller_server:
+  ros__parameters:
+    use_sim_time: True
     controller_plugins: ["FollowPath"]
     FollowPath:
-      plugin: "nav2_regulated_pure_pursuit_controller::RegulatedPurePursuitController"
-      desired_linear_vel: 0.5
-      max_linear_vel: 1.0
-      min_linear_vel: 0.1
-      max_angular_vel: 1.0
-      lookahead_dist: 0.6
-      min_lookahead_dist: 0.3
-      max_lookahead_dist: 1.0
-      lookahead_time: 1.5
-      transform_tolerance: 0.2
-      use_velocity_scaled_lookahead_dist: false
-      use_cost_regulated_linear_velocity_scaling: true
-      use_collision_detection: true
-      cost_scaling_dist: 0.5
-      cost_scaling_gain: 1.0
-      inflation_cost_scaling_factor: 3.0
-      max_allowed_time_to_collision: 1.0
-      use_rotate_to_heading: false
-      allow_reversing: false
+      plugin: "nav2_dwb_controller/DWBController"
+      min_vel_x: 0.0
+      min_vel_y: 0.0
+      max_vel_x: 0.5
+      max_vel_y: 0.0
+      max_vel_theta: 1.0
+      min_speed_xy: 0.0
+      max_speed_xy: 0.5
+      min_speed_theta: 0.0
+      acc_lim_x: 2.5
+      acc_lim_y: 0.0
+      acc_lim_theta: 3.2
+      decel_lim_x: -2.5
+      decel_lim_y: 0.0
+      decel_lim_theta: -3.2
+
+bt_navigator:
+  ros__parameters:
+    use_sim_time: True
+    global_frame: odom
+    robot_base_frame: base_link
+    default_nav_to_pose_bt_xml: "/opt/ros/jazzy/share/nav2_bt_navigator/behavior_trees/navigate_to_pose_w_replanning_and_recovery.xml"
+    follow_path_error_code: 0
+    compute_path_error_code: 0
+
+
+# Both costmaps are present but have NO layers: purely placeholder
+global_costmap:
+  global_costmap:
+    ros__parameters:
+      use_sim_time: True
+      update_frequency: 1.0
+      publish_frequency: 1.0
+      global_frame: odom
+      robot_base_frame: base_link
+      plugins: []  # no static, obstacle, or inflation layers
 
 local_costmap:
   local_costmap:
     ros__parameters:
-      update_frequency: 5.0
-      publish_frequency: 2.0
-      global_frame: odom
-      robot_base_frame: base_link
-      rolling_window: true
-      width: 3.0
-      height: 3.0
-      resolution: 0.05
-      footprint: "[[0.25, 0.2], [0.25, -0.2], [-0.25, -0.2], [-0.25, 0.2]]"
-      footprint_padding: 0.01
-      plugins: ["voxel_layer", "inflation_layer"]
-      voxel_layer:
-        plugin: "nav2_costmap_2d::VoxelLayer"
-        enabled: true
-      inflation_layer:
-        plugin: "nav2_costmap_2d::InflationLayer"
-        cost_scaling_factor: 3.0
-        inflation_radius: 0.55
-
-global_costmap:
-  global_costmap:
-    ros__parameters:
+      use_sim_time: True
       update_frequency: 1.0
       publish_frequency: 1.0
-      global_frame: map
+      global_frame: odom
       robot_base_frame: base_link
-      resolution: 0.05
-      footprint: "[[0.25, 0.2], [0.25, -0.2], [-0.25, -0.2], [-0.25, 0.2]]"
-      footprint_padding: 0.01
-      plugins: ["static_layer", "obstacle_layer", "inflation_layer"]
-      static_layer:
-        plugin: "nav2_costmap_2d::StaticLayer"
-        map_subscribe_topic: "/map"
-      obstacle_layer:
-        plugin: "nav2_costmap_2d::ObstacleLayer"
-      inflation_layer:
-        plugin: "nav2_costmap_2d::InflationLayer"
-        cost_scaling_factor: 3.0
-        inflation_radius: 0.55
+      plugins: []  # no obstacle or inflation layers
 
 waypoint_follower:
   ros__parameters:
     plugin: "nav2_gps_waypoint_follower::GPSWaypointFollower"
-    loop_rate: 10           
+    loop_rate: 10
     stop_on_failure: false
     waypoint_task_executor_plugin: "wait_at_waypoint"
     wait_at_waypoint:
       plugin: "nav2_waypoint_follower::WaitAtWaypoint"
       wait_timeout: 5.0
+
+
+
+
+
+# controller_server:
+#   ros__parameters:
+#     # Update rate of the controller (Hz)
+#     controller_frequency: 20.0
+
+#     # Progress checker plugin
+#     progress_checker_plugin: "progress_checker"
+#     progress_checker:
+#       plugin: "nav2_controller::SimpleProgressChecker"
+#       required_movement_radius: 0.1
+#       movement_time_allowance: 10.0
+
+#     # Goal checker plugin
+#     goal_checker_plugins: ["general_goal_checker"]
+#     general_goal_checker:
+#       plugin: "nav2_controller::SimpleGoalChecker"
+#       xy_goal_tolerance: 0.25
+#       yaw_goal_tolerance: 0.25
+#       stateful: true
+
+#     # Controller plugin
+#     controller_plugins: ["FollowPath"]
+#     FollowPath:
+#       plugin: "dwb_core::DWBLocalPlanner"
+#       critics: ["RotateToGoal", "Oscillation", "BaseObstacle", "GoalAlign", "PathAlign", "PathDist", "GoalDist"]
+#       BaseObstacle.scale: 0.02
+#       PathDist.scale: 0.5
+#       GoalDist.scale: 0.3
+#       RotateToGoal.scale: 0.2
+#       max_vel_x: 0.5
+#       max_vel_y: 0.0
+#       max_vel_theta: 1.0
+#       acc_lim_x: 2.5
+#       acc_lim_y: 0.0
+#       acc_lim_theta: 3.2
+#       min_vel_x: 0.1
+#       min_vel_y: 0.0
+
+# local_costmap:
+#   local_costmap:
+#     ros__parameters:
+#       update_frequency: 5.0
+#       publish_frequency: 2.0
+#       global_frame: odom      # ✅ fixed
+#       robot_base_frame: base_link
+#       rolling_window: true
+#       width: 3
+#       height: 3
+#       resolution: 0.05
+#       footprint: "[[0.859, 0.5], [0.859, -0.5], [-0.859, -0.5], [-0.859, 0.5]]"
+#       footprint_padding: 0.01
+#       plugins: ["voxel_layer", "inflation_layer"]
+#       voxel_layer:
+#         plugin: "nav2_costmap_2d::VoxelLayer"
+#         enabled: true
+#       inflation_layer:
+#         plugin: "nav2_costmap_2d::InflationLayer"
+#         cost_scaling_factor: 3.0
+#         inflation_radius: 0.55
+
+
+
+
+
+
+
+
+
+# global_costmap:
+#   global_costmap:
+#     ros__parameters:
+#       update_frequency: 1.0
+#       publish_frequency: 1.0
+#       global_frame: odom
+#       robot_base_frame: base_link
+#       resolution: 0.05
+#       footprint: "[[0.859, 0.5], [0.859, -0.5], [-0.859, -0.5], [-0.859, 0.5]]"
+#       footprint_padding: 0.01
+#       plugins: ["static_layer", "obstacle_layer", "inflation_layer"]
+#       static_layer:
+#         plugin: "nav2_costmap_2d::StaticLayer"
+#         enabled: false  
+#       obstacle_layer:
+#         plugin: "nav2_costmap_2d::ObstacleLayer"
+#       inflation_layer:
+#         plugin: "nav2_costmap_2d::InflationLayer"
+#         cost_scaling_factor: 3.0
+#         inflation_radius: 0.55
+
+# waypoint_follower:
+#   ros__parameters:
+#     plugin: "nav2_gps_waypoint_follower::GPSWaypointFollower"
+#     loop_rate: 10           
+#     stop_on_failure: false
+#     waypoint_task_executor_plugin: "wait_at_waypoint"
+#     wait_at_waypoint:
+#       plugin: "nav2_waypoint_follower::WaitAtWaypoint"
+#       wait_timeout: 5.0
       
-amcl:
-  ros__parameters:
-    use_sim_time: False  # Set to True if using simulation
-    base_frame_id: "base_link"
-    odom_frame_id: "odom"
-    global_frame_id: "map"
-    # Other parameters like alpha1, alpha2, etc., can be tuned as needed  
+
+
+
+
+
+      
+# amcl:
+#   ros__parameters:
+#     use_sim_time: False  # Set to True if using simulation
+#     base_frame_id: "base_link"
+#     odom_frame_id: "odom"
+#     global_frame_id: "map"
+#     # Other parameters like alpha1, alpha2, etc., can be tuned as needed  

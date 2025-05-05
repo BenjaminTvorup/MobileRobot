@@ -4,21 +4,30 @@ colcon build
 source install/setup.bash
 ros2 launch mobile_robot gazebo_model.launch.py
 
-
-#navigation
-colcon build --packages-select mobile_robot
+# Update kinematic
+colcon build --packages-select my_kinematics_pkg
 source install/setup.bash
-ros2 launch mobile_robot robot_gps_nav2.launch.py
+ros2 run my_kinematics_pkg kinematics_node
 
 # launch ekf
 colcon build --packages-select mobile_robot
 source install/setup.bash
 ros2 launch mobile_robot ekf.launch.py
 
-# Update kinematic
-colcon build --packages-select my_kinematics_pkg
+
+
+
+
+
+#navigation
+colcon build --packages-select mobile_robot
 source install/setup.bash
-ros2 run my_kinematics_pkg kinematics_node
+ros2 launch mobile_robot robot_gps_nav2.launch.py
+
+
+colcon build --packages-select navigation
+source install/setup.bash
+python3 src/navigation/navigation/gps_save_xy_subscriber.py
 
 
 
