@@ -1,0 +1,1 @@
+/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/controller_manager_msgs/msg/NamedLifecycleState.msg

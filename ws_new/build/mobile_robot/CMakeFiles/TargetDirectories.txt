@@ -7,3 +7,12 @@
 /home/thomas/MobileRobot/ws_new/build/mobile_robot/CMakeFiles/install.dir
 /home/thomas/MobileRobot/ws_new/build/mobile_robot/CMakeFiles/install/local.dir
 /home/thomas/MobileRobot/ws_new/build/mobile_robot/CMakeFiles/install/strip.dir
+/home/thomas/MobileRobot/ws_new/build/mobile_robot/backward/CMakeFiles/backward_object.dir
+/home/thomas/MobileRobot/ws_new/build/mobile_robot/backward/CMakeFiles/backward.dir
+/home/thomas/MobileRobot/ws_new/build/mobile_robot/backward/CMakeFiles/test.dir
+/home/thomas/MobileRobot/ws_new/build/mobile_robot/backward/CMakeFiles/edit_cache.dir
+/home/thomas/MobileRobot/ws_new/build/mobile_robot/backward/CMakeFiles/rebuild_cache.dir
+/home/thomas/MobileRobot/ws_new/build/mobile_robot/backward/CMakeFiles/list_install_components.dir
+/home/thomas/MobileRobot/ws_new/build/mobile_robot/backward/CMakeFiles/install.dir
+/home/thomas/MobileRobot/ws_new/build/mobile_robot/backward/CMakeFiles/install/local.dir
+/home/thomas/MobileRobot/ws_new/build/mobile_robot/backward/CMakeFiles/install/strip.dir

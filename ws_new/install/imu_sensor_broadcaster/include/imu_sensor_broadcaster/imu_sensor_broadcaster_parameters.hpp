@@ -1,0 +1,1 @@
+/home/thomas/MobileRobot/ws_new/build/imu_sensor_broadcaster/include/imu_sensor_broadcaster/imu_sensor_broadcaster_parameters.hpp

@@ -1,0 +1,39 @@
+[ 11%] Built target gmock_main
+[ 29%] Built target gmock
+[ 41%] Built target pid_controller_parameters
+[ 52%] Built target pid_controller
+[ 64%] Built target test_load_pid_controller
+[ 76%] Built target test_pid_controller_preceding
+[ 88%] Built target test_pid_controller_dual_interface
+[100%] Built target test_pid_controller
+-- Install configuration: ""
+-- Installing: /home/thomas/MobileRobot/ws_new/install/pid_controller/include/pid_controller
+-- Installing: /home/thomas/MobileRobot/ws_new/install/pid_controller/include/pid_controller/pid_controller_parameters.hpp
+-- Installing: /home/thomas/MobileRobot/ws_new/install/pid_controller/share/pid_controller/pid_controller.xml
+-- Up-to-date: /home/thomas/MobileRobot/ws_new/install/pid_controller/include/pid_controller
+-- Installing: /home/thomas/MobileRobot/ws_new/install/pid_controller/include/pid_controller/pid_controller
+-- Installing: /home/thomas/MobileRobot/ws_new/install/pid_controller/include/pid_controller/pid_controller/pid_controller.hpp
+-- Installing: /home/thomas/MobileRobot/ws_new/install/pid_controller/lib/libpid_controller.so
+-- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/pid_controller/lib/libpid_controller.so" to ""
+-- Installing: /home/thomas/MobileRobot/ws_new/install/pid_controller/share/pid_controller/environment/library_path.sh
+-- Installing: /home/thomas/MobileRobot/ws_new/install/pid_controller/share/pid_controller/environment/library_path.dsv
+-- Installing: /home/thomas/MobileRobot/ws_new/install/pid_controller/share/ament_index/resource_index/package_run_dependencies/pid_controller
+-- Installing: /home/thomas/MobileRobot/ws_new/install/pid_controller/share/ament_index/resource_index/parent_prefix_path/pid_controller
+-- Installing: /home/thomas/MobileRobot/ws_new/install/pid_controller/share/pid_controller/environment/ament_prefix_path.sh
+-- Installing: /home/thomas/MobileRobot/ws_new/install/pid_controller/share/pid_controller/environment/ament_prefix_path.dsv
+-- Installing: /home/thomas/MobileRobot/ws_new/install/pid_controller/share/pid_controller/environment/path.sh
+-- Installing: /home/thomas/MobileRobot/ws_new/install/pid_controller/share/pid_controller/environment/path.dsv
+-- Installing: /home/thomas/MobileRobot/ws_new/install/pid_controller/share/pid_controller/local_setup.bash
+-- Installing: /home/thomas/MobileRobot/ws_new/install/pid_controller/share/pid_controller/local_setup.sh
+-- Installing: /home/thomas/MobileRobot/ws_new/install/pid_controller/share/pid_controller/local_setup.zsh
+-- Installing: /home/thomas/MobileRobot/ws_new/install/pid_controller/share/pid_controller/local_setup.dsv
+-- Installing: /home/thomas/MobileRobot/ws_new/install/pid_controller/share/pid_controller/package.dsv
+-- Installing: /home/thomas/MobileRobot/ws_new/install/pid_controller/share/ament_index/resource_index/packages/pid_controller
+-- Installing: /home/thomas/MobileRobot/ws_new/install/pid_controller/share/ament_index/resource_index/controller_interface__pluginlib__plugin/pid_controller
+-- Installing: /home/thomas/MobileRobot/ws_new/install/pid_controller/share/pid_controller/cmake/export_pid_controllerExport.cmake
+-- Installing: /home/thomas/MobileRobot/ws_new/install/pid_controller/share/pid_controller/cmake/export_pid_controllerExport-noconfig.cmake
+-- Installing: /home/thomas/MobileRobot/ws_new/install/pid_controller/share/pid_controller/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/thomas/MobileRobot/ws_new/install/pid_controller/share/pid_controller/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/thomas/MobileRobot/ws_new/install/pid_controller/share/pid_controller/cmake/pid_controllerConfig.cmake
+-- Installing: /home/thomas/MobileRobot/ws_new/install/pid_controller/share/pid_controller/cmake/pid_controllerConfig-version.cmake
+-- Installing: /home/thomas/MobileRobot/ws_new/install/pid_controller/share/pid_controller/package.xml

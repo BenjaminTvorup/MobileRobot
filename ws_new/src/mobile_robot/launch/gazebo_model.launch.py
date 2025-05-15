@@ -9,6 +9,7 @@ from launch.conditions import IfCondition, UnlessCondition
 from launch.substitutions import Command, LaunchConfiguration
 from launch_ros.substitutions import FindPackageShare
 
+
 print("Starting launch file parsing")
 
 def generate_launch_description():
@@ -82,7 +83,7 @@ def generate_launch_description():
         output='screen',
         parameters=[{'robot_description': robot_description, 'use_sim_time': True}]
     )
-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
     # Bridge configuration
     bridge_params = os.path.join(get_package_share_directory(package_name), 'config', 'gz_bridge.yaml')
     bridge_node = Node(
@@ -92,21 +93,6 @@ def generate_launch_description():
         parameters=[{'use_sim_time': True}],
         output='screen'
     )
-
-    # Controller manager node
-    controller_manager_node = TimerAction(
-    period=2.0,  # Wait 2 seconds for robot_description to be published
-    actions=[
-        Node(
-            package='controller_manager',
-            executable='ros2_control_node',
-            parameters=[{'robot_description': robot_description}, controller_file],
-            output='screen'
-        )
-    ]
-    )
-
-
 
 
     # Spawn controllers
@@ -128,7 +114,7 @@ def generate_launch_description():
         package="twist_mux",
         executable="twist_mux",
         parameters=[twist_mux_params, {'use_sim_time': True}],
-#        remappings=[('/cmd_vel_out', '/ackermann_steering_controller/cmd_vel')],
+        remappings=[('/cmd_vel', '/cmd_vel')],
         output='screen'
     )
 
@@ -150,7 +136,7 @@ def generate_launch_description():
         package='joint_state_publisher_gui',  # Package providing a GUI for joint state publishing
         executable='joint_state_publisher_gui',  # Executable that launches a GUI to manually control joints
         name='joint_state_publisher_gui',  # Unique name for this node instance
-        condition=IfCondition(LaunchConfiguration('gui'))  # Only runs if gui=True, enabling manual joint control
+        condition=IfCondition(LaunchConfiguration('gui'),)  # Only runs if gui=True, enabling manual joint control
     )  # Provides a graphical interface to adjust joint positions (e.g., wheels), handy for testing outside simulation control
 
     rviz_node = Node(
@@ -162,30 +148,12 @@ def generate_launch_description():
         parameters=[{'use_sim_time': True}]
     )
 
-    robot_localization_node = Node(
-            package='robot_localization',
-            executable='ekf_node',
-            name='ekf_node',
-            output='screen',
-            parameters=[os.path.join(get_package_share_directory(package_name), 'config/ekf.yaml'), {'use_sim_time': LaunchConfiguration('use_sim_time')}]
-    )
-
     use_sim_time_arg = DeclareLaunchArgument(
         name='use_sim_time',
         default_value='True',
         description='Flag to enable use_sim_time'
     )
 
-
-    # Nav2 controller node
-    controller_params = os.path.join(get_package_share_directory(package_name), 'config', 'nav2_params.yaml')
-    nav2_controller_node = Node(
-        package='nav2_controller',
-        executable='controller_server',
-        name='controller_server',
-        output='screen',
-        parameters=[controller_params, {'use_sim_time': LaunchConfiguration('use_sim_time')}]
-    )
 
     # Nav2 lifecycle manager to manage Nav2 nodes
     lifecycle_manager_node = Node(
@@ -228,7 +196,7 @@ def generate_launch_description():
         executable='navsat_transform_node',
         name='navsat_transform',
         output='screen',
-        parameters=[navsat_transform_config],
+        parameters=[navsat_transform_config, {'use_sim_time': True}],
         remappings=[
             ('/imu', '/imu/data'),
             ('/gps/fix','/gps/fix'),
@@ -247,16 +215,15 @@ def generate_launch_description():
         spawn_node,
         robot_state_publisher_node,
         bridge_node,
-        controller_manager_node,
         controller_spawner,
         joint_state_publisher_node,
         #joint_state_publisher_gui_node,
         #robot_localization_node,
         rviz_node,
-        twist_mux,
+        #twist_mux,
         #nav2_controller_node,
         #lifecycle_manage_node
-        kinematics_node,
-        ekf_node,
-        navsat_transform
+        #kinematics_node,
+        #ekf_node,
+        #navsat_transform
     ])  

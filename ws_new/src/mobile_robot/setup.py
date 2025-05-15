@@ -16,8 +16,9 @@ setup(
     entry_points={
         'console_scripts': [
             # New node entry point for your navigation file
-            'navigation = navigation.navigation:main',
+            #'controller_server_node = launch.controller_server_node:main',
         ],
     },
 )
-    
+
+

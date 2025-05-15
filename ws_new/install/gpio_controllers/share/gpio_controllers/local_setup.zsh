@@ -1,0 +1,1 @@
+/home/thomas/MobileRobot/ws_new/build/gpio_controllers/ament_cmake_environment_hooks/local_setup.zsh

@@ -1,0 +1,19 @@
+[2.684s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/publisher_subscriber': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/thomas/MobileRobot/ws_new/build/publisher_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/thomas/MobileRobot/ws_new/build/publisher_subscriber/build --no-deps symlink_data --force
+[3.650s] running develop
+[4.286s] running egg_info
+[4.350s] writing publisher_subscriber.egg-info/PKG-INFO
+[4.350s] writing dependency_links to publisher_subscriber.egg-info/dependency_links.txt
+[4.351s] writing entry points to publisher_subscriber.egg-info/entry_points.txt
+[4.351s] writing requirements to publisher_subscriber.egg-info/requires.txt
+[4.351s] writing top-level names to publisher_subscriber.egg-info/top_level.txt
+[4.494s] reading manifest file 'publisher_subscriber.egg-info/SOURCES.txt'
+[4.494s] writing manifest file 'publisher_subscriber.egg-info/SOURCES.txt'
+[4.558s] running build_ext
+[4.558s] Creating /home/thomas/MobileRobot/ws_new/install/publisher_subscriber/lib/python3.12/site-packages/publisher-subscriber.egg-link (link to .)
+[4.560s] Installing playback_node script to /home/thomas/MobileRobot/ws_new/install/publisher_subscriber/lib/publisher_subscriber
+[4.560s] 
+[4.560s] Installed /home/thomas/MobileRobot/ws_new/build/publisher_subscriber
+[4.561s] running symlink_data
+[4.561s] symbolically linking /home/thomas/MobileRobot/ws_new/build/publisher_subscriber/resource/publisher_subscriber -> /home/thomas/MobileRobot/ws_new/install/publisher_subscriber/share/ament_index/resource_index/packages
+[4.561s] symbolically linking /home/thomas/MobileRobot/ws_new/build/publisher_subscriber/package.xml -> /home/thomas/MobileRobot/ws_new/install/publisher_subscriber/share/publisher_subscriber
+[4.627s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/publisher_subscriber' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/thomas/MobileRobot/ws_new/build/publisher_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/thomas/MobileRobot/ws_new/build/publisher_subscriber/build --no-deps symlink_data --force

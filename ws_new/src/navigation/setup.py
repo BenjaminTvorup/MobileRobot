@@ -1,7 +1,7 @@
 from setuptools import setup
 
-package_name = 'navigation'
 
+package_name = 'navigation'
 setup(
     name=package_name,
     version='0.0.0',
@@ -17,6 +17,7 @@ setup(
             'nav_node = navigation.nav_node:main',
             'gps_path_follow = navigation.gps_path_follow:main',
             'waypoint_follow = navigation.waypoint_follow:main',
+            'gps_waypoint_sender = navigation.gps_waypoint_sender:main',
         ],
     },
 )

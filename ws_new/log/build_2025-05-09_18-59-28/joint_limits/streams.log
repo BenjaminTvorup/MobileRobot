@@ -1,0 +1,127 @@
+[0.341s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/joint_limits': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg:/home/thomas/MobileRobot/ws_new/install/mobile_robot:/home/thomas/MobileRobot/ws_new/install/backward:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/realtime_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/joint_limits -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/thomas/MobileRobot/ws_new/install/joint_limits
+[0.541s] -- The CXX compiler identification is GNU 13.3.0
+[0.768s] -- Detecting CXX compiler ABI info
+[0.975s] -- Detecting CXX compiler ABI info - done
+[0.993s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.993s] -- Detecting CXX compile features
+[0.994s] -- Detecting CXX compile features - done
+[1.014s] -- Found ros2_control_cmake: 0.1.1 (/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake/share/ros2_control_cmake/cmake)
+[1.015s] -- Compiler warnings enabled for GNU
+[1.024s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[1.189s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.940s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.218s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.415s] -- Found pluginlib: 5.4.2 (/opt/ros/jazzy/share/pluginlib/cmake)
+[2.774s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.786s] -- Found realtime_tools: 3.5.1 (/home/thomas/MobileRobot/ws_new/install/realtime_tools/share/realtime_tools/cmake)
+[2.941s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.984s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.040s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.087s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.355s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.383s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[3.534s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[4.349s] -- Found rclcpp_lifecycle: 28.1.6 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[4.600s] -- Found trajectory_msgs: 5.3.5 (/opt/ros/jazzy/share/trajectory_msgs/cmake)
+[4.851s] -- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)
+[4.956s] -- Found ament_cmake_gmock: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[5.003s] -- Found generate_parameter_library: 0.4.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[5.070s] -- Found parameter_traits: 0.4.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[5.212s] -- Found launch_testing_ament_cmake: 3.4.3 (/opt/ros/jazzy/share/launch_testing_ament_cmake/cmake)
+[5.251s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[5.448s] -- Found PythonExtra: /usr/bin/python3  
+[5.477s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[5.549s] -- The C compiler identification is GNU 13.3.0
+[5.572s] -- Detecting C compiler ABI info
+[5.817s] -- Detecting C compiler ABI info - done
+[5.842s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.842s] -- Detecting C compile features
+[5.845s] -- Detecting C compile features - done
+[5.875s] -- Found ament_cmake_gtest: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[5.877s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[6.357s] -- Configuring done (6.0s)
+[6.504s] -- Generating done (0.1s)
+[6.563s] -- Build files have been written to: /home/thomas/MobileRobot/ws_new/build/joint_limits
+[6.588s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/joint_limits' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg:/home/thomas/MobileRobot/ws_new/install/mobile_robot:/home/thomas/MobileRobot/ws_new/install/backward:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/realtime_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/joint_limits -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/thomas/MobileRobot/ws_new/install/joint_limits
+[6.591s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/joint_limits': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg:/home/thomas/MobileRobot/ws_new/install/mobile_robot:/home/thomas/MobileRobot/ws_new/install/backward:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/realtime_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/joint_limits -- -j8 -l8
+[6.707s] [  4%] [32mBuilding CXX object CMakeFiles/joint_limiter_interface.dir/src/joint_limiter_interface.cpp.o[0m
+[10.625s] [  8%] [32m[1mLinking CXX shared library libjoint_limiter_interface.so[0m
+[10.909s] [  8%] Built target joint_limiter_interface
+[10.955s] [ 12%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/jazzy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[17.738s] [ 16%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[20.936s] [ 20%] [32m[1mLinking CXX static library libgmock.a[0m
+[21.243s] [ 20%] Built target gmock
+[21.279s] [ 25%] [34m[1mGenerating joint_limits/version.h[0m
+[21.347s] [ 25%] Built target ament_generate_version_header__joint_limits
+[21.378s] [ 29%] [32mBuilding CXX object CMakeFiles/test_joint_saturation_limiter.dir/test/test_joint_saturation_limiter.cpp.o[0m
+[28.984s] [ 33%] [32m[1mLinking CXX executable test_joint_saturation_limiter[0m
+[29.442s] [ 33%] Built target test_joint_saturation_limiter
+[29.472s] [ 37%] [32mBuilding CXX object CMakeFiles/joint_limits_helpers.dir/src/joint_limits_helpers.cpp.o[0m
+[29.475s] [ 41%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[30.717s] [ 45%] [32m[1mLinking CXX shared library libjoint_limits_helpers.so[0m
+[30.921s] [ 45%] Built target joint_limits_helpers
+[30.956s] [ 50%] [32mBuilding CXX object CMakeFiles/joint_saturation_limiter.dir/src/joint_saturation_limiter.cpp.o[0m
+[30.961s] [ 54%] [32mBuilding CXX object CMakeFiles/joint_saturation_limiter.dir/src/joint_range_limiter.cpp.o[0m
+[31.044s] [ 58%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[31.092s] [ 58%] Built target gmock_main
+[31.134s] [ 62%] [32mBuilding CXX object CMakeFiles/joint_limits_rosparam_test.dir/test/joint_limits_rosparam_test.cpp.o[0m
+[37.505s] [ 66%] [32mBuilding CXX object CMakeFiles/joint_saturation_limiter.dir/src/joint_soft_limiter.cpp.o[0m
+[38.712s] [ 70%] [32m[1mLinking CXX executable joint_limits_rosparam_test[0m
+[39.144s] [ 70%] Built target joint_limits_rosparam_test
+[39.176s] [ 75%] [32mBuilding CXX object CMakeFiles/test_joint_soft_limiter.dir/test/test_joint_soft_limiter.cpp.o[0m
+[42.210s] [ 79%] [32m[1mLinking CXX shared library libjoint_saturation_limiter.so[0m
+[42.470s] [ 79%] Built target joint_saturation_limiter
+[42.504s] [ 83%] [32mBuilding CXX object CMakeFiles/joint_limits_urdf_test.dir/test/joint_limits_urdf_test.cpp.o[0m
+[42.513s] [ 87%] [32mBuilding CXX object CMakeFiles/test_joint_range_limiter.dir/test/test_joint_range_limiter.cpp.o[0m
+[45.779s] [ 91%] [32m[1mLinking CXX executable joint_limits_urdf_test[0m
+[46.432s] [ 91%] Built target joint_limits_urdf_test
+[49.267s] [ 95%] [32m[1mLinking CXX executable test_joint_soft_limiter[0m
+[49.947s] [ 95%] Built target test_joint_soft_limiter
+[51.929s] [100%] [32m[1mLinking CXX executable test_joint_range_limiter[0m
+[52.419s] [100%] Built target test_joint_range_limiter
+[52.436s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/joint_limits' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg:/home/thomas/MobileRobot/ws_new/install/mobile_robot:/home/thomas/MobileRobot/ws_new/install/backward:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/realtime_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/joint_limits -- -j8 -l8
+[52.439s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/joint_limits': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg:/home/thomas/MobileRobot/ws_new/install/mobile_robot:/home/thomas/MobileRobot/ws_new/install/backward:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/realtime_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/joint_limits
+[52.450s] -- Install configuration: ""
+[52.451s] -- Execute custom install script
+[52.451s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/joint_limits/share/joint_limits//joint_limiters.xml
+[52.466s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/joint_limits/lib/joint_limits/joint_limits_rosparam_test
+[52.480s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/joint_limits/share/joint_limits/test/joint_limits_rosparam.yaml
+[52.493s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/joint_limits/share/joint_limits/test/joint_saturation_limiter_param.yaml
+[52.508s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/joint_limits/include/joint_limits/joint_limits/data_structures.hpp
+[52.522s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/joint_limits/include/joint_limits/joint_limits/joint_limiter_interface.hpp
+[52.535s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/joint_limits/include/joint_limits/joint_limits/joint_limits.hpp
+[52.550s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/joint_limits/include/joint_limits/joint_limits/joint_limits_helpers.hpp
+[52.565s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/joint_limits/include/joint_limits/joint_limits/joint_limits_rosparam.hpp
+[52.580s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/joint_limits/include/joint_limits/joint_limits/joint_limits_urdf.hpp
+[52.594s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/joint_limits/include/joint_limits/joint_limits/joint_saturation_limiter.hpp
+[52.608s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/joint_limits/include/joint_limits/joint_limits/joint_soft_limiter.hpp
+[52.622s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/joint_limits/share/joint_limits/environment/library_path.sh
+[52.636s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/joint_limits/share/joint_limits/environment/library_path.dsv
+[52.650s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/joint_limits/share/ament_index/resource_index/package_run_dependencies/joint_limits
+[52.665s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/joint_limits/share/ament_index/resource_index/parent_prefix_path/joint_limits
+[52.680s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/joint_limits/share/joint_limits/environment/ament_prefix_path.sh
+[52.694s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/joint_limits/share/joint_limits/environment/ament_prefix_path.dsv
+[52.707s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/joint_limits/share/joint_limits/environment/path.sh
+[52.727s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/joint_limits/share/joint_limits/environment/path.dsv
+[52.740s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/joint_limits/share/joint_limits/local_setup.bash
+[52.760s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/joint_limits/share/joint_limits/local_setup.sh
+[52.779s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/joint_limits/share/joint_limits/local_setup.zsh
+[52.797s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/joint_limits/share/joint_limits/local_setup.dsv
+[52.811s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/joint_limits/share/joint_limits/package.dsv
+[52.824s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/joint_limits/share/ament_index/resource_index/packages/joint_limits
+[52.838s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/joint_limits/share/ament_index/resource_index/joint_limits__pluginlib__plugin/joint_limits
+[52.851s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/joint_limits/share/joint_limits/cmake/ament_cmake_export_targets-extras.cmake
+[52.868s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/joint_limits/share/joint_limits/cmake/ament_cmake_export_dependencies-extras.cmake
+[52.882s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/joint_limits/share/joint_limits/cmake/joint_limitsConfig.cmake
+[52.895s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/joint_limits/share/joint_limits/cmake/joint_limitsConfig-version.cmake
+[52.910s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/joint_limits/share/joint_limits/package.xml
+[52.924s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/joint_limits/include/joint_limits/joint_limits/version.h
+[52.938s] -- Installing: /home/thomas/MobileRobot/ws_new/install/joint_limits/lib/libjoint_limiter_interface.so
+[52.939s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/joint_limits/lib/libjoint_limiter_interface.so" to ""
+[52.939s] -- Installing: /home/thomas/MobileRobot/ws_new/install/joint_limits/lib/libjoint_saturation_limiter.so
+[52.941s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/joint_limits/lib/libjoint_saturation_limiter.so" to ""
+[52.941s] -- Installing: /home/thomas/MobileRobot/ws_new/install/joint_limits/lib/libjoint_limits_helpers.so
+[52.942s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/joint_limits/lib/libjoint_limits_helpers.so" to ""
+[52.942s] -- Installing: /home/thomas/MobileRobot/ws_new/install/joint_limits/share/joint_limits/cmake/export_joint_limitsExport.cmake
+[52.943s] -- Installing: /home/thomas/MobileRobot/ws_new/install/joint_limits/share/joint_limits/cmake/export_joint_limitsExport-noconfig.cmake
+[52.946s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/joint_limits' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg:/home/thomas/MobileRobot/ws_new/install/mobile_robot:/home/thomas/MobileRobot/ws_new/install/backward:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/realtime_tools/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/joint_limits

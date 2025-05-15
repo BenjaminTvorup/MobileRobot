@@ -1,0 +1,383 @@
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:[m[K In member function ‘[01m[Kvirtual void ResourceManagerTest_managing_controllers_reference_interfaces_Test::[01;32m[KTestBody[m[K()[m[K’:
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1292:27:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1292 |     [01;35m[Kclaimed_itf1.set_value(11.1)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/resource_manager.hpp:26[m[K,
+                 from [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.hpp:24[m[K,
+                 from [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:17[m[K:
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1293:27:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1293 |     [01;35m[Kclaimed_itf3.set_value(33.3)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:[m[K In member function ‘[01m[Kvoid ResourceManagerTestReadWriteError::[01;32m[Kcheck_read_or_write_failure[m[K(FunctionT, FunctionT, double)[m[K’:
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1415:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1415 |     [01;35m[Kclaimed_itfs[0].set_value(fail_value)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1416:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1416 |     [01;35m[Kclaimed_itfs[1].set_value(fail_value - 10.0)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1451:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1451 |     [01;35m[Kclaimed_itfs[0].set_value(fail_value - 10.0)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1452:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1452 |     [01;35m[Kclaimed_itfs[1].set_value(fail_value)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1488:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1488 |     [01;35m[Kclaimed_itfs[0].set_value(fail_value)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1489:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1489 |     [01;35m[Kclaimed_itfs[1].set_value(fail_value)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:[m[K In member function ‘[01m[Kvoid ResourceManagerTestReadWriteError::[01;32m[Kcheck_read_or_write_deactivate[m[K(FunctionT, FunctionT, double)[m[K’:
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1535:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1535 |     [01;35m[Kclaimed_itfs[0].set_value(deactivate_value)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1536:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1536 |     [01;35m[Kclaimed_itfs[1].set_value(deactivate_value - 10.0)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1571:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1571 |     [01;35m[Kclaimed_itfs[0].set_value(deactivate_value - 10.0)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1572:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1572 |     [01;35m[Kclaimed_itfs[1].set_value(deactivate_value)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1607:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1607 |     [01;35m[Kclaimed_itfs[0].set_value(deactivate_value)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1608:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1608 |     [01;35m[Kclaimed_itfs[1].set_value(deactivate_value)[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:[m[K In member function ‘[01m[Kvoid ResourceManagerTestReadWriteDifferentReadWriteRate::[01;32m[Ksetup_resource_manager_and_do_initial_checks[m[K(bool)[m[K’:
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1800:32:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1800 |       [01;35m[Kclaimed_itfs[0].set_value(10.0)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1801:32:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1801 |       [01;35m[Kclaimed_itfs[1].set_value(20.0)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:[m[K In member function ‘[01m[Kvoid ResourceManagerTestReadWriteDifferentReadWriteRate::[01;32m[Kcheck_read_and_write_cycles[m[K(bool)[m[K’:
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1849:34:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1849 |         [01;35m[Kclaimed_itfs[1].set_value(claimed_itfs[1].get_optional().value() + 20.0)[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:1855:34:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 1855 |         [01;35m[Kclaimed_itfs[0].set_value(claimed_itfs[0].get_optional().value() + 10.0)[m[K;
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:[m[K In member function ‘[01m[Kvoid ResourceManagerTestAsyncReadWrite::[01;32m[Kcheck_read_and_write_cycles[m[K(bool)[m[K’:
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2323:32:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 2323 |       [01;35m[Kclaimed_itfs[0].set_value(claimed_itfs[0].get_optional().value() + actuator_increment)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2324:32:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 2324 |       [01;35m[Kclaimed_itfs[1].set_value(claimed_itfs[1].get_optional().value() + system_increment)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:[m[K In member function ‘[01m[Kvoid ResourceManagerTestCommandLimitEnforcement::[01;32m[Ksetup_resource_manager_and_do_initial_checks[m[K()[m[K’:
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2526:32:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 2526 |       [01;35m[Kclaimed_itfs[0].set_value(10.0)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2527:32:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 2527 |       [01;35m[Kclaimed_itfs[1].set_value(20.0)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:[m[K In member function ‘[01m[Kvoid ResourceManagerTestCommandLimitEnforcement::[01;32m[Kcheck_limit_enforcement[m[K()[m[K’:
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2565:32:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 2565 |       [01;35m[Kclaimed_itfs[0].set_value(2.0)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2566:32:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 2566 |       [01;35m[Kclaimed_itfs[1].set_value(-4.0)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:72[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h:50[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/gmock-actions.h:145[m[K,
+                 from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/gmock.h:56[m[K,
+                 from [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.hpp:23[m[K:
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2582:40:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 2582 |       EXPECT_EQ([01;35m[Kstate_itfs[0].get_value()[m[K, 1.0);
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/resource_manager.hpp:27[m[K:
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2583:40:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 2583 |       EXPECT_EQ([01;35m[Kstate_itfs[1].get_value()[m[K, -2.0);
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2598:40:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 2598 |       EXPECT_EQ([01;35m[Kstate_itfs[0].get_value()[m[K, 1.0);
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2599:40:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 2599 |       EXPECT_EQ([01;35m[Kstate_itfs[1].get_value()[m[K, -2.0);
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2601:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 2601 |       EXPECT_EQ([01;35m[Kclaimed_itfs[0].get_value()[m[K, 2.0);
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2602:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 2602 |       EXPECT_EQ([01;35m[Kclaimed_itfs[1].get_value()[m[K, -4.0);
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2603:32:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 2603 |       [01;35m[Kclaimed_itfs[0].set_value(0.0)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2604:32:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 2604 |       [01;35m[Kclaimed_itfs[1].set_value(0.0)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2605:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 2605 |       EXPECT_EQ([01;35m[Kclaimed_itfs[0].get_value()[m[K, 0.0);
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2606:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 2606 |       EXPECT_EQ([01;35m[Kclaimed_itfs[1].get_value()[m[K, 0.0);
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2611:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 2611 |       ASSERT_NEAR([01;35m[Kstate_itfs[2].get_value()[m[K, 1.05, 0.00001);
+      |                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2613:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 2613 |       EXPECT_NEAR([01;35m[Kclaimed_itfs[0].get_value()[m[K, 1.048, 0.00001);
+      |                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2614:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 2614 |       EXPECT_EQ([01;35m[Kclaimed_itfs[1].get_value()[m[K, 0.0);
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2626:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 2626 |       ASSERT_NEAR([01;35m[Kstate_itfs[0].get_value()[m[K, claimed_itfs[0].get_value() / 2.0, 0.00001);
+      |                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2626:71:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 2626 |       ASSERT_NEAR(state_itfs[0].get_value(), [01;35m[Kclaimed_itfs[0].get_value()[m[K / 2.0, 0.00001);
+      |                                              [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2627:40:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 2627 |       ASSERT_EQ([01;35m[Kstate_itfs[1].get_value()[m[K, 0.0);
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2632:40:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 2632 |       ASSERT_GT([01;35m[Kstate_itfs[2].get_value()[m[K, 1.05);
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2633:32:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 2633 |       [01;35m[Kclaimed_itfs[0].set_value(test_constants::RESET_STATE_INTERFACES_VALUE)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2637:40:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 2637 |       ASSERT_EQ([01;35m[Kstate_itfs[2].get_value()[m[K, 0.0);
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2638:32:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 2638 |       [01;35m[Kclaimed_itfs[0].set_value(0.0)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2639:32:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 2639 |       [01;35m[Kclaimed_itfs[1].set_value(0.0)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2640:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 2640 |       ASSERT_EQ([01;35m[Kclaimed_itfs[0].get_value()[m[K, 0.0);
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2641:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 2641 |       ASSERT_EQ([01;35m[Kclaimed_itfs[1].get_value()[m[K, 0.0);
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2644:55:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 2644 |     double new_state_value_1 = [01;35m[Kstate_itfs[0].get_value()[m[K;
+      |                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2645:55:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 2645 |     double new_state_value_2 = [01;35m[Kstate_itfs[1].get_value()[m[K;
+      |                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2653:40:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 2653 |       EXPECT_EQ([01;35m[Kstate_itfs[0].get_value()[m[K, new_state_value_1);
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2654:40:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 2654 |       EXPECT_EQ([01;35m[Kstate_itfs[1].get_value()[m[K, new_state_value_2);
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2656:32:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 2656 |       [01;35m[Kclaimed_itfs[0].set_value(10.0)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2657:32:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool hardware_interface::LoanedCommandInterface::[01;32m[Kset_value[m[K(const T&, unsigned int) [35m[K[with T = double][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+ 2657 |       [01;35m[Kclaimed_itfs[1].set_value(-20.0)[m[K;
+      |       [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:113:22:[m[K [01;36m[Knote: [m[Kdeclared here
+  113 |   [[nodiscard]] bool [01;36m[Kset_value[m[K(const T & value, unsigned int max_tries = 10)
+      |                      [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2658:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 2658 |       EXPECT_EQ([01;35m[Kclaimed_itfs[0].get_value()[m[K, 10.0);
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2659:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 2659 |       EXPECT_EQ([01;35m[Kclaimed_itfs[1].get_value()[m[K, -20.0);
+      |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2668:34:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 2668 |         [01;35m[Kclaimed_itfs[0].get_value()[m[K,
+      |         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2674:44:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 2674 |       EXPECT_NEAR([01;35m[Kclaimed_itfs[1].get_value()[m[K, -0.2, 1.0e-8)
+      |                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2678:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 2678 |       new_state_value_1 = [01;35m[Kclaimed_itfs[0].get_value()[m[K / 2.0;
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2679:52:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 2679 |       new_state_value_2 = [01;35m[Kclaimed_itfs[1].get_value()[m[K / 2.0;
+      |                           [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+  134 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2692:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 2692 |       EXPECT_NEAR([01;35m[Kstate_itfs[0].get_value()[m[K, 0.823, 0.00001);
+      |                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface_testing/test/test_resource_manager.cpp:2693:42:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+ 2693 |       EXPECT_NEAR([01;35m[Kstate_itfs[1].get_value()[m[K, -0.1, 0.00001);
+      |                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   94 |   double [01;36m[Kget_value[m[K() const
+      |          [01;36m[K^~~~~~~~~[m[K

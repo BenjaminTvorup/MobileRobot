@@ -4,6 +4,7 @@
 /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation/waypoint_follow.py
 /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation/gps_path_follow.py
 /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation/gps_save_xy_subscriber1.py
+/home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation/gps_waypoint_sender.py
 /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation/nav_node.py
 /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation/__pycache__/__init__.cpython-312.pyc
 /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation/__pycache__/GPS_path_planing.cpython-312.pyc
@@ -11,6 +12,7 @@
 /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation/__pycache__/waypoint_follow.cpython-312.pyc
 /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation/__pycache__/gps_path_follow.cpython-312.pyc
 /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation/__pycache__/gps_save_xy_subscriber1.cpython-312.pyc
+/home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation/__pycache__/gps_waypoint_sender.cpython-312.pyc
 /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation/__pycache__/nav_node.cpython-312.pyc
 /home/thomas/MobileRobot/ws_new/install/navigation/share/ament_index/resource_index/packages/navigation
 /home/thomas/MobileRobot/ws_new/install/navigation/share/navigation/package.xml
@@ -22,5 +24,6 @@
 /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation-0.0.0-py3.12.egg-info/PKG-INFO
 /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation-0.0.0-py3.12.egg-info/zip-safe
 /home/thomas/MobileRobot/ws_new/install/navigation/lib/navigation/gps_path_follow
+/home/thomas/MobileRobot/ws_new/install/navigation/lib/navigation/gps_waypoint_sender
 /home/thomas/MobileRobot/ws_new/install/navigation/lib/navigation/nav_node
 /home/thomas/MobileRobot/ws_new/install/navigation/lib/navigation/waypoint_follow

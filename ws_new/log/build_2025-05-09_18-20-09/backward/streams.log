@@ -1,0 +1,18 @@
+[0.153s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/backward': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/backward -- -j8 -l8
+[2.295s] [  6%] Built target backward_object
+[2.296s] [ 20%] Built target backward
+[2.296s] [ 26%] Built target test_main
+[2.391s] [ 40%] Built target test_stacktrace
+[2.425s] [ 53%] Built target test_rectrace
+[2.428s] [ 66%] Built target test_test
+[2.431s] [ 86%] Built target test_suicide
+[2.450s] [100%] Built target test_select_signals
+[2.465s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/backward' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/backward -- -j8 -l8
+[2.472s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/backward': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/backward
+[2.484s] -- Install configuration: ""
+[2.485s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/backward/include/backward.hpp
+[2.486s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/backward/lib/cmake/backward/BackwardConfig.cmake
+[2.486s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/backward/lib/libbackward.a
+[2.668s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/backward/lib/cmake/backward/BackwardTargets.cmake
+[2.669s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/backward/lib/cmake/backward/BackwardTargets-noconfig.cmake
+[2.674s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/backward' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/backward

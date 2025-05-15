@@ -1,4 +1,5 @@
 [console_scripts]
 gps_path_follow = navigation.gps_path_follow:main
+gps_waypoint_sender = navigation.gps_waypoint_sender:main
 nav_node = navigation.nav_node:main
 waypoint_follow = navigation.waypoint_follow:main

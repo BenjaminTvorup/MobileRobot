@@ -1,0 +1,226 @@
+[11.449s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/controller_manager': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing:/home/thomas/MobileRobot/ws_new/install/controller_interface:/home/thomas/MobileRobot/ws_new/install/hardware_interface:/home/thomas/MobileRobot/ws_new/install/joint_limits:/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs:/home/thomas/MobileRobot/ws_new/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing:/home/thomas/MobileRobot/ws_new/install/controller_interface:/home/thomas/MobileRobot/ws_new/install/hardware_interface:/home/thomas/MobileRobot/ws_new/install/joint_limits:/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs:/home/thomas/MobileRobot/ws_new/install/control_msgs:/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg:/home/thomas/MobileRobot/ws_new/install/mobile_robot:/home/thomas/MobileRobot/ws_new/install/backward:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing/lib:/home/thomas/MobileRobot/ws_new/install/controller_interface/lib:/home/thomas/MobileRobot/ws_new/install/hardware_interface/lib:/home/thomas/MobileRobot/ws_new/install/joint_limits/lib:/home/thomas/MobileRobot/ws_new/install/realtime_tools/lib:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/lib:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib:/home/thomas/MobileRobot/ws_new/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/controller_manager -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/thomas/MobileRobot/ws_new/install/controller_manager
+[18.434s] -- The CXX compiler identification is GNU 13.3.0
+[21.074s] -- Detecting CXX compiler ABI info
+[22.416s] -- Detecting CXX compiler ABI info - done
+[22.440s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[22.445s] -- Detecting CXX compile features
+[22.587s] -- Detecting CXX compile features - done
+[23.881s] -- Found ros2_control_cmake: 0.1.1 (/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake/share/ros2_control_cmake/cmake)
+[24.018s] -- Compiler warnings enabled for GNU
+[24.018s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[33.697s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[39.019s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[46.873s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[51.100s] -- Found controller_interface: 4.29.0 (/home/thomas/MobileRobot/ws_new/install/controller_interface/share/controller_interface/cmake)
+[58.738s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[60.275s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[63.968s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[65.092s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[71.225s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[72.005s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[72.077s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[73.012s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[74.526s] -- Found controller_manager_msgs: 4.29.0 (/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/cmake)
+[74.826s] -- Found diagnostic_updater: 4.2.2 (/opt/ros/jazzy/share/diagnostic_updater/cmake)
+[75.177s] -- Found generate_parameter_library: 0.4.0 (/opt/ros/jazzy/share/generate_parameter_library/cmake)
+[75.320s] -- Found parameter_traits: 0.4.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[75.654s] -- Found ament_cmake_gmock: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[75.798s] -- Found ros2_control_test_assets: 4.29.0 (/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[75.943s] -- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+[76.152s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[77.356s] -- The C compiler identification is GNU 13.3.0
+[77.530s] -- Detecting C compiler ABI info
+[77.923s] -- Detecting C compiler ABI info - done
+[77.937s] -- Check for working C compiler: /usr/bin/cc - skipped
+[77.938s] -- Detecting C compile features
+[77.939s] -- Detecting C compile features - done
+[78.043s] -- Found ament_cmake_gtest: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[78.071s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[78.135s] -- Found ament_cmake_pytest: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_pytest/cmake)
+[86.776s] -- Configuring done (74.3s)
+[87.436s] -- Generating done (0.6s)
+[87.494s] -- Build files have been written to: /home/thomas/MobileRobot/ws_new/build/controller_manager
+[87.517s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing:/home/thomas/MobileRobot/ws_new/install/controller_interface:/home/thomas/MobileRobot/ws_new/install/hardware_interface:/home/thomas/MobileRobot/ws_new/install/joint_limits:/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs:/home/thomas/MobileRobot/ws_new/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing:/home/thomas/MobileRobot/ws_new/install/controller_interface:/home/thomas/MobileRobot/ws_new/install/hardware_interface:/home/thomas/MobileRobot/ws_new/install/joint_limits:/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs:/home/thomas/MobileRobot/ws_new/install/control_msgs:/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg:/home/thomas/MobileRobot/ws_new/install/mobile_robot:/home/thomas/MobileRobot/ws_new/install/backward:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing/lib:/home/thomas/MobileRobot/ws_new/install/controller_interface/lib:/home/thomas/MobileRobot/ws_new/install/hardware_interface/lib:/home/thomas/MobileRobot/ws_new/install/joint_limits/lib:/home/thomas/MobileRobot/ws_new/install/realtime_tools/lib:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/lib:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib:/home/thomas/MobileRobot/ws_new/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/controller_manager -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/thomas/MobileRobot/ws_new/install/controller_manager
+[87.530s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/controller_manager': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing:/home/thomas/MobileRobot/ws_new/install/controller_interface:/home/thomas/MobileRobot/ws_new/install/hardware_interface:/home/thomas/MobileRobot/ws_new/install/joint_limits:/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs:/home/thomas/MobileRobot/ws_new/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing:/home/thomas/MobileRobot/ws_new/install/controller_interface:/home/thomas/MobileRobot/ws_new/install/hardware_interface:/home/thomas/MobileRobot/ws_new/install/joint_limits:/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs:/home/thomas/MobileRobot/ws_new/install/control_msgs:/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg:/home/thomas/MobileRobot/ws_new/install/mobile_robot:/home/thomas/MobileRobot/ws_new/install/backward:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing/lib:/home/thomas/MobileRobot/ws_new/install/controller_interface/lib:/home/thomas/MobileRobot/ws_new/install/hardware_interface/lib:/home/thomas/MobileRobot/ws_new/install/joint_limits/lib:/home/thomas/MobileRobot/ws_new/install/realtime_tools/lib:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/lib:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib:/home/thomas/MobileRobot/ws_new/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/controller_manager -- -j8 -l8
+[87.614s] [  2%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/jazzy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[87.618s] [  4%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/thomas/MobileRobot/ws_new/build/controller_manager/include/controller_manager/controller_manager_parameters.hpp /home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/controller_manager/src/controller_manager_parameters.yaml `[0m
+[87.619s] [  9%] [34m[1mGenerating controller_manager/version.h[0m
+[87.619s] [  9%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[87.620s] [ 11%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[87.651s] [ 11%] Built target ament_generate_version_header__controller_manager
+[87.696s] [ 11%] Built target ament_cmake_python_symlink_controller_manager
+[87.753s] [ 11%] Built target ament_cmake_python_symlink_controller_manager_setup
+[88.949s] running egg_info
+[88.952s] creating controller_manager.egg-info
+[88.998s] writing controller_manager.egg-info/PKG-INFO
+[88.998s] writing dependency_links to controller_manager.egg-info/dependency_links.txt
+[89.000s] writing entry points to controller_manager.egg-info/entry_points.txt
+[89.003s] writing top-level names to controller_manager.egg-info/top_level.txt
+[89.003s] writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+[89.193s] reading manifest file 'controller_manager.egg-info/SOURCES.txt'
+[89.195s] writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+[89.277s] [ 11%] Built target ament_cmake_python_build_controller_manager_egg
+[89.453s] [ 14%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[89.551s] [ 14%] Built target gmock_main
+[90.088s] running install_scripts
+[90.256s] /usr/lib/python3/dist-packages/setuptools/_distutils/cmd.py:66: SetuptoolsDeprecationWarning: setup.py install is deprecated.
+[90.256s] !!
+[90.256s] 
+[90.256s]         ********************************************************************************
+[90.257s]         Please avoid running ``setup.py`` directly.
+[90.257s]         Instead, use pypa/build, pypa/installer or other
+[90.257s]         standards-based tools.
+[90.257s] 
+[90.258s]         See https://blog.ganssle.io/articles/2021/10/setup-py-deprecated.html for details.
+[90.258s]         ********************************************************************************
+[90.258s] 
+[90.258s] !!
+[90.258s]   self.initialize_options()
+[90.276s] running egg_info
+[90.376s] writing controller_manager.egg-info/PKG-INFO
+[90.376s] writing dependency_links to controller_manager.egg-info/dependency_links.txt
+[90.376s] writing entry points to controller_manager.egg-info/entry_points.txt
+[90.377s] writing top-level names to controller_manager.egg-info/top_level.txt
+[90.463s] reading manifest file 'controller_manager.egg-info/SOURCES.txt'
+[90.464s] writing manifest file 'controller_manager.egg-info/SOURCES.txt'
+[90.489s] [ 16%] [34m[1mCreating deprecated header file /home/thomas/MobileRobot/ws_new/build/controller_manager/include/controller_manager_parameters.hpp[0m
+[90.567s] [ 16%] Built target controller_manager_parameters
+[93.730s] [ 19%] [32m[1mLinking CXX static library libgmock.a[0m
+[93.959s] [ 19%] Built target gmock
+[104.286s] Installing hardware_spawner script to scripts
+[104.286s] Installing spawner script to scripts
+[104.287s] Installing unspawner script to scripts
+[104.339s] [ 19%] Built target ament_cmake_python_build_controller_manager_scripts
+[104.375s] [ 21%] [32mBuilding CXX object CMakeFiles/controller_manager.dir/src/controller_manager.cpp.o[0m
+[110.829s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/controller_manager/src/controller_manager.cpp:[m[K In function ‘[01m[Kvoid {anonymous}::[01;32m[Kcontroller_chain_spec_cleanup[m[K(std::unordered_map<std::__cxx11::basic_string<char>, controller_manager::ControllerChainSpec>&, const std::string&)[m[K’:
+[110.830s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/controller_manager/src/controller_manager.cpp:156:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool ros2_control::[01;32m[Kremove_item[m[K(Container&, typename Container::const_reference) [35m[K[with Container = std::vector<std::__cxx11::basic_string<char> >; typename Container::const_reference = const std::__cxx11::basic_string<char>&][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[110.830s]   156 |     [01;35m[Kros2_control::remove_item(ctrl_chain_spec[flwg_ctrl].preceding_controllers, controller)[m[K;
+[110.830s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[110.830s] In file included from [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/controller_manager/src/controller_manager.cpp:25[m[K:
+[110.830s] [01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/helpers.hpp:96:20:[m[K [01;36m[Knote: [m[Kdeclared here
+[110.830s]    96 | [[nodiscard]] bool [01;36m[Kremove_item[m[K(Container & container, typename Container::const_reference item)
+[110.830s]       |                    [01;36m[K^~~~~~~~~~~[m[K
+[110.830s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/controller_manager/src/controller_manager.cpp:160:30:[m[K [01;35m[Kwarning: [m[Kignoring return value of ‘[01m[Kbool ros2_control::[01;32m[Kremove_item[m[K(Container&, typename Container::const_reference) [35m[K[with Container = std::vector<std::__cxx11::basic_string<char> >; typename Container::const_reference = const std::__cxx11::basic_string<char>&][m[K[m[K’, declared with attribute ‘[01m[Knodiscard[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-result-Wunused-result]8;;[m[K]
+[110.830s]   160 |     [01;35m[Kros2_control::remove_item(ctrl_chain_spec[preced_ctrl].following_controllers, controller)[m[K;
+[110.830s]       |     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[110.830s] [01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/helpers.hpp:96:20:[m[K [01;36m[Knote: [m[Kdeclared here
+[110.830s]    96 | [[nodiscard]] bool [01;36m[Kremove_item[m[K(Container & container, typename Container::const_reference item)
+[110.831s]       |                    [01;36m[K^~~~~~~~~~~[m[K
+[131.899s] [ 23%] [32m[1mLinking CXX shared library libcontroller_manager.so[0m
+[133.682s] [ 23%] Built target controller_manager
+[133.718s] [ 26%] [32mBuilding CXX object CMakeFiles/test_controller.dir/test/test_controller/test_controller.cpp.o[0m
+[133.720s] [ 28%] [32mBuilding CXX object CMakeFiles/ros2_control_node.dir/src/ros2_control_node.cpp.o[0m
+[133.722s] [ 30%] [32mBuilding CXX object CMakeFiles/test_controller_with_interfaces.dir/test/test_controller_with_interfaces/test_controller_with_interfaces.cpp.o[0m
+[133.723s] [ 33%] [32mBuilding CXX object CMakeFiles/test_chainable_controller.dir/test/test_chainable_controller/test_chainable_controller.cpp.o[0m
+[133.724s] [ 35%] [32mBuilding CXX object CMakeFiles/test_controller_failed_init.dir/test/test_controller_failed_init/test_controller_failed_init.cpp.o[0m
+[139.197s] [ 38%] [32m[1mLinking CXX shared library libtest_controller_with_interfaces.so[0m
+[139.600s] [ 38%] Built target test_controller_with_interfaces
+[140.272s] [ 40%] [32m[1mLinking CXX shared library libtest_controller.so[0m
+[140.687s] [ 42%] [32m[1mLinking CXX shared library libtest_controller_failed_init.so[0m
+[140.785s] [ 42%] Built target test_controller
+[140.838s] [ 45%] [32mBuilding CXX object CMakeFiles/test_controller_manager_hardware_error_handling.dir/test/test_controller_manager_hardware_error_handling.cpp.o[0m
+[140.838s] [ 47%] [32mBuilding CXX object CMakeFiles/test_release_interfaces.dir/test/test_release_interfaces.cpp.o[0m
+[140.842s] [ 50%] [32mBuilding CXX object CMakeFiles/test_controller_manager_urdf_passing.dir/test/test_controller_manager_urdf_passing.cpp.o[0m
+[140.846s] [ 52%] [32mBuilding CXX object CMakeFiles/test_spawner_unspawner.dir/test/test_spawner_unspawner.cpp.o[0m
+[140.854s] [ 54%] [32mBuilding CXX object CMakeFiles/test_controller_manager_with_namespace.dir/test/test_controller_manager_with_namespace.cpp.o[0m
+[141.163s] [ 54%] Built target test_controller_failed_init
+[141.208s] [ 57%] [32mBuilding CXX object CMakeFiles/test_hardware_spawner.dir/test/test_hardware_spawner.cpp.o[0m
+[142.892s] [ 59%] [32m[1mLinking CXX executable ros2_control_node[0m
+[144.832s] [ 59%] Built target ros2_control_node
+[144.889s] [ 61%] [32mBuilding CXX object CMakeFiles/test_hardware_management_srvs.dir/test/test_hardware_management_srvs.cpp.o[0m
+[153.820s] [ 64%] [32m[1mLinking CXX shared library libtest_chainable_controller.so[0m
+[160.073s] [ 64%] Built target test_chainable_controller
+[161.306s] [ 66%] [32m[1mLinking CXX executable test_release_interfaces[0m
+[161.337s] [ 69%] [32mBuilding CXX object CMakeFiles/test_controller_manager.dir/test/test_controller_manager.cpp.o[0m
+[161.424s] [ 71%] [32m[1mLinking CXX executable test_controller_manager_urdf_passing[0m
+[161.906s] [ 73%] [32m[1mLinking CXX executable test_controller_manager_with_namespace[0m
+[162.474s] [ 76%] [32m[1mLinking CXX executable test_controller_manager_hardware_error_handling[0m
+[163.774s] [ 78%] [32m[1mLinking CXX executable test_hardware_spawner[0m
+[165.007s] [ 80%] [32m[1mLinking CXX executable test_spawner_unspawner[0m
+[165.038s] [ 83%] [32m[1mLinking CXX executable test_hardware_management_srvs[0m
+[174.275s] [ 83%] Built target test_controller_manager_urdf_passing
+[174.282s] [ 83%] Built target test_controller_manager_hardware_error_handling
+[174.292s] [ 83%] Built target test_release_interfaces
+[174.327s] [ 83%] Built target test_hardware_spawner
+[174.357s] [ 83%] Built target test_spawner_unspawner
+[174.357s] [ 83%] Built target test_hardware_management_srvs
+[174.394s] [ 83%] Built target test_controller_manager_with_namespace
+[190.415s] [ 85%] [32m[1mLinking CXX executable test_controller_manager[0m
+[192.463s] [ 85%] Built target test_controller_manager
+[192.543s] [ 90%] [32mBuilding CXX object CMakeFiles/test_controller_manager_srvs.dir/test/test_controller_manager_srvs.cpp.o[0m
+[192.543s] [ 90%] [32mBuilding CXX object CMakeFiles/test_controllers_chaining_with_controller_manager.dir/test/test_controllers_chaining_with_controller_manager.cpp.o[0m
+[192.544s] [ 92%] [32mBuilding CXX object CMakeFiles/test_load_controller.dir/test/test_load_controller.cpp.o[0m
+[203.294s] [ 95%] [32m[1mLinking CXX executable test_load_controller[0m
+[204.983s] [ 95%] Built target test_load_controller
+[206.784s] [ 97%] [32m[1mLinking CXX executable test_controllers_chaining_with_controller_manager[0m
+[208.550s] [ 97%] Built target test_controllers_chaining_with_controller_manager
+[210.860s] [100%] [32m[1mLinking CXX executable test_controller_manager_srvs[0m
+[212.887s] [100%] Built target test_controller_manager_srvs
+[213.012s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing:/home/thomas/MobileRobot/ws_new/install/controller_interface:/home/thomas/MobileRobot/ws_new/install/hardware_interface:/home/thomas/MobileRobot/ws_new/install/joint_limits:/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs:/home/thomas/MobileRobot/ws_new/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing:/home/thomas/MobileRobot/ws_new/install/controller_interface:/home/thomas/MobileRobot/ws_new/install/hardware_interface:/home/thomas/MobileRobot/ws_new/install/joint_limits:/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs:/home/thomas/MobileRobot/ws_new/install/control_msgs:/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg:/home/thomas/MobileRobot/ws_new/install/mobile_robot:/home/thomas/MobileRobot/ws_new/install/backward:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing/lib:/home/thomas/MobileRobot/ws_new/install/controller_interface/lib:/home/thomas/MobileRobot/ws_new/install/hardware_interface/lib:/home/thomas/MobileRobot/ws_new/install/joint_limits/lib:/home/thomas/MobileRobot/ws_new/install/realtime_tools/lib:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/lib:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib:/home/thomas/MobileRobot/ws_new/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/controller_manager -- -j8 -l8
+[213.151s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/controller_manager': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing:/home/thomas/MobileRobot/ws_new/install/controller_interface:/home/thomas/MobileRobot/ws_new/install/hardware_interface:/home/thomas/MobileRobot/ws_new/install/joint_limits:/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs:/home/thomas/MobileRobot/ws_new/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing:/home/thomas/MobileRobot/ws_new/install/controller_interface:/home/thomas/MobileRobot/ws_new/install/hardware_interface:/home/thomas/MobileRobot/ws_new/install/joint_limits:/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs:/home/thomas/MobileRobot/ws_new/install/control_msgs:/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg:/home/thomas/MobileRobot/ws_new/install/mobile_robot:/home/thomas/MobileRobot/ws_new/install/backward:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing/lib:/home/thomas/MobileRobot/ws_new/install/controller_interface/lib:/home/thomas/MobileRobot/ws_new/install/hardware_interface/lib:/home/thomas/MobileRobot/ws_new/install/joint_limits/lib:/home/thomas/MobileRobot/ws_new/install/realtime_tools/lib:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/lib:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib:/home/thomas/MobileRobot/ws_new/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/controller_manager
+[213.153s] -- Install configuration: ""
+[213.209s] -- Execute custom install script
+[213.211s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/include/controller_manager/controller_manager_parameters.hpp
+[213.253s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/share/controller_manager/test/test_controller/test_controller.xml
+[213.270s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/lib/libtest_controller.so
+[213.285s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/share/controller_manager/test/test_controller_failed_init/test_controller_failed_init.xml
+[213.299s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/lib/libtest_controller_failed_init.so
+[213.313s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/share/controller_manager/test/test_chainable_controller/test_chainable_controller.xml
+[213.330s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/lib/libtest_chainable_controller.so
+[213.344s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/share/controller_manager/test/test_controller_with_interfaces/test_controller_with_interfaces.xml
+[213.364s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/lib/libtest_controller_with_interfaces.so
+[213.394s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/test/test_ros2_control_node.yaml
+[213.420s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/include/controller_manager/controller_manager/controller_manager.hpp
+[213.433s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/include/controller_manager/controller_manager/controller_spec.hpp
+[213.447s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/lib/controller_manager/ros2_control_node
+[213.462s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/share/controller_manager/environment/pythonpath.sh
+[213.476s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/share/controller_manager/environment/pythonpath.dsv
+[213.490s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/lib/python3.12/site-packages/controller_manager-4.29.0-py3.12.egg-info/PKG-INFO
+[213.503s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/lib/python3.12/site-packages/controller_manager-4.29.0-py3.12.egg-info/SOURCES.txt
+[213.517s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/lib/python3.12/site-packages/controller_manager-4.29.0-py3.12.egg-info/dependency_links.txt
+[213.532s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/lib/python3.12/site-packages/controller_manager-4.29.0-py3.12.egg-info/entry_points.txt
+[213.545s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/lib/python3.12/site-packages/controller_manager-4.29.0-py3.12.egg-info/top_level.txt
+[213.577s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/lib/controller_manager//hardware_spawner
+[213.599s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/lib/controller_manager//spawner
+[213.613s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/lib/controller_manager//unspawner
+[213.628s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/lib/python3.12/site-packages/controller_manager/__init__.py
+[213.641s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/lib/python3.12/site-packages/controller_manager/controller_manager_services.py
+[213.654s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/lib/python3.12/site-packages/controller_manager/hardware_spawner.py
+[213.668s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/lib/python3.12/site-packages/controller_manager/launch_utils.py
+[213.681s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/lib/python3.12/site-packages/controller_manager/spawner.py
+[213.696s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/lib/python3.12/site-packages/controller_manager/test_utils.py
+[213.710s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/lib/python3.12/site-packages/controller_manager/unspawner.py
+[213.725s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/share/controller_manager/environment/library_path.sh
+[213.738s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/share/controller_manager/environment/library_path.dsv
+[213.751s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/share/ament_index/resource_index/package_run_dependencies/controller_manager
+[213.765s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/share/ament_index/resource_index/parent_prefix_path/controller_manager
+[213.779s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/share/controller_manager/environment/ament_prefix_path.sh
+[213.793s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/share/controller_manager/environment/ament_prefix_path.dsv
+[213.807s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/share/controller_manager/environment/path.sh
+[213.823s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/share/controller_manager/environment/path.dsv
+[213.837s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/share/controller_manager/local_setup.bash
+[213.850s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/share/controller_manager/local_setup.sh
+[213.864s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/share/controller_manager/local_setup.zsh
+[213.878s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/share/controller_manager/local_setup.dsv
+[213.893s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/share/controller_manager/package.dsv
+[213.907s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/share/ament_index/resource_index/packages/controller_manager
+[213.921s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/share/ament_index/resource_index/controller_interface__pluginlib__plugin/controller_manager
+[213.936s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[213.949s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/share/controller_manager/cmake/ament_cmake_export_targets-extras.cmake
+[213.963s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/share/controller_manager/cmake/controller_managerConfig.cmake
+[213.976s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/share/controller_manager/cmake/controller_managerConfig-version.cmake
+[213.990s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/share/controller_manager/package.xml
+[214.003s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager/include/controller_manager/controller_manager/version.h
+[214.028s] -- Installing: /home/thomas/MobileRobot/ws_new/install/controller_manager/lib/libcontroller_manager.so
+[214.046s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/controller_manager/lib/libcontroller_manager.so" to ""
+[214.704s] Listing '/home/thomas/MobileRobot/ws_new/install/controller_manager/lib/python3.12/site-packages/controller_manager'...
+[214.704s] Compiling '/home/thomas/MobileRobot/ws_new/install/controller_manager/lib/python3.12/site-packages/controller_manager/__init__.py'...
+[214.704s] Compiling '/home/thomas/MobileRobot/ws_new/install/controller_manager/lib/python3.12/site-packages/controller_manager/controller_manager_services.py'...
+[214.705s] Compiling '/home/thomas/MobileRobot/ws_new/install/controller_manager/lib/python3.12/site-packages/controller_manager/hardware_spawner.py'...
+[214.705s] Compiling '/home/thomas/MobileRobot/ws_new/install/controller_manager/lib/python3.12/site-packages/controller_manager/launch_utils.py'...
+[214.706s] Compiling '/home/thomas/MobileRobot/ws_new/install/controller_manager/lib/python3.12/site-packages/controller_manager/spawner.py'...
+[214.706s] Compiling '/home/thomas/MobileRobot/ws_new/install/controller_manager/lib/python3.12/site-packages/controller_manager/test_utils.py'...
+[214.706s] Compiling '/home/thomas/MobileRobot/ws_new/install/controller_manager/lib/python3.12/site-packages/controller_manager/unspawner.py'...
+[214.724s] -- Installing: /home/thomas/MobileRobot/ws_new/install/controller_manager/share/controller_manager/cmake/export_controller_managerExport.cmake
+[214.742s] -- Installing: /home/thomas/MobileRobot/ws_new/install/controller_manager/share/controller_manager/cmake/export_controller_managerExport-noconfig.cmake
+[214.784s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/controller_manager' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing:/home/thomas/MobileRobot/ws_new/install/controller_interface:/home/thomas/MobileRobot/ws_new/install/hardware_interface:/home/thomas/MobileRobot/ws_new/install/joint_limits:/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs:/home/thomas/MobileRobot/ws_new/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing:/home/thomas/MobileRobot/ws_new/install/controller_interface:/home/thomas/MobileRobot/ws_new/install/hardware_interface:/home/thomas/MobileRobot/ws_new/install/joint_limits:/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs:/home/thomas/MobileRobot/ws_new/install/control_msgs:/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg:/home/thomas/MobileRobot/ws_new/install/mobile_robot:/home/thomas/MobileRobot/ws_new/install/backward:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing/lib:/home/thomas/MobileRobot/ws_new/install/controller_interface/lib:/home/thomas/MobileRobot/ws_new/install/hardware_interface/lib:/home/thomas/MobileRobot/ws_new/install/joint_limits/lib:/home/thomas/MobileRobot/ws_new/install/realtime_tools/lib:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/lib:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib:/home/thomas/MobileRobot/ws_new/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/controller_manager

@@ -1,0 +1,3 @@
+/home/thomas/MobileRobot/ws_new/install/transmission_interface/lib/libtransmission_interface.so
+/home/thomas/MobileRobot/ws_new/install/transmission_interface/share/transmission_interface/cmake/export_transmission_interfaceExport.cmake
+/home/thomas/MobileRobot/ws_new/install/transmission_interface/share/transmission_interface/cmake/export_transmission_interfaceExport-noconfig.cmake

@@ -1,7 +1,1 @@
-waypoint_follower:
-  ros__parameters:
-    waypoint_task_executor_plugin: "wait_at_waypoint"
-    wait_at_waypoint:
-      plugin: "nav2_waypoint_follower::WaitAtWaypoint"
-      enabled: True
-      waypoint_pause_duration: 0
+/home/thomas/MobileRobot/ws_new/src/mobile_robot/config/waypoint_follower.yaml

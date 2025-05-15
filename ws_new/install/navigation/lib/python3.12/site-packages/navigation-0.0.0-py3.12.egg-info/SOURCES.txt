@@ -13,6 +13,7 @@ navigation/__init__.py
 navigation/gps_path_follow.py
 navigation/gps_save_xy_subscriber.py
 navigation/gps_save_xy_subscriber1.py
+navigation/gps_waypoint_sender.py
 navigation/nav_node.py
 navigation/waypoint_follow.py
 resource/navigation

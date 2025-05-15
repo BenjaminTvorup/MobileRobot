@@ -1,0 +1,7 @@
+[ 13%] Built target ackermann_steering_controller_parameters
+[ 26%] Built target gmock_main
+[ 46%] Built target gmock
+[ 60%] Built target test_load_ackermann_steering_controller
+[ 73%] Built target ackermann_steering_controller
+[ 80%] [32mBuilding CXX object CMakeFiles/test_ackermann_steering_controller.dir/test/test_ackermann_steering_controller.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/test_ackermann_steering_controller_preceding.dir/test/test_ackermann_steering_controller_preceding.cpp.o[0m

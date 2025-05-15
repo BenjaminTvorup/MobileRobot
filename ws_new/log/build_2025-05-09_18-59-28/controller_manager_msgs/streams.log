@@ -1,0 +1,646 @@
+[0.057s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/controller_manager_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/controller_manager_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs
+[1.555s] -- The C compiler identification is GNU 13.3.0
+[1.834s] -- The CXX compiler identification is GNU 13.3.0
+[1.896s] -- Detecting C compiler ABI info
+[2.343s] -- Detecting C compiler ABI info - done
+[2.371s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.391s] -- Detecting C compile features
+[2.401s] -- Detecting C compile features - done
+[2.419s] -- Detecting CXX compiler ABI info
+[2.607s] -- Detecting CXX compiler ABI info - done
+[2.634s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.637s] -- Detecting CXX compile features
+[2.637s] -- Detecting CXX compile features - done
+[2.645s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.992s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.149s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.285s] -- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[3.433s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.480s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.547s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.597s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.643s] -- Found lifecycle_msgs: 2.0.2 (/opt/ros/jazzy/share/lifecycle_msgs/cmake)
+[3.733s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[3.777s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[3.855s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[6.135s] -- Found ament_cmake_cppcheck: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[6.145s] -- Found ament_cmake_cpplint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[6.158s] -- Found ament_cmake_uncrustify: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[6.235s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[8.222s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.837s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.914s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[9.228s] -- Found PythonExtra: /usr/bin/python3  
+[10.293s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[10.591s] -- Found ament_cmake_flake8: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[10.600s] -- Found ament_cmake_pep257: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[10.793s] -- Configuring done (10.7s)
+[10.989s] -- Generating done (0.1s)
+[11.022s] -- Build files have been written to: /home/thomas/MobileRobot/ws_new/build/controller_manager_msgs
+[11.059s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/controller_manager_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/controller_manager_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs
+[11.060s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/controller_manager_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/controller_manager_msgs -- -j8 -l8
+[11.210s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[11.262s] [  1%] Built target ament_cmake_python_symlink_controller_manager_msgs
+[12.115s] running egg_info
+[12.117s] creating controller_manager_msgs.egg-info
+[12.200s] writing controller_manager_msgs.egg-info/PKG-INFO
+[12.202s] writing dependency_links to controller_manager_msgs.egg-info/dependency_links.txt
+[12.202s] writing top-level names to controller_manager_msgs.egg-info/top_level.txt
+[12.202s] writing manifest file 'controller_manager_msgs.egg-info/SOURCES.txt'
+[12.494s] reading manifest file 'controller_manager_msgs.egg-info/SOURCES.txt'
+[12.495s] writing manifest file 'controller_manager_msgs.egg-info/SOURCES.txt'
+[12.618s] [  1%] Built target ament_cmake_python_build_controller_manager_msgs_egg
+[13.717s] [  1%] Built target controller_manager_msgs__rosidl_generator_type_description
+[13.752s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[13.775s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[18.110s] [  1%] Built target controller_manager_msgs__cpp
+[18.360s] [  1%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/controller_state__functions.c.o[0m
+[18.364s] [  2%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/controller_state__description.c.o[0m
+[18.377s] [  3%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/controller_state__type_support.c.o[0m
+[18.383s] [  3%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/chain_connection__description.c.o[0m
+[18.384s] [  4%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/chain_connection__functions.c.o[0m
+[18.399s] [  4%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/chain_connection__type_support.c.o[0m
+[18.400s] [  5%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/hardware_component_state__description.c.o[0m
+[18.401s] [  4%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/hardware_component_state__functions.c.o[0m
+[18.502s] [  6%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/hardware_interface__description.c.o[0m
+[18.504s] [  7%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/hardware_component_state__type_support.c.o[0m
+[18.581s] [  7%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/hardware_interface__functions.c.o[0m
+[18.606s] [  8%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/hardware_interface__type_support.c.o[0m
+[18.613s] [  8%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/named_lifecycle_state__description.c.o[0m
+[18.657s] [  9%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/named_lifecycle_state__functions.c.o[0m
+[18.669s] [  9%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/named_lifecycle_state__type_support.c.o[0m
+[18.698s] [ 10%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/controller_manager_activity__description.c.o[0m
+[18.783s] [ 10%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/controller_manager_activity__functions.c.o[0m
+[18.827s] [ 11%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/msg/detail/controller_manager_activity__type_support.c.o[0m
+[18.870s] [ 11%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/configure_controller__description.c.o[0m
+[18.872s] [ 11%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_controllers__description.c.o[0m
+[18.917s] [ 12%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/configure_controller__functions.c.o[0m
+[18.917s] [ 14%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/configure_controller__type_support.c.o[0m
+[18.923s] [ 13%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_controllers__functions.c.o[0m
+[19.006s] [ 14%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_controllers__type_support.c.o[0m
+[19.097s] [ 15%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_controller_types__description.c.o[0m
+[19.137s] [ 15%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_controller_types__functions.c.o[0m
+[19.187s] [ 16%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_controller_types__type_support.c.o[0m
+[19.206s] [ 17%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_hardware_components__type_support.c.o[0m
+[19.209s] [ 17%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_hardware_components__functions.c.o[0m
+[19.234s] [ 17%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_hardware_components__description.c.o[0m
+[19.314s] [ 18%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_hardware_interfaces__description.c.o[0m
+[19.314s] [ 19%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_hardware_interfaces__functions.c.o[0m
+[19.394s] [ 19%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support.c.o[0m
+[19.402s] [ 20%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/load_controller__description.c.o[0m
+[19.470s] [ 21%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/load_controller__type_support.c.o[0m
+[19.479s] [ 21%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/reload_controller_libraries__description.c.o[0m
+[19.481s] [ 21%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/load_controller__functions.c.o[0m
+[19.596s] [ 21%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support.c.o[0m
+[19.607s] [ 22%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/set_hardware_component_state__description.c.o[0m
+[19.608s] [ 23%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/reload_controller_libraries__functions.c.o[0m
+[19.688s] [ 23%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/set_hardware_component_state__functions.c.o[0m
+[19.741s] [ 24%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/set_hardware_component_state__type_support.c.o[0m
+[19.754s] [ 25%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/switch_controller__description.c.o[0m
+[19.756s] [ 26%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/switch_controller__type_support.c.o[0m
+[19.797s] [ 26%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/switch_controller__functions.c.o[0m
+[19.838s] [ 26%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/unload_controller__description.c.o[0m
+[19.906s] [ 27%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/unload_controller__functions.c.o[0m
+[19.969s] [ 27%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_c.dir/rosidl_generator_c/controller_manager_msgs/srv/detail/unload_controller__type_support.c.o[0m
+[20.314s] [ 28%] [32m[1mLinking C shared library libcontroller_manager_msgs__rosidl_generator_c.so[0m
+[20.520s] [ 28%] Built target controller_manager_msgs__rosidl_generator_c
+[20.580s] [ 28%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[20.583s] [ 29%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[20.587s] [ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[20.587s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[20.587s] [ 31%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[20.597s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[29.228s] [ 32%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/msg/hardware_component_state__type_support.cpp.o[0m
+[29.256s] [ 32%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/msg/controller_state__type_support.cpp.o[0m
+[29.274s] [ 33%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/msg/chain_connection__type_support.cpp.o[0m
+[30.212s] [ 33%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/msg/hardware_interface__type_support.cpp.o[0m
+[30.224s] [ 34%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/msg/controller_state__type_support.cpp.o[0m
+[30.442s] [ 34%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/msg/chain_connection__type_support.cpp.o[0m
+[30.641s] [ 35%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/msg/hardware_component_state__type_support.cpp.o[0m
+[30.797s] [ 35%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/msg/hardware_interface__type_support.cpp.o[0m
+[31.040s] [ 36%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/msg/named_lifecycle_state__type_support.cpp.o[0m
+[31.063s] [ 37%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/msg/detail/controller_state__type_support.cpp.o[0m
+[31.282s] [ 37%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/msg/controller_manager_activity__type_support.cpp.o[0m
+[31.406s] [ 38%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/configure_controller__type_support.cpp.o[0m
+[31.414s] [ 38%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/msg/detail/chain_connection__type_support.cpp.o[0m
+[31.650s] [ 38%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/list_controllers__type_support.cpp.o[0m
+[32.322s] [ 39%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/msg/detail/controller_state__type_support.c.o[0m
+[32.338s] [ 40%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/list_controller_types__type_support.cpp.o[0m
+[32.682s] [ 40%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/msg/detail/chain_connection__type_support.c.o[0m
+[32.704s] [ 41%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/list_hardware_components__type_support.cpp.o[0m
+[32.735s] [ 42%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/msg/named_lifecycle_state__type_support.cpp.o[0m
+[32.910s] [ 43%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/msg/detail/hardware_component_state__type_support.c.o[0m
+[32.917s] [ 43%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/list_hardware_interfaces__type_support.cpp.o[0m
+[33.067s] [ 44%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/load_controller__type_support.cpp.o[0m
+[33.122s] [ 44%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/msg/detail/hardware_interface__type_support.c.o[0m
+[33.153s] [ 45%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/msg/detail/hardware_component_state__type_support.cpp.o[0m
+[33.293s] [ 46%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/msg/detail/named_lifecycle_state__type_support.c.o[0m
+[33.314s] [ 46%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/reload_controller_libraries__type_support.cpp.o[0m
+[33.480s] [ 46%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/msg/detail/controller_manager_activity__type_support.c.o[0m
+[33.565s] [ 47%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/set_hardware_component_state__type_support.cpp.o[0m
+[33.937s] [ 47%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/switch_controller__type_support.cpp.o[0m
+[34.134s] [ 48%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/configure_controller__type_support.cpp.o[0m
+[34.321s] [ 49%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/configure_controller__type_support.c.o[0m
+[34.370s] [ 50%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/controller_manager_msgs/srv/unload_controller__type_support.cpp.o[0m
+[34.627s] [ 50%] [32m[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_c.so[0m
+[34.627s] [ 50%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/msg/detail/hardware_interface__type_support.cpp.o[0m
+[34.766s] [ 51%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/list_controllers__type_support.c.o[0m
+[34.838s] [ 52%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/msg/detail/dds_fastrtps/controller_state__type_support.cpp.o[0m
+[34.953s] [ 52%] Built target controller_manager_msgs__rosidl_typesupport_c
+[34.960s] [ 52%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/list_controller_types__type_support.c.o[0m
+[35.760s] [ 53%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/list_hardware_components__type_support.c.o[0m
+[36.242s] [ 53%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support.c.o[0m
+[36.271s] [ 53%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/msg/detail/controller_state__type_support_c.cpp.o[0m
+[36.431s] [ 54%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/load_controller__type_support.c.o[0m
+[36.574s] [ 54%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support.c.o[0m
+[36.750s] [ 55%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/set_hardware_component_state__type_support.c.o[0m
+[36.969s] [ 55%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/switch_controller__type_support.c.o[0m
+[37.312s] [ 56%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/controller_manager_msgs/srv/detail/unload_controller__type_support.c.o[0m
+[37.589s] [ 56%] [32m[1mLinking C shared library libcontroller_manager_msgs__rosidl_typesupport_introspection_c.so[0m
+[37.670s] [ 57%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/msg/detail/named_lifecycle_state__type_support.cpp.o[0m
+[37.700s] [ 58%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/list_controller_types__type_support.cpp.o[0m
+[37.822s] [ 58%] Built target controller_manager_msgs__rosidl_typesupport_introspection_c
+[38.438s] [ 59%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/msg/detail/dds_fastrtps/chain_connection__type_support.cpp.o[0m
+[38.536s] [ 60%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/msg/detail/chain_connection__type_support_c.cpp.o[0m
+[38.933s] [ 61%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/configure_controller__type_support.cpp.o[0m
+[39.270s] [ 61%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/list_controllers__type_support.cpp.o[0m
+[40.024s] [ 61%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/msg/detail/dds_fastrtps/hardware_component_state__type_support.cpp.o[0m
+[40.252s] [ 61%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/msg/detail/controller_manager_activity__type_support.cpp.o[0m
+[40.255s] [ 62%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/msg/detail/hardware_interface__type_support_c.cpp.o[0m
+[40.763s] [ 62%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/list_hardware_components__type_support.cpp.o[0m
+[41.349s] [ 62%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/list_controllers__type_support.cpp.o[0m
+[41.379s] [ 62%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/msg/detail/dds_fastrtps/named_lifecycle_state__type_support.cpp.o[0m
+[41.617s] [ 62%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/msg/detail/hardware_component_state__type_support_c.cpp.o[0m
+[41.980s] [ 62%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/load_controller__type_support.cpp.o[0m
+[42.640s] [ 63%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/msg/detail/dds_fastrtps/hardware_interface__type_support.cpp.o[0m
+[42.925s] [ 63%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/msg/detail/named_lifecycle_state__type_support_c.cpp.o[0m
+[43.093s] [ 64%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/list_hardware_interfaces__type_support.cpp.o[0m
+[43.125s] [ 64%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/list_hardware_components__type_support.cpp.o[0m
+[44.051s] [ 65%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/msg/detail/dds_fastrtps/controller_manager_activity__type_support.cpp.o[0m
+[44.199s] [ 65%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/msg/controller_manager_activity__type_support.cpp.o[0m
+[44.281s] [ 65%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/configure_controller__type_support_c.cpp.o[0m
+[44.472s] [ 66%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/list_controller_types__type_support.cpp.o[0m
+[44.966s] [ 66%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/set_hardware_component_state__type_support.cpp.o[0m
+[45.300s] [ 67%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/list_controllers__type_support.cpp.o[0m
+[45.588s] [ 68%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/list_controllers__type_support_c.cpp.o[0m
+[45.624s] [ 69%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support.cpp.o[0m
+[46.019s] [ 70%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/reload_controller_libraries__type_support.cpp.o[0m
+[46.704s] [ 71%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/msg/detail/controller_manager_activity__type_support_c.cpp.o[0m
+[46.792s] [ 72%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/load_controller__type_support.cpp.o[0m
+[46.940s] [ 73%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/unload_controller__type_support.cpp.o[0m
+[47.089s] [ 73%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/list_controller_types__type_support.cpp.o[0m
+[47.707s] [ 74%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/list_controller_types__type_support_c.cpp.o[0m
+[47.714s] [ 75%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/set_hardware_component_state__type_support.cpp.o[0m
+[47.729s] [ 76%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/controller_manager_msgs/srv/switch_controller__type_support.cpp.o[0m
+[48.603s] [ 77%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/list_hardware_components__type_support.cpp.o[0m
+[48.661s] [ 77%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/switch_controller__type_support.cpp.o[0m
+[48.732s] [ 77%] [32m[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_cpp.so[0m
+[48.884s] [ 77%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/list_hardware_components__type_support_c.cpp.o[0m
+[48.988s] [ 77%] Built target controller_manager_msgs__rosidl_typesupport_cpp
+[49.866s] [ 78%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/unload_controller__type_support.cpp.o[0m
+[50.003s] [ 79%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support_c.cpp.o[0m
+[50.478s] [ 80%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/reload_controller_libraries__type_support.cpp.o[0m
+[50.732s] [ 80%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support.cpp.o[0m
+[51.009s] [ 80%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/load_controller__type_support_c.cpp.o[0m
+[51.568s] [ 80%] [32m[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[51.765s] [ 81%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/switch_controller__type_support.cpp.o[0m
+[51.821s] [ 81%] Built target controller_manager_msgs__rosidl_typesupport_introspection_cpp
+[52.101s] [ 82%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support_c.cpp.o[0m
+[52.886s] [ 82%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/set_hardware_component_state__type_support_c.cpp.o[0m
+[52.904s] [ 82%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/unload_controller__type_support.cpp.o[0m
+[53.681s] [ 82%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/unload_controller__type_support_c.cpp.o[0m
+[53.946s] [ 82%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/set_hardware_component_state__type_support.cpp.o[0m
+[54.474s] [ 83%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/controller_manager_msgs/srv/detail/switch_controller__type_support_c.cpp.o[0m
+[55.063s] [ 84%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/load_controller__type_support.cpp.o[0m
+[55.488s] [ 85%] [32m[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[55.645s] [ 85%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_c
+[56.096s] [ 85%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/list_hardware_interfaces__type_support.cpp.o[0m
+[57.152s] [ 85%] [32mBuilding CXX object CMakeFiles/controller_manager_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/controller_manager_msgs/srv/detail/dds_fastrtps/configure_controller__type_support.cpp.o[0m
+[58.102s] [ 86%] [32m[1mLinking CXX shared library libcontroller_manager_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[58.345s] [ 86%] Built target controller_manager_msgs__rosidl_typesupport_fastrtps_cpp
+[58.381s] [ 86%] Built target controller_manager_msgs
+[58.416s] [ 87%] [34m[1mGenerating Python code for ROS interfaces[0m
+[63.768s] [ 87%] Built target controller_manager_msgs__py
+[63.802s] [ 87%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/msg/_controller_state_s.c.o[0m
+[64.340s] [ 87%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/srv/_list_controllers_s.c.o[0m
+[64.675s] [ 88%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/srv/_list_controller_types_s.c.o[0m
+[65.036s] [ 88%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/srv/_list_hardware_components_s.c.o[0m
+[65.366s] [ 89%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/srv/_list_hardware_interfaces_s.c.o[0m
+[65.731s] [ 89%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/srv/_load_controller_s.c.o[0m
+[66.054s] [ 90%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/srv/_reload_controller_libraries_s.c.o[0m
+[66.280s] [ 90%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/srv/_set_hardware_component_state_s.c.o[0m
+[66.514s] [ 91%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/srv/_switch_controller_s.c.o[0m
+[66.852s] [ 91%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/srv/_unload_controller_s.c.o[0m
+[67.068s] [ 92%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/srv/_configure_controller_s.c.o[0m
+[67.285s] [ 93%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/msg/_controller_manager_activity_s.c.o[0m
+[67.484s] [ 93%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/msg/_named_lifecycle_state_s.c.o[0m
+[67.672s] [ 94%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/msg/_hardware_interface_s.c.o[0m
+[67.881s] [ 94%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/msg/_hardware_component_state_s.c.o[0m
+[68.115s] [ 95%] [32mBuilding C object CMakeFiles/controller_manager_msgs__rosidl_generator_py.dir/rosidl_generator_py/controller_manager_msgs/msg/_chain_connection_s.c.o[0m
+[68.311s] [ 96%] [32m[1mLinking C shared library libcontroller_manager_msgs__rosidl_generator_py.so[0m
+[68.423s] [ 96%] Built target controller_manager_msgs__rosidl_generator_py
+[68.470s] [ 97%] [32mBuilding C object CMakeFiles/controller_manager_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/controller_manager_msgs/_controller_manager_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[68.825s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[68.884s] [ 97%] Built target controller_manager_msgs_s__rosidl_typesupport_fastrtps_c
+[68.917s] [ 98%] [32mBuilding C object CMakeFiles/controller_manager_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/controller_manager_msgs/_controller_manager_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[69.253s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_c.so[0m
+[69.317s] [ 98%] Built target controller_manager_msgs_s__rosidl_typesupport_c
+[69.352s] [ 99%] [32mBuilding C object CMakeFiles/controller_manager_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/controller_manager_msgs/_controller_manager_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[69.700s] [100%] [32m[1mLinking C shared module rosidl_generator_py/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[69.757s] [100%] Built target controller_manager_msgs_s__rosidl_typesupport_introspection_c
+[69.781s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/controller_manager_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/controller_manager_msgs -- -j8 -l8
+[69.783s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/controller_manager_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/controller_manager_msgs
+[69.797s] -- Install configuration: ""
+[69.799s] -- Execute custom install script
+[69.799s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/ament_index/resource_index/rosidl_interfaces/controller_manager_msgs
+[69.818s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/msg/ControllerState.json
+[69.837s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/msg/ChainConnection.json
+[69.851s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/msg/HardwareComponentState.json
+[69.865s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/msg/HardwareInterface.json
+[69.879s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/msg/NamedLifecycleState.json
+[69.893s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/msg/ControllerManagerActivity.json
+[69.907s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureController.json
+[69.920s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllers.json
+[69.935s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllerTypes.json
+[69.949s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareComponents.json
+[69.963s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareInterfaces.json
+[69.976s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadController.json
+[69.990s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/srv/ReloadControllerLibraries.json
+[70.003s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/srv/SetHardwareComponentState.json
+[70.017s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/srv/SwitchController.json
+[70.034s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/srv/UnloadController.json
+[70.056s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/chain_connection.h
+[70.072s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/controller_manager_activity.h
+[70.091s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/controller_state.h
+[70.106s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__functions.h
+[70.126s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__struct.h
+[70.145s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__type_support.h
+[70.158s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_manager_activity__functions.h
+[70.173s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_manager_activity__struct.h
+[70.187s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_manager_activity__type_support.h
+[70.204s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__functions.h
+[70.216s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__struct.h
+[70.232s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__type_support.h
+[70.248s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__functions.h
+[70.262s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__struct.h
+[70.276s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__type_support.h
+[70.290s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__functions.h
+[70.304s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__struct.h
+[70.318s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__type_support.h
+[70.335s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/named_lifecycle_state__functions.h
+[70.354s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/named_lifecycle_state__struct.h
+[70.369s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/named_lifecycle_state__type_support.h
+[70.387s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/hardware_component_state.h
+[70.404s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/hardware_interface.h
+[70.421s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/named_lifecycle_state.h
+[70.435s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/rosidl_generator_c__visibility_control.h
+[70.456s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/configure_controller.h
+[70.473s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__functions.h
+[70.491s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__struct.h
+[70.510s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__type_support.h
+[70.529s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__functions.h
+[70.547s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__struct.h
+[70.561s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__type_support.h
+[70.577s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__functions.h
+[70.596s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__struct.h
+[70.610s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__type_support.h
+[70.624s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__functions.h
+[70.650s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__struct.h
+[70.668s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__type_support.h
+[70.691s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__functions.h
+[70.707s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__struct.h
+[70.727s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support.h
+[70.755s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__functions.h
+[70.773s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__struct.h
+[70.795s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__type_support.h
+[70.815s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__functions.h
+[70.832s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__struct.h
+[70.849s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support.h
+[70.865s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__functions.h
+[70.881s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__struct.h
+[70.897s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__type_support.h
+[70.913s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__functions.h
+[70.930s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__struct.h
+[70.948s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__type_support.h
+[70.965s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__functions.h
+[70.981s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__struct.h
+[70.997s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__type_support.h
+[71.013s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_controller_types.h
+[71.031s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_controllers.h
+[71.049s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_hardware_components.h
+[71.064s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_hardware_interfaces.h
+[71.084s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/load_controller.h
+[71.108s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/reload_controller_libraries.h
+[71.131s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/set_hardware_component_state.h
+[71.154s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/switch_controller.h
+[71.178s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/unload_controller.h
+[71.196s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/environment/library_path.sh
+[71.214s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/environment/library_path.dsv
+[71.234s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__rosidl_typesupport_fastrtps_c.h
+[71.259s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_manager_activity__rosidl_typesupport_fastrtps_c.h
+[71.279s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_fastrtps_c.h
+[71.293s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__rosidl_typesupport_fastrtps_c.h
+[71.306s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__rosidl_typesupport_fastrtps_c.h
+[71.319s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/named_lifecycle_state__rosidl_typesupport_fastrtps_c.h
+[71.332s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[71.347s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__rosidl_typesupport_fastrtps_c.h
+[71.361s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_fastrtps_c.h
+[71.375s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_fastrtps_c.h
+[71.388s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__rosidl_typesupport_fastrtps_c.h
+[71.401s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__rosidl_typesupport_fastrtps_c.h
+[71.415s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_fastrtps_c.h
+[71.430s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_fastrtps_c.h
+[71.444s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__rosidl_typesupport_fastrtps_c.h
+[71.457s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_fastrtps_c.h
+[71.471s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_fastrtps_c.h
+[71.487s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/chain_connection.hpp
+[71.500s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/controller_manager_activity.hpp
+[71.514s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/controller_state.hpp
+[71.529s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__builder.hpp
+[71.544s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__struct.hpp
+[71.559s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__traits.hpp
+[71.576s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__type_support.hpp
+[71.594s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_manager_activity__builder.hpp
+[71.612s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_manager_activity__struct.hpp
+[71.632s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_manager_activity__traits.hpp
+[71.652s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_manager_activity__type_support.hpp
+[71.667s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__builder.hpp
+[71.681s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__struct.hpp
+[71.695s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__traits.hpp
+[71.709s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__type_support.hpp
+[71.723s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__builder.hpp
+[71.739s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__struct.hpp
+[71.754s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__traits.hpp
+[71.767s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__type_support.hpp
+[71.780s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__builder.hpp
+[71.793s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__struct.hpp
+[71.806s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__traits.hpp
+[71.821s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__type_support.hpp
+[71.841s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/named_lifecycle_state__builder.hpp
+[71.859s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/named_lifecycle_state__struct.hpp
+[71.873s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/named_lifecycle_state__traits.hpp
+[71.885s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/named_lifecycle_state__type_support.hpp
+[71.899s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/hardware_component_state.hpp
+[71.913s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/hardware_interface.hpp
+[71.926s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/named_lifecycle_state.hpp
+[71.941s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[71.953s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/configure_controller.hpp
+[71.967s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__builder.hpp
+[71.980s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__struct.hpp
+[71.996s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__traits.hpp
+[72.010s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__type_support.hpp
+[72.023s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__builder.hpp
+[72.038s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__struct.hpp
+[72.051s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__traits.hpp
+[72.064s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__type_support.hpp
+[72.078s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__builder.hpp
+[72.092s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__struct.hpp
+[72.111s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__traits.hpp
+[72.124s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__type_support.hpp
+[72.140s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__builder.hpp
+[72.153s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__struct.hpp
+[72.167s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__traits.hpp
+[72.180s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__type_support.hpp
+[72.194s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__builder.hpp
+[72.207s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__struct.hpp
+[72.219s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__traits.hpp
+[72.235s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__type_support.hpp
+[72.249s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__builder.hpp
+[72.262s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__struct.hpp
+[72.275s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__traits.hpp
+[72.288s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__type_support.hpp
+[72.301s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__builder.hpp
+[72.315s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__struct.hpp
+[72.328s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__traits.hpp
+[72.347s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__type_support.hpp
+[72.367s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__builder.hpp
+[72.387s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__struct.hpp
+[72.400s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__traits.hpp
+[72.413s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__type_support.hpp
+[72.426s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__builder.hpp
+[72.443s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__struct.hpp
+[72.459s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__traits.hpp
+[72.473s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__type_support.hpp
+[72.487s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__builder.hpp
+[72.504s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__struct.hpp
+[72.518s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__traits.hpp
+[72.534s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__type_support.hpp
+[72.551s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_controller_types.hpp
+[72.565s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_controllers.hpp
+[72.579s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_hardware_components.hpp
+[72.592s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/list_hardware_interfaces.hpp
+[72.609s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/load_controller.hpp
+[72.621s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/reload_controller_libraries.hpp
+[72.639s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/set_hardware_component_state.hpp
+[72.654s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/switch_controller.hpp
+[72.667s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/unload_controller.hpp
+[72.682s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__rosidl_typesupport_fastrtps_cpp.hpp
+[72.695s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_manager_activity__rosidl_typesupport_fastrtps_cpp.hpp
+[72.709s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_fastrtps_cpp.hpp
+[72.723s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__rosidl_typesupport_fastrtps_cpp.hpp
+[72.737s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__rosidl_typesupport_fastrtps_cpp.hpp
+[72.751s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/named_lifecycle_state__rosidl_typesupport_fastrtps_cpp.hpp
+[72.767s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[72.780s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[72.793s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_fastrtps_cpp.hpp
+[72.807s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_fastrtps_cpp.hpp
+[72.822s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__rosidl_typesupport_fastrtps_cpp.hpp
+[72.839s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__rosidl_typesupport_fastrtps_cpp.hpp
+[72.853s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[72.866s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_fastrtps_cpp.hpp
+[72.879s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__rosidl_typesupport_fastrtps_cpp.hpp
+[72.893s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[72.906s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_fastrtps_cpp.hpp
+[72.921s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__rosidl_typesupport_introspection_c.h
+[72.935s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_manager_activity__rosidl_typesupport_introspection_c.h
+[72.949s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_introspection_c.h
+[72.963s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__rosidl_typesupport_introspection_c.h
+[72.976s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__rosidl_typesupport_introspection_c.h
+[72.989s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/named_lifecycle_state__rosidl_typesupport_introspection_c.h
+[73.003s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[73.022s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__rosidl_typesupport_introspection_c.h
+[73.036s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_introspection_c.h
+[73.051s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_introspection_c.h
+[73.069s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__rosidl_typesupport_introspection_c.h
+[73.083s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__rosidl_typesupport_introspection_c.h
+[73.097s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_introspection_c.h
+[73.113s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_introspection_c.h
+[73.128s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__rosidl_typesupport_introspection_c.h
+[73.143s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_introspection_c.h
+[73.157s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_introspection_c.h
+[73.171s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/chain_connection__rosidl_typesupport_introspection_cpp.hpp
+[73.190s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_manager_activity__rosidl_typesupport_introspection_cpp.hpp
+[73.202s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/controller_state__rosidl_typesupport_introspection_cpp.hpp
+[73.216s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_component_state__rosidl_typesupport_introspection_cpp.hpp
+[73.230s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/hardware_interface__rosidl_typesupport_introspection_cpp.hpp
+[73.248s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/msg/detail/named_lifecycle_state__rosidl_typesupport_introspection_cpp.hpp
+[73.263s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/configure_controller__rosidl_typesupport_introspection_cpp.hpp
+[73.276s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controller_types__rosidl_typesupport_introspection_cpp.hpp
+[73.290s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_controllers__rosidl_typesupport_introspection_cpp.hpp
+[73.303s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_components__rosidl_typesupport_introspection_cpp.hpp
+[73.318s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/list_hardware_interfaces__rosidl_typesupport_introspection_cpp.hpp
+[73.422s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/load_controller__rosidl_typesupport_introspection_cpp.hpp
+[73.437s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/reload_controller_libraries__rosidl_typesupport_introspection_cpp.hpp
+[73.459s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/set_hardware_component_state__rosidl_typesupport_introspection_cpp.hpp
+[73.483s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/switch_controller__rosidl_typesupport_introspection_cpp.hpp
+[73.499s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/include/controller_manager_msgs/controller_manager_msgs/srv/detail/unload_controller__rosidl_typesupport_introspection_cpp.hpp
+[73.519s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/environment/pythonpath.sh
+[73.539s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/environment/pythonpath.dsv
+[73.561s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs-4.29.0-py3.12.egg-info/PKG-INFO
+[73.581s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs-4.29.0-py3.12.egg-info/SOURCES.txt
+[73.602s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs-4.29.0-py3.12.egg-info/dependency_links.txt
+[73.623s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs-4.29.0-py3.12.egg-info/top_level.txt
+[73.647s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/__init__.py
+[73.671s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/_controller_manager_msgs_s.ep.rosidl_typesupport_c.c
+[73.695s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/_controller_manager_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[73.714s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/_controller_manager_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[73.737s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_c.so
+[73.768s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_fastrtps_c.so
+[73.787s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_introspection_c.so
+[73.806s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/__init__.py
+[73.827s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_chain_connection.py
+[73.849s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_chain_connection_s.c
+[73.868s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_controller_manager_activity.py
+[73.892s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_controller_manager_activity_s.c
+[73.912s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_controller_state.py
+[73.937s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_controller_state_s.c
+[73.955s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_hardware_component_state.py
+[73.968s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_hardware_component_state_s.c
+[73.982s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_hardware_interface.py
+[73.995s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_hardware_interface_s.c
+[74.009s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_named_lifecycle_state.py
+[74.024s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_named_lifecycle_state_s.c
+[74.041s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/__init__.py
+[74.058s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_configure_controller.py
+[74.073s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_configure_controller_s.c
+[74.087s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_list_controller_types.py
+[74.103s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_list_controller_types_s.c
+[74.120s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_list_controllers.py
+[74.139s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_list_controllers_s.c
+[74.154s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_list_hardware_components.py
+[74.168s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_list_hardware_components_s.c
+[74.183s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_list_hardware_interfaces.py
+[74.197s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_list_hardware_interfaces_s.c
+[74.213s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_load_controller.py
+[74.231s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_load_controller_s.c
+[74.251s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_reload_controller_libraries.py
+[74.266s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_reload_controller_libraries_s.c
+[74.279s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_set_hardware_component_state.py
+[74.294s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_set_hardware_component_state_s.c
+[74.307s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_switch_controller.py
+[74.321s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_switch_controller_s.c
+[74.335s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_unload_controller.py
+[74.352s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_unload_controller_s.c
+[74.366s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_fastrtps_c.so
+[74.367s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_introspection_c.so
+[74.367s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/controller_manager_msgs_s__rosidl_typesupport_c.so
+[74.367s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/msg/ControllerState.idl
+[74.382s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/msg/ChainConnection.idl
+[74.395s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/msg/HardwareComponentState.idl
+[74.409s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/msg/HardwareInterface.idl
+[74.422s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/msg/NamedLifecycleState.idl
+[74.439s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/msg/ControllerManagerActivity.idl
+[74.453s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureController.idl
+[74.466s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllers.idl
+[74.479s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllerTypes.idl
+[74.493s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareComponents.idl
+[74.512s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareInterfaces.idl
+[74.528s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadController.idl
+[74.546s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/srv/ReloadControllerLibraries.idl
+[74.561s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/srv/SetHardwareComponentState.idl
+[74.575s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/srv/SwitchController.idl
+[74.589s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/srv/UnloadController.idl
+[74.604s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/msg/ControllerState.msg
+[74.623s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/msg/ChainConnection.msg
+[74.643s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/msg/HardwareComponentState.msg
+[74.658s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/msg/HardwareInterface.msg
+[74.677s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/msg/NamedLifecycleState.msg
+[74.695s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/msg/ControllerManagerActivity.msg
+[74.709s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/srv/ConfigureController.srv
+[74.723s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllers.srv
+[74.740s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListControllerTypes.srv
+[74.755s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareComponents.srv
+[74.770s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/srv/ListHardwareInterfaces.srv
+[74.784s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/srv/LoadController.srv
+[74.797s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/srv/ReloadControllerLibraries.srv
+[74.811s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/srv/SetHardwareComponentState.srv
+[74.825s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/srv/SwitchController.srv
+[74.840s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/srv/UnloadController.srv
+[74.856s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/ament_index/resource_index/package_run_dependencies/controller_manager_msgs
+[74.869s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/ament_index/resource_index/parent_prefix_path/controller_manager_msgs
+[74.883s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/environment/ament_prefix_path.sh
+[74.897s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/environment/ament_prefix_path.dsv
+[74.911s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/environment/path.sh
+[74.925s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/environment/path.dsv
+[74.941s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.bash
+[74.961s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.sh
+[74.975s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.zsh
+[74.989s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/local_setup.dsv
+[75.007s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/package.dsv
+[75.021s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/ament_index/resource_index/packages/controller_manager_msgs
+[75.035s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/cmake/rosidl_cmake-extras.cmake
+[75.050s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[75.063s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[75.077s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[75.090s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[75.104s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[75.118s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[75.131s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgsConfig.cmake
+[75.150s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgsConfig-version.cmake
+[75.164s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/package.xml
+[75.177s] -- Installing: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_generator_c.so
+[75.179s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_generator_c.so" to ""
+[75.179s] -- Installing: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_fastrtps_c.so
+[75.180s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[75.180s] -- Installing: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_fastrtps_cpp.so
+[75.182s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[75.182s] -- Installing: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_introspection_c.so
+[75.183s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_introspection_c.so" to ""
+[75.183s] -- Installing: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_c.so
+[75.184s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_c.so" to ""
+[75.184s] -- Installing: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_introspection_cpp.so
+[75.186s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[75.187s] -- Installing: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_cpp.so
+[75.188s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_typesupport_cpp.so" to ""
+[75.370s] Listing '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs'...
+[75.370s] Compiling '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/__init__.py'...
+[75.370s] Listing '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg'...
+[75.370s] Compiling '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/__init__.py'...
+[75.370s] Compiling '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_chain_connection.py'...
+[75.371s] Compiling '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_controller_manager_activity.py'...
+[75.371s] Compiling '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_controller_state.py'...
+[75.371s] Compiling '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_hardware_component_state.py'...
+[75.371s] Compiling '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_hardware_interface.py'...
+[75.371s] Compiling '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/msg/_named_lifecycle_state.py'...
+[75.371s] Listing '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv'...
+[75.372s] Compiling '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/__init__.py'...
+[75.372s] Compiling '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_configure_controller.py'...
+[75.372s] Compiling '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_list_controller_types.py'...
+[75.372s] Compiling '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_list_controllers.py'...
+[75.372s] Compiling '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_list_hardware_components.py'...
+[75.372s] Compiling '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_list_hardware_interfaces.py'...
+[75.373s] Compiling '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_load_controller.py'...
+[75.373s] Compiling '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_reload_controller_libraries.py'...
+[75.373s] Compiling '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_set_hardware_component_state.py'...
+[75.373s] Compiling '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_switch_controller.py'...
+[75.373s] Compiling '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages/controller_manager_msgs/srv/_unload_controller.py'...
+[75.379s] -- Installing: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_generator_py.so
+[75.380s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/libcontroller_manager_msgs__rosidl_generator_py.so" to ""
+[75.381s] -- Installing: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_generator_cExport.cmake
+[75.381s] -- Installing: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_generator_cExport-noconfig.cmake
+[75.381s] -- Installing: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[75.381s] -- Installing: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[75.382s] -- Installing: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_generator_cppExport.cmake
+[75.382s] -- Installing: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[75.382s] -- Installing: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[75.382s] -- Installing: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cExport.cmake
+[75.383s] -- Installing: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[75.383s] -- Installing: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cExport.cmake
+[75.383s] -- Installing: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[75.384s] -- Installing: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[75.384s] -- Installing: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[75.384s] -- Installing: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cppExport.cmake
+[75.384s] -- Installing: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/cmake/controller_manager_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[75.385s] -- Installing: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_generator_pyExport.cmake
+[75.385s] -- Installing: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/cmake/export_controller_manager_msgs__rosidl_generator_pyExport-noconfig.cmake
+[75.389s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/controller_manager_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/controller_manager_msgs

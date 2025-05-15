@@ -1,0 +1,621 @@
+[0.234s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/thomas/MobileRobot/ws_new/src/ros-controls/control_msgs/control_msgs -DCMAKE_INSTALL_PREFIX=/home/thomas/MobileRobot/ws_new/install/control_msgs
+[0.934s] -- Found action_msgs: 2.0.2 (/opt/ros/jazzy/share/action_msgs/cmake)
+[0.935s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.935s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.935s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.935s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.935s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.936s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.944s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.017s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.330s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.386s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.439s] -- Found trajectory_msgs: 5.3.5 (/opt/ros/jazzy/share/trajectory_msgs/cmake)
+[2.823s] -- Found ament_cmake_cppcheck: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[2.824s] -- Found ament_cmake_cpplint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[2.826s] -- Found ament_cmake_uncrustify: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[2.828s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.712s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.977s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.983s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.430s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.562s] -- Found ament_cmake_flake8: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[4.563s] -- Found ament_cmake_pep257: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[4.887s] -- Configuring done (4.6s)
+[6.310s] -- Generating done (1.4s)
+[6.364s] -- Build files have been written to: /home/thomas/MobileRobot/ws_new/build/control_msgs
+[6.371s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/thomas/MobileRobot/ws_new/src/ros-controls/control_msgs/control_msgs -DCMAKE_INSTALL_PREFIX=/home/thomas/MobileRobot/ws_new/install/control_msgs
+[6.371s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/control_msgs -- -j8 -l8
+[6.531s] [  0%] Built target ament_cmake_python_symlink_control_msgs
+[6.532s] [  0%] Built target control_msgs__rosidl_generator_type_description
+[6.632s] [  0%] Built target control_msgs__cpp
+[7.136s] running egg_info
+[7.208s] writing control_msgs.egg-info/PKG-INFO
+[7.208s] writing dependency_links to control_msgs.egg-info/dependency_links.txt
+[7.209s] writing top-level names to control_msgs.egg-info/top_level.txt
+[7.274s] [ 28%] Built target control_msgs__rosidl_generator_c
+[7.448s] reading manifest file 'control_msgs.egg-info/SOURCES.txt'
+[7.623s] writing manifest file 'control_msgs.egg-info/SOURCES.txt'
+[7.697s] [ 28%] Built target ament_cmake_python_build_control_msgs_egg
+[7.709s] [ 38%] Built target control_msgs__rosidl_typesupport_c
+[7.964s] [ 48%] Built target control_msgs__rosidl_typesupport_introspection_c
+[8.024s] [ 58%] Built target control_msgs__rosidl_typesupport_fastrtps_cpp
+[8.135s] [ 68%] Built target control_msgs__rosidl_typesupport_fastrtps_c
+[8.140s] [ 78%] Built target control_msgs__rosidl_typesupport_cpp
+[8.167s] [ 87%] Built target control_msgs__rosidl_typesupport_introspection_cpp
+[8.270s] [ 87%] Built target control_msgs
+[8.313s] [ 87%] Built target control_msgs__py
+[8.679s] [ 97%] Built target control_msgs__rosidl_generator_py
+[8.748s] [ 99%] Built target control_msgs_s__rosidl_typesupport_fastrtps_c
+[8.748s] [ 99%] Built target control_msgs_s__rosidl_typesupport_introspection_c
+[8.751s] [100%] Built target control_msgs_s__rosidl_typesupport_c
+[8.771s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/control_msgs -- -j8 -l8
+[8.826s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/control_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/control_msgs
+[8.843s] -- Install configuration: ""
+[8.847s] -- Execute custom install script
+[8.848s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/ament_index/resource_index/rosidl_interfaces/control_msgs
+[8.848s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/action/ParallelGripperCommand.json
+[8.848s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/action/FollowJointTrajectory.json
+[8.848s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/action/GripperCommand.json
+[8.849s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/action/JointTrajectory.json
+[8.850s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/action/PointHead.json
+[8.851s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/action/SingleJointPosition.json
+[8.853s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/AdmittanceControllerState.json
+[8.853s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/DynamicInterfaceGroupValues.json
+[8.854s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/DynamicInterfaceValues.json
+[8.855s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/DynamicJointState.json
+[8.855s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/GripperCommand.json
+[8.856s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/InterfaceValue.json
+[8.856s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/JointComponentTolerance.json
+[8.856s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/JointControllerState.json
+[8.856s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/JointJog.json
+[8.856s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/JointTolerance.json
+[8.856s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/JointTrajectoryControllerState.json
+[8.857s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/MecanumDriveControllerState.json
+[8.857s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/MultiDOFCommand.json
+[8.857s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/MultiDOFStateStamped.json
+[8.858s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/PidState.json
+[8.858s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/SingleDOFState.json
+[8.858s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/SingleDOFStateStamped.json
+[8.858s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/SteeringControllerStatus.json
+[8.859s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/SpeedScalingFactor.json
+[8.859s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/srv/QueryCalibrationState.json
+[8.860s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/srv/QueryTrajectoryState.json
+[8.863s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__functions.h
+[8.864s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__struct.h
+[8.864s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__type_support.h
+[8.865s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__functions.h
+[8.865s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__struct.h
+[8.866s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__type_support.h
+[8.866s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__functions.h
+[8.866s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__struct.h
+[8.867s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__type_support.h
+[8.867s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/parallel_gripper_command__functions.h
+[8.868s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/parallel_gripper_command__struct.h
+[8.868s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/parallel_gripper_command__type_support.h
+[8.868s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__functions.h
+[8.869s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__struct.h
+[8.869s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__type_support.h
+[8.870s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__functions.h
+[8.870s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__struct.h
+[8.870s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__type_support.h
+[8.871s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/follow_joint_trajectory.h
+[8.871s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/gripper_command.h
+[8.871s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/joint_trajectory.h
+[8.872s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/parallel_gripper_command.h
+[8.872s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/point_head.h
+[8.873s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/single_joint_position.h
+[8.874s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/admittance_controller_state.h
+[8.874s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__functions.h
+[8.874s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__struct.h
+[8.875s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__type_support.h
+[8.875s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_interface_group_values__functions.h
+[8.876s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_interface_group_values__struct.h
+[8.876s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_interface_group_values__type_support.h
+[8.877s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_interface_values__functions.h
+[8.877s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_interface_values__struct.h
+[8.878s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_interface_values__type_support.h
+[8.878s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__functions.h
+[8.878s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__struct.h
+[8.879s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__type_support.h
+[8.880s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__functions.h
+[8.880s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__struct.h
+[8.880s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__type_support.h
+[8.881s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__functions.h
+[8.881s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__struct.h
+[8.882s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__type_support.h
+[8.882s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__functions.h
+[8.883s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__struct.h
+[8.884s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__type_support.h
+[8.884s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__functions.h
+[8.884s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__struct.h
+[8.885s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__type_support.h
+[8.886s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__functions.h
+[8.886s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__struct.h
+[8.886s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__type_support.h
+[8.887s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__functions.h
+[8.887s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__struct.h
+[8.888s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__type_support.h
+[8.888s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__functions.h
+[8.889s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__struct.h
+[8.889s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__type_support.h
+[8.890s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__functions.h
+[8.890s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__struct.h
+[8.891s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__type_support.h
+[8.891s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_command__functions.h
+[8.892s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_command__struct.h
+[8.892s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_command__type_support.h
+[8.893s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_state_stamped__functions.h
+[8.893s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_state_stamped__struct.h
+[8.894s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_state_stamped__type_support.h
+[8.943s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__functions.h
+[8.946s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__struct.h
+[8.946s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__type_support.h
+[8.958s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state__functions.h
+[8.959s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state__struct.h
+[8.975s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state__type_support.h
+[8.976s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state_stamped__functions.h
+[8.977s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state_stamped__struct.h
+[8.977s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state_stamped__type_support.h
+[8.988s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/speed_scaling_factor__functions.h
+[8.988s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/speed_scaling_factor__struct.h
+[8.991s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/speed_scaling_factor__type_support.h
+[8.998s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__functions.h
+[8.999s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__struct.h
+[8.999s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__type_support.h
+[9.000s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/dynamic_interface_group_values.h
+[9.000s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/dynamic_interface_values.h
+[9.000s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/dynamic_joint_state.h
+[9.001s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/gripper_command.h
+[9.001s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/interface_value.h
+[9.002s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/joint_component_tolerance.h
+[9.002s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/joint_controller_state.h
+[9.002s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/joint_jog.h
+[9.003s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/joint_tolerance.h
+[9.003s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/joint_trajectory_controller_state.h
+[9.004s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/mecanum_drive_controller_state.h
+[9.004s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/multi_dof_command.h
+[9.005s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/multi_dof_state_stamped.h
+[9.005s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/pid_state.h
+[9.006s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/rosidl_generator_c__visibility_control.h
+[9.006s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/single_dof_state.h
+[9.006s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/single_dof_state_stamped.h
+[9.007s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/speed_scaling_factor.h
+[9.007s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/steering_controller_status.h
+[9.007s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__functions.h
+[9.008s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__struct.h
+[9.008s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__type_support.h
+[9.008s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__functions.h
+[9.009s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__struct.h
+[9.009s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__type_support.h
+[9.010s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/srv/query_calibration_state.h
+[9.010s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/srv/query_trajectory_state.h
+[9.010s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/environment/library_path.sh
+[9.011s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/environment/library_path.dsv
+[9.014s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[9.014s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__rosidl_typesupport_fastrtps_c.h
+[9.015s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[9.026s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/parallel_gripper_command__rosidl_typesupport_fastrtps_c.h
+[9.026s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__rosidl_typesupport_fastrtps_c.h
+[9.026s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__rosidl_typesupport_fastrtps_c.h
+[9.027s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__rosidl_typesupport_fastrtps_c.h
+[9.027s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_interface_group_values__rosidl_typesupport_fastrtps_c.h
+[9.028s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_interface_values__rosidl_typesupport_fastrtps_c.h
+[9.028s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__rosidl_typesupport_fastrtps_c.h
+[9.028s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__rosidl_typesupport_fastrtps_c.h
+[9.029s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__rosidl_typesupport_fastrtps_c.h
+[9.029s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__rosidl_typesupport_fastrtps_c.h
+[9.030s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__rosidl_typesupport_fastrtps_c.h
+[9.030s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__rosidl_typesupport_fastrtps_c.h
+[9.031s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__rosidl_typesupport_fastrtps_c.h
+[9.031s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__rosidl_typesupport_fastrtps_c.h
+[9.032s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__rosidl_typesupport_fastrtps_c.h
+[9.032s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_command__rosidl_typesupport_fastrtps_c.h
+[9.032s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_state_stamped__rosidl_typesupport_fastrtps_c.h
+[9.033s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__rosidl_typesupport_fastrtps_c.h
+[9.033s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state__rosidl_typesupport_fastrtps_c.h
+[9.034s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state_stamped__rosidl_typesupport_fastrtps_c.h
+[9.034s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/speed_scaling_factor__rosidl_typesupport_fastrtps_c.h
+[9.034s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__rosidl_typesupport_fastrtps_c.h
+[9.035s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[9.035s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__rosidl_typesupport_fastrtps_c.h
+[9.035s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__rosidl_typesupport_fastrtps_c.h
+[9.039s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__builder.hpp
+[9.039s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__struct.hpp
+[9.040s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__traits.hpp
+[9.040s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__type_support.hpp
+[9.040s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__builder.hpp
+[9.041s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__struct.hpp
+[9.041s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__traits.hpp
+[9.042s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__type_support.hpp
+[9.042s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__builder.hpp
+[9.043s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__struct.hpp
+[9.044s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__traits.hpp
+[9.118s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__type_support.hpp
+[9.152s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/parallel_gripper_command__builder.hpp
+[9.153s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/parallel_gripper_command__struct.hpp
+[9.153s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/parallel_gripper_command__traits.hpp
+[9.154s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/parallel_gripper_command__type_support.hpp
+[9.154s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__builder.hpp
+[9.155s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__struct.hpp
+[9.155s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__traits.hpp
+[9.156s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__type_support.hpp
+[9.156s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__builder.hpp
+[9.157s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__struct.hpp
+[9.157s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__traits.hpp
+[9.158s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__type_support.hpp
+[9.158s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/follow_joint_trajectory.hpp
+[9.159s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/gripper_command.hpp
+[9.159s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/joint_trajectory.hpp
+[9.159s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/parallel_gripper_command.hpp
+[9.160s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/point_head.hpp
+[9.160s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/single_joint_position.hpp
+[9.161s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/admittance_controller_state.hpp
+[9.161s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__builder.hpp
+[9.161s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__struct.hpp
+[9.162s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__traits.hpp
+[9.162s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__type_support.hpp
+[9.163s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_interface_group_values__builder.hpp
+[9.163s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_interface_group_values__struct.hpp
+[9.163s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_interface_group_values__traits.hpp
+[9.164s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_interface_group_values__type_support.hpp
+[9.164s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_interface_values__builder.hpp
+[9.165s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_interface_values__struct.hpp
+[9.165s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_interface_values__traits.hpp
+[9.166s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_interface_values__type_support.hpp
+[9.166s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__builder.hpp
+[9.166s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__struct.hpp
+[9.167s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__traits.hpp
+[9.167s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__type_support.hpp
+[9.167s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__builder.hpp
+[9.168s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__struct.hpp
+[9.168s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__traits.hpp
+[9.169s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__type_support.hpp
+[9.169s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__builder.hpp
+[9.170s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__struct.hpp
+[9.170s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__traits.hpp
+[9.170s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__type_support.hpp
+[9.171s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__builder.hpp
+[9.171s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__struct.hpp
+[9.172s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__traits.hpp
+[9.172s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__type_support.hpp
+[9.172s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__builder.hpp
+[9.173s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__struct.hpp
+[9.173s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__traits.hpp
+[9.174s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__type_support.hpp
+[9.174s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__builder.hpp
+[9.175s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__struct.hpp
+[9.175s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__traits.hpp
+[9.176s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__type_support.hpp
+[9.176s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__builder.hpp
+[9.176s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__struct.hpp
+[9.177s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__traits.hpp
+[9.177s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__type_support.hpp
+[9.177s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__builder.hpp
+[9.178s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__struct.hpp
+[9.178s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__traits.hpp
+[9.178s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__type_support.hpp
+[9.178s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__builder.hpp
+[9.179s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__struct.hpp
+[9.179s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__traits.hpp
+[9.179s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__type_support.hpp
+[9.279s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_command__builder.hpp
+[9.303s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_command__struct.hpp
+[9.304s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_command__traits.hpp
+[9.368s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_command__type_support.hpp
+[9.376s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_state_stamped__builder.hpp
+[9.389s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_state_stamped__struct.hpp
+[9.389s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_state_stamped__traits.hpp
+[9.419s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_state_stamped__type_support.hpp
+[9.427s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__builder.hpp
+[9.435s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__struct.hpp
+[9.435s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__traits.hpp
+[9.436s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__type_support.hpp
+[9.436s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state__builder.hpp
+[9.451s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state__struct.hpp
+[9.451s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state__traits.hpp
+[9.451s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state__type_support.hpp
+[9.452s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state_stamped__builder.hpp
+[9.452s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state_stamped__struct.hpp
+[9.452s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state_stamped__traits.hpp
+[9.453s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state_stamped__type_support.hpp
+[9.454s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/speed_scaling_factor__builder.hpp
+[9.454s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/speed_scaling_factor__struct.hpp
+[9.455s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/speed_scaling_factor__traits.hpp
+[9.455s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/speed_scaling_factor__type_support.hpp
+[9.455s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__builder.hpp
+[9.455s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__struct.hpp
+[9.456s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__traits.hpp
+[9.456s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__type_support.hpp
+[9.456s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/dynamic_interface_group_values.hpp
+[9.456s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/dynamic_interface_values.hpp
+[9.457s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/dynamic_joint_state.hpp
+[9.457s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/gripper_command.hpp
+[9.458s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/interface_value.hpp
+[9.458s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/joint_component_tolerance.hpp
+[9.458s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/joint_controller_state.hpp
+[9.459s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/joint_jog.hpp
+[9.459s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/joint_tolerance.hpp
+[9.459s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/joint_trajectory_controller_state.hpp
+[9.460s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/mecanum_drive_controller_state.hpp
+[9.460s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/multi_dof_command.hpp
+[9.460s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/multi_dof_state_stamped.hpp
+[9.461s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/pid_state.hpp
+[9.461s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[9.461s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/single_dof_state.hpp
+[9.462s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/single_dof_state_stamped.hpp
+[9.462s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/speed_scaling_factor.hpp
+[9.462s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/steering_controller_status.hpp
+[9.463s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__builder.hpp
+[9.464s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__struct.hpp
+[9.471s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__traits.hpp
+[9.471s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__type_support.hpp
+[9.472s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__builder.hpp
+[9.472s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__struct.hpp
+[9.472s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__traits.hpp
+[9.472s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__type_support.hpp
+[9.472s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/srv/query_calibration_state.hpp
+[9.473s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/srv/query_trajectory_state.hpp
+[9.475s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[9.475s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__rosidl_typesupport_fastrtps_cpp.hpp
+[9.475s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[9.476s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/parallel_gripper_command__rosidl_typesupport_fastrtps_cpp.hpp
+[9.476s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__rosidl_typesupport_fastrtps_cpp.hpp
+[9.476s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__rosidl_typesupport_fastrtps_cpp.hpp
+[9.477s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__rosidl_typesupport_fastrtps_cpp.hpp
+[9.477s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_interface_group_values__rosidl_typesupport_fastrtps_cpp.hpp
+[9.477s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_interface_values__rosidl_typesupport_fastrtps_cpp.hpp
+[9.477s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__rosidl_typesupport_fastrtps_cpp.hpp
+[9.478s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__rosidl_typesupport_fastrtps_cpp.hpp
+[9.478s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__rosidl_typesupport_fastrtps_cpp.hpp
+[9.478s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__rosidl_typesupport_fastrtps_cpp.hpp
+[9.479s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__rosidl_typesupport_fastrtps_cpp.hpp
+[9.479s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__rosidl_typesupport_fastrtps_cpp.hpp
+[9.479s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__rosidl_typesupport_fastrtps_cpp.hpp
+[9.480s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__rosidl_typesupport_fastrtps_cpp.hpp
+[9.480s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__rosidl_typesupport_fastrtps_cpp.hpp
+[9.480s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_command__rosidl_typesupport_fastrtps_cpp.hpp
+[9.481s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_state_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[9.481s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__rosidl_typesupport_fastrtps_cpp.hpp
+[9.481s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state__rosidl_typesupport_fastrtps_cpp.hpp
+[9.482s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[9.482s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/speed_scaling_factor__rosidl_typesupport_fastrtps_cpp.hpp
+[9.482s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__rosidl_typesupport_fastrtps_cpp.hpp
+[9.482s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[9.483s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__rosidl_typesupport_fastrtps_cpp.hpp
+[9.483s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__rosidl_typesupport_fastrtps_cpp.hpp
+[9.484s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__rosidl_typesupport_introspection_c.h
+[9.485s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__rosidl_typesupport_introspection_c.h
+[9.485s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__rosidl_typesupport_introspection_c.h
+[9.485s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/parallel_gripper_command__rosidl_typesupport_introspection_c.h
+[9.486s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__rosidl_typesupport_introspection_c.h
+[9.486s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__rosidl_typesupport_introspection_c.h
+[9.487s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__rosidl_typesupport_introspection_c.h
+[9.487s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_interface_group_values__rosidl_typesupport_introspection_c.h
+[9.487s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_interface_values__rosidl_typesupport_introspection_c.h
+[9.488s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__rosidl_typesupport_introspection_c.h
+[9.488s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__rosidl_typesupport_introspection_c.h
+[9.489s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__rosidl_typesupport_introspection_c.h
+[9.489s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__rosidl_typesupport_introspection_c.h
+[9.489s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__rosidl_typesupport_introspection_c.h
+[9.490s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__rosidl_typesupport_introspection_c.h
+[9.490s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__rosidl_typesupport_introspection_c.h
+[9.490s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__rosidl_typesupport_introspection_c.h
+[9.491s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__rosidl_typesupport_introspection_c.h
+[9.491s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_command__rosidl_typesupport_introspection_c.h
+[9.492s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_state_stamped__rosidl_typesupport_introspection_c.h
+[9.492s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__rosidl_typesupport_introspection_c.h
+[9.492s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state__rosidl_typesupport_introspection_c.h
+[9.493s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state_stamped__rosidl_typesupport_introspection_c.h
+[9.493s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/speed_scaling_factor__rosidl_typesupport_introspection_c.h
+[9.494s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__rosidl_typesupport_introspection_c.h
+[9.494s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[9.494s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__rosidl_typesupport_introspection_c.h
+[9.495s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__rosidl_typesupport_introspection_c.h
+[9.496s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/follow_joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[9.496s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/gripper_command__rosidl_typesupport_introspection_cpp.hpp
+[9.497s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[9.497s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/parallel_gripper_command__rosidl_typesupport_introspection_cpp.hpp
+[9.497s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/point_head__rosidl_typesupport_introspection_cpp.hpp
+[9.498s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/action/detail/single_joint_position__rosidl_typesupport_introspection_cpp.hpp
+[9.498s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/admittance_controller_state__rosidl_typesupport_introspection_cpp.hpp
+[9.498s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_interface_group_values__rosidl_typesupport_introspection_cpp.hpp
+[9.499s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_interface_values__rosidl_typesupport_introspection_cpp.hpp
+[9.499s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/dynamic_joint_state__rosidl_typesupport_introspection_cpp.hpp
+[9.499s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/gripper_command__rosidl_typesupport_introspection_cpp.hpp
+[9.499s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/interface_value__rosidl_typesupport_introspection_cpp.hpp
+[9.500s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_component_tolerance__rosidl_typesupport_introspection_cpp.hpp
+[9.500s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_controller_state__rosidl_typesupport_introspection_cpp.hpp
+[9.500s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_jog__rosidl_typesupport_introspection_cpp.hpp
+[9.501s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_tolerance__rosidl_typesupport_introspection_cpp.hpp
+[9.501s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/joint_trajectory_controller_state__rosidl_typesupport_introspection_cpp.hpp
+[9.502s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/mecanum_drive_controller_state__rosidl_typesupport_introspection_cpp.hpp
+[9.502s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_command__rosidl_typesupport_introspection_cpp.hpp
+[9.502s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/multi_dof_state_stamped__rosidl_typesupport_introspection_cpp.hpp
+[9.503s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/pid_state__rosidl_typesupport_introspection_cpp.hpp
+[9.503s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state__rosidl_typesupport_introspection_cpp.hpp
+[9.503s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/single_dof_state_stamped__rosidl_typesupport_introspection_cpp.hpp
+[9.504s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/speed_scaling_factor__rosidl_typesupport_introspection_cpp.hpp
+[9.504s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/msg/detail/steering_controller_status__rosidl_typesupport_introspection_cpp.hpp
+[9.504s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_calibration_state__rosidl_typesupport_introspection_cpp.hpp
+[9.505s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/include/control_msgs/control_msgs/srv/detail/query_trajectory_state__rosidl_typesupport_introspection_cpp.hpp
+[9.505s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/environment/pythonpath.sh
+[9.505s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/environment/pythonpath.dsv
+[9.506s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs-5.4.0-py3.12.egg-info/PKG-INFO
+[9.506s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs-5.4.0-py3.12.egg-info/SOURCES.txt
+[9.507s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs-5.4.0-py3.12.egg-info/dependency_links.txt
+[9.507s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs-5.4.0-py3.12.egg-info/top_level.txt
+[9.510s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/__init__.py
+[9.510s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/_control_msgs_s.ep.rosidl_typesupport_c.c
+[9.511s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/_control_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[9.511s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/_control_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[9.511s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/action/__init__.py
+[9.512s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/action/_follow_joint_trajectory.py
+[9.512s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/action/_follow_joint_trajectory_s.c
+[9.512s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/action/_gripper_command.py
+[9.513s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/action/_gripper_command_s.c
+[9.513s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/action/_joint_trajectory.py
+[9.513s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/action/_joint_trajectory_s.c
+[9.514s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/action/_parallel_gripper_command.py
+[9.514s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/action/_parallel_gripper_command_s.c
+[9.514s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/action/_point_head.py
+[9.515s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/action/_point_head_s.c
+[9.515s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/action/_single_joint_position.py
+[9.515s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/action/_single_joint_position_s.c
+[9.515s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/control_msgs_s__rosidl_typesupport_c.so
+[9.516s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/control_msgs_s__rosidl_typesupport_fastrtps_c.so
+[9.516s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/control_msgs_s__rosidl_typesupport_introspection_c.so
+[9.516s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/__init__.py
+[9.517s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_admittance_controller_state.py
+[9.517s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_admittance_controller_state_s.c
+[9.517s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_dynamic_interface_group_values.py
+[9.518s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_dynamic_interface_group_values_s.c
+[9.518s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_dynamic_interface_values.py
+[9.518s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_dynamic_interface_values_s.c
+[9.519s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_dynamic_joint_state.py
+[9.519s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_dynamic_joint_state_s.c
+[9.520s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_gripper_command.py
+[9.520s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_gripper_command_s.c
+[9.520s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_interface_value.py
+[9.520s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_interface_value_s.c
+[9.521s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_joint_component_tolerance.py
+[9.521s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_joint_component_tolerance_s.c
+[9.521s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_joint_controller_state.py
+[9.522s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_joint_controller_state_s.c
+[9.522s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_joint_jog.py
+[9.522s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_joint_jog_s.c
+[9.522s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_joint_tolerance.py
+[9.523s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_joint_tolerance_s.c
+[9.523s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_joint_trajectory_controller_state.py
+[9.523s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_joint_trajectory_controller_state_s.c
+[9.524s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_mecanum_drive_controller_state.py
+[9.524s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_mecanum_drive_controller_state_s.c
+[9.524s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_multi_dof_command.py
+[9.525s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_multi_dof_command_s.c
+[9.525s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_multi_dof_state_stamped.py
+[9.525s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_multi_dof_state_stamped_s.c
+[9.525s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_pid_state.py
+[9.526s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_pid_state_s.c
+[9.526s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_single_dof_state.py
+[9.526s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_single_dof_state_s.c
+[9.527s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_single_dof_state_stamped.py
+[9.527s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_single_dof_state_stamped_s.c
+[9.527s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_speed_scaling_factor.py
+[9.528s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_speed_scaling_factor_s.c
+[9.528s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_steering_controller_status.py
+[9.529s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg/_steering_controller_status_s.c
+[9.529s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/srv/__init__.py
+[9.529s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/srv/_query_calibration_state.py
+[9.530s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/srv/_query_calibration_state_s.c
+[9.530s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/srv/_query_trajectory_state.py
+[9.530s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/srv/_query_trajectory_state_s.c
+[9.531s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/control_msgs_s__rosidl_typesupport_fastrtps_c.so
+[9.531s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/control_msgs_s__rosidl_typesupport_introspection_c.so
+[9.532s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/control_msgs_s__rosidl_typesupport_c.so
+[9.532s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/action/ParallelGripperCommand.idl
+[9.532s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/action/FollowJointTrajectory.idl
+[9.533s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/action/GripperCommand.idl
+[9.533s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/action/JointTrajectory.idl
+[9.533s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/action/PointHead.idl
+[9.534s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/action/SingleJointPosition.idl
+[9.534s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/AdmittanceControllerState.idl
+[9.535s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/DynamicInterfaceGroupValues.idl
+[9.535s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/DynamicInterfaceValues.idl
+[9.535s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/DynamicJointState.idl
+[9.536s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/GripperCommand.idl
+[9.536s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/InterfaceValue.idl
+[9.537s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/JointComponentTolerance.idl
+[9.537s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/JointControllerState.idl
+[9.538s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/JointJog.idl
+[9.538s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/JointTolerance.idl
+[9.539s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/JointTrajectoryControllerState.idl
+[9.539s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/MecanumDriveControllerState.idl
+[9.539s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/MultiDOFCommand.idl
+[9.540s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/MultiDOFStateStamped.idl
+[9.540s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/PidState.idl
+[9.541s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/SingleDOFState.idl
+[9.541s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/SingleDOFStateStamped.idl
+[9.542s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/SteeringControllerStatus.idl
+[9.542s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/SpeedScalingFactor.idl
+[9.543s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/srv/QueryCalibrationState.idl
+[9.543s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/srv/QueryTrajectoryState.idl
+[9.544s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/action/ParallelGripperCommand.action
+[9.545s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/action/FollowJointTrajectory.action
+[9.545s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/action/GripperCommand.action
+[9.546s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/action/JointTrajectory.action
+[9.546s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/action/PointHead.action
+[9.547s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/action/SingleJointPosition.action
+[9.547s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/AdmittanceControllerState.msg
+[9.548s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/DynamicInterfaceGroupValues.msg
+[9.548s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/DynamicInterfaceValues.msg
+[9.549s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/DynamicJointState.msg
+[9.550s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/GripperCommand.msg
+[9.550s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/InterfaceValue.msg
+[9.550s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/JointComponentTolerance.msg
+[9.551s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/JointControllerState.msg
+[9.551s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/JointJog.msg
+[9.552s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/JointTolerance.msg
+[9.552s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/JointTrajectoryControllerState.msg
+[9.552s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/MecanumDriveControllerState.msg
+[9.553s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/MultiDOFCommand.msg
+[9.553s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/MultiDOFStateStamped.msg
+[9.554s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/PidState.msg
+[9.554s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/SingleDOFState.msg
+[9.555s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/SingleDOFStateStamped.msg
+[9.555s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/SteeringControllerStatus.msg
+[9.556s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/msg/SpeedScalingFactor.msg
+[9.556s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/srv/QueryCalibrationState.srv
+[9.557s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/srv/QueryTrajectoryState.srv
+[9.557s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/ament_index/resource_index/package_run_dependencies/control_msgs
+[9.557s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/ament_index/resource_index/parent_prefix_path/control_msgs
+[9.558s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/environment/ament_prefix_path.sh
+[9.558s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/environment/ament_prefix_path.dsv
+[9.558s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/environment/path.sh
+[9.559s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/environment/path.dsv
+[9.559s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/local_setup.bash
+[9.559s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/local_setup.sh
+[9.560s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/local_setup.zsh
+[9.560s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/local_setup.dsv
+[9.560s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/package.dsv
+[9.574s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/ament_index/resource_index/packages/control_msgs
+[9.574s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/cmake/rosidl_cmake-extras.cmake
+[9.574s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[9.574s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[9.575s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[9.575s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[9.575s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[9.575s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[9.576s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/cmake/control_msgsConfig.cmake
+[9.576s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/cmake/control_msgsConfig-version.cmake
+[9.578s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/package.xml
+[9.610s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/libcontrol_msgs__rosidl_generator_c.so
+[9.628s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_fastrtps_c.so
+[9.645s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_fastrtps_cpp.so
+[9.656s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_introspection_c.so
+[9.656s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_c.so
+[9.677s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_introspection_cpp.so
+[9.692s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/libcontrol_msgs__rosidl_typesupport_cpp.so
+[9.994s] Listing '/home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs'...
+[9.994s] Compiling '/home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/__init__.py'...
+[9.994s] Listing '/home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/action'...
+[9.994s] Listing '/home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/msg'...
+[9.994s] Listing '/home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages/control_msgs/srv'...
+[10.011s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/control_msgs/lib/libcontrol_msgs__rosidl_generator_py.so
+[10.012s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_generator_cExport.cmake
+[10.012s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_generator_cExport-noconfig.cmake
+[10.013s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[10.013s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[10.013s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_generator_cppExport.cmake
+[10.013s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[10.014s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[10.014s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_introspection_cExport.cmake
+[10.014s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[10.014s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_cExport.cmake
+[10.015s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[10.015s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[10.015s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[10.015s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_cppExport.cmake
+[10.015s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/cmake/control_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[10.015s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_generator_pyExport.cmake
+[10.015s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/cmake/export_control_msgs__rosidl_generator_pyExport-noconfig.cmake
+[10.027s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/control_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/control_msgs

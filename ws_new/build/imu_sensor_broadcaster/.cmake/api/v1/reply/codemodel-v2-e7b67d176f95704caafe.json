@@ -1,0 +1,202 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6d1bc36503f6a366372d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				},
+				{
+					"build" : "gmock",
+					"jsonFile" : "directory-gmock-4c8667082ed8f149e75b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/jazzy/src/gmock_vendor",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-0908a8c91ddba5d6c989.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "/opt/ros/jazzy/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "imu_sensor_broadcaster",
+					"targetIndexes" : 
+					[
+						4,
+						5,
+						6,
+						7,
+						8,
+						9
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gmock",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "gmock::@0590522bda6a4df7f28a",
+					"jsonFile" : "target-gmock-05018984aee218642f92.json",
+					"name" : "gmock",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gmock_main::@0590522bda6a4df7f28a",
+					"jsonFile" : "target-gmock_main-ffd00e57ee04501bffab.json",
+					"name" : "gmock_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-d879a10c8777ae31537d.json",
+					"name" : "gtest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-cd061bfc033634237998.json",
+					"name" : "gtest_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imu_sensor_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imu_sensor_broadcaster-eae6a42ff8bbc0f3d630.json",
+					"name" : "imu_sensor_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imu_sensor_broadcaster_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imu_sensor_broadcaster_parameters-3e8ad175f3bcc12a8486.json",
+					"name" : "imu_sensor_broadcaster_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "imu_sensor_broadcaster_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-imu_sensor_broadcaster_uninstall-d507ed8f8c79248e67ed.json",
+					"name" : "imu_sensor_broadcaster_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_imu_sensor_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_imu_sensor_broadcaster-10ed70425f1dfa975793.json",
+					"name" : "test_imu_sensor_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_load_imu_sensor_broadcaster::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_load_imu_sensor_broadcaster-dc70bb7cb42a0a50fb6a.json",
+					"name" : "test_load_imu_sensor_broadcaster",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-eda4346d2fb5cfd62a11.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/thomas/MobileRobot/ws_new/build/imu_sensor_broadcaster",
+		"source" : "/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/imu_sensor_broadcaster"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

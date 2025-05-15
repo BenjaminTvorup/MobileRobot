@@ -1,0 +1,1 @@
+/home/thomas/MobileRobot/ws_new/build/control_msgs/ament_cmake_core/control_msgsConfig.cmake

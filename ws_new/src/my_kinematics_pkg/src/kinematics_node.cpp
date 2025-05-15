@@ -68,7 +68,7 @@ private:
         odom.pose.pose.orientation.w = q.w();
 
         odom.twist.twist.linear.x =- v ;
-        odom.twist.twist.angular.z = omega;
+        odom.twist.twist.angular.z = omega*0.9;
 
         // Set covariance values
         for (int i = 0; i < 36; ++i) {

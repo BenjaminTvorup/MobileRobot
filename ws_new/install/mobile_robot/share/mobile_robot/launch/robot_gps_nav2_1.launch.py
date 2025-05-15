@@ -1,0 +1,1 @@
+/home/thomas/MobileRobot/ws_new/src/mobile_robot/launch/robot_gps_nav2_1.launch.py

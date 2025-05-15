@@ -1,0 +1,21 @@
+[12.068s] Invoking command in '/home/thomas/MobileRobot/ws_new/src/publisher_subscriber': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/thomas/MobileRobot/ws_new/build/publisher_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/publisher_subscriber build --build-base /home/thomas/MobileRobot/ws_new/build/publisher_subscriber/build install --record /home/thomas/MobileRobot/ws_new/build/publisher_subscriber/install.log --single-version-externally-managed install_data
+[13.513s] running egg_info
+[13.634s] writing ../../build/publisher_subscriber/publisher_subscriber.egg-info/PKG-INFO
+[13.638s] writing dependency_links to ../../build/publisher_subscriber/publisher_subscriber.egg-info/dependency_links.txt
+[13.639s] writing entry points to ../../build/publisher_subscriber/publisher_subscriber.egg-info/entry_points.txt
+[13.640s] writing requirements to ../../build/publisher_subscriber/publisher_subscriber.egg-info/requires.txt
+[13.641s] writing top-level names to ../../build/publisher_subscriber/publisher_subscriber.egg-info/top_level.txt
+[13.910s] reading manifest file '../../build/publisher_subscriber/publisher_subscriber.egg-info/SOURCES.txt'
+[13.922s] writing manifest file '../../build/publisher_subscriber/publisher_subscriber.egg-info/SOURCES.txt'
+[13.923s] running build
+[13.923s] running build_py
+[13.923s] running install
+[13.950s] running install_lib
+[14.067s] running install_data
+[14.068s] running install_egg_info
+[14.197s] removing '/home/thomas/MobileRobot/ws_new/install/publisher_subscriber/lib/python3.12/site-packages/publisher_subscriber-0.0.0-py3.12.egg-info' (and everything under it)
+[14.197s] Copying ../../build/publisher_subscriber/publisher_subscriber.egg-info to /home/thomas/MobileRobot/ws_new/install/publisher_subscriber/lib/python3.12/site-packages/publisher_subscriber-0.0.0-py3.12.egg-info
+[14.216s] running install_scripts
+[14.991s] Installing playback_node script to /home/thomas/MobileRobot/ws_new/install/publisher_subscriber/lib/publisher_subscriber
+[14.991s] writing list of installed files to '/home/thomas/MobileRobot/ws_new/build/publisher_subscriber/install.log'
+[15.122s] Invoked command in '/home/thomas/MobileRobot/ws_new/src/publisher_subscriber' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/thomas/MobileRobot/ws_new/build/publisher_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/publisher_subscriber build --build-base /home/thomas/MobileRobot/ws_new/build/publisher_subscriber/build install --record /home/thomas/MobileRobot/ws_new/build/publisher_subscriber/install.log --single-version-externally-managed install_data

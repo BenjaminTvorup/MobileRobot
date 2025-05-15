@@ -1,0 +1,14 @@
+[  6%] Built target backward_object
+[ 20%] Built target backward
+[ 26%] Built target test_main
+[ 40%] Built target test_select_signals
+[ 53%] Built target test_test
+[ 66%] Built target test_stacktrace
+[ 80%] Built target test_rectrace
+[100%] Built target test_suicide
+-- Install configuration: ""
+-- Up-to-date: /home/thomas/MobileRobot/ws_new/install/backward/include/backward.hpp
+-- Up-to-date: /home/thomas/MobileRobot/ws_new/install/backward/lib/cmake/backward/BackwardConfig.cmake
+-- Up-to-date: /home/thomas/MobileRobot/ws_new/install/backward/lib/libbackward.a
+-- Up-to-date: /home/thomas/MobileRobot/ws_new/install/backward/lib/cmake/backward/BackwardTargets.cmake
+-- Up-to-date: /home/thomas/MobileRobot/ws_new/install/backward/lib/cmake/backward/BackwardTargets-noconfig.cmake

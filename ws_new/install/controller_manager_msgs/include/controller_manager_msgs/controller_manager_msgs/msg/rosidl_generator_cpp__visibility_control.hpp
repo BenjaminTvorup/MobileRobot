@@ -1,0 +1,1 @@
+/home/thomas/MobileRobot/ws_new/build/controller_manager_msgs/rosidl_generator_cpp/controller_manager_msgs/msg/rosidl_generator_cpp__visibility_control.hpp

@@ -1,0 +1,335 @@
+[0.000000] (-) TimerEvent: {}
+[0.000617] (-) JobUnselected: {'identifier': 'ackermann_steering_controller'}
+[0.001758] (-) JobUnselected: {'identifier': 'mobile_robot'}
+[0.001829] (-) JobUnselected: {'identifier': 'navigation'}
+[0.001868] (-) JobUnselected: {'identifier': 'publisher_subscriber'}
+[0.001906] (my_kinematics_pkg) JobQueued: {'identifier': 'my_kinematics_pkg', 'dependencies': OrderedDict()}
+[0.001947] (my_kinematics_pkg) JobStarted: {'identifier': 'my_kinematics_pkg'}
+[0.045828] (my_kinematics_pkg) JobProgress: {'identifier': 'my_kinematics_pkg', 'progress': 'cmake'}
+[0.048040] (my_kinematics_pkg) JobProgress: {'identifier': 'my_kinematics_pkg', 'progress': 'build'}
+[0.050017] (my_kinematics_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg', '--', '-j8', '-l8'], 'cwd': '/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'thomas', 'LC_TIME': 'de_DE.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/thomas/MobileRobot/ws_new/install/velocity_controllers/lib:/home/thomas/MobileRobot/ws_new/install/tricycle_controller/lib:/home/thomas/MobileRobot/ws_new/install/transmission_interface/lib:/home/thomas/MobileRobot/ws_new/install/steering_controllers_library/lib:/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing/lib:/home/thomas/MobileRobot/ws_new/install/gz_ros2_control/lib:/home/thomas/MobileRobot/ws_new/install/controller_manager/lib:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/lib:/home/thomas/MobileRobot/ws_new/install/position_controllers/lib:/home/thomas/MobileRobot/ws_new/install/pid_controller/lib:/home/thomas/MobileRobot/ws_new/install/mecanum_drive_controller/lib:/home/thomas/MobileRobot/ws_new/install/joint_trajectory_controller/lib:/home/thomas/MobileRobot/ws_new/install/joint_state_broadcaster/lib:/home/thomas/MobileRobot/ws_new/install/imu_sensor_broadcaster/lib:/home/thomas/MobileRobot/ws_new/install/gpio_controllers/lib:/home/thomas/MobileRobot/ws_new/install/effort_controllers/lib:/home/thomas/MobileRobot/ws_new/install/forward_command_controller/lib:/home/thomas/MobileRobot/ws_new/install/force_torque_sensor_broadcaster/lib:/home/thomas/MobileRobot/ws_new/install/diff_drive_controller/lib:/home/thomas/MobileRobot/ws_new/install/controller_interface/lib:/home/thomas/MobileRobot/ws_new/install/hardware_interface/lib:/home/thomas/MobileRobot/ws_new/install/joint_limits/lib:/home/thomas/MobileRobot/ws_new/install/control_toolbox/lib:/home/thomas/MobileRobot/ws_new/install/realtime_tools/lib:/home/thomas/MobileRobot/ws_new/install/kinematics_interface_kdl/lib:/home/thomas/MobileRobot/ws_new/install/kinematics_interface/lib:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib:/home/thomas/MobileRobot/ws_new/install/control_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/thomas', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'SYSTEMD_EXEC_PID': '2715', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/home/thomas/dev_ws', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/thomas/MobileRobot/ws_new/install:/home/thomas/dev_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'thomas', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'thomas', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/thomas/anaconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/thomas-OMEN-by-HP-Laptop:@/tmp/.ICE-unix/2674,unix/thomas-OMEN-by-HP-Laptop:/tmp/.ICE-unix/2674', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/bcf2d8c2_18d7_4b36_89f7_99b8a2474e2f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.AT8K62', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/thomas/MobileRobot/ws_new/install/velocity_controllers:/home/thomas/MobileRobot/ws_new/install/tricycle_controller:/home/thomas/MobileRobot/ws_new/install/transmission_interface:/home/thomas/MobileRobot/ws_new/install/steering_controllers_library:/home/thomas/MobileRobot/ws_new/install/rqt_joint_trajectory_controller:/home/thomas/MobileRobot/ws_new/install/ros2controlcli:/home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes:/home/thomas/MobileRobot/ws_new/install/mobile_robot:/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing:/home/thomas/MobileRobot/ws_new/install/gz_ros2_control:/home/thomas/MobileRobot/ws_new/install/controller_manager:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets:/home/thomas/MobileRobot/ws_new/install/ros2_control_demo_description:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/position_controllers:/home/thomas/MobileRobot/ws_new/install/pid_controller:/home/thomas/MobileRobot/ws_new/install/mecanum_drive_controller:/home/thomas/MobileRobot/ws_new/install/joint_trajectory_controller:/home/thomas/MobileRobot/ws_new/install/joint_state_broadcaster:/home/thomas/MobileRobot/ws_new/install/imu_sensor_broadcaster:/home/thomas/MobileRobot/ws_new/install/gpio_controllers:/home/thomas/MobileRobot/ws_new/install/effort_controllers:/home/thomas/MobileRobot/ws_new/install/forward_command_controller:/home/thomas/MobileRobot/ws_new/install/force_torque_sensor_broadcaster:/home/thomas/MobileRobot/ws_new/install/diff_drive_controller:/home/thomas/MobileRobot/ws_new/install/controller_interface:/home/thomas/MobileRobot/ws_new/install/hardware_interface:/home/thomas/MobileRobot/ws_new/install/joint_limits:/home/thomas/MobileRobot/ws_new/install/control_toolbox:/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg:/home/thomas/MobileRobot/ws_new/install/kinematics_interface_kdl:/home/thomas/MobileRobot/ws_new/install/kinematics_interface:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs:/home/thomas/MobileRobot/ws_new/install/control_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/thomas/MobileRobot/ws_new/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/ros2controlcli/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/controller_manager/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/thomas/MobileRobot/ws_new/install/velocity_controllers:/home/thomas/MobileRobot/ws_new/install/tricycle_controller:/home/thomas/MobileRobot/ws_new/install/transmission_interface:/home/thomas/MobileRobot/ws_new/install/steering_controllers_library:/home/thomas/MobileRobot/ws_new/install/mobile_robot:/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing:/home/thomas/MobileRobot/ws_new/install/gz_ros2_control:/home/thomas/MobileRobot/ws_new/install/controller_manager:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets:/home/thomas/MobileRobot/ws_new/install/ros2_control_demo_description:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/position_controllers:/home/thomas/MobileRobot/ws_new/install/pid_controller:/home/thomas/MobileRobot/ws_new/install/mecanum_drive_controller:/home/thomas/MobileRobot/ws_new/install/joint_trajectory_controller:/home/thomas/MobileRobot/ws_new/install/joint_state_broadcaster:/home/thomas/MobileRobot/ws_new/install/imu_sensor_broadcaster:/home/thomas/MobileRobot/ws_new/install/gpio_controllers:/home/thomas/MobileRobot/ws_new/install/effort_controllers:/home/thomas/MobileRobot/ws_new/install/forward_command_controller:/home/thomas/MobileRobot/ws_new/install/force_torque_sensor_broadcaster:/home/thomas/MobileRobot/ws_new/install/diff_drive_controller:/home/thomas/MobileRobot/ws_new/install/controller_interface:/home/thomas/MobileRobot/ws_new/install/hardware_interface:/home/thomas/MobileRobot/ws_new/install/joint_limits:/home/thomas/MobileRobot/ws_new/install/control_toolbox:/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg:/home/thomas/MobileRobot/ws_new/install/kinematics_interface_kdl:/home/thomas/MobileRobot/ws_new/install/kinematics_interface:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs:/home/thomas/MobileRobot/ws_new/install/control_msgs:/home/thomas/MobileRobot/ws_new/install/backward:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/home/thomas/MobileRobot/ws_new/install/rqt_joint_trajectory_controller:/home/thomas/MobileRobot/ws_new/install/ros2controlcli:/home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy'}), 'shell': False}
+[0.099923] (-) TimerEvent: {}
+[0.200604] (-) TimerEvent: {}
+[0.300914] (-) TimerEvent: {}
+[0.370025] (my_kinematics_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/kinematics_node.dir/src/kinematics_node.cpp.o\x1b[0m\n'}
+[0.401036] (-) TimerEvent: {}
+[0.501419] (-) TimerEvent: {}
+[0.601832] (-) TimerEvent: {}
+[0.702225] (-) TimerEvent: {}
+[0.802564] (-) TimerEvent: {}
+[0.903239] (-) TimerEvent: {}
+[1.003547] (-) TimerEvent: {}
+[1.103976] (-) TimerEvent: {}
+[1.204300] (-) TimerEvent: {}
+[1.304745] (-) TimerEvent: {}
+[1.405106] (-) TimerEvent: {}
+[1.505553] (-) TimerEvent: {}
+[1.606030] (-) TimerEvent: {}
+[1.706509] (-) TimerEvent: {}
+[1.806920] (-) TimerEvent: {}
+[1.907426] (-) TimerEvent: {}
+[2.008307] (-) TimerEvent: {}
+[2.108779] (-) TimerEvent: {}
+[2.209197] (-) TimerEvent: {}
+[2.309502] (-) TimerEvent: {}
+[2.410175] (-) TimerEvent: {}
+[2.510597] (-) TimerEvent: {}
+[2.610954] (-) TimerEvent: {}
+[2.711432] (-) TimerEvent: {}
+[2.812036] (-) TimerEvent: {}
+[2.912417] (-) TimerEvent: {}
+[3.013102] (-) TimerEvent: {}
+[3.113450] (-) TimerEvent: {}
+[3.213794] (-) TimerEvent: {}
+[3.314211] (-) TimerEvent: {}
+[3.414554] (-) TimerEvent: {}
+[3.515073] (-) TimerEvent: {}
+[3.616972] (-) TimerEvent: {}
+[3.717563] (-) TimerEvent: {}
+[3.818370] (-) TimerEvent: {}
+[3.918862] (-) TimerEvent: {}
+[4.020177] (-) TimerEvent: {}
+[4.120554] (-) TimerEvent: {}
+[4.221040] (-) TimerEvent: {}
+[4.321764] (-) TimerEvent: {}
+[4.422086] (-) TimerEvent: {}
+[4.522520] (-) TimerEvent: {}
+[4.622919] (-) TimerEvent: {}
+[4.723623] (-) TimerEvent: {}
+[4.824008] (-) TimerEvent: {}
+[4.924727] (-) TimerEvent: {}
+[5.025290] (-) TimerEvent: {}
+[5.125786] (-) TimerEvent: {}
+[5.226157] (-) TimerEvent: {}
+[5.326644] (-) TimerEvent: {}
+[5.427114] (-) TimerEvent: {}
+[5.527485] (-) TimerEvent: {}
+[5.627955] (-) TimerEvent: {}
+[5.728897] (-) TimerEvent: {}
+[5.829490] (-) TimerEvent: {}
+[5.930026] (-) TimerEvent: {}
+[6.031157] (-) TimerEvent: {}
+[6.131657] (-) TimerEvent: {}
+[6.232078] (-) TimerEvent: {}
+[6.332465] (-) TimerEvent: {}
+[6.432757] (-) TimerEvent: {}
+[6.533045] (-) TimerEvent: {}
+[6.633397] (-) TimerEvent: {}
+[6.734062] (-) TimerEvent: {}
+[6.834463] (-) TimerEvent: {}
+[6.934819] (-) TimerEvent: {}
+[7.035188] (-) TimerEvent: {}
+[7.136053] (-) TimerEvent: {}
+[7.236382] (-) TimerEvent: {}
+[7.337027] (-) TimerEvent: {}
+[7.437639] (-) TimerEvent: {}
+[7.538388] (-) TimerEvent: {}
+[7.640131] (-) TimerEvent: {}
+[7.740448] (-) TimerEvent: {}
+[7.840867] (-) TimerEvent: {}
+[7.941395] (-) TimerEvent: {}
+[8.041760] (-) TimerEvent: {}
+[8.142089] (-) TimerEvent: {}
+[8.242501] (-) TimerEvent: {}
+[8.343329] (-) TimerEvent: {}
+[8.443759] (-) TimerEvent: {}
+[8.544070] (-) TimerEvent: {}
+[8.644363] (-) TimerEvent: {}
+[8.744801] (-) TimerEvent: {}
+[8.845161] (-) TimerEvent: {}
+[8.945561] (-) TimerEvent: {}
+[9.046107] (-) TimerEvent: {}
+[9.147130] (-) TimerEvent: {}
+[9.247966] (-) TimerEvent: {}
+[9.348596] (-) TimerEvent: {}
+[9.448926] (-) TimerEvent: {}
+[9.549349] (-) TimerEvent: {}
+[9.649742] (-) TimerEvent: {}
+[9.750150] (-) TimerEvent: {}
+[9.850604] (-) TimerEvent: {}
+[9.951256] (-) TimerEvent: {}
+[10.051639] (-) TimerEvent: {}
+[10.152536] (-) TimerEvent: {}
+[10.253164] (-) TimerEvent: {}
+[10.353515] (-) TimerEvent: {}
+[10.453990] (-) TimerEvent: {}
+[10.554399] (-) TimerEvent: {}
+[10.654865] (-) TimerEvent: {}
+[10.755515] (-) TimerEvent: {}
+[10.856133] (-) TimerEvent: {}
+[10.956704] (-) TimerEvent: {}
+[11.057575] (-) TimerEvent: {}
+[11.157942] (-) TimerEvent: {}
+[11.258364] (-) TimerEvent: {}
+[11.358657] (-) TimerEvent: {}
+[11.459085] (-) TimerEvent: {}
+[11.559435] (-) TimerEvent: {}
+[11.659819] (-) TimerEvent: {}
+[11.760166] (-) TimerEvent: {}
+[11.860605] (-) TimerEvent: {}
+[11.961451] (-) TimerEvent: {}
+[12.061892] (-) TimerEvent: {}
+[12.162218] (-) TimerEvent: {}
+[12.262581] (-) TimerEvent: {}
+[12.362987] (-) TimerEvent: {}
+[12.463429] (-) TimerEvent: {}
+[12.564998] (-) TimerEvent: {}
+[12.665537] (-) TimerEvent: {}
+[12.766048] (-) TimerEvent: {}
+[12.866415] (-) TimerEvent: {}
+[12.966739] (-) TimerEvent: {}
+[13.067165] (-) TimerEvent: {}
+[13.167642] (-) TimerEvent: {}
+[13.267968] (-) TimerEvent: {}
+[13.368358] (-) TimerEvent: {}
+[13.468757] (-) TimerEvent: {}
+[13.569256] (-) TimerEvent: {}
+[13.669622] (-) TimerEvent: {}
+[13.770062] (-) TimerEvent: {}
+[13.870569] (-) TimerEvent: {}
+[13.971116] (-) TimerEvent: {}
+[14.071477] (-) TimerEvent: {}
+[14.171830] (-) TimerEvent: {}
+[14.272189] (-) TimerEvent: {}
+[14.372563] (-) TimerEvent: {}
+[14.472936] (-) TimerEvent: {}
+[14.573364] (-) TimerEvent: {}
+[14.673784] (-) TimerEvent: {}
+[14.774222] (-) TimerEvent: {}
+[14.874653] (-) TimerEvent: {}
+[14.975317] (-) TimerEvent: {}
+[15.076074] (-) TimerEvent: {}
+[15.176500] (-) TimerEvent: {}
+[15.276888] (-) TimerEvent: {}
+[15.377472] (-) TimerEvent: {}
+[15.477871] (-) TimerEvent: {}
+[15.578379] (-) TimerEvent: {}
+[15.678867] (-) TimerEvent: {}
+[15.779316] (-) TimerEvent: {}
+[15.879772] (-) TimerEvent: {}
+[15.980308] (-) TimerEvent: {}
+[16.080654] (-) TimerEvent: {}
+[16.181118] (-) TimerEvent: {}
+[16.281531] (-) TimerEvent: {}
+[16.382110] (-) TimerEvent: {}
+[16.482511] (-) TimerEvent: {}
+[16.582853] (-) TimerEvent: {}
+[16.683167] (-) TimerEvent: {}
+[16.783526] (-) TimerEvent: {}
+[16.884003] (-) TimerEvent: {}
+[16.984360] (-) TimerEvent: {}
+[17.084682] (-) TimerEvent: {}
+[17.185035] (-) TimerEvent: {}
+[17.285398] (-) TimerEvent: {}
+[17.385890] (-) TimerEvent: {}
+[17.486626] (-) TimerEvent: {}
+[17.587281] (-) TimerEvent: {}
+[17.687643] (-) TimerEvent: {}
+[17.788055] (-) TimerEvent: {}
+[17.888576] (-) TimerEvent: {}
+[17.988995] (-) TimerEvent: {}
+[18.089344] (-) TimerEvent: {}
+[18.189708] (-) TimerEvent: {}
+[18.290322] (-) TimerEvent: {}
+[18.390690] (-) TimerEvent: {}
+[18.491033] (-) TimerEvent: {}
+[18.591451] (-) TimerEvent: {}
+[18.691961] (-) TimerEvent: {}
+[18.793046] (-) TimerEvent: {}
+[18.893417] (-) TimerEvent: {}
+[18.993894] (-) TimerEvent: {}
+[19.094216] (-) TimerEvent: {}
+[19.194723] (-) TimerEvent: {}
+[19.295349] (-) TimerEvent: {}
+[19.395840] (-) TimerEvent: {}
+[19.496477] (-) TimerEvent: {}
+[19.597004] (-) TimerEvent: {}
+[19.697505] (-) TimerEvent: {}
+[19.797852] (-) TimerEvent: {}
+[19.898183] (-) TimerEvent: {}
+[19.998541] (-) TimerEvent: {}
+[20.099006] (-) TimerEvent: {}
+[20.199367] (-) TimerEvent: {}
+[20.299918] (-) TimerEvent: {}
+[20.400317] (-) TimerEvent: {}
+[20.500696] (-) TimerEvent: {}
+[20.601030] (-) TimerEvent: {}
+[20.701421] (-) TimerEvent: {}
+[20.801753] (-) TimerEvent: {}
+[20.902165] (-) TimerEvent: {}
+[21.002552] (-) TimerEvent: {}
+[21.102936] (-) TimerEvent: {}
+[21.203863] (-) TimerEvent: {}
+[21.304621] (-) TimerEvent: {}
+[21.405122] (-) TimerEvent: {}
+[21.505803] (-) TimerEvent: {}
+[21.606169] (-) TimerEvent: {}
+[21.706639] (-) TimerEvent: {}
+[21.809277] (-) TimerEvent: {}
+[21.910047] (-) TimerEvent: {}
+[22.010608] (-) TimerEvent: {}
+[22.111797] (-) TimerEvent: {}
+[22.212749] (-) TimerEvent: {}
+[22.313211] (-) TimerEvent: {}
+[22.413568] (-) TimerEvent: {}
+[22.513992] (-) TimerEvent: {}
+[22.614327] (-) TimerEvent: {}
+[22.714631] (-) TimerEvent: {}
+[22.814983] (-) TimerEvent: {}
+[22.917320] (-) TimerEvent: {}
+[23.017805] (-) TimerEvent: {}
+[23.118218] (-) TimerEvent: {}
+[23.218617] (-) TimerEvent: {}
+[23.319001] (-) TimerEvent: {}
+[23.419427] (-) TimerEvent: {}
+[23.519835] (-) TimerEvent: {}
+[23.620684] (-) TimerEvent: {}
+[23.721020] (-) TimerEvent: {}
+[23.821457] (-) TimerEvent: {}
+[23.921860] (-) TimerEvent: {}
+[24.022320] (-) TimerEvent: {}
+[24.122890] (-) TimerEvent: {}
+[24.223201] (-) TimerEvent: {}
+[24.323748] (-) TimerEvent: {}
+[24.425351] (-) TimerEvent: {}
+[24.526406] (-) TimerEvent: {}
+[24.626925] (-) TimerEvent: {}
+[24.727315] (-) TimerEvent: {}
+[24.827691] (-) TimerEvent: {}
+[24.928071] (-) TimerEvent: {}
+[25.028537] (-) TimerEvent: {}
+[25.128878] (-) TimerEvent: {}
+[25.229208] (-) TimerEvent: {}
+[25.330192] (-) TimerEvent: {}
+[25.430530] (-) TimerEvent: {}
+[25.532720] (-) TimerEvent: {}
+[25.633391] (-) TimerEvent: {}
+[25.733784] (-) TimerEvent: {}
+[25.834198] (-) TimerEvent: {}
+[25.934581] (-) TimerEvent: {}
+[26.034962] (-) TimerEvent: {}
+[26.135398] (-) TimerEvent: {}
+[26.235726] (-) TimerEvent: {}
+[26.336025] (-) TimerEvent: {}
+[26.436421] (-) TimerEvent: {}
+[26.536732] (-) TimerEvent: {}
+[26.637193] (-) TimerEvent: {}
+[26.737747] (-) TimerEvent: {}
+[26.838093] (-) TimerEvent: {}
+[26.938450] (-) TimerEvent: {}
+[27.038786] (-) TimerEvent: {}
+[27.139094] (-) TimerEvent: {}
+[27.239445] (-) TimerEvent: {}
+[27.339800] (-) TimerEvent: {}
+[27.440256] (-) TimerEvent: {}
+[27.540881] (-) TimerEvent: {}
+[27.641237] (-) TimerEvent: {}
+[27.741670] (-) TimerEvent: {}
+[27.842382] (-) TimerEvent: {}
+[27.876231] (my_kinematics_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable kinematics_node\x1b[0m\n'}
+[27.942505] (-) TimerEvent: {}
+[28.042898] (-) TimerEvent: {}
+[28.143408] (-) TimerEvent: {}
+[28.244236] (-) TimerEvent: {}
+[28.344926] (-) TimerEvent: {}
+[28.445729] (-) TimerEvent: {}
+[28.546366] (-) TimerEvent: {}
+[28.646796] (-) TimerEvent: {}
+[28.747199] (-) TimerEvent: {}
+[28.847593] (-) TimerEvent: {}
+[28.948110] (-) TimerEvent: {}
+[29.048514] (-) TimerEvent: {}
+[29.148893] (-) TimerEvent: {}
+[29.249203] (-) TimerEvent: {}
+[29.349541] (-) TimerEvent: {}
+[29.450033] (-) TimerEvent: {}
+[29.550694] (-) TimerEvent: {}
+[29.651089] (-) TimerEvent: {}
+[29.748268] (my_kinematics_pkg) StdoutLine: {'line': b'[100%] Built target kinematics_node\n'}
+[29.751279] (-) TimerEvent: {}
+[29.784903] (my_kinematics_pkg) CommandEnded: {'returncode': 0}
+[29.798053] (my_kinematics_pkg) JobProgress: {'identifier': 'my_kinematics_pkg', 'progress': 'install'}
+[29.829157] (my_kinematics_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg'], 'cwd': '/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'thomas', 'LC_TIME': 'de_DE.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/thomas/MobileRobot/ws_new/install/velocity_controllers/lib:/home/thomas/MobileRobot/ws_new/install/tricycle_controller/lib:/home/thomas/MobileRobot/ws_new/install/transmission_interface/lib:/home/thomas/MobileRobot/ws_new/install/steering_controllers_library/lib:/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing/lib:/home/thomas/MobileRobot/ws_new/install/gz_ros2_control/lib:/home/thomas/MobileRobot/ws_new/install/controller_manager/lib:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/lib:/home/thomas/MobileRobot/ws_new/install/position_controllers/lib:/home/thomas/MobileRobot/ws_new/install/pid_controller/lib:/home/thomas/MobileRobot/ws_new/install/mecanum_drive_controller/lib:/home/thomas/MobileRobot/ws_new/install/joint_trajectory_controller/lib:/home/thomas/MobileRobot/ws_new/install/joint_state_broadcaster/lib:/home/thomas/MobileRobot/ws_new/install/imu_sensor_broadcaster/lib:/home/thomas/MobileRobot/ws_new/install/gpio_controllers/lib:/home/thomas/MobileRobot/ws_new/install/effort_controllers/lib:/home/thomas/MobileRobot/ws_new/install/forward_command_controller/lib:/home/thomas/MobileRobot/ws_new/install/force_torque_sensor_broadcaster/lib:/home/thomas/MobileRobot/ws_new/install/diff_drive_controller/lib:/home/thomas/MobileRobot/ws_new/install/controller_interface/lib:/home/thomas/MobileRobot/ws_new/install/hardware_interface/lib:/home/thomas/MobileRobot/ws_new/install/joint_limits/lib:/home/thomas/MobileRobot/ws_new/install/control_toolbox/lib:/home/thomas/MobileRobot/ws_new/install/realtime_tools/lib:/home/thomas/MobileRobot/ws_new/install/kinematics_interface_kdl/lib:/home/thomas/MobileRobot/ws_new/install/kinematics_interface/lib:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib:/home/thomas/MobileRobot/ws_new/install/control_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/thomas', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'SYSTEMD_EXEC_PID': '2715', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', '_colcon_cd_root': '/home/thomas/dev_ws', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/thomas/MobileRobot/ws_new/install:/home/thomas/dev_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'thomas', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'thomas', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/thomas/anaconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/thomas-OMEN-by-HP-Laptop:@/tmp/.ICE-unix/2674,unix/thomas-OMEN-by-HP-Laptop:/tmp/.ICE-unix/2674', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/bcf2d8c2_18d7_4b36_89f7_99b8a2474e2f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.AT8K62', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.100', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/thomas/MobileRobot/ws_new/install/velocity_controllers:/home/thomas/MobileRobot/ws_new/install/tricycle_controller:/home/thomas/MobileRobot/ws_new/install/transmission_interface:/home/thomas/MobileRobot/ws_new/install/steering_controllers_library:/home/thomas/MobileRobot/ws_new/install/rqt_joint_trajectory_controller:/home/thomas/MobileRobot/ws_new/install/ros2controlcli:/home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes:/home/thomas/MobileRobot/ws_new/install/mobile_robot:/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing:/home/thomas/MobileRobot/ws_new/install/gz_ros2_control:/home/thomas/MobileRobot/ws_new/install/controller_manager:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets:/home/thomas/MobileRobot/ws_new/install/ros2_control_demo_description:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/position_controllers:/home/thomas/MobileRobot/ws_new/install/pid_controller:/home/thomas/MobileRobot/ws_new/install/mecanum_drive_controller:/home/thomas/MobileRobot/ws_new/install/joint_trajectory_controller:/home/thomas/MobileRobot/ws_new/install/joint_state_broadcaster:/home/thomas/MobileRobot/ws_new/install/imu_sensor_broadcaster:/home/thomas/MobileRobot/ws_new/install/gpio_controllers:/home/thomas/MobileRobot/ws_new/install/effort_controllers:/home/thomas/MobileRobot/ws_new/install/forward_command_controller:/home/thomas/MobileRobot/ws_new/install/force_torque_sensor_broadcaster:/home/thomas/MobileRobot/ws_new/install/diff_drive_controller:/home/thomas/MobileRobot/ws_new/install/controller_interface:/home/thomas/MobileRobot/ws_new/install/hardware_interface:/home/thomas/MobileRobot/ws_new/install/joint_limits:/home/thomas/MobileRobot/ws_new/install/control_toolbox:/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg:/home/thomas/MobileRobot/ws_new/install/kinematics_interface_kdl:/home/thomas/MobileRobot/ws_new/install/kinematics_interface:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs:/home/thomas/MobileRobot/ws_new/install/control_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/thomas/MobileRobot/ws_new/install/rqt_joint_trajectory_controller/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/ros2controlcli/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/controller_manager/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/thomas/MobileRobot/ws_new/install/velocity_controllers:/home/thomas/MobileRobot/ws_new/install/tricycle_controller:/home/thomas/MobileRobot/ws_new/install/transmission_interface:/home/thomas/MobileRobot/ws_new/install/steering_controllers_library:/home/thomas/MobileRobot/ws_new/install/mobile_robot:/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing:/home/thomas/MobileRobot/ws_new/install/gz_ros2_control:/home/thomas/MobileRobot/ws_new/install/controller_manager:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets:/home/thomas/MobileRobot/ws_new/install/ros2_control_demo_description:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/position_controllers:/home/thomas/MobileRobot/ws_new/install/pid_controller:/home/thomas/MobileRobot/ws_new/install/mecanum_drive_controller:/home/thomas/MobileRobot/ws_new/install/joint_trajectory_controller:/home/thomas/MobileRobot/ws_new/install/joint_state_broadcaster:/home/thomas/MobileRobot/ws_new/install/imu_sensor_broadcaster:/home/thomas/MobileRobot/ws_new/install/gpio_controllers:/home/thomas/MobileRobot/ws_new/install/effort_controllers:/home/thomas/MobileRobot/ws_new/install/forward_command_controller:/home/thomas/MobileRobot/ws_new/install/force_torque_sensor_broadcaster:/home/thomas/MobileRobot/ws_new/install/diff_drive_controller:/home/thomas/MobileRobot/ws_new/install/controller_interface:/home/thomas/MobileRobot/ws_new/install/hardware_interface:/home/thomas/MobileRobot/ws_new/install/joint_limits:/home/thomas/MobileRobot/ws_new/install/control_toolbox:/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg:/home/thomas/MobileRobot/ws_new/install/kinematics_interface_kdl:/home/thomas/MobileRobot/ws_new/install/kinematics_interface:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs:/home/thomas/MobileRobot/ws_new/install/control_msgs:/home/thomas/MobileRobot/ws_new/install/backward:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/home/thomas/MobileRobot/ws_new/install/rqt_joint_trajectory_controller:/home/thomas/MobileRobot/ws_new/install/ros2controlcli:/home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy'}), 'shell': False}
+[29.851407] (-) TimerEvent: {}
+[29.870048] (my_kinematics_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.889708] (my_kinematics_pkg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[29.910033] (my_kinematics_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/lib/my_kinematics_pkg/kinematics_node\n'}
+[29.910490] (my_kinematics_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/ament_index/resource_index/package_run_dependencies/my_kinematics_pkg\n'}
+[29.910980] (my_kinematics_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/ament_index/resource_index/parent_prefix_path/my_kinematics_pkg\n'}
+[29.911499] (my_kinematics_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/environment/ament_prefix_path.sh\n'}
+[29.912074] (my_kinematics_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/environment/ament_prefix_path.dsv\n'}
+[29.913209] (my_kinematics_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/environment/path.sh\n'}
+[29.913490] (my_kinematics_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/environment/path.dsv\n'}
+[29.913736] (my_kinematics_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/local_setup.bash\n'}
+[29.914201] (my_kinematics_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/local_setup.sh\n'}
+[29.914640] (my_kinematics_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/local_setup.zsh\n'}
+[29.914834] (my_kinematics_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/local_setup.dsv\n'}
+[29.915080] (my_kinematics_pkg) StdoutLine: {'line': b'-- Symlinking: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/package.dsv\n'}
+[29.945587] (my_kinematics_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/ament_index/resource_index/packages/my_kinematics_pkg\n'}
+[29.946240] (my_kinematics_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/cmake/my_kinematics_pkgConfig.cmake\n'}
+[29.946542] (my_kinematics_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/cmake/my_kinematics_pkgConfig-version.cmake\n'}
+[29.946741] (my_kinematics_pkg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg/share/my_kinematics_pkg/package.xml\n'}
+[29.949787] (my_kinematics_pkg) CommandEnded: {'returncode': 0}
+[29.952277] (-) TimerEvent: {}
+[30.005755] (my_kinematics_pkg) JobEnded: {'identifier': 'my_kinematics_pkg', 'rc': 0}
+[30.008702] (-) EventReactorShutdown: {}

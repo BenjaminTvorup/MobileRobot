@@ -1,0 +1,8 @@
+[ 13%] Built target backward_object
+[ 13%] Built target test_main
+[ 26%] Built target backward
+[ 40%] Built target test_rectrace
+[ 53%] Built target test_test
+[ 73%] Built target test_stacktrace
+[ 80%] Built target test_select_signals
+[100%] Built target test_suicide

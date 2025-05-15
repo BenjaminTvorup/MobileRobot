@@ -1,0 +1,43 @@
+[0.061s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/ros2_control_test_assets -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets
+[1.831s] -- The CXX compiler identification is GNU 13.3.0
+[1.902s] -- Detecting CXX compiler ABI info
+[2.360s] -- Detecting CXX compiler ABI info - done
+[2.384s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.397s] -- Detecting CXX compile features
+[2.407s] -- Detecting CXX compile features - done
+[2.512s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.858s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.012s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.361s] -- Configuring done (3.3s)
+[3.396s] -- Generating done (0.0s)
+[3.399s] -- Build files have been written to: /home/thomas/MobileRobot/ws_new/build/ros2_control_test_assets
+[3.420s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/ros2_control_test_assets -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets
+[3.421s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/ros2_control_test_assets -- -j8 -l8
+[3.911s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/ros2_control_test_assets -- -j8 -l8
+[3.913s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/ros2_control_test_assets
+[3.929s] -- Install configuration: ""
+[3.930s] -- Execute custom install script
+[3.933s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/include/ros2_control_test_assets/ros2_control_test_assets/components_urdfs.hpp
+[3.948s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/include/ros2_control_test_assets/ros2_control_test_assets/descriptions.hpp
+[3.967s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/include/ros2_control_test_assets/ros2_control_test_assets/test_hardware_interface_constants.hpp
+[3.991s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/share/ros2_control_test_assets/urdf/test_hardware_components.urdf
+[4.009s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/library_path.sh
+[4.027s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/library_path.dsv
+[4.044s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/share/ament_index/resource_index/package_run_dependencies/ros2_control_test_assets
+[4.057s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/share/ament_index/resource_index/parent_prefix_path/ros2_control_test_assets
+[4.070s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.sh
+[4.088s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/ament_prefix_path.dsv
+[4.103s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.sh
+[4.122s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/share/ros2_control_test_assets/environment/path.dsv
+[4.137s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.bash
+[4.153s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.sh
+[4.175s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.zsh
+[4.192s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/share/ros2_control_test_assets/local_setup.dsv
+[4.207s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/share/ros2_control_test_assets/package.dsv
+[4.228s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/share/ament_index/resource_index/packages/ros2_control_test_assets
+[4.247s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ament_cmake_export_targets-extras.cmake
+[4.271s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig.cmake
+[4.290s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/ros2_control_test_assetsConfig-version.cmake
+[4.305s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/share/ros2_control_test_assets/package.xml
+[4.319s] -- Installing: /home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/export_ros2_control_test_assetsExport.cmake
+[4.385s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/ros2_control_test_assets' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/ros2_control_test_assets

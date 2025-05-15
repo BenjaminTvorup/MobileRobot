@@ -1,0 +1,359 @@
+[0.087s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/pid_controller': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/controller_manager:/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing:/home/thomas/MobileRobot/ws_new/install/controller_interface:/home/thomas/MobileRobot/ws_new/install/hardware_interface:/home/thomas/MobileRobot/ws_new/install/joint_limits:/home/thomas/MobileRobot/ws_new/install/control_toolbox:/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs:/home/thomas/MobileRobot/ws_new/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/controller_manager:/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing:/home/thomas/MobileRobot/ws_new/install/controller_interface:/home/thomas/MobileRobot/ws_new/install/hardware_interface:/home/thomas/MobileRobot/ws_new/install/joint_limits:/home/thomas/MobileRobot/ws_new/install/control_toolbox:/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs:/home/thomas/MobileRobot/ws_new/install/control_msgs:/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg:/home/thomas/MobileRobot/ws_new/install/mobile_robot:/home/thomas/MobileRobot/ws_new/install/backward:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/controller_manager/lib:/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing/lib:/home/thomas/MobileRobot/ws_new/install/controller_interface/lib:/home/thomas/MobileRobot/ws_new/install/hardware_interface/lib:/home/thomas/MobileRobot/ws_new/install/joint_limits/lib:/home/thomas/MobileRobot/ws_new/install/control_toolbox/lib:/home/thomas/MobileRobot/ws_new/install/realtime_tools/lib:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/lib:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib:/home/thomas/MobileRobot/ws_new/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/controller_manager/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller -DCMAKE_INSTALL_PREFIX=/home/thomas/MobileRobot/ws_new/install/pid_controller
+[0.253s] -- The C compiler identification is GNU 13.3.0
+[0.416s] -- The CXX compiler identification is GNU 13.3.0
+[0.469s] -- Detecting C compiler ABI info
+[0.840s] -- Detecting C compiler ABI info - done
+[0.906s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.906s] -- Detecting C compile features
+[0.906s] -- Detecting C compile features - done
+[0.940s] -- Detecting CXX compiler ABI info
+[1.391s] -- Detecting CXX compiler ABI info - done
+[1.451s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.456s] -- Detecting CXX compile features
+[1.457s] -- Detecting CXX compile features - done
+[1.463s] -- Found ros2_control_cmake: 0.1.1 (/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake/share/ros2_control_cmake/cmake)
+[1.464s] -- Compiler warnings enabled for GNU
+[1.464s] -- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+[1.490s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.162s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.610s] -- Found angles: 1.16.0 (/opt/ros/jazzy/share/angles/cmake)
+[2.616s] -- Found control_msgs: 5.4.0 (/home/thomas/MobileRobot/ws_new/install/control_msgs/share/control_msgs/cmake)
+[2.792s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.851s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.933s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.022s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.074s] -- Found control_toolbox: 4.3.0 (/home/thomas/MobileRobot/ws_new/install/control_toolbox/share/control_toolbox/cmake)
+[4.470s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[4.511s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[4.791s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[6.209s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[6.426s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[6.429s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[6.429s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.934s] -- Found controller_interface: 4.29.0 (/home/thomas/MobileRobot/ws_new/install/controller_interface/share/controller_interface/cmake)
+[7.184s] -- Found std_srvs: 5.3.5 (/opt/ros/jazzy/share/std_srvs/cmake)
+[7.306s] -- Found ament_cmake_gmock: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_gmock/cmake)
+[7.312s] -- Found controller_manager: 4.29.0 (/home/thomas/MobileRobot/ws_new/install/controller_manager/share/controller_manager/cmake)
+[7.656s] -- Found ros2_control_test_assets: 4.29.0 (/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake)
+[7.672s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[7.702s] -- Found ament_cmake_gtest: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[7.705s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[7.719s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[7.719s] -- Found ament_cmake_gtest: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[7.725s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[7.729s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[7.729s] -- Found ament_cmake_gtest: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[7.731s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[7.740s] -- Found gmock sources under '/opt/ros/jazzy/src/gmock_vendor': C++ tests using 'Google Mock' will be built
+[7.741s] -- Found ament_cmake_gtest: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_gtest/cmake)
+[7.744s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.340s] -- Configuring done (8.2s)
+[8.774s] -- Generating done (0.3s)
+[8.870s] -- Build files have been written to: /home/thomas/MobileRobot/ws_new/build/pid_controller
+[8.969s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/pid_controller' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/controller_manager:/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing:/home/thomas/MobileRobot/ws_new/install/controller_interface:/home/thomas/MobileRobot/ws_new/install/hardware_interface:/home/thomas/MobileRobot/ws_new/install/joint_limits:/home/thomas/MobileRobot/ws_new/install/control_toolbox:/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs:/home/thomas/MobileRobot/ws_new/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/controller_manager:/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing:/home/thomas/MobileRobot/ws_new/install/controller_interface:/home/thomas/MobileRobot/ws_new/install/hardware_interface:/home/thomas/MobileRobot/ws_new/install/joint_limits:/home/thomas/MobileRobot/ws_new/install/control_toolbox:/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs:/home/thomas/MobileRobot/ws_new/install/control_msgs:/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg:/home/thomas/MobileRobot/ws_new/install/mobile_robot:/home/thomas/MobileRobot/ws_new/install/backward:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/controller_manager/lib:/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing/lib:/home/thomas/MobileRobot/ws_new/install/controller_interface/lib:/home/thomas/MobileRobot/ws_new/install/hardware_interface/lib:/home/thomas/MobileRobot/ws_new/install/joint_limits/lib:/home/thomas/MobileRobot/ws_new/install/control_toolbox/lib:/home/thomas/MobileRobot/ws_new/install/realtime_tools/lib:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/lib:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib:/home/thomas/MobileRobot/ws_new/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/controller_manager/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller -DCMAKE_INSTALL_PREFIX=/home/thomas/MobileRobot/ws_new/install/pid_controller
+[8.994s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/pid_controller': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/controller_manager:/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing:/home/thomas/MobileRobot/ws_new/install/controller_interface:/home/thomas/MobileRobot/ws_new/install/hardware_interface:/home/thomas/MobileRobot/ws_new/install/joint_limits:/home/thomas/MobileRobot/ws_new/install/control_toolbox:/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs:/home/thomas/MobileRobot/ws_new/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/controller_manager:/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing:/home/thomas/MobileRobot/ws_new/install/controller_interface:/home/thomas/MobileRobot/ws_new/install/hardware_interface:/home/thomas/MobileRobot/ws_new/install/joint_limits:/home/thomas/MobileRobot/ws_new/install/control_toolbox:/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs:/home/thomas/MobileRobot/ws_new/install/control_msgs:/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg:/home/thomas/MobileRobot/ws_new/install/mobile_robot:/home/thomas/MobileRobot/ws_new/install/backward:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/controller_manager/lib:/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing/lib:/home/thomas/MobileRobot/ws_new/install/controller_interface/lib:/home/thomas/MobileRobot/ws_new/install/hardware_interface/lib:/home/thomas/MobileRobot/ws_new/install/joint_limits/lib:/home/thomas/MobileRobot/ws_new/install/control_toolbox/lib:/home/thomas/MobileRobot/ws_new/install/realtime_tools/lib:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/lib:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib:/home/thomas/MobileRobot/ws_new/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/controller_manager/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/pid_controller -- -j8 -l8
+[45.284s] [  5%] [34m[1mRunning `/opt/ros/jazzy/bin/generate_parameter_library_cpp /home/thomas/MobileRobot/ws_new/build/pid_controller/include/pid_controller/pid_controller_parameters.hpp /home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/src/pid_controller.yaml `[0m
+[45.300s] [ 11%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/opt/ros/jazzy/src/gtest_vendor/src/gtest-all.cc.o[0m
+[45.301s] [ 23%] [32mBuilding CXX object gmock/CMakeFiles/gmock.dir/src/gmock-all.cc.o[0m
+[45.302s] [ 17%] [32mBuilding CXX object gmock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o[0m
+[45.439s] [ 29%] [32m[1mLinking CXX static library libgmock_main.a[0m
+[45.529s] [ 35%] [34m[1mCreating deprecated header file /home/thomas/MobileRobot/ws_new/build/pid_controller/include/pid_controller_parameters.hpp[0m
+[45.582s] [ 41%] [32m[1mLinking CXX static library libgmock.a[0m
+[45.583s] [ 41%] Built target pid_controller_parameters
+[45.597s] [ 41%] Built target gmock_main
+[45.597s] [ 41%] Built target gmock
+[45.598s] [ 47%] [32mBuilding CXX object CMakeFiles/pid_controller.dir/src/pid_controller.cpp.o[0m
+[60.125s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/src/pid_controller.cpp:[m[K In member function ‘[01m[Kvirtual controller_interface::return_type pid_controller::PidController::[01;32m[Kupdate_and_write_commands[m[K(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[60.125s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/src/pid_controller.cpp:499:65:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedStateInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[60.126s]   499 |       measured_state_values_[i] = [01;35m[Kstate_interfaces_[i].get_value()[m[K;
+[60.128s]       |                                   [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[60.128s] In file included from [01m[K/home/thomas/MobileRobot/ws_new/install/controller_interface/include/controller_interface/controller_interface/controller_interface_base.hpp:28[m[K,
+[60.129s]                  from [01m[K/home/thomas/MobileRobot/ws_new/install/controller_interface/include/controller_interface/controller_interface/chainable_controller_interface.hpp:23[m[K,
+[60.129s]                  from [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/include/pid_controller/pid_controller.hpp:28[m[K,
+[60.129s]                  from [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/src/pid_controller.cpp:18[m[K:
+[60.129s] [01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_state_interface.hpp:94:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[60.130s]    94 |   double [01;36m[Kget_value[m[K() const
+[60.130s]       |          [01;36m[K^~~~~~~~~[m[K
+[60.133s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/src/pid_controller.cpp:604:85:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[60.133s]   604 |       state_publisher_->msg_.dof_states[i].output = [01;35m[Kcommand_interfaces_[i].get_value()[m[K;
+[60.133s]       |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[60.133s] In file included from [01m[K/home/thomas/MobileRobot/ws_new/install/controller_interface/include/controller_interface/controller_interface/controller_interface_base.hpp:27[m[K:
+[60.133s] [01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[60.134s]   134 |   double [01;36m[Kget_value[m[K() const
+[60.134s]       |          [01;36m[K^~~~~~~~~[m[K
+[73.149s] [ 52%] [32m[1mLinking CXX shared library libpid_controller.so[0m
+[74.684s] [ 52%] Built target pid_controller
+[74.745s] [ 58%] [32mBuilding CXX object CMakeFiles/test_load_pid_controller.dir/test/test_load_pid_controller.cpp.o[0m
+[83.530s] [ 64%] [32m[1mLinking CXX executable test_load_pid_controller[0m
+[84.650s] [ 64%] Built target test_load_pid_controller
+[84.685s] [ 70%] [32mBuilding CXX object CMakeFiles/test_pid_controller_dual_interface.dir/test/test_pid_controller_dual_interface.cpp.o[0m
+[88.591s] In file included from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:72[m[K,
+[88.592s]                  from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h:50[m[K,
+[88.592s]                  from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/gmock-actions.h:145[m[K,
+[88.592s]                  from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/gmock.h:56[m[K,
+[88.592s]                  from [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.hpp:21[m[K,
+[88.592s]                  from [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller_dual_interface.cpp:16[m[K:
+[88.592s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller_dual_interface.cpp:[m[K In member function ‘[01m[Kvirtual void PidControllerDualInterfaceTest_test_chained_feedforward_with_gain_dual_interface_Test::[01;32m[KTestBody[m[K()[m[K’:
+[88.592s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller_dual_interface.cpp:99:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[88.592s]    99 |   ASSERT_EQ([01;35m[Kcontroller_->command_interfaces_[0].get_value()[m[K, joint1_expected_cmd);
+[88.592s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[88.593s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[88.593s]    79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[88.593s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[88.593s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:148:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[88.593s]   148 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_FATAL_FAILURE_)
+[88.593s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[88.593s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1882:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRED_FORMAT2[m[K’
+[88.593s]  1882 |   [01;36m[KASSERT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[88.593s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[88.593s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1898:31:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_ASSERT_EQ[m[K’
+[88.593s]  1898 | #define ASSERT_EQ(val1, val2) [01;36m[KGTEST_ASSERT_EQ[m[K(val1, val2)
+[88.593s]       |                               [01;36m[K^~~~~~~~~~~~~~~[m[K
+[88.594s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller_dual_interface.cpp:99:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_EQ[m[K’
+[88.594s]    99 |   [01;36m[KASSERT_EQ[m[K(controller_->command_interfaces_[0].get_value(), joint1_expected_cmd);
+[88.594s]       |   [01;36m[K^~~~~~~~~[m[K
+[88.594s] In file included from [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.hpp:30[m[K:
+[88.594s] [01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[88.594s]   134 |   double [01;36m[Kget_value[m[K() const
+[88.594s]       |          [01;36m[K^~~~~~~~~[m[K
+[88.594s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller_dual_interface.cpp:100:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[88.594s]   100 |   ASSERT_EQ([01;35m[Kcontroller_->command_interfaces_[1].get_value()[m[K, joint2_expected_cmd);
+[88.594s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[88.594s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[88.595s]    79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[88.595s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[88.595s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:148:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[88.595s]   148 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_FATAL_FAILURE_)
+[88.595s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[88.595s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1882:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRED_FORMAT2[m[K’
+[88.595s]  1882 |   [01;36m[KASSERT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[88.595s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[88.595s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1898:31:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_ASSERT_EQ[m[K’
+[88.595s]  1898 | #define ASSERT_EQ(val1, val2) [01;36m[KGTEST_ASSERT_EQ[m[K(val1, val2)
+[88.596s]       |                               [01;36m[K^~~~~~~~~~~~~~~[m[K
+[88.596s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller_dual_interface.cpp:100:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_EQ[m[K’
+[88.596s]   100 |   [01;36m[KASSERT_EQ[m[K(controller_->command_interfaces_[1].get_value(), joint2_expected_cmd);
+[88.596s]       |   [01;36m[K^~~~~~~~~[m[K
+[88.596s] [01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[88.596s]   134 |   double [01;36m[Kget_value[m[K() const
+[88.596s]       |          [01;36m[K^~~~~~~~~[m[K
+[92.869s] [ 76%] [32m[1mLinking CXX executable test_pid_controller_dual_interface[0m
+[93.871s] [ 76%] Built target test_pid_controller_dual_interface
+[93.905s] [ 88%] [32mBuilding CXX object CMakeFiles/test_pid_controller_preceding.dir/test/test_pid_controller_preceding.cpp.o[0m
+[93.905s] [ 88%] [32mBuilding CXX object CMakeFiles/test_pid_controller.dir/test/test_pid_controller.cpp.o[0m
+[98.048s] In file included from [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:72[m[K,
+[98.048s]                  from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/internal/gmock-internal-utils.h:50[m[K,
+[98.048s]                  from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/gmock-actions.h:145[m[K,
+[98.048s]                  from [01m[K/opt/ros/jazzy/src/gmock_vendor/include/gmock/gmock.h:56[m[K,
+[98.048s]                  from [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.hpp:21[m[K,
+[98.048s]                  from [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.cpp:18[m[K:
+[98.048s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.cpp:[m[K In member function ‘[01m[Kvirtual void PidControllerTest_reactivate_success_Test::[01;32m[KTestBody[m[K()[m[K’:
+[98.048s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.cpp:184:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[98.048s]   184 |   ASSERT_EQ([01;35m[Kcontroller_->command_interfaces_[0].get_value()[m[K, 101.101);
+[98.048s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[98.049s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[98.049s]    79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[98.049s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[98.049s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:148:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[98.049s]   148 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_FATAL_FAILURE_)
+[98.049s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[98.049s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1882:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRED_FORMAT2[m[K’
+[98.049s]  1882 |   [01;36m[KASSERT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[98.049s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[98.050s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1898:31:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_ASSERT_EQ[m[K’
+[98.050s]  1898 | #define ASSERT_EQ(val1, val2) [01;36m[KGTEST_ASSERT_EQ[m[K(val1, val2)
+[98.050s]       |                               [01;36m[K^~~~~~~~~~~~~~~[m[K
+[98.050s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.cpp:184:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_EQ[m[K’
+[98.050s]   184 |   [01;36m[KASSERT_EQ[m[K(controller_->command_interfaces_[0].get_value(), 101.101);
+[98.050s]       |   [01;36m[K^~~~~~~~~[m[K
+[98.050s] In file included from [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.hpp:30[m[K:
+[98.050s] [01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[98.051s]   134 |   double [01;36m[Kget_value[m[K() const
+[98.051s]       |          [01;36m[K^~~~~~~~~[m[K
+[98.051s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.cpp:188:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[98.051s]   188 |   ASSERT_EQ([01;35m[Kcontroller_->command_interfaces_[0].get_value()[m[K, 101.101);
+[98.052s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[98.052s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[98.052s]    79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[98.052s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[98.052s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:148:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[98.053s]   148 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_FATAL_FAILURE_)
+[98.053s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[98.053s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1882:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRED_FORMAT2[m[K’
+[98.053s]  1882 |   [01;36m[KASSERT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[98.053s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[98.053s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1898:31:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_ASSERT_EQ[m[K’
+[98.054s]  1898 | #define ASSERT_EQ(val1, val2) [01;36m[KGTEST_ASSERT_EQ[m[K(val1, val2)
+[98.054s]       |                               [01;36m[K^~~~~~~~~~~~~~~[m[K
+[98.054s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.cpp:188:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_EQ[m[K’
+[98.054s]   188 |   [01;36m[KASSERT_EQ[m[K(controller_->command_interfaces_[0].get_value(), 101.101);
+[98.054s]       |   [01;36m[K^~~~~~~~~[m[K
+[98.054s] [01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[98.055s]   134 |   double [01;36m[Kget_value[m[K() const
+[98.055s]       |          [01;36m[K^~~~~~~~~[m[K
+[98.055s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.cpp:192:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[98.055s]   192 |   ASSERT_EQ([01;35m[Kcontroller_->command_interfaces_[0].get_value()[m[K, 101.101);
+[98.055s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[98.055s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[98.056s]    79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[98.056s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[98.056s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:148:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[98.056s]   148 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_FATAL_FAILURE_)
+[98.056s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[98.056s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1882:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRED_FORMAT2[m[K’
+[98.056s]  1882 |   [01;36m[KASSERT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[98.057s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[98.057s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1898:31:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_ASSERT_EQ[m[K’
+[98.057s]  1898 | #define ASSERT_EQ(val1, val2) [01;36m[KGTEST_ASSERT_EQ[m[K(val1, val2)
+[98.057s]       |                               [01;36m[K^~~~~~~~~~~~~~~[m[K
+[98.057s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.cpp:192:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_EQ[m[K’
+[98.057s]   192 |   [01;36m[KASSERT_EQ[m[K(controller_->command_interfaces_[0].get_value(), 101.101);
+[98.057s]       |   [01;36m[K^~~~~~~~~[m[K
+[98.057s] [01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[98.057s]   134 |   double [01;36m[Kget_value[m[K() const
+[98.057s]       |          [01;36m[K^~~~~~~~~[m[K
+[98.061s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.cpp:[m[K In member function ‘[01m[Kvirtual void PidControllerTest_test_update_logic_feedforward_off_Test::[01;32m[KTestBody[m[K()[m[K’:
+[98.061s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.cpp:275:81:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[98.061s]   275 |   double actual_value = std::round([01;35m[Kcontroller_->command_interfaces_[0].get_value()[m[K * 1e5) / 1e5;
+[98.062s]       |                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[98.062s] [01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[98.062s]   134 |   double [01;36m[Kget_value[m[K() const
+[98.062s]       |          [01;36m[K^~~~~~~~~[m[K
+[98.067s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.cpp:[m[K In member function ‘[01m[Kvirtual void PidControllerTest_test_update_logic_feedforward_on_with_zero_feedforward_gain_Test::[01;32m[KTestBody[m[K()[m[K’:
+[98.067s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.cpp:334:83:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[98.068s]   334 |     double actual_value = std::round([01;35m[Kcontroller_->command_interfaces_[0].get_value()[m[K * 1e5) / 1e5;
+[98.068s]       |                                      [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[98.068s] [01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[98.068s]   134 |   double [01;36m[Kget_value[m[K() const
+[98.068s]       |          [01;36m[K^~~~~~~~~[m[K
+[98.072s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.cpp:[m[K In member function ‘[01m[Kvirtual void PidControllerTest_test_update_logic_chainable_not_use_subscriber_update_Test::[01;32m[KTestBody[m[K()[m[K’:
+[98.072s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.cpp:391:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[98.072s]   391 |   EXPECT_EQ([01;35m[Kcontroller_->command_interfaces_[0].get_value()[m[K, expected_command_value);
+[98.072s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[98.073s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[98.073s]    79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[98.073s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[98.073s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:144:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[98.073s]   144 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_NONFATAL_FAILURE_)
+[98.073s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[98.073s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1869:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT2[m[K’
+[98.073s]  1869 |   [01;36m[KEXPECT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[98.074s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[98.074s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.cpp:391:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_EQ[m[K’
+[98.074s]   391 |   [01;36m[KEXPECT_EQ[m[K(controller_->command_interfaces_[0].get_value(), expected_command_value);
+[98.074s]       |   [01;36m[K^~~~~~~~~[m[K
+[98.074s] [01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[98.074s]   134 |   double [01;36m[Kget_value[m[K() const
+[98.074s]       |          [01;36m[K^~~~~~~~~[m[K
+[98.075s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.cpp:[m[K In member function ‘[01m[Kvirtual void PidControllerTest_test_update_logic_angle_wraparound_off_Test::[01;32m[KTestBody[m[K()[m[K’:
+[98.075s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.cpp:418:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[98.075s]   418 |   EXPECT_NEAR([01;35m[Kcontroller_->command_interfaces_[0].get_value()[m[K, expected_command_value, 1e-5);
+[98.075s]       |               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[98.075s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[98.075s]    79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[98.076s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[98.076s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:183:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT3_[m[K’
+[98.076s]   183 |   [01;36m[KGTEST_PRED_FORMAT3_[m[K(pred_format, v1, v2, v3, GTEST_NONFATAL_FAILURE_)
+[98.076s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[98.076s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1986:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT3[m[K’
+[98.076s]  1986 |   [01;36m[KEXPECT_PRED_FORMAT3[m[K(::testing::internal::DoubleNearPredFormat, val1, val2, \
+[98.076s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[98.077s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.cpp:418:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_NEAR[m[K’
+[98.077s]   418 |   [01;36m[KEXPECT_NEAR[m[K(controller_->command_interfaces_[0].get_value(), expected_command_value, 1e-5);
+[98.077s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[98.077s] [01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[98.077s]   134 |   double [01;36m[Kget_value[m[K() const
+[98.077s]       |          [01;36m[K^~~~~~~~~[m[K
+[98.078s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.cpp:[m[K In member function ‘[01m[Kvirtual void PidControllerTest_test_update_logic_angle_wraparound_on_Test::[01;32m[KTestBody[m[K()[m[K’:
+[98.078s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.cpp:449:60:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[98.078s]   449 |   EXPECT_NEAR([01;35m[Kcontroller_->command_interfaces_[0].get_value()[m[K, expected_command_value, 1e-5);
+[98.078s]       |               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[98.078s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[98.078s]    79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[98.078s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[98.079s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:183:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT3_[m[K’
+[98.079s]   183 |   [01;36m[KGTEST_PRED_FORMAT3_[m[K(pred_format, v1, v2, v3, GTEST_NONFATAL_FAILURE_)
+[98.079s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[98.079s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1986:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_PRED_FORMAT3[m[K’
+[98.079s]  1986 |   [01;36m[KEXPECT_PRED_FORMAT3[m[K(::testing::internal::DoubleNearPredFormat, val1, val2, \
+[98.079s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[98.079s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.cpp:449:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEXPECT_NEAR[m[K’
+[98.079s]   449 |   [01;36m[KEXPECT_NEAR[m[K(controller_->command_interfaces_[0].get_value(), expected_command_value, 1e-5);
+[98.080s]       |   [01;36m[K^~~~~~~~~~~[m[K
+[98.080s] [01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[98.080s]   134 |   double [01;36m[Kget_value[m[K() const
+[98.080s]       |          [01;36m[K^~~~~~~~~[m[K
+[98.090s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.cpp:[m[K In member function ‘[01m[Kvirtual void PidControllerTest_test_update_chained_feedforward_with_gain_Test::[01;32m[KTestBody[m[K()[m[K’:
+[98.090s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.cpp:586:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[98.091s]   586 |   ASSERT_EQ([01;35m[Kcontroller_->command_interfaces_[0].get_value()[m[K, expected_command_value);
+[98.091s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[98.091s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[98.091s]    79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[98.091s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[98.091s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:148:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[98.091s]   148 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_FATAL_FAILURE_)
+[98.091s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[98.092s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1882:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRED_FORMAT2[m[K’
+[98.092s]  1882 |   [01;36m[KASSERT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[98.092s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[98.092s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1898:31:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_ASSERT_EQ[m[K’
+[98.092s]  1898 | #define ASSERT_EQ(val1, val2) [01;36m[KGTEST_ASSERT_EQ[m[K(val1, val2)
+[98.092s]       |                               [01;36m[K^~~~~~~~~~~~~~~[m[K
+[98.092s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.cpp:586:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_EQ[m[K’
+[98.093s]   586 |   [01;36m[KASSERT_EQ[m[K(controller_->command_interfaces_[0].get_value(), expected_command_value);
+[98.093s]       |   [01;36m[K^~~~~~~~~[m[K
+[98.093s] [01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[98.093s]   134 |   double [01;36m[Kget_value[m[K() const
+[98.093s]       |          [01;36m[K^~~~~~~~~[m[K
+[98.095s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.cpp:[m[K In member function ‘[01m[Kvirtual void PidControllerTest_test_update_chained_feedforward_off_with_gain_Test::[01;32m[KTestBody[m[K()[m[K’:
+[98.095s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.cpp:644:58:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[98.095s]   644 |   ASSERT_EQ([01;35m[Kcontroller_->command_interfaces_[0].get_value()[m[K, expected_command_value);
+[98.095s]       |             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[98.096s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:79:52:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGTEST_ASSERT_[m[K’
+[98.096s]    79 |   if (const ::testing::AssertionResult gtest_ar = ([01;36m[Kexpression[m[K)) \
+[98.096s]       |                                                    [01;36m[K^~~~~~~~~~[m[K
+[98.096s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest_pred_impl.h:148:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_PRED_FORMAT2_[m[K’
+[98.096s]   148 |   [01;36m[KGTEST_PRED_FORMAT2_[m[K(pred_format, v1, v2, GTEST_FATAL_FAILURE_)
+[98.096s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[98.096s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1882:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_PRED_FORMAT2[m[K’
+[98.096s]  1882 |   [01;36m[KASSERT_PRED_FORMAT2[m[K(::testing::internal::EqHelper::Compare, val1, val2)
+[98.097s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[98.097s] [01m[K/opt/ros/jazzy/src/gtest_vendor/include/gtest/gtest.h:1898:31:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KGTEST_ASSERT_EQ[m[K’
+[98.097s]  1898 | #define ASSERT_EQ(val1, val2) [01;36m[KGTEST_ASSERT_EQ[m[K(val1, val2)
+[98.097s]       |                               [01;36m[K^~~~~~~~~~~~~~~[m[K
+[98.097s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.cpp:644:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KASSERT_EQ[m[K’
+[98.097s]   644 |   [01;36m[KASSERT_EQ[m[K(controller_->command_interfaces_[0].get_value(), expected_command_value);
+[98.097s]       |   [01;36m[K^~~~~~~~~[m[K
+[98.098s] [01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[98.098s]   134 |   double [01;36m[Kget_value[m[K() const
+[98.098s]       |          [01;36m[K^~~~~~~~~[m[K
+[98.098s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.cpp:[m[K In member function ‘[01m[Kvirtual void PidControllerTest_test_save_i_term_off_Test::[01;32m[KTestBody[m[K()[m[K’:
+[98.098s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.cpp:680:81:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[98.099s]   680 |   double actual_value = std::round([01;35m[Kcontroller_->command_interfaces_[0].get_value()[m[K * 1e5) / 1e5;
+[98.099s]       |                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[98.099s] [01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[98.099s]   134 |   double [01;36m[Kget_value[m[K() const
+[98.099s]       |          [01;36m[K^~~~~~~~~[m[K
+[98.099s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.cpp:693:74:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[98.100s]   693 |   actual_value = std::round([01;35m[Kcontroller_->command_interfaces_[0].get_value()[m[K * 1e5) / 1e5;
+[98.100s]       |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[98.100s] [01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[98.100s]   134 |   double [01;36m[Kget_value[m[K() const
+[98.100s]       |          [01;36m[K^~~~~~~~~[m[K
+[98.103s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.cpp:[m[K In member function ‘[01m[Kvirtual void PidControllerTest_test_save_i_term_on_Test::[01;32m[KTestBody[m[K()[m[K’:
+[98.103s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.cpp:730:81:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[98.103s]   730 |   double actual_value = std::round([01;35m[Kcontroller_->command_interfaces_[0].get_value()[m[K * 1e5) / 1e5;
+[98.103s]       |                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[98.104s] [01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[98.104s]   134 |   double [01;36m[Kget_value[m[K() const
+[98.104s]       |          [01;36m[K^~~~~~~~~[m[K
+[98.104s] [01m[K/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/pid_controller/test/test_pid_controller.cpp:743:74:[m[K [01;35m[Kwarning: [m[K‘[01m[Kdouble hardware_interface::LoanedCommandInterface::[01;32m[Kget_value[m[K() const[m[K’ is deprecated: Use std::optional<T> get_optional() instead to retrieve the value. This method will be removed by the ROS 2 Kilted Kaiju release. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[98.104s]   743 |   actual_value = std::round([01;35m[Kcontroller_->command_interfaces_[0].get_value()[m[K * 1e5) / 1e5;
+[98.104s]       |                             [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[98.105s] [01m[K/home/thomas/MobileRobot/ws_new/install/hardware_interface/include/hardware_interface/hardware_interface/loaned_command_interface.hpp:134:10:[m[K [01;36m[Knote: [m[Kdeclared here
+[98.105s]   134 |   double [01;36m[Kget_value[m[K() const
+[98.105s]       |          [01;36m[K^~~~~~~~~[m[K
+[102.590s] [ 94%] [32m[1mLinking CXX executable test_pid_controller_preceding[0m
+[103.751s] [ 94%] Built target test_pid_controller_preceding
+[108.922s] [100%] [32m[1mLinking CXX executable test_pid_controller[0m
+[110.158s] [100%] Built target test_pid_controller

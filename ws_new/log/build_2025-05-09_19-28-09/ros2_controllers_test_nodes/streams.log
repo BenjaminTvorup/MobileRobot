@@ -1,0 +1,42 @@
+[5.459s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/ros2_controllers_test_nodes': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/thomas/MobileRobot/ws_new/build/ros2_controllers_test_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/thomas/MobileRobot/ws_new/build/ros2_controllers_test_nodes/build
+[6.286s] running develop
+[7.072s] Removing /home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes/lib/python3.12/site-packages/ros2-controllers-test-nodes.egg-link (link to .)
+[7.156s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/ros2_controllers_test_nodes' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/thomas/MobileRobot/ws_new/build/ros2_controllers_test_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/thomas/MobileRobot/ws_new/build/ros2_controllers_test_nodes/build
+[7.159s] Invoking command in '/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/ros2_controllers_test_nodes': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/thomas/MobileRobot/ws_new/build/ros2_controllers_test_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/ros2_controllers_test_nodes build --build-base /home/thomas/MobileRobot/ws_new/build/ros2_controllers_test_nodes/build install --record /home/thomas/MobileRobot/ws_new/build/ros2_controllers_test_nodes/install.log --single-version-externally-managed install_data --force
+[7.925s] running egg_info
+[7.993s] writing ../../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/PKG-INFO
+[7.994s] writing dependency_links to ../../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/dependency_links.txt
+[7.994s] writing entry points to ../../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/entry_points.txt
+[7.994s] writing requirements to ../../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/requires.txt
+[7.994s] writing top-level names to ../../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/top_level.txt
+[8.160s] reading manifest file '../../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[8.177s] writing manifest file '../../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[8.177s] running build
+[8.178s] running build_py
+[8.178s] creating /home/thomas/MobileRobot/ws_new/build/ros2_controllers_test_nodes/build
+[8.178s] creating /home/thomas/MobileRobot/ws_new/build/ros2_controllers_test_nodes/build/lib
+[8.178s] creating /home/thomas/MobileRobot/ws_new/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[8.179s] copying ros2_controllers_test_nodes/__init__.py -> /home/thomas/MobileRobot/ws_new/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[8.209s] copying ros2_controllers_test_nodes/publisher_forward_position_controller.py -> /home/thomas/MobileRobot/ws_new/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[8.210s] copying ros2_controllers_test_nodes/publisher_joint_trajectory_controller.py -> /home/thomas/MobileRobot/ws_new/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes
+[8.211s] running install
+[8.225s] running install_lib
+[8.282s] creating /home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes/lib/python3.12/site-packages/ros2_controllers_test_nodes
+[8.282s] copying /home/thomas/MobileRobot/ws_new/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes/__init__.py -> /home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes/lib/python3.12/site-packages/ros2_controllers_test_nodes
+[8.282s] copying /home/thomas/MobileRobot/ws_new/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes/publisher_forward_position_controller.py -> /home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes/lib/python3.12/site-packages/ros2_controllers_test_nodes
+[8.282s] copying /home/thomas/MobileRobot/ws_new/build/ros2_controllers_test_nodes/build/lib/ros2_controllers_test_nodes/publisher_joint_trajectory_controller.py -> /home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes/lib/python3.12/site-packages/ros2_controllers_test_nodes
+[8.283s] byte-compiling /home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes/lib/python3.12/site-packages/ros2_controllers_test_nodes/__init__.py to __init__.cpython-312.pyc
+[8.283s] byte-compiling /home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes/lib/python3.12/site-packages/ros2_controllers_test_nodes/publisher_forward_position_controller.py to publisher_forward_position_controller.cpython-312.pyc
+[8.285s] byte-compiling /home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes/lib/python3.12/site-packages/ros2_controllers_test_nodes/publisher_joint_trajectory_controller.py to publisher_joint_trajectory_controller.cpython-312.pyc
+[8.287s] running install_data
+[8.288s] copying resource/ros2_controllers_test_nodes -> /home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes/share/ament_index/resource_index/packages
+[8.322s] copying package.xml -> /home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes
+[8.323s] copying test/rrbot_forward_position_publisher.yaml -> /home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/test
+[8.324s] copying test/rrbot_joint_trajectory_publisher.yaml -> /home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/test
+[8.325s] running install_egg_info
+[8.368s] Copying ../../../../build/ros2_controllers_test_nodes/ros2_controllers_test_nodes.egg-info to /home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes/lib/python3.12/site-packages/ros2_controllers_test_nodes-4.24.0-py3.12.egg-info
+[8.426s] running install_scripts
+[8.764s] Installing publisher_forward_position_controller script to /home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[8.764s] Installing publisher_joint_trajectory_controller script to /home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[8.765s] writing list of installed files to '/home/thomas/MobileRobot/ws_new/build/ros2_controllers_test_nodes/install.log'
+[8.816s] Invoked command in '/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/ros2_controllers_test_nodes' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/thomas/MobileRobot/ws_new/build/ros2_controllers_test_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/ros2_controllers_test_nodes build --build-base /home/thomas/MobileRobot/ws_new/build/ros2_controllers_test_nodes/build install --record /home/thomas/MobileRobot/ws_new/build/ros2_controllers_test_nodes/install.log --single-version-externally-managed install_data --force

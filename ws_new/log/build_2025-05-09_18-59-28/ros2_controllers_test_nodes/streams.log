@@ -1,0 +1,28 @@
+[1.606s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/ros2_controllers_test_nodes': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/thomas/MobileRobot/ws_new/build/ros2_controllers_test_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/thomas/MobileRobot/ws_new/build/ros2_controllers_test_nodes/build --no-deps symlink_data
+[3.387s] running develop
+[3.387s] running egg_info
+[3.387s] creating ros2_controllers_test_nodes.egg-info
+[3.388s] writing ros2_controllers_test_nodes.egg-info/PKG-INFO
+[3.389s] writing dependency_links to ros2_controllers_test_nodes.egg-info/dependency_links.txt
+[3.389s] writing entry points to ros2_controllers_test_nodes.egg-info/entry_points.txt
+[3.389s] writing requirements to ros2_controllers_test_nodes.egg-info/requires.txt
+[3.391s] writing top-level names to ros2_controllers_test_nodes.egg-info/top_level.txt
+[3.391s] writing manifest file 'ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[3.393s] reading manifest file 'ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[3.393s] writing manifest file 'ros2_controllers_test_nodes.egg-info/SOURCES.txt'
+[3.393s] running build_ext
+[3.394s] Creating /home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes/lib/python3.12/site-packages/ros2-controllers-test-nodes.egg-link (link to .)
+[3.394s] Installing publisher_forward_position_controller script to /home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[3.394s] Installing publisher_joint_trajectory_controller script to /home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes/lib/ros2_controllers_test_nodes
+[3.396s] 
+[3.396s] Installed /home/thomas/MobileRobot/ws_new/build/ros2_controllers_test_nodes
+[3.396s] running symlink_data
+[3.396s] creating /home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes/share/ament_index
+[3.396s] creating /home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes/share/ament_index/resource_index
+[3.396s] creating /home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes/share/ament_index/resource_index/packages
+[3.397s] symbolically linking /home/thomas/MobileRobot/ws_new/build/ros2_controllers_test_nodes/resource/ros2_controllers_test_nodes -> /home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes/share/ament_index/resource_index/packages
+[3.397s] symbolically linking /home/thomas/MobileRobot/ws_new/build/ros2_controllers_test_nodes/package.xml -> /home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes
+[3.397s] creating /home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/test
+[3.397s] symbolically linking /home/thomas/MobileRobot/ws_new/build/ros2_controllers_test_nodes/test/rrbot_forward_position_publisher.yaml -> /home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/test
+[3.397s] symbolically linking /home/thomas/MobileRobot/ws_new/build/ros2_controllers_test_nodes/test/rrbot_joint_trajectory_publisher.yaml -> /home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes/share/ros2_controllers_test_nodes/test
+[3.417s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/ros2_controllers_test_nodes' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/thomas/MobileRobot/ws_new/build/ros2_controllers_test_nodes/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/thomas/MobileRobot/ws_new/build/ros2_controllers_test_nodes/build --no-deps symlink_data

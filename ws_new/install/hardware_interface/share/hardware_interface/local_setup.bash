@@ -1,0 +1,1 @@
+/home/thomas/MobileRobot/ws_new/build/hardware_interface/ament_cmake_environment_hooks/local_setup.bash

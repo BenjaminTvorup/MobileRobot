@@ -1,0 +1,1 @@
+/home/thomas/MobileRobot/ws_new/build/control_msgs/rosidl_generator_cpp/control_msgs/msg/detail/admittance_controller_state__struct.hpp

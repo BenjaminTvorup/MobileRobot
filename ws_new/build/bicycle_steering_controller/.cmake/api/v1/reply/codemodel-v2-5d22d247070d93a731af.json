@@ -1,0 +1,211 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-ee7ab75b33ae673191ed.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						7,
+						8,
+						9,
+						10
+					]
+				},
+				{
+					"build" : "gmock",
+					"jsonFile" : "directory-gmock-4c8667082ed8f149e75b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/jazzy/src/gmock_vendor",
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-0908a8c91ddba5d6c989.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "/opt/ros/jazzy/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "bicycle_steering_controller",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						7,
+						8,
+						9,
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "gmock",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						3,
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "bicycle_steering_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bicycle_steering_controller-cd9042cbccb09103e701.json",
+					"name" : "bicycle_steering_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bicycle_steering_controller_parameters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bicycle_steering_controller_parameters-f78ba16514b45430fd17.json",
+					"name" : "bicycle_steering_controller_parameters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bicycle_steering_controller_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bicycle_steering_controller_uninstall-8f4286892755b0204938.json",
+					"name" : "bicycle_steering_controller_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gmock::@0590522bda6a4df7f28a",
+					"jsonFile" : "target-gmock-626d00acaaba6ffc71dd.json",
+					"name" : "gmock",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gmock_main::@0590522bda6a4df7f28a",
+					"jsonFile" : "target-gmock_main-f5390031667ae44a720b.json",
+					"name" : "gmock_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-13a167c8950da1a583a4.json",
+					"name" : "gtest",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-d96fec34d35bb89f1e15.json",
+					"name" : "gtest_main",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_bicycle_steering_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_bicycle_steering_controller-883500d5b0cde5d56927.json",
+					"name" : "test_bicycle_steering_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_bicycle_steering_controller_preceding::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_bicycle_steering_controller_preceding-96ee52066678db1e09ea.json",
+					"name" : "test_bicycle_steering_controller_preceding",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_load_bicycle_steering_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_load_bicycle_steering_controller-4305f8ec3312fb4eed99.json",
+					"name" : "test_load_bicycle_steering_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-1610534cf91a255efa38.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/thomas/MobileRobot/ws_new/build/bicycle_steering_controller",
+		"source" : "/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/bicycle_steering_controller"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

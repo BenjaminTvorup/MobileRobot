@@ -11,6 +11,7 @@ def calculate_new_position(x, y, distance=0.1):
 class GpsSaveXySubscriber(Node):
     def __init__(self):
         super().__init__('gps_save_xy_subscriber')
+        self.set_parameters([rclpy.Parameter('use_sim_time', rclpy.Parameter.Type.BOOL, True)])
         self.subscription = self.create_subscription(
             Odometry,
             '/odometry/gps',
@@ -30,12 +31,12 @@ class GpsSaveXySubscriber(Node):
         y = msg.pose.pose.position.y
         self.get_logger().info(f"Current position: x = {x}, y = {y}")
 
-        x_new, y_new = calculate_new_position(x, y, distance=2.0)
+        x_new, y_new = calculate_new_position(x, y, distance=0.1)
         self.get_logger().info(f"Target position: x = {x_new}, y = {y_new}")
 
         # Create goal
         self.goal_pose = PoseStamped()
-        self.goal_pose.header.frame_id = 'odom'  # Assumes /odometry/gps is in 'odom'
+        self.goal_pose.header.frame_id = 'map'  # odom /odometry/gps  / using slam use mapss
         self.goal_pose.header.stamp = self.get_clock().now().to_msg()
         self.goal_pose.pose.position.x = x_new
         self.goal_pose.pose.position.y = y_new

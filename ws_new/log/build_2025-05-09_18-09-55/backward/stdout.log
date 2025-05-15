@@ -1,0 +1,42 @@
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+-- Found libbfd: /usr/lib/x86_64-linux-gnu/libbfd.so  
+-- Could NOT find libdwarf (missing: LIBDWARF_LIBRARY LIBDWARF_INCLUDE_DIR) 
+-- Found Backward: $<BUILD_INTERFACE:/home/thomas/MobileRobot/ws_new/backward-cpp>;$<INSTALL_INTERFACE:include>  
+-- Configuring done (0.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/thomas/MobileRobot/ws_new/build/backward
+[  6%] [32mBuilding CXX object CMakeFiles/test_main.dir/test/_test_main.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/backward.dir/backward.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/backward_object.dir/backward.cpp.o[0m
+[ 20%] Built target test_main
+[ 26%] [32mBuilding CXX object CMakeFiles/test_stacktrace.dir/test/stacktrace.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/test_rectrace.dir/test/rectrace.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/test_test.dir/test/test.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/test_select_signals.dir/test/select_signals.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/test_suicide.dir/test/suicide.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/test_suicide.dir/backward.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable test_test[0m
+[ 66%] Built target test_test
+[ 73%] [32m[1mLinking CXX static library libbackward.a[0m
+[ 73%] Built target backward
+[ 80%] [32m[1mLinking CXX executable test_stacktrace[0m
+[ 80%] Built target backward_object
+[ 80%] Built target test_stacktrace
+[ 86%] [32m[1mLinking CXX executable test_suicide[0m
+[ 93%] [32m[1mLinking CXX executable test_select_signals[0m
+[ 93%] Built target test_suicide
+[ 93%] Built target test_select_signals
+[100%] [32m[1mLinking CXX executable test_rectrace[0m
+[100%] Built target test_rectrace
+-- Install configuration: ""
+-- Installing: /home/thomas/MobileRobot/ws_new/install/backward/include/backward.hpp
+-- Installing: /home/thomas/MobileRobot/ws_new/install/backward/lib/cmake/backward/BackwardConfig.cmake
+-- Installing: /home/thomas/MobileRobot/ws_new/install/backward/lib/libbackward.a
+-- Installing: /home/thomas/MobileRobot/ws_new/install/backward/lib/cmake/backward/BackwardTargets.cmake
+-- Installing: /home/thomas/MobileRobot/ws_new/install/backward/lib/cmake/backward/BackwardTargets-noconfig.cmake

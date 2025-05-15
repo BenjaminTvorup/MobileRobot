@@ -1,0 +1,11 @@
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ros2_control_cmake: 0.1.1 (/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake/share/ros2_control_cmake/cmake)
+-- Compiler warnings enabled for GNU
+-- Detected GCC Version: 13.3.0 (Major: 13, Minor: 3)
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 

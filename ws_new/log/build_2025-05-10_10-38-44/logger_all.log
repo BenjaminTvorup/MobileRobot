@@ -1,0 +1,585 @@
+[0.241s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.241s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7ab7c0c200e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ab7c0c1fdd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ab7c0c1fdd0>>)
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.293s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.294s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.294s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/thomas/MobileRobot/ws_new'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.294s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(backward-cpp) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(backward-cpp) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(backward-cpp) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(backward-cpp) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(backward-cpp) by extension 'colcon_pkg'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(backward-cpp) by extensions ['colcon_meta']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(backward-cpp) by extension 'colcon_meta'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(backward-cpp) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(backward-cpp) by extension 'ros'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(backward-cpp) by extensions ['cmake', 'python']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(backward-cpp) by extension 'cmake'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(backward-cpp) by extension 'python'
+[0.333s] DEBUG:colcon.colcon_core.package_identification:Package 'backward-cpp' with type 'cmake' and name 'backward'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control) by extension 'ignore'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control) by extension 'ignore_ament_install'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control) by extensions ['colcon_pkg']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control) by extension 'colcon_pkg'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control) by extensions ['colcon_meta']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control) by extension 'colcon_meta'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control) by extension 'ros'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control) by extensions ['cmake', 'python']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control) by extension 'cmake'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control) by extension 'python'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control) by extensions ['python_setup_py']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control) by extension 'python_setup_py'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/controller_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/controller_interface) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/controller_interface) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/controller_interface) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/controller_interface) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/controller_interface) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/controller_interface) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/controller_interface) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/controller_interface) by extension 'ros'
+[0.340s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_control/controller_interface' with type 'ros.ament_cmake' and name 'controller_interface'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/controller_manager) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/controller_manager) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/controller_manager) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/controller_manager) by extensions ['colcon_pkg']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/controller_manager) by extension 'colcon_pkg'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/controller_manager) by extensions ['colcon_meta']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/controller_manager) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/controller_manager) by extensions ['ros']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/controller_manager) by extension 'ros'
+[0.343s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_control/controller_manager' with type 'ros.ament_cmake' and name 'controller_manager'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/controller_manager_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/controller_manager_msgs) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/controller_manager_msgs) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/controller_manager_msgs) by extensions ['colcon_pkg']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/controller_manager_msgs) by extension 'colcon_pkg'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/controller_manager_msgs) by extensions ['colcon_meta']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/controller_manager_msgs) by extension 'colcon_meta'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/controller_manager_msgs) by extensions ['ros']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/controller_manager_msgs) by extension 'ros'
+[0.344s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_control/controller_manager_msgs' with type 'ros.ament_cmake' and name 'controller_manager_msgs'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/doc) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/doc) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/doc) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/doc) by extensions ['colcon_pkg']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/doc) by extension 'colcon_pkg'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/doc) by extensions ['colcon_meta']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/doc) by extension 'colcon_meta'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/doc) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/doc) by extension 'ros'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/doc) by extensions ['cmake', 'python']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/doc) by extension 'cmake'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/doc) by extension 'python'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/doc) by extensions ['python_setup_py']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/doc) by extension 'python_setup_py'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/doc/images) by extensions ['ignore', 'ignore_ament_install']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/doc/images) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/doc/images) by extension 'ignore_ament_install'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/doc/images) by extensions ['colcon_pkg']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/doc/images) by extension 'colcon_pkg'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/doc/images) by extensions ['colcon_meta']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/doc/images) by extension 'colcon_meta'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/doc/images) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/doc/images) by extension 'ros'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/doc/images) by extensions ['cmake', 'python']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/doc/images) by extension 'cmake'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/doc/images) by extension 'python'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/doc/images) by extensions ['python_setup_py']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/doc/images) by extension 'python_setup_py'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/hardware_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/hardware_interface) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/hardware_interface) by extension 'ignore_ament_install'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/hardware_interface) by extensions ['colcon_pkg']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/hardware_interface) by extension 'colcon_pkg'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/hardware_interface) by extensions ['colcon_meta']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/hardware_interface) by extension 'colcon_meta'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/hardware_interface) by extensions ['ros']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/hardware_interface) by extension 'ros'
+[0.348s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_control/hardware_interface' with type 'ros.ament_cmake' and name 'hardware_interface'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/hardware_interface_testing) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/hardware_interface_testing) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/hardware_interface_testing) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/hardware_interface_testing) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/hardware_interface_testing) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/hardware_interface_testing) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/hardware_interface_testing) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/hardware_interface_testing) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/hardware_interface_testing) by extension 'ros'
+[0.350s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_control/hardware_interface_testing' with type 'ros.ament_cmake' and name 'hardware_interface_testing'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/joint_limits) by extensions ['ignore', 'ignore_ament_install']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/joint_limits) by extension 'ignore'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/joint_limits) by extension 'ignore_ament_install'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/joint_limits) by extensions ['colcon_pkg']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/joint_limits) by extension 'colcon_pkg'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/joint_limits) by extensions ['colcon_meta']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/joint_limits) by extension 'colcon_meta'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/joint_limits) by extensions ['ros']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/joint_limits) by extension 'ros'
+[0.352s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_control/joint_limits' with type 'ros.ament_cmake' and name 'joint_limits'
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/ros2_control) by extensions ['ignore', 'ignore_ament_install']
+[0.352s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/ros2_control) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/ros2_control) by extension 'ignore_ament_install'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/ros2_control) by extensions ['colcon_pkg']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/ros2_control) by extension 'colcon_pkg'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/ros2_control) by extensions ['colcon_meta']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/ros2_control) by extension 'colcon_meta'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/ros2_control) by extensions ['ros']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/ros2_control) by extension 'ros'
+[0.354s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_control/ros2_control' with type 'ros.ament_cmake' and name 'ros2_control'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/ros2_control_test_assets) by extensions ['ignore', 'ignore_ament_install']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/ros2_control_test_assets) by extension 'ignore'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/ros2_control_test_assets) by extension 'ignore_ament_install'
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/ros2_control_test_assets) by extensions ['colcon_pkg']
+[0.354s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/ros2_control_test_assets) by extension 'colcon_pkg'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/ros2_control_test_assets) by extensions ['colcon_meta']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/ros2_control_test_assets) by extension 'colcon_meta'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/ros2_control_test_assets) by extensions ['ros']
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/ros2_control_test_assets) by extension 'ros'
+[0.355s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_control/ros2_control_test_assets' with type 'ros.ament_cmake' and name 'ros2_control_test_assets'
+[0.355s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/ros2controlcli) by extensions ['ignore', 'ignore_ament_install']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/ros2controlcli) by extension 'ignore'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/ros2controlcli) by extension 'ignore_ament_install'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/ros2controlcli) by extensions ['colcon_pkg']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/ros2controlcli) by extension 'colcon_pkg'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/ros2controlcli) by extensions ['colcon_meta']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/ros2controlcli) by extension 'colcon_meta'
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/ros2controlcli) by extensions ['ros']
+[0.356s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/ros2controlcli) by extension 'ros'
+[0.357s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_control/ros2controlcli' with type 'ros.ament_python' and name 'ros2controlcli'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/rqt_controller_manager) by extensions ['ignore', 'ignore_ament_install']
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/rqt_controller_manager) by extension 'ignore'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/rqt_controller_manager) by extension 'ignore_ament_install'
+[0.357s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/rqt_controller_manager) by extensions ['colcon_pkg']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/rqt_controller_manager) by extension 'colcon_pkg'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/rqt_controller_manager) by extensions ['colcon_meta']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/rqt_controller_manager) by extension 'colcon_meta'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/rqt_controller_manager) by extensions ['ros']
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/rqt_controller_manager) by extension 'ros'
+[0.358s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_control/rqt_controller_manager' with type 'ros.ament_python' and name 'rqt_controller_manager'
+[0.358s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/transmission_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/transmission_interface) by extension 'ignore'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/transmission_interface) by extension 'ignore_ament_install'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/transmission_interface) by extensions ['colcon_pkg']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/transmission_interface) by extension 'colcon_pkg'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/transmission_interface) by extensions ['colcon_meta']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/transmission_interface) by extension 'colcon_meta'
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/transmission_interface) by extensions ['ros']
+[0.359s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_control/transmission_interface) by extension 'ros'
+[0.360s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_control/transmission_interface' with type 'ros.ament_cmake' and name 'transmission_interface'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.360s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extension 'ignore'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extension 'ignore_ament_install'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extensions ['colcon_pkg']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extension 'colcon_pkg'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extensions ['colcon_meta']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extension 'colcon_meta'
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extensions ['ros']
+[0.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/mobile_robot) by extension 'ros'
+[0.362s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mobile_robot' with type 'ros.ament_cmake' and name 'mobile_robot'
+[0.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_kinematics_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_kinematics_pkg) by extension 'ignore'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_kinematics_pkg) by extension 'ignore_ament_install'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_kinematics_pkg) by extensions ['colcon_pkg']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_kinematics_pkg) by extension 'colcon_pkg'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_kinematics_pkg) by extensions ['colcon_meta']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_kinematics_pkg) by extension 'colcon_meta'
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_kinematics_pkg) by extensions ['ros']
+[0.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_kinematics_pkg) by extension 'ros'
+[0.364s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_kinematics_pkg' with type 'ros.ament_cmake' and name 'my_kinematics_pkg'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'ignore'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'ignore_ament_install'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['colcon_pkg']
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'colcon_pkg'
+[0.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['colcon_meta']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'colcon_meta'
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['ros']
+[0.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'ros'
+[0.366s] DEBUG:colcon.colcon_core.package_identification:Found ROS schema reference in package manifest in 'src/navigation'
+[0.366s] WARNING:colcon.colcon_core.package_identification:Failed to parse ROS package manifest in 'src/navigation': Error(s) in package 'src/navigation/package.xml':
+Error(s):
+- The generic dependency on 'rclpy' is redundant with: build_depend, build_export_depend, exec_depend
+- The generic dependency on 'nav2_msgs' is redundant with: build_depend, build_export_depend, exec_depend
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['cmake', 'python']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'cmake'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'python'
+[0.366s] DEBUG:colcon.colcon_core.package_identification:Python package in 'src/navigation' passes arguments to the setup() function which requires a different identification extension than 'python'
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extensions ['python_setup_py']
+[0.366s] Level 1:colcon.colcon_core.package_identification:_identify(src/navigation) by extension 'python_setup_py'
+[0.668s] DEBUG:colcon.colcon_core.package_identification:Package 'src/navigation' with type 'python' and name 'navigation'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber) by extensions ['ignore', 'ignore_ament_install']
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber) by extension 'ignore'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber) by extension 'ignore_ament_install'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber) by extensions ['colcon_pkg']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber) by extension 'colcon_pkg'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber) by extensions ['colcon_meta']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber) by extension 'colcon_meta'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber) by extensions ['ros']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/publisher_subscriber) by extension 'ros'
+[0.669s] DEBUG:colcon.colcon_core.package_identification:Package 'src/publisher_subscriber' with type 'ros.ament_python' and name 'publisher_subscriber'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(vectors) by extensions ['ignore', 'ignore_ament_install']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(vectors) by extension 'ignore'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(vectors) by extension 'ignore_ament_install'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(vectors) by extensions ['colcon_pkg']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(vectors) by extension 'colcon_pkg'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(vectors) by extensions ['colcon_meta']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(vectors) by extension 'colcon_meta'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(vectors) by extensions ['ros']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(vectors) by extension 'ros'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(vectors) by extensions ['cmake', 'python']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(vectors) by extension 'cmake'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(vectors) by extension 'python'
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(vectors) by extensions ['python_setup_py']
+[0.670s] Level 1:colcon.colcon_core.package_identification:_identify(vectors) by extension 'python_setup_py'
+[0.671s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.671s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.671s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.671s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.671s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.804s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.804s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.813s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 39 installed packages in /home/thomas/MobileRobot/ws_new/install
+[0.813s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/thomas/dev_ws/install
+[0.814s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/thomas/mobile_robot/install
+[0.816s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 440 installed packages in /opt/ros/jazzy
+[0.822s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.906s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'controller_interface' is in: /home/thomas/MobileRobot/ws_new/install/controller_interface, /opt/ros/jazzy
+	'hardware_interface_testing' is in: /home/thomas/MobileRobot/ws_new/install/hardware_interface_testing
+	'hardware_interface' is in: /home/thomas/MobileRobot/ws_new/install/hardware_interface, /opt/ros/jazzy
+	'controller_manager' is in: /home/thomas/MobileRobot/ws_new/install/controller_manager, /opt/ros/jazzy
+	'controller_manager_msgs' is in: /home/thomas/MobileRobot/ws_new/install/controller_manager_msgs, /opt/ros/jazzy
+	'ros2_control_test_assets' is in: /home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets, /opt/ros/jazzy
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding controller_interface controller_manager controller_manager_msgs hardware_interface hardware_interface_testing ros2_control_test_assets
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.908s] Level 5:colcon.colcon_core.verb:set package 'backward' build argument 'cmake_args' from command line to 'None'
+[0.908s] Level 5:colcon.colcon_core.verb:set package 'backward' build argument 'cmake_target' from command line to 'None'
+[0.908s] Level 5:colcon.colcon_core.verb:set package 'backward' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.909s] Level 5:colcon.colcon_core.verb:set package 'backward' build argument 'cmake_clean_cache' from command line to 'False'
+[0.909s] Level 5:colcon.colcon_core.verb:set package 'backward' build argument 'cmake_clean_first' from command line to 'False'
+[0.909s] Level 5:colcon.colcon_core.verb:set package 'backward' build argument 'cmake_force_configure' from command line to 'False'
+[0.909s] Level 5:colcon.colcon_core.verb:set package 'backward' build argument 'ament_cmake_args' from command line to 'None'
+[0.909s] Level 5:colcon.colcon_core.verb:set package 'backward' build argument 'catkin_cmake_args' from command line to 'None'
+[0.909s] Level 5:colcon.colcon_core.verb:set package 'backward' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.909s] DEBUG:colcon.colcon_core.verb:Building package 'backward' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thomas/MobileRobot/ws_new/build/backward', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thomas/MobileRobot/ws_new/install/backward', 'merge_install': False, 'path': '/home/thomas/MobileRobot/ws_new/backward-cpp', 'symlink_install': False, 'test_result_base': None}
+[0.909s] Level 5:colcon.colcon_core.verb:set package 'controller_manager_msgs' build argument 'cmake_args' from command line to 'None'
+[0.909s] Level 5:colcon.colcon_core.verb:set package 'controller_manager_msgs' build argument 'cmake_target' from command line to 'None'
+[0.909s] Level 5:colcon.colcon_core.verb:set package 'controller_manager_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.909s] Level 5:colcon.colcon_core.verb:set package 'controller_manager_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.909s] Level 5:colcon.colcon_core.verb:set package 'controller_manager_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.909s] Level 5:colcon.colcon_core.verb:set package 'controller_manager_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.909s] Level 5:colcon.colcon_core.verb:set package 'controller_manager_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.909s] Level 5:colcon.colcon_core.verb:set package 'controller_manager_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.909s] Level 5:colcon.colcon_core.verb:set package 'controller_manager_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.910s] DEBUG:colcon.colcon_core.verb:Building package 'controller_manager_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thomas/MobileRobot/ws_new/build/controller_manager_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs', 'merge_install': False, 'path': '/home/thomas/MobileRobot/ws_new/ros2_control/controller_manager_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.910s] Level 5:colcon.colcon_core.verb:set package 'joint_limits' build argument 'cmake_args' from command line to 'None'
+[0.910s] Level 5:colcon.colcon_core.verb:set package 'joint_limits' build argument 'cmake_target' from command line to 'None'
+[0.910s] Level 5:colcon.colcon_core.verb:set package 'joint_limits' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.910s] Level 5:colcon.colcon_core.verb:set package 'joint_limits' build argument 'cmake_clean_cache' from command line to 'False'
+[0.910s] Level 5:colcon.colcon_core.verb:set package 'joint_limits' build argument 'cmake_clean_first' from command line to 'False'
+[0.910s] Level 5:colcon.colcon_core.verb:set package 'joint_limits' build argument 'cmake_force_configure' from command line to 'False'
+[0.910s] Level 5:colcon.colcon_core.verb:set package 'joint_limits' build argument 'ament_cmake_args' from command line to 'None'
+[0.910s] Level 5:colcon.colcon_core.verb:set package 'joint_limits' build argument 'catkin_cmake_args' from command line to 'None'
+[0.910s] Level 5:colcon.colcon_core.verb:set package 'joint_limits' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.910s] DEBUG:colcon.colcon_core.verb:Building package 'joint_limits' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thomas/MobileRobot/ws_new/build/joint_limits', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thomas/MobileRobot/ws_new/install/joint_limits', 'merge_install': False, 'path': '/home/thomas/MobileRobot/ws_new/ros2_control/joint_limits', 'symlink_install': False, 'test_result_base': None}
+[0.911s] Level 5:colcon.colcon_core.verb:set package 'my_kinematics_pkg' build argument 'cmake_args' from command line to 'None'
+[0.911s] Level 5:colcon.colcon_core.verb:set package 'my_kinematics_pkg' build argument 'cmake_target' from command line to 'None'
+[0.911s] Level 5:colcon.colcon_core.verb:set package 'my_kinematics_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.911s] Level 5:colcon.colcon_core.verb:set package 'my_kinematics_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.911s] Level 5:colcon.colcon_core.verb:set package 'my_kinematics_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.911s] Level 5:colcon.colcon_core.verb:set package 'my_kinematics_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.911s] Level 5:colcon.colcon_core.verb:set package 'my_kinematics_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.911s] Level 5:colcon.colcon_core.verb:set package 'my_kinematics_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.911s] Level 5:colcon.colcon_core.verb:set package 'my_kinematics_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.911s] DEBUG:colcon.colcon_core.verb:Building package 'my_kinematics_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg', 'merge_install': False, 'path': '/home/thomas/MobileRobot/ws_new/src/my_kinematics_pkg', 'symlink_install': False, 'test_result_base': None}
+[0.912s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_args' from command line to 'None'
+[0.912s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_target' from command line to 'None'
+[0.912s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.912s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.912s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.912s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.912s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.912s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.912s] Level 5:colcon.colcon_core.verb:set package 'navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.912s] DEBUG:colcon.colcon_core.verb:Building package 'navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thomas/MobileRobot/ws_new/build/navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thomas/MobileRobot/ws_new/install/navigation', 'merge_install': False, 'path': '/home/thomas/MobileRobot/ws_new/src/navigation', 'symlink_install': False, 'test_result_base': None}
+[0.912s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber' build argument 'cmake_args' from command line to 'None'
+[0.912s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber' build argument 'cmake_target' from command line to 'None'
+[0.912s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.912s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber' build argument 'cmake_clean_cache' from command line to 'False'
+[0.912s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber' build argument 'cmake_clean_first' from command line to 'False'
+[0.912s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber' build argument 'cmake_force_configure' from command line to 'False'
+[0.913s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber' build argument 'ament_cmake_args' from command line to 'None'
+[0.913s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber' build argument 'catkin_cmake_args' from command line to 'None'
+[0.913s] Level 5:colcon.colcon_core.verb:set package 'publisher_subscriber' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.913s] DEBUG:colcon.colcon_core.verb:Building package 'publisher_subscriber' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thomas/MobileRobot/ws_new/build/publisher_subscriber', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thomas/MobileRobot/ws_new/install/publisher_subscriber', 'merge_install': False, 'path': '/home/thomas/MobileRobot/ws_new/src/publisher_subscriber', 'symlink_install': False, 'test_result_base': None}
+[0.913s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_test_assets' build argument 'cmake_args' from command line to 'None'
+[0.913s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_test_assets' build argument 'cmake_target' from command line to 'None'
+[0.913s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_test_assets' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.913s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_test_assets' build argument 'cmake_clean_cache' from command line to 'False'
+[0.913s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_test_assets' build argument 'cmake_clean_first' from command line to 'False'
+[0.913s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_test_assets' build argument 'cmake_force_configure' from command line to 'False'
+[0.913s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_test_assets' build argument 'ament_cmake_args' from command line to 'None'
+[0.913s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_test_assets' build argument 'catkin_cmake_args' from command line to 'None'
+[0.913s] Level 5:colcon.colcon_core.verb:set package 'ros2_control_test_assets' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.913s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_control_test_assets' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thomas/MobileRobot/ws_new/build/ros2_control_test_assets', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets', 'merge_install': False, 'path': '/home/thomas/MobileRobot/ws_new/ros2_control/ros2_control_test_assets', 'symlink_install': False, 'test_result_base': None}
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface' build argument 'cmake_args' from command line to 'None'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface' build argument 'cmake_target' from command line to 'None'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.914s] DEBUG:colcon.colcon_core.verb:Building package 'hardware_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thomas/MobileRobot/ws_new/build/hardware_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thomas/MobileRobot/ws_new/install/hardware_interface', 'merge_install': False, 'path': '/home/thomas/MobileRobot/ws_new/ros2_control/hardware_interface', 'symlink_install': False, 'test_result_base': None}
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'controller_interface' build argument 'cmake_args' from command line to 'None'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'controller_interface' build argument 'cmake_target' from command line to 'None'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'controller_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'controller_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'controller_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'controller_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'controller_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'controller_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.914s] Level 5:colcon.colcon_core.verb:set package 'controller_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.914s] DEBUG:colcon.colcon_core.verb:Building package 'controller_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thomas/MobileRobot/ws_new/build/controller_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thomas/MobileRobot/ws_new/install/controller_interface', 'merge_install': False, 'path': '/home/thomas/MobileRobot/ws_new/ros2_control/controller_interface', 'symlink_install': False, 'test_result_base': None}
+[0.915s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface_testing' build argument 'cmake_args' from command line to 'None'
+[0.915s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface_testing' build argument 'cmake_target' from command line to 'None'
+[0.915s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface_testing' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.915s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface_testing' build argument 'cmake_clean_cache' from command line to 'False'
+[0.915s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface_testing' build argument 'cmake_clean_first' from command line to 'False'
+[0.915s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface_testing' build argument 'cmake_force_configure' from command line to 'False'
+[0.915s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface_testing' build argument 'ament_cmake_args' from command line to 'None'
+[0.915s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface_testing' build argument 'catkin_cmake_args' from command line to 'None'
+[0.915s] Level 5:colcon.colcon_core.verb:set package 'hardware_interface_testing' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.915s] DEBUG:colcon.colcon_core.verb:Building package 'hardware_interface_testing' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thomas/MobileRobot/ws_new/build/hardware_interface_testing', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing', 'merge_install': False, 'path': '/home/thomas/MobileRobot/ws_new/ros2_control/hardware_interface_testing', 'symlink_install': False, 'test_result_base': None}
+[0.915s] Level 5:colcon.colcon_core.verb:set package 'transmission_interface' build argument 'cmake_args' from command line to 'None'
+[0.915s] Level 5:colcon.colcon_core.verb:set package 'transmission_interface' build argument 'cmake_target' from command line to 'None'
+[0.915s] Level 5:colcon.colcon_core.verb:set package 'transmission_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.915s] Level 5:colcon.colcon_core.verb:set package 'transmission_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'transmission_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'transmission_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'transmission_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'transmission_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'transmission_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.916s] DEBUG:colcon.colcon_core.verb:Building package 'transmission_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thomas/MobileRobot/ws_new/build/transmission_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thomas/MobileRobot/ws_new/install/transmission_interface', 'merge_install': False, 'path': '/home/thomas/MobileRobot/ws_new/ros2_control/transmission_interface', 'symlink_install': False, 'test_result_base': None}
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'controller_manager' build argument 'cmake_args' from command line to 'None'
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'controller_manager' build argument 'cmake_target' from command line to 'None'
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'controller_manager' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'controller_manager' build argument 'cmake_clean_cache' from command line to 'False'
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'controller_manager' build argument 'cmake_clean_first' from command line to 'False'
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'controller_manager' build argument 'cmake_force_configure' from command line to 'False'
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'controller_manager' build argument 'ament_cmake_args' from command line to 'None'
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'controller_manager' build argument 'catkin_cmake_args' from command line to 'None'
+[0.916s] Level 5:colcon.colcon_core.verb:set package 'controller_manager' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.916s] DEBUG:colcon.colcon_core.verb:Building package 'controller_manager' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thomas/MobileRobot/ws_new/build/controller_manager', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thomas/MobileRobot/ws_new/install/controller_manager', 'merge_install': False, 'path': '/home/thomas/MobileRobot/ws_new/ros2_control/controller_manager', 'symlink_install': False, 'test_result_base': None}
+[0.917s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_args' from command line to 'None'
+[0.917s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_target' from command line to 'None'
+[0.917s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.917s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.917s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.917s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.917s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.917s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.917s] Level 5:colcon.colcon_core.verb:set package 'mobile_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.917s] DEBUG:colcon.colcon_core.verb:Building package 'mobile_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thomas/MobileRobot/ws_new/build/mobile_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thomas/MobileRobot/ws_new/install/mobile_robot', 'merge_install': False, 'path': '/home/thomas/MobileRobot/ws_new/src/mobile_robot', 'symlink_install': False, 'test_result_base': None}
+[0.917s] Level 5:colcon.colcon_core.verb:set package 'ros2controlcli' build argument 'cmake_args' from command line to 'None'
+[0.917s] Level 5:colcon.colcon_core.verb:set package 'ros2controlcli' build argument 'cmake_target' from command line to 'None'
+[0.917s] Level 5:colcon.colcon_core.verb:set package 'ros2controlcli' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.917s] Level 5:colcon.colcon_core.verb:set package 'ros2controlcli' build argument 'cmake_clean_cache' from command line to 'False'
+[0.917s] Level 5:colcon.colcon_core.verb:set package 'ros2controlcli' build argument 'cmake_clean_first' from command line to 'False'
+[0.917s] Level 5:colcon.colcon_core.verb:set package 'ros2controlcli' build argument 'cmake_force_configure' from command line to 'False'
+[0.917s] Level 5:colcon.colcon_core.verb:set package 'ros2controlcli' build argument 'ament_cmake_args' from command line to 'None'
+[0.917s] Level 5:colcon.colcon_core.verb:set package 'ros2controlcli' build argument 'catkin_cmake_args' from command line to 'None'
+[0.917s] Level 5:colcon.colcon_core.verb:set package 'ros2controlcli' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.917s] DEBUG:colcon.colcon_core.verb:Building package 'ros2controlcli' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thomas/MobileRobot/ws_new/build/ros2controlcli', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thomas/MobileRobot/ws_new/install/ros2controlcli', 'merge_install': False, 'path': '/home/thomas/MobileRobot/ws_new/ros2_control/ros2controlcli', 'symlink_install': False, 'test_result_base': None}
+[0.918s] Level 5:colcon.colcon_core.verb:set package 'rqt_controller_manager' build argument 'cmake_args' from command line to 'None'
+[0.918s] Level 5:colcon.colcon_core.verb:set package 'rqt_controller_manager' build argument 'cmake_target' from command line to 'None'
+[0.918s] Level 5:colcon.colcon_core.verb:set package 'rqt_controller_manager' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.918s] Level 5:colcon.colcon_core.verb:set package 'rqt_controller_manager' build argument 'cmake_clean_cache' from command line to 'False'
+[0.918s] Level 5:colcon.colcon_core.verb:set package 'rqt_controller_manager' build argument 'cmake_clean_first' from command line to 'False'
+[0.918s] Level 5:colcon.colcon_core.verb:set package 'rqt_controller_manager' build argument 'cmake_force_configure' from command line to 'False'
+[0.918s] Level 5:colcon.colcon_core.verb:set package 'rqt_controller_manager' build argument 'ament_cmake_args' from command line to 'None'
+[0.918s] Level 5:colcon.colcon_core.verb:set package 'rqt_controller_manager' build argument 'catkin_cmake_args' from command line to 'None'
+[0.918s] Level 5:colcon.colcon_core.verb:set package 'rqt_controller_manager' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.918s] DEBUG:colcon.colcon_core.verb:Building package 'rqt_controller_manager' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thomas/MobileRobot/ws_new/build/rqt_controller_manager', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thomas/MobileRobot/ws_new/install/rqt_controller_manager', 'merge_install': False, 'path': '/home/thomas/MobileRobot/ws_new/ros2_control/rqt_controller_manager', 'symlink_install': False, 'test_result_base': None}
+[0.918s] Level 5:colcon.colcon_core.verb:set package 'ros2_control' build argument 'cmake_args' from command line to 'None'
+[0.918s] Level 5:colcon.colcon_core.verb:set package 'ros2_control' build argument 'cmake_target' from command line to 'None'
+[0.918s] Level 5:colcon.colcon_core.verb:set package 'ros2_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.918s] Level 5:colcon.colcon_core.verb:set package 'ros2_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.918s] Level 5:colcon.colcon_core.verb:set package 'ros2_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.918s] Level 5:colcon.colcon_core.verb:set package 'ros2_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.918s] Level 5:colcon.colcon_core.verb:set package 'ros2_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.919s] Level 5:colcon.colcon_core.verb:set package 'ros2_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.919s] Level 5:colcon.colcon_core.verb:set package 'ros2_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.919s] DEBUG:colcon.colcon_core.verb:Building package 'ros2_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/thomas/MobileRobot/ws_new/build/ros2_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/thomas/MobileRobot/ws_new/install/ros2_control', 'merge_install': False, 'path': '/home/thomas/MobileRobot/ws_new/ros2_control/ros2_control', 'symlink_install': False, 'test_result_base': None}
+[0.919s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.920s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.921s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/thomas/MobileRobot/ws_new/ros2_control/joint_limits' with build type 'ament_cmake'
+[0.921s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/thomas/MobileRobot/ws_new/ros2_control/joint_limits'
+[0.943s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.943s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.943s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.954s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/thomas/MobileRobot/ws_new/ros2_control/ros2_control_test_assets' with build type 'ament_cmake'
+[0.954s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/thomas/MobileRobot/ws_new/ros2_control/ros2_control_test_assets'
+[0.954s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.954s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.964s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/thomas/MobileRobot/ws_new/ros2_control/controller_manager_msgs' with build type 'ament_cmake'
+[0.964s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/thomas/MobileRobot/ws_new/ros2_control/controller_manager_msgs'
+[0.964s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.964s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.974s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/thomas/MobileRobot/ws_new/backward-cpp'
+[0.974s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.974s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.983s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/thomas/MobileRobot/ws_new/src/my_kinematics_pkg' with build type 'ament_cmake'
+[0.983s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/thomas/MobileRobot/ws_new/src/my_kinematics_pkg'
+[0.984s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.984s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.993s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/thomas/MobileRobot/ws_new/src/navigation'
+[0.993s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.993s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.003s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/thomas/MobileRobot/ws_new/src/publisher_subscriber' with build type 'ament_python'
+[1.003s] Level 1:colcon.colcon_core.shell:create_environment_hook('publisher_subscriber', 'ament_prefix_path')
+[1.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thomas/MobileRobot/ws_new/install/publisher_subscriber/share/publisher_subscriber/hook/ament_prefix_path.ps1'
+[1.004s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thomas/MobileRobot/ws_new/install/publisher_subscriber/share/publisher_subscriber/hook/ament_prefix_path.dsv'
+[1.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thomas/MobileRobot/ws_new/install/publisher_subscriber/share/publisher_subscriber/hook/ament_prefix_path.sh'
+[1.006s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.006s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thomas/MobileRobot/ws_new/build/joint_limits': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/rqt_joint_trajectory_controller:/home/thomas/MobileRobot/ws_new/install/ros2controlcli:/home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/joint_limits -- -j8 -l8
+[1.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thomas/MobileRobot/ws_new/build/ros2_control_test_assets': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/rqt_joint_trajectory_controller:/home/thomas/MobileRobot/ws_new/install/ros2controlcli:/home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/ros2_control_test_assets -- -j8 -l8
+[1.031s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thomas/MobileRobot/ws_new/build/controller_manager_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/rqt_joint_trajectory_controller:/home/thomas/MobileRobot/ws_new/install/ros2controlcli:/home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/controller_manager_msgs -- -j8 -l8
+[1.034s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thomas/MobileRobot/ws_new/build/backward': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/backward -- -j8 -l8
+[1.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/rqt_joint_trajectory_controller:/home/thomas/MobileRobot/ws_new/install/ros2controlcli:/home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg -- -j8 -l8
+[1.442s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joint_limits)
+[1.444s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thomas/MobileRobot/ws_new/build/joint_limits' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/rqt_joint_trajectory_controller:/home/thomas/MobileRobot/ws_new/install/ros2controlcli:/home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/joint_limits -- -j8 -l8
+[1.449s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/joint_limits' for CMake module files
+[1.450s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/joint_limits' for CMake config files
+[1.451s] Level 1:colcon.colcon_core.shell:create_environment_hook('joint_limits', 'cmake_prefix_path')
+[1.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thomas/MobileRobot/ws_new/install/joint_limits/share/joint_limits/hook/cmake_prefix_path.ps1'
+[1.451s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thomas/MobileRobot/ws_new/install/joint_limits/share/joint_limits/hook/cmake_prefix_path.dsv'
+[1.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thomas/MobileRobot/ws_new/install/joint_limits/share/joint_limits/hook/cmake_prefix_path.sh'
+[1.452s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/joint_limits/lib'
+[1.453s] Level 1:colcon.colcon_core.shell:create_environment_hook('joint_limits', 'ld_library_path_lib')
+[1.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thomas/MobileRobot/ws_new/install/joint_limits/share/joint_limits/hook/ld_library_path_lib.ps1'
+[1.453s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thomas/MobileRobot/ws_new/install/joint_limits/share/joint_limits/hook/ld_library_path_lib.dsv'
+[1.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thomas/MobileRobot/ws_new/install/joint_limits/share/joint_limits/hook/ld_library_path_lib.sh'
+[1.455s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/joint_limits/bin'
+[1.455s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/joint_limits/lib/pkgconfig/joint_limits.pc'
+[1.455s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/joint_limits/lib/python3.12/site-packages'
+[1.455s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/joint_limits/bin'
+[1.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/joint_limits/share/joint_limits/package.ps1'
+[1.457s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thomas/MobileRobot/ws_new/install/joint_limits/share/joint_limits/package.dsv'
+[1.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/joint_limits/share/joint_limits/package.sh'
+[1.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/joint_limits/share/joint_limits/package.bash'
+[1.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/joint_limits/share/joint_limits/package.zsh'
+[1.460s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thomas/MobileRobot/ws_new/install/joint_limits/share/colcon-core/packages/joint_limits)
+[1.461s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros2_control_test_assets)
+[1.462s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets' for CMake module files
+[1.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thomas/MobileRobot/ws_new/build/ros2_control_test_assets' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/rqt_joint_trajectory_controller:/home/thomas/MobileRobot/ws_new/install/ros2controlcli:/home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/ros2_control_test_assets -- -j8 -l8
+[1.463s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets' for CMake config files
+[1.464s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros2_control_test_assets', 'cmake_prefix_path')
+[1.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/share/ros2_control_test_assets/hook/cmake_prefix_path.ps1'
+[1.465s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/share/ros2_control_test_assets/hook/cmake_prefix_path.dsv'
+[1.465s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/share/ros2_control_test_assets/hook/cmake_prefix_path.sh'
+[1.466s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/bin'
+[1.466s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/lib/pkgconfig/ros2_control_test_assets.pc'
+[1.467s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/lib/python3.12/site-packages'
+[1.467s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/bin'
+[1.467s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/share/ros2_control_test_assets/package.ps1'
+[1.468s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/share/ros2_control_test_assets/package.dsv'
+[1.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/share/ros2_control_test_assets/package.sh'
+[1.469s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/share/ros2_control_test_assets/package.bash'
+[1.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/share/ros2_control_test_assets/package.zsh'
+[1.470s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/share/colcon-core/packages/ros2_control_test_assets)
+[1.471s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controller_manager_msgs)
+[1.471s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs' for CMake module files
+[1.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/thomas/MobileRobot/ws_new/build/controller_manager_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/rqt_joint_trajectory_controller:/home/thomas/MobileRobot/ws_new/install/ros2controlcli:/home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/controller_manager_msgs -- -j8 -l8
+[1.473s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs' for CMake config files
+[1.476s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller_manager_msgs', 'cmake_prefix_path')
+[1.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/hook/cmake_prefix_path.ps1'
+[1.477s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/hook/cmake_prefix_path.dsv'
+[1.477s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/hook/cmake_prefix_path.sh'
+[1.478s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib'
+[1.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller_manager_msgs', 'ld_library_path_lib')
+[1.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/hook/ld_library_path_lib.ps1'
+[1.478s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/hook/ld_library_path_lib.dsv'
+[1.479s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/hook/ld_library_path_lib.sh'
+[1.479s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/bin'
+[1.479s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/pkgconfig/controller_manager_msgs.pc'
+[1.480s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages'
+[1.480s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller_manager_msgs', 'pythonpath')
+[1.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/hook/pythonpath.ps1'
+[1.481s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/hook/pythonpath.dsv'
+[1.481s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/hook/pythonpath.sh'
+[1.482s] Level 1:colcon.colcon_core.environment:checking '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/bin'
+[1.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/package.ps1'
+[1.483s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/package.dsv'
+[1.484s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/package.sh'
+[1.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/package.bash'
+[1.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/controller_manager_msgs/package.zsh'
+[1.486s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/share/colcon-core/packages/controller_manager_msgs)
+[2.445s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.446s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.446s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[2.446s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.458s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.458s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.458s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.479s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.479s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thomas/MobileRobot/ws_new/install/local_setup.ps1'
+[2.480s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/thomas/MobileRobot/ws_new/install/_local_setup_util_ps1.py'
+[2.483s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thomas/MobileRobot/ws_new/install/setup.ps1'
+[2.488s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thomas/MobileRobot/ws_new/install/local_setup.sh'
+[2.489s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/thomas/MobileRobot/ws_new/install/_local_setup_util_sh.py'
+[2.490s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thomas/MobileRobot/ws_new/install/setup.sh'
+[2.495s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thomas/MobileRobot/ws_new/install/local_setup.bash'
+[2.496s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thomas/MobileRobot/ws_new/install/setup.bash'
+[2.502s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/thomas/MobileRobot/ws_new/install/local_setup.zsh'
+[2.503s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/thomas/MobileRobot/ws_new/install/setup.zsh'

@@ -1,0 +1,1 @@
+/home/thomas/MobileRobot/ws_new/src/mobile_robot/map/create_empty_map.py

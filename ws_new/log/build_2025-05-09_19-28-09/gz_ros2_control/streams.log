@@ -1,0 +1,298 @@
+[0.509s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/gz_ros2_control': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/controller_manager:/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing:/home/thomas/MobileRobot/ws_new/install/controller_interface:/home/thomas/MobileRobot/ws_new/install/hardware_interface:/home/thomas/MobileRobot/ws_new/install/joint_limits:/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs:/home/thomas/MobileRobot/ws_new/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/controller_manager:/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing:/home/thomas/MobileRobot/ws_new/install/controller_interface:/home/thomas/MobileRobot/ws_new/install/hardware_interface:/home/thomas/MobileRobot/ws_new/install/joint_limits:/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs:/home/thomas/MobileRobot/ws_new/install/control_msgs:/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg:/home/thomas/MobileRobot/ws_new/install/mobile_robot:/home/thomas/MobileRobot/ws_new/install/backward:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/controller_manager/lib:/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing/lib:/home/thomas/MobileRobot/ws_new/install/controller_interface/lib:/home/thomas/MobileRobot/ws_new/install/hardware_interface/lib:/home/thomas/MobileRobot/ws_new/install/joint_limits/lib:/home/thomas/MobileRobot/ws_new/install/realtime_tools/lib:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/lib:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib:/home/thomas/MobileRobot/ws_new/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/controller_manager/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/thomas/MobileRobot/ws_new/src/ros-controls/gz_ros2_control/gz_ros2_control -DCMAKE_INSTALL_PREFIX=/home/thomas/MobileRobot/ws_new/install/gz_ros2_control
+[2.603s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.603s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.603s] -- Found ament_index_cpp: 1.8.1 (/opt/ros/jazzy/share/ament_index_cpp/cmake)
+[2.603s] -- Found controller_manager: 4.29.0 (/home/thomas/MobileRobot/ws_new/install/controller_manager/share/controller_manager/cmake)
+[2.604s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[2.604s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[2.604s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.604s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.604s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[2.604s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[2.605s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.605s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[2.605s] -- Found yaml_cpp_vendor: 9.0.1 (/opt/ros/jazzy/share/yaml_cpp_vendor/cmake)
+[2.605s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[2.605s] -- Found gz_sim_vendor: 0.0.8 (/opt/ros/jazzy/share/gz_sim_vendor/cmake)
+[2.687s] -- Looking for gz-sim8 -- found version 8.9.0
+[2.806s] -- Searching for dependencies of gz-sim8
+[2.807s] -- Looking for sdformat14 -- found version 14.7.0
+[2.807s] -- Searching for dependencies of sdformat14
+[2.850s] -- Checking for module 'tinyxml2'
+[2.924s] --   Found tinyxml2, version 10.0.0
+[3.014s] -- Looking for gz-math7 -- found version 7.5.2
+[3.014s] -- Searching for dependencies of gz-math7
+[3.016s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.017s] -- Searching for dependencies of gz-utils2
+[3.036s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.037s] -- Searching for dependencies of gz-utils2
+[3.038s] -- Searching for <gz-utils2> component [cli]
+[3.044s] -- Looking for gz-utils2-cli -- found version 2.2.1
+[3.045s] -- Searching for dependencies of gz-utils2-cli
+[3.077s] -- Looking for gz-plugin2 -- found version 2.0.4
+[3.077s] -- Searching for dependencies of gz-plugin2
+[3.078s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.080s] -- Searching for <gz-plugin2> component [loader]
+[3.092s] -- Looking for gz-plugin2-loader -- found version 2.0.4
+[3.092s] -- Searching for dependencies of gz-plugin2-loader
+[3.094s] -- Searching for <gz-plugin2> component [register]
+[3.096s] -- Looking for gz-plugin2-register -- found version 2.0.4
+[3.096s] -- Searching for dependencies of gz-plugin2-register
+[3.098s] -- Looking for gz-transport13 -- found version 13.4.1
+[3.099s] -- Searching for dependencies of gz-transport13
+[3.377s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[3.389s] -- Checking for module 'libzmq >= 4'
+[3.478s] --   Found libzmq, version 4.3.5
+[3.678s] -- Checking for module 'uuid'
+[3.720s] --   Found uuid, version 2.39.3
+[3.794s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.825s] -- Looking for gz-msgs10 -- found version 10.3.2
+[3.825s] -- Searching for dependencies of gz-msgs10
+[3.875s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.876s] -- Looking for gz-math7 -- found version 7.5.2
+[3.923s] -- Searching for <gz-transport13> component [log]
+[3.925s] -- Looking for gz-transport13-log -- found version 13.4.1
+[3.925s] -- Searching for dependencies of gz-transport13-log
+[3.935s] -- Searching for <gz-transport13> component [parameters]
+[3.953s] -- Looking for gz-transport13-parameters -- found version 13.4.1
+[3.959s] -- Searching for dependencies of gz-transport13-parameters
+[3.972s] -- Looking for gz-msgs10 -- found version 10.3.2
+[3.972s] -- Looking for gz-common5 -- found version 5.7.1
+[3.972s] -- Searching for dependencies of gz-common5
+[3.972s] -- Looking for gz-utils2 -- found version 2.2.1
+[3.972s] -- Looking for dlfcn.h - found
+[3.973s] -- Looking for libdl - found
+[4.414s] -- Searching for <gz-common5> component [av]
+[4.482s] -- Looking for gz-common5-av -- found version 5.7.1
+[4.483s] -- Searching for dependencies of gz-common5-av
+[4.547s] -- Checking for module 'libswscale'
+[4.585s] --   Found libswscale, version 7.5.100
+[4.701s] -- Checking for module 'libavdevice >= 56.4.100'
+[4.760s] --   Found libavdevice, version 60.3.100
+[4.923s] -- Checking for module 'libavformat'
+[4.967s] --   Found libavformat, version 60.16.100
+[5.087s] -- Checking for module 'libavcodec'
+[5.123s] --   Found libavcodec, version 60.31.102
+[5.215s] -- Checking for module 'libavutil'
+[5.251s] --   Found libavutil, version 58.29.100
+[5.338s] -- Searching for <gz-common5> component [events]
+[5.341s] -- Looking for gz-common5-events -- found version 5.7.1
+[5.341s] -- Searching for dependencies of gz-common5-events
+[5.342s] -- Looking for gz-math7 -- found version 7.5.2
+[5.344s] -- Searching for <gz-common5> component [graphics]
+[5.345s] -- Looking for gz-common5-graphics -- found version 5.7.1
+[5.346s] -- Searching for dependencies of gz-common5-graphics
+[5.348s] -- Looking for gz-math7 -- found version 7.5.2
+[5.367s] -- Searching for <gz-common5> component [io]
+[5.386s] -- Looking for gz-common5-io -- found version 5.7.1
+[5.386s] -- Searching for dependencies of gz-common5-io
+[5.390s] -- Searching for <gz-common5> component [profiler]
+[5.390s] -- Looking for gz-common5-profiler -- found version 5.7.1
+[5.390s] -- Searching for dependencies of gz-common5-profiler
+[5.396s] -- Looking for gz-fuel_tools9 -- found version 9.1.1
+[5.397s] -- Searching for dependencies of gz-fuel_tools9
+[5.562s] -- Checking for module 'jsoncpp'
+[5.598s] --   Found jsoncpp, version 1.9.5
+[5.739s] -- Checking for module 'yaml-0.1'
+[5.777s] --   Found yaml-0.1, version 0.2.5
+[5.892s] -- Checking for module 'libzip'
+[5.930s] --   Found libzip, version 1.7.3
+[6.015s] -- Looking for gz-utils2 -- found version 2.2.1
+[6.016s] -- Looking for gz-common5 -- found version 5.7.1
+[6.018s] -- Searching for dependencies of gz-common5
+[6.018s] -- Looking for gz-utils2 -- found version 2.2.1
+[6.019s] -- Looking for dlfcn.h - found
+[6.019s] -- Looking for libdl - found
+[6.042s] -- Searching for <gz-common5> component [testing]
+[6.043s] -- Looking for gz-common5-testing -- found version 5.7.1
+[6.046s] -- Searching for dependencies of gz-common5-testing
+[6.052s] -- Looking for gz-math7 -- found version 7.5.2
+[6.053s] -- Looking for gz-msgs10 -- found version 10.3.2
+[6.103s] -- Looking for gz-gui8 -- found version 8.4.0
+[6.103s] -- Searching for dependencies of gz-gui8
+[6.172s] -- Looking for gz-utils2 -- found version 2.2.1
+[6.173s] -- Looking for gz-math7 -- found version 7.5.2
+[6.174s] -- Looking for gz-common5 -- found version 5.7.1
+[6.176s] -- Looking for gz-plugin2 -- found version 2.0.4
+[6.176s] -- Looking for gz-transport13 -- found version 13.4.1
+[6.178s] -- Looking for gz-rendering8 -- found version 8.2.2
+[6.178s] -- Searching for dependencies of gz-rendering8
+[6.180s] -- Looking for gz-math7 -- found version 7.5.2
+[6.180s] -- Searching for dependencies of gz-math7
+[6.182s] -- Looking for gz-utils2 -- found version 2.2.1
+[6.182s] -- Searching for <gz-math7> component [eigen3]
+[6.193s] -- Looking for gz-math7-eigen3 -- found version 7.5.2
+[6.197s] -- Searching for dependencies of gz-math7-eigen3
+[6.199s] -- Looking for gz-common5 -- found version 5.7.1
+[6.200s] -- Searching for dependencies of gz-common5
+[6.201s] -- Looking for gz-utils2 -- found version 2.2.1
+[6.201s] -- Looking for dlfcn.h - found
+[6.202s] -- Looking for libdl - found
+[6.228s] -- Searching for <gz-common5> component [graphics]
+[6.228s] -- Searching for <gz-common5> component [events]
+[6.228s] -- Searching for <gz-common5> component [geospatial]
+[6.246s] -- Looking for gz-common5-geospatial -- found version 5.7.1
+[6.246s] -- Searching for dependencies of gz-common5-geospatial
+[6.246s] -- Looking for gz-math7 -- found version 7.5.2
+[6.246s] -- Looking for gz-common5 -- found version 5.7.1
+[6.256s] -- Looking for gz-plugin2 -- found version 2.0.4
+[6.256s] -- Searching for dependencies of gz-plugin2
+[6.258s] -- Looking for gz-utils2 -- found version 2.2.1
+[6.259s] -- Searching for <gz-plugin2> component [all]
+[6.283s] -- Looking for all libraries of gz-plugin2 -- found version 2.0.4
+[6.283s] -- Looking for gz-plugin2 -- found version 2.0.4
+[6.284s] -- Looking for gz-utils2 -- found version 2.2.1
+[6.388s] -- Looking for gz-msgs10 -- found version 10.3.2
+[6.641s] -- Looking for gz-physics7 -- found version 7.5.0
+[6.641s] -- Searching for dependencies of gz-physics7
+[6.641s] -- Looking for gz-common5 -- found version 5.7.1
+[6.642s] -- Looking for gz-math7 -- found version 7.5.2
+[6.642s] -- Looking for gz-plugin2 -- found version 2.0.4
+[6.642s] -- Looking for gz-utils2 -- found version 2.2.1
+[6.689s] -- Searching for <gz-physics7> component [heightmap]
+[6.711s] -- Looking for gz-physics7-heightmap -- found version 7.5.0
+[6.711s] -- Searching for dependencies of gz-physics7-heightmap
+[6.711s] -- Looking for gz-common5 -- found version 5.7.1
+[6.718s] -- Searching for <gz-physics7> component [mesh]
+[6.719s] -- Looking for gz-physics7-mesh -- found version 7.5.0
+[6.720s] -- Searching for dependencies of gz-physics7-mesh
+[6.720s] -- Looking for gz-common5 -- found version 5.7.1
+[6.735s] -- Searching for <gz-physics7> component [sdf]
+[6.735s] -- Looking for gz-physics7-sdf -- found version 7.5.0
+[6.735s] -- Searching for dependencies of gz-physics7-sdf
+[6.738s] -- Looking for sdformat14 -- found version 14.7.0
+[6.740s] -- Looking for gz-sensors8 -- found version 8.2.2
+[6.741s] -- Searching for dependencies of gz-sensors8
+[6.788s] -- Looking for gz-math7 -- found version 7.5.2
+[6.790s] -- Looking for gz-common5 -- found version 5.7.1
+[6.791s] -- Looking for gz-transport13 -- found version 13.4.1
+[6.792s] -- Looking for gz-rendering8 -- found version 8.2.2
+[6.794s] -- Looking for gz-msgs10 -- found version 10.3.2
+[6.795s] -- Looking for sdformat14 -- found version 14.7.0
+[6.827s] -- Searching for <gz-sensors8> component [air_pressure]
+[6.830s] -- Looking for gz-sensors8-air_pressure -- found version 8.2.2
+[6.830s] -- Searching for dependencies of gz-sensors8-air_pressure
+[6.831s] -- Searching for <gz-sensors8> component [air_speed]
+[6.835s] -- Looking for gz-sensors8-air_speed -- found version 8.2.2
+[6.835s] -- Searching for dependencies of gz-sensors8-air_speed
+[6.838s] -- Searching for <gz-sensors8> component [altimeter]
+[6.842s] -- Looking for gz-sensors8-altimeter -- found version 8.2.2
+[6.842s] -- Searching for dependencies of gz-sensors8-altimeter
+[6.844s] -- Searching for <gz-sensors8> component [imu]
+[6.846s] -- Looking for gz-sensors8-imu -- found version 8.2.2
+[6.846s] -- Searching for dependencies of gz-sensors8-imu
+[6.856s] -- Searching for <gz-sensors8> component [force_torque]
+[6.868s] -- Looking for gz-sensors8-force_torque -- found version 8.2.2
+[6.869s] -- Searching for dependencies of gz-sensors8-force_torque
+[6.873s] -- Searching for <gz-sensors8> component [logical_camera]
+[6.875s] -- Looking for gz-sensors8-logical_camera -- found version 8.2.2
+[6.875s] -- Searching for dependencies of gz-sensors8-logical_camera
+[6.880s] -- Searching for <gz-sensors8> component [magnetometer]
+[6.880s] -- Looking for gz-sensors8-magnetometer -- found version 8.2.2
+[6.881s] -- Searching for dependencies of gz-sensors8-magnetometer
+[6.882s] -- Searching for <gz-sensors8> component [navsat]
+[6.883s] -- Looking for gz-sensors8-navsat -- found version 8.2.2
+[6.883s] -- Searching for dependencies of gz-sensors8-navsat
+[6.884s] -- Searching for <gz-sensors8> component [dvl]
+[6.886s] -- Looking for gz-sensors8-dvl -- found version 8.2.2
+[6.887s] -- Searching for dependencies of gz-sensors8-dvl
+[6.889s] -- Looking for gz-sensors8 -- found version 8.2.2
+[6.889s] -- Searching for dependencies of gz-sensors8
+[6.939s] -- Looking for gz-math7 -- found version 7.5.2
+[6.940s] -- Looking for gz-common5 -- found version 5.7.1
+[6.940s] -- Looking for gz-transport13 -- found version 13.4.1
+[6.940s] -- Looking for gz-rendering8 -- found version 8.2.2
+[6.940s] -- Looking for gz-msgs10 -- found version 10.3.2
+[6.940s] -- Looking for sdformat14 -- found version 14.7.0
+[6.940s] -- Searching for <gz-sensors8> component [rendering]
+[6.949s] -- Looking for gz-sensors8-rendering -- found version 8.2.2
+[6.949s] -- Searching for dependencies of gz-sensors8-rendering
+[6.959s] -- Searching for <gz-sensors8> component [rendering]
+[6.960s] -- Searching for <gz-sensors8> component [lidar]
+[6.960s] -- Looking for gz-sensors8-lidar -- found version 8.2.2
+[6.960s] -- Searching for dependencies of gz-sensors8-lidar
+[6.960s] -- Looking for gz-sensors8 -- found version 8.2.2
+[6.960s] -- Searching for <gz-sensors8> component [gpu_lidar]
+[6.962s] -- Looking for gz-sensors8-gpu_lidar -- found version 8.2.2
+[6.962s] -- Searching for dependencies of gz-sensors8-gpu_lidar
+[6.962s] -- Looking for gz-sensors8 -- found version 8.2.2
+[6.966s] -- Searching for <gz-sensors8> component [camera]
+[6.966s] -- Looking for gz-sensors8-camera -- found version 8.2.2
+[6.966s] -- Searching for dependencies of gz-sensors8-camera
+[6.966s] -- Looking for gz-sensors8 -- found version 8.2.2
+[6.967s] -- Searching for <gz-sensors8> component [boundingbox_camera]
+[6.969s] -- Looking for gz-sensors8-boundingbox_camera -- found version 8.2.2
+[6.969s] -- Searching for dependencies of gz-sensors8-boundingbox_camera
+[6.972s] -- Searching for <gz-sensors8> component [segmentation_camera]
+[6.973s] -- Looking for gz-sensors8-segmentation_camera -- found version 8.2.2
+[6.973s] -- Searching for dependencies of gz-sensors8-segmentation_camera
+[6.975s] -- Searching for <gz-sensors8> component [depth_camera]
+[6.977s] -- Looking for gz-sensors8-depth_camera -- found version 8.2.2
+[6.977s] -- Searching for dependencies of gz-sensors8-depth_camera
+[6.978s] -- Looking for gz-sensors8 -- found version 8.2.2
+[6.979s] -- Searching for <gz-sensors8> component [rgbd_camera]
+[6.981s] -- Looking for gz-sensors8-rgbd_camera -- found version 8.2.2
+[6.981s] -- Searching for dependencies of gz-sensors8-rgbd_camera
+[6.984s] -- Looking for gz-sensors8 -- found version 8.2.2
+[6.985s] -- Searching for <gz-sensors8> component [thermal_camera]
+[6.988s] -- Looking for gz-sensors8-thermal_camera -- found version 8.2.2
+[6.988s] -- Searching for dependencies of gz-sensors8-thermal_camera
+[6.990s] -- Looking for gz-sensors8 -- found version 8.2.2
+[6.991s] -- Searching for <gz-sensors8> component [wide_angle_camera]
+[6.992s] -- Looking for gz-sensors8-wide_angle_camera -- found version 8.2.2
+[6.994s] -- Searching for dependencies of gz-sensors8-wide_angle_camera
+[6.995s] -- Looking for gz-rendering8 -- found version 8.2.2
+[6.996s] -- Looking for gz-math7 -- found version 7.5.2
+[6.997s] -- Looking for gz-utils2 -- found version 2.2.1
+[7.120s] -- Looking for gz-plugin2 -- found version 2.0.4
+[7.163s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[7.460s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.465s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.473s] -- Configured cppcheck include dirs: /home/thomas/MobileRobot/ws_new/src/ros-controls/gz_ros2_control/gz_ros2_control/include
+[7.473s] -- Configured cppcheck exclude dirs and/or files: 
+[7.473s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.473s] -- Configured cpplint exclude dirs and/or files: 
+[7.474s] -- Added test 'lint_cmake' to check CMake code style
+[7.476s] -- Added test 'uncrustify' to check C / C++ code style
+[7.476s] -- Configured uncrustify additional arguments: 
+[7.477s] -- Added test 'xmllint' to check XML markup files
+[7.492s] -- Configuring done (7.0s)
+[7.863s] -- Generating done (0.3s)
+[7.895s] -- Build files have been written to: /home/thomas/MobileRobot/ws_new/build/gz_ros2_control
+[7.931s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/gz_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/controller_manager:/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing:/home/thomas/MobileRobot/ws_new/install/controller_interface:/home/thomas/MobileRobot/ws_new/install/hardware_interface:/home/thomas/MobileRobot/ws_new/install/joint_limits:/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs:/home/thomas/MobileRobot/ws_new/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/controller_manager:/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing:/home/thomas/MobileRobot/ws_new/install/controller_interface:/home/thomas/MobileRobot/ws_new/install/hardware_interface:/home/thomas/MobileRobot/ws_new/install/joint_limits:/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs:/home/thomas/MobileRobot/ws_new/install/control_msgs:/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg:/home/thomas/MobileRobot/ws_new/install/mobile_robot:/home/thomas/MobileRobot/ws_new/install/backward:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/controller_manager/lib:/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing/lib:/home/thomas/MobileRobot/ws_new/install/controller_interface/lib:/home/thomas/MobileRobot/ws_new/install/hardware_interface/lib:/home/thomas/MobileRobot/ws_new/install/joint_limits/lib:/home/thomas/MobileRobot/ws_new/install/realtime_tools/lib:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/lib:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib:/home/thomas/MobileRobot/ws_new/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/controller_manager/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/thomas/MobileRobot/ws_new/src/ros-controls/gz_ros2_control/gz_ros2_control -DCMAKE_INSTALL_PREFIX=/home/thomas/MobileRobot/ws_new/install/gz_ros2_control
+[7.938s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/gz_ros2_control': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/controller_manager:/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing:/home/thomas/MobileRobot/ws_new/install/controller_interface:/home/thomas/MobileRobot/ws_new/install/hardware_interface:/home/thomas/MobileRobot/ws_new/install/joint_limits:/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs:/home/thomas/MobileRobot/ws_new/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/controller_manager:/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing:/home/thomas/MobileRobot/ws_new/install/controller_interface:/home/thomas/MobileRobot/ws_new/install/hardware_interface:/home/thomas/MobileRobot/ws_new/install/joint_limits:/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs:/home/thomas/MobileRobot/ws_new/install/control_msgs:/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg:/home/thomas/MobileRobot/ws_new/install/mobile_robot:/home/thomas/MobileRobot/ws_new/install/backward:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/controller_manager/lib:/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing/lib:/home/thomas/MobileRobot/ws_new/install/controller_interface/lib:/home/thomas/MobileRobot/ws_new/install/hardware_interface/lib:/home/thomas/MobileRobot/ws_new/install/joint_limits/lib:/home/thomas/MobileRobot/ws_new/install/realtime_tools/lib:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/lib:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib:/home/thomas/MobileRobot/ws_new/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/controller_manager/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/gz_ros2_control -- -j8 -l8
+[8.148s] [ 33%] Built target gz_hardware_plugins
+[8.195s] [ 66%] Built target gz_ros2_control-system
+[8.201s] [100%] Built target ign_ros2_control-system
+[8.226s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/gz_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/controller_manager:/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing:/home/thomas/MobileRobot/ws_new/install/controller_interface:/home/thomas/MobileRobot/ws_new/install/hardware_interface:/home/thomas/MobileRobot/ws_new/install/joint_limits:/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs:/home/thomas/MobileRobot/ws_new/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/controller_manager:/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing:/home/thomas/MobileRobot/ws_new/install/controller_interface:/home/thomas/MobileRobot/ws_new/install/hardware_interface:/home/thomas/MobileRobot/ws_new/install/joint_limits:/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs:/home/thomas/MobileRobot/ws_new/install/control_msgs:/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg:/home/thomas/MobileRobot/ws_new/install/mobile_robot:/home/thomas/MobileRobot/ws_new/install/backward:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/controller_manager/lib:/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing/lib:/home/thomas/MobileRobot/ws_new/install/controller_interface/lib:/home/thomas/MobileRobot/ws_new/install/hardware_interface/lib:/home/thomas/MobileRobot/ws_new/install/joint_limits/lib:/home/thomas/MobileRobot/ws_new/install/realtime_tools/lib:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/lib:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib:/home/thomas/MobileRobot/ws_new/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/controller_manager/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/gz_ros2_control -- -j8 -l8
+[8.226s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/gz_ros2_control': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/controller_manager:/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing:/home/thomas/MobileRobot/ws_new/install/controller_interface:/home/thomas/MobileRobot/ws_new/install/hardware_interface:/home/thomas/MobileRobot/ws_new/install/joint_limits:/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs:/home/thomas/MobileRobot/ws_new/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/controller_manager:/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing:/home/thomas/MobileRobot/ws_new/install/controller_interface:/home/thomas/MobileRobot/ws_new/install/hardware_interface:/home/thomas/MobileRobot/ws_new/install/joint_limits:/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs:/home/thomas/MobileRobot/ws_new/install/control_msgs:/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg:/home/thomas/MobileRobot/ws_new/install/mobile_robot:/home/thomas/MobileRobot/ws_new/install/backward:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/controller_manager/lib:/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing/lib:/home/thomas/MobileRobot/ws_new/install/controller_interface/lib:/home/thomas/MobileRobot/ws_new/install/hardware_interface/lib:/home/thomas/MobileRobot/ws_new/install/joint_limits/lib:/home/thomas/MobileRobot/ws_new/install/realtime_tools/lib:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/lib:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib:/home/thomas/MobileRobot/ws_new/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/controller_manager/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/gz_ros2_control
+[8.526s] -- Install configuration: ""
+[8.526s] -- Execute custom install script
+[8.527s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/gz_ros2_control/lib/libgz_hardware_plugins.so
+[8.527s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/gz_ros2_control/include/gz_ros2_control/gz_ros2_control_plugin.hpp
+[8.527s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/gz_ros2_control/include/gz_ros2_control/gz_system.hpp
+[8.527s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/gz_ros2_control/include/gz_ros2_control/gz_system_interface.hpp
+[8.527s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/gz_ros2_control/share/gz_ros2_control/environment/library_path.sh
+[8.528s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/gz_ros2_control/share/gz_ros2_control/environment/library_path.dsv
+[8.528s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/gz_ros2_control/lib/libgz_ros2_control-system.so
+[8.528s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/gz_ros2_control/lib/libign_ros2_control-system.so
+[8.528s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/gz_ros2_control/share/gz_ros2_control//gz_hardware_plugins.xml
+[8.528s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/gz_ros2_control/share/ament_index/resource_index/package_run_dependencies/gz_ros2_control
+[8.528s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/gz_ros2_control/share/ament_index/resource_index/parent_prefix_path/gz_ros2_control
+[8.529s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/gz_ros2_control/share/gz_ros2_control/environment/ament_prefix_path.sh
+[8.529s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/gz_ros2_control/share/gz_ros2_control/environment/ament_prefix_path.dsv
+[8.529s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/gz_ros2_control/share/gz_ros2_control/environment/path.sh
+[8.529s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/gz_ros2_control/share/gz_ros2_control/environment/path.dsv
+[8.529s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/gz_ros2_control/share/gz_ros2_control/local_setup.bash
+[8.531s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/gz_ros2_control/share/gz_ros2_control/local_setup.sh
+[8.531s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/gz_ros2_control/share/gz_ros2_control/local_setup.zsh
+[8.531s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/gz_ros2_control/share/gz_ros2_control/local_setup.dsv
+[8.532s] -- Symlinking: /home/thomas/MobileRobot/ws_new/install/gz_ros2_control/share/gz_ros2_control/package.dsv
+[8.532s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/gz_ros2_control/share/ament_index/resource_index/packages/gz_ros2_control
+[8.532s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/gz_ros2_control/share/ament_index/resource_index/gz_ros2_control__pluginlib__plugin/gz_ros2_control
+[8.532s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/gz_ros2_control/share/gz_ros2_control/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.535s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/gz_ros2_control/share/gz_ros2_control/cmake/ament_cmake_export_libraries-extras.cmake
+[8.535s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/gz_ros2_control/share/gz_ros2_control/cmake/gz_ros2_controlConfig.cmake
+[8.536s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/gz_ros2_control/share/gz_ros2_control/cmake/gz_ros2_controlConfig-version.cmake
+[8.536s] -- Up-to-date symlink: /home/thomas/MobileRobot/ws_new/install/gz_ros2_control/share/gz_ros2_control/package.xml
+[8.537s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/gz_ros2_control' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/controller_manager:/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing:/home/thomas/MobileRobot/ws_new/install/controller_interface:/home/thomas/MobileRobot/ws_new/install/hardware_interface:/home/thomas/MobileRobot/ws_new/install/joint_limits:/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs:/home/thomas/MobileRobot/ws_new/install/control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/controller_manager:/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing:/home/thomas/MobileRobot/ws_new/install/controller_interface:/home/thomas/MobileRobot/ws_new/install/hardware_interface:/home/thomas/MobileRobot/ws_new/install/joint_limits:/home/thomas/MobileRobot/ws_new/install/realtime_tools:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets:/home/thomas/MobileRobot/ws_new/install/ros2_control_cmake:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs:/home/thomas/MobileRobot/ws_new/install/control_msgs:/home/thomas/MobileRobot/ws_new/install/my_kinematics_pkg:/home/thomas/MobileRobot/ws_new/install/mobile_robot:/home/thomas/MobileRobot/ws_new/install/backward:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/controller_manager/lib:/home/thomas/MobileRobot/ws_new/install/hardware_interface_testing/lib:/home/thomas/MobileRobot/ws_new/install/controller_interface/lib:/home/thomas/MobileRobot/ws_new/install/hardware_interface/lib:/home/thomas/MobileRobot/ws_new/install/joint_limits/lib:/home/thomas/MobileRobot/ws_new/install/realtime_tools/lib:/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/lib:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib:/home/thomas/MobileRobot/ws_new/install/control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/controller_manager/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/controller_manager_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/control_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/gz_ros2_control

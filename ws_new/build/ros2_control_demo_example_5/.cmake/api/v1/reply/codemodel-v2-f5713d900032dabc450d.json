@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6a140414cddb438ac778.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ros2_control_demo_example_5",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_control_demo_example_5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_control_demo_example_5-6599908403719a9fca6d.json",
+					"name" : "ros2_control_demo_example_5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ros2_control_demo_example_5_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ros2_control_demo_example_5_uninstall-2e3c7314e81fbc78af1f.json",
+					"name" : "ros2_control_demo_example_5_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-c28fcfe0579ea9a0a9da.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/thomas/MobileRobot/ws_new/build/ros2_control_demo_example_5",
+		"source" : "/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control_demos/example_5"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,8 +1,8 @@
 # start
 cd ~/MobileRobot/ws_new
-colcon build
+colcon build --packages-select mobile_robot
 source install/setup.bash
-ros2 launch mobile_robot gazebo_model.launch.py
+ros2 launch mobile_robot gazebo_model.launch.py 
 
 # Update kinematic
 colcon build --packages-select my_kinematics_pkg
@@ -11,7 +11,7 @@ ros2 run my_kinematics_pkg kinematics_node
 
 # launch ekf
 colcon build --packages-select mobile_robot
-source install/setup.bash
+source install/setup.bash	
 ros2 launch mobile_robot ekf.launch.py
 
 

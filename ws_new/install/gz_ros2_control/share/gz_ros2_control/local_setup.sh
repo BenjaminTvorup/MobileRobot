@@ -1,0 +1,1 @@
+/home/thomas/MobileRobot/ws_new/build/gz_ros2_control/ament_cmake_environment_hooks/local_setup.sh

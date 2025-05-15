@@ -1,0 +1,22 @@
+[2.073s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/navigation': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/thomas/MobileRobot/ws_new/build/navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/thomas/MobileRobot/ws_new/build/navigation/build --no-deps symlink_data --force
+[2.999s] running develop
+[3.648s] running egg_info
+[3.708s] writing navigation.egg-info/PKG-INFO
+[3.708s] writing dependency_links to navigation.egg-info/dependency_links.txt
+[3.709s] writing entry points to navigation.egg-info/entry_points.txt
+[3.709s] writing requirements to navigation.egg-info/requires.txt
+[3.709s] writing top-level names to navigation.egg-info/top_level.txt
+[3.847s] reading manifest file 'navigation.egg-info/SOURCES.txt'
+[3.849s] writing manifest file 'navigation.egg-info/SOURCES.txt'
+[3.904s] running build_ext
+[3.904s] Creating /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation.egg-link (link to .)
+[3.905s] Installing gps_path_follow script to /home/thomas/MobileRobot/ws_new/install/navigation/lib/navigation
+[3.906s] Installing gps_waypoint_sender script to /home/thomas/MobileRobot/ws_new/install/navigation/lib/navigation
+[3.906s] Installing nav_node script to /home/thomas/MobileRobot/ws_new/install/navigation/lib/navigation
+[3.906s] Installing waypoint_follow script to /home/thomas/MobileRobot/ws_new/install/navigation/lib/navigation
+[3.906s] 
+[3.906s] Installed /home/thomas/MobileRobot/ws_new/build/navigation
+[3.907s] running symlink_data
+[3.907s] symbolically linking /home/thomas/MobileRobot/ws_new/build/navigation/resource/navigation -> /home/thomas/MobileRobot/ws_new/install/navigation/share/ament_index/resource_index/packages
+[3.907s] symbolically linking /home/thomas/MobileRobot/ws_new/build/navigation/package.xml -> /home/thomas/MobileRobot/ws_new/install/navigation/share/navigation
+[4.024s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/navigation' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/thomas/MobileRobot/ws_new/build/navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/thomas/MobileRobot/ws_new/build/navigation/build --no-deps symlink_data --force
