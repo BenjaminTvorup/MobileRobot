@@ -1,1 +1,0 @@
-/home/thomas/MobileRobot/ws_new/build/diff_drive_controller/include/diff_drive_controller/custom_validators.hpp

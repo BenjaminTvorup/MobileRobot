@@ -1,1 +1,0 @@
-/home/thomas/MobileRobot/ws_new/build/gpio_controllers/ament_cmake_core/gpio_controllersConfig-version.cmake

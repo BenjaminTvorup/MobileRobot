@@ -1,3 +1,0 @@
-[0mCMake Error: The source directory "/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/joint_limits" does not exist.
-Specify --help for usage, or press the help button on the CMake GUI.[0m
-gmake: *** [Makefile:678: cmake_check_build_system] Error 1

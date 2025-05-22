@@ -1,1 +1,0 @@
-/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/diff_drive_controller/include/diff_drive_controller/odometry.hpp

@@ -1,9 +1,0 @@
-[0.181s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/backward': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/backward -- -j8 -l8
-[0.571s] [ 13%] Built target backward_object
-[0.571s] [ 13%] Built target test_main
-[0.571s] [ 26%] Built target backward
-[0.571s] [ 40%] Built target test_rectrace
-[0.571s] [ 53%] Built target test_test
-[0.571s] [ 73%] Built target test_stacktrace
-[0.571s] [ 80%] Built target test_select_signals
-[0.572s] [100%] Built target test_suicide

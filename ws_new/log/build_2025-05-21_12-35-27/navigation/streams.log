@@ -1,0 +1,60 @@
+[3.285s] Invoking command in '/home/thomas/MobileRobot/ws_new/src/navigation': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/thomas/MobileRobot/ws_new/build/navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/navigation build --build-base /home/thomas/MobileRobot/ws_new/build/navigation/build install --record /home/thomas/MobileRobot/ws_new/build/navigation/install.log --single-version-externally-managed install_data
+[4.563s] running egg_info
+[4.567s] creating ../../build/navigation/navigation.egg-info
+[4.688s] writing ../../build/navigation/navigation.egg-info/PKG-INFO
+[4.689s] writing dependency_links to ../../build/navigation/navigation.egg-info/dependency_links.txt
+[4.689s] writing entry points to ../../build/navigation/navigation.egg-info/entry_points.txt
+[4.690s] writing requirements to ../../build/navigation/navigation.egg-info/requires.txt
+[4.693s] writing top-level names to ../../build/navigation/navigation.egg-info/top_level.txt
+[4.693s] writing manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'
+[4.923s] reading manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'
+[4.925s] writing manifest file '../../build/navigation/navigation.egg-info/SOURCES.txt'
+[4.926s] running build
+[4.926s] running build_py
+[4.926s] creating /home/thomas/MobileRobot/ws_new/build/navigation/build
+[4.928s] creating /home/thomas/MobileRobot/ws_new/build/navigation/build/lib
+[4.928s] creating /home/thomas/MobileRobot/ws_new/build/navigation/build/lib/navigation
+[4.928s] copying navigation/__init__.py -> /home/thomas/MobileRobot/ws_new/build/navigation/build/lib/navigation
+[4.929s] copying navigation/GPS_path_planing.py -> /home/thomas/MobileRobot/ws_new/build/navigation/build/lib/navigation
+[4.953s] copying navigation/gps_save_xy_subscriber.py -> /home/thomas/MobileRobot/ws_new/build/navigation/build/lib/navigation
+[4.978s] copying navigation/waypoint_follow.py -> /home/thomas/MobileRobot/ws_new/build/navigation/build/lib/navigation
+[5.006s] copying navigation/gps_path_follow.py -> /home/thomas/MobileRobot/ws_new/build/navigation/build/lib/navigation
+[5.010s] copying navigation/gps_save_xy_subscriber1.py -> /home/thomas/MobileRobot/ws_new/build/navigation/build/lib/navigation
+[5.023s] copying navigation/gps_waypoint_sender.py -> /home/thomas/MobileRobot/ws_new/build/navigation/build/lib/navigation
+[5.034s] copying navigation/nav_node.py -> /home/thomas/MobileRobot/ws_new/build/navigation/build/lib/navigation
+[5.046s] running install
+[5.075s] running install_lib
+[5.187s] creating /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation
+[5.187s] copying /home/thomas/MobileRobot/ws_new/build/navigation/build/lib/navigation/__init__.py -> /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation
+[5.188s] copying /home/thomas/MobileRobot/ws_new/build/navigation/build/lib/navigation/GPS_path_planing.py -> /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation
+[5.188s] copying /home/thomas/MobileRobot/ws_new/build/navigation/build/lib/navigation/gps_save_xy_subscriber.py -> /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation
+[5.188s] copying /home/thomas/MobileRobot/ws_new/build/navigation/build/lib/navigation/waypoint_follow.py -> /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation
+[5.189s] copying /home/thomas/MobileRobot/ws_new/build/navigation/build/lib/navigation/gps_path_follow.py -> /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation
+[5.189s] copying /home/thomas/MobileRobot/ws_new/build/navigation/build/lib/navigation/gps_save_xy_subscriber1.py -> /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation
+[5.190s] copying /home/thomas/MobileRobot/ws_new/build/navigation/build/lib/navigation/gps_waypoint_sender.py -> /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation
+[5.191s] copying /home/thomas/MobileRobot/ws_new/build/navigation/build/lib/navigation/nav_node.py -> /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation
+[5.192s] byte-compiling /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation/__init__.py to __init__.cpython-312.pyc
+[5.192s] byte-compiling /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation/GPS_path_planing.py to GPS_path_planing.cpython-312.pyc
+[5.195s] byte-compiling /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation/gps_save_xy_subscriber.py to gps_save_xy_subscriber.cpython-312.pyc
+[5.198s] byte-compiling /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation/waypoint_follow.py to waypoint_follow.cpython-312.pyc
+[5.200s] byte-compiling /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation/gps_path_follow.py to gps_path_follow.cpython-312.pyc
+[5.206s] byte-compiling /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation/gps_save_xy_subscriber1.py to gps_save_xy_subscriber1.cpython-312.pyc
+[5.206s] byte-compiling /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation/gps_waypoint_sender.py to gps_waypoint_sender.cpython-312.pyc
+[5.206s] byte-compiling /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation/nav_node.py to nav_node.cpython-312.pyc
+[5.218s] running install_data
+[5.222s] creating /home/thomas/MobileRobot/ws_new/install/navigation/share
+[5.222s] creating /home/thomas/MobileRobot/ws_new/install/navigation/share/ament_index
+[5.222s] creating /home/thomas/MobileRobot/ws_new/install/navigation/share/ament_index/resource_index
+[5.222s] creating /home/thomas/MobileRobot/ws_new/install/navigation/share/ament_index/resource_index/packages
+[5.222s] copying resource/navigation -> /home/thomas/MobileRobot/ws_new/install/navigation/share/ament_index/resource_index/packages
+[5.223s] creating /home/thomas/MobileRobot/ws_new/install/navigation/share/navigation
+[5.223s] copying package.xml -> /home/thomas/MobileRobot/ws_new/install/navigation/share/navigation
+[5.223s] running install_egg_info
+[5.329s] Copying ../../build/navigation/navigation.egg-info to /home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages/navigation-0.0.0-py3.12.egg-info
+[5.332s] running install_scripts
+[6.009s] Installing gps_path_follow script to /home/thomas/MobileRobot/ws_new/install/navigation/lib/navigation
+[6.012s] Installing gps_waypoint_sender script to /home/thomas/MobileRobot/ws_new/install/navigation/lib/navigation
+[6.012s] Installing nav_node script to /home/thomas/MobileRobot/ws_new/install/navigation/lib/navigation
+[6.013s] Installing waypoint_follow script to /home/thomas/MobileRobot/ws_new/install/navigation/lib/navigation
+[6.013s] writing list of installed files to '/home/thomas/MobileRobot/ws_new/build/navigation/install.log'
+[6.136s] Invoked command in '/home/thomas/MobileRobot/ws_new/src/navigation' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/thomas/MobileRobot/ws_new/build/navigation/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas/MobileRobot/ws_new/install/navigation/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/navigation build --build-base /home/thomas/MobileRobot/ws_new/build/navigation/build install --record /home/thomas/MobileRobot/ws_new/build/navigation/install.log --single-version-externally-managed install_data

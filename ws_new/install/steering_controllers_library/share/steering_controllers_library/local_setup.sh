@@ -1,1 +1,0 @@
-/home/thomas/MobileRobot/ws_new/build/steering_controllers_library/ament_cmake_environment_hooks/local_setup.sh

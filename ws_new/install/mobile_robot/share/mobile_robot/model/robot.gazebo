@@ -1,1 +1,275 @@
-/home/thomas/MobileRobot/ws_new/src/mobile_robot/model/robot.gazebo
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+
+  <!-- Gazebo-Specific Properties -->
+
+  <!-- Body with custom dark grey material -->
+  <gazebo reference="body_link">
+    <mu1>1.0</mu1>
+    <mu2>1.0</mu2>
+    <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>0.3 0.3 0.3 1</diffuse>
+      <specular>0.5 0.5 0.5 1</specular>
+      <emissive>0 0 0 1</emissive>
+    </material>
+  </gazebo>
+
+  <!-- Legs with matching dark grey material -->
+  <gazebo reference="fl_leg">
+    <mu1>1.0</mu1>
+    <mu2>1.0</mu2>
+    <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>0.3 0.3 0.3 1</diffuse>
+      <specular>0.5 0.5 0.5 1</specular>
+      <emissive>0 0 0 1</emissive>
+    </material>
+  </gazebo>
+  <gazebo reference="fr_leg">
+    <mu1>1.0</mu1>
+    <mu2>1.0</mu2>
+    <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>0.3 0.3 0.3 1</diffuse>
+      <specular>0.5 0.5 0.5 1</specular>
+      <emissive>0 0 0 1</emissive>
+    </material>
+  </gazebo>
+  <gazebo reference="bl_leg">
+    <mu1>1.0</mu1>
+    <mu2>1.0</mu2>
+    <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>0.3 0.3 0.3 1</diffuse>
+      <specular>0.5 0.5 0.5 1</specular>
+      <emissive>0 0 0 1</emissive>
+    </material>
+  </gazebo>
+  <gazebo reference="br_leg">
+    <mu1>1.0</mu1>
+    <mu2>1.0</mu2>
+    <material>
+      <ambient>0.1 0.1 0.1 1</ambient>
+      <diffuse>0.3 0.3 0.3 1</diffuse>
+      <specular>0.5 0.5 0.5 1</specular>
+      <emissive>0 0 0 1</emissive>
+    </material>
+  </gazebo>
+
+  <!-- Wheels set to black -->
+  
+  <!-- <gazebo reference="fl_wheel">
+    <mu1>0.1</mu1>
+    <mu2>0.1</mu2>
+    <material>Gazebo/Black</material>
+  </gazebo>
+  <gazebo reference="fr_wheel">
+    <mu1>0.1</mu1>
+    <mu2>0.1</mu2>
+    <material>Gazebo/Black</material>
+  </gazebo> -->
+
+  <gazebo reference="fl_wheel">
+    <mu1>1</mu1>
+    <mu2>1</mu2>
+    <material>Gazebo/Black</material>
+  </gazebo>
+  <gazebo reference="fr_wheel">
+    <mu1>1</mu1>
+    <mu2>1</mu2>
+    <material>Gazebo/Black</material>
+  </gazebo>
+  <gazebo reference="bl_wheel">
+    <mu1>1</mu1>
+    <mu2>1</mu2>
+    <material>Gazebo/Black</material>
+  </gazebo>
+  <gazebo reference="br_wheel">
+    <mu1>1</mu1>
+    <mu2>1</mu2>
+    <material>Gazebo/Black</material>
+  </gazebo>
+
+  <gazebo>
+    <plugin filename="gz-sim-joint-state-publisher-system"
+        name="gz::sim::systems::JointStatePublisher">
+        <topic>joint_states</topic>
+        <joint_name>fr_steering_joint</joint_name>
+        <joint_name>fl_steering_joint</joint_name>
+        <joint_name>br_wheel_joint</joint_name>
+        <joint_name>bl_wheel_joint</joint_name>
+        <joint_name>fl_wheel_joint</joint_name>
+        <joint_name>fr_wheel_joint</joint_name>
+    </plugin>
+  </gazebo>
+
+<!--                                        
+  <gazebo>
+      <plugin name="gz_ros2_control::GazeboSimROS2ControlPlugin" filename="libgz_ros2_control-system.so">
+          <parameters>$(find articubot_one)/config/my_controllers.yaml</parameters>
+          <parameters>$(find articubot_one)/config/gaz_ros2_ctl_use_sim.yaml</parameters>
+      </plugin>
+  </gazebo> -->
+  
+
+
+  <gazebo>
+    <plugin name="gz::sim::systems::AckermannSteering" filename="gz-sim-ackermann-steering-system">
+      <robot_sim_type>gz_ros2_control/GazeboSimSystem</robot_sim_type>   
+    
+      <odometry_frame>odom</odometry_frame>
+      <robot_base_frame>base_link</robot_base_frame>
+      <publish_odom>true</publish_odom>
+      <tf_topic>/tf</tf_topic>
+      <odom_topic>/demo/odom</odom_topic>
+      <publish_odom_tf>true</publish_odom_tf>
+      <publish_wheel_tf>true</publish_wheel_tf>
+
+      <left_joint>bl_wheel_joint</left_joint>
+      <left_joint>fl_wheel_joint</left_joint>
+      <right_joint>fr_wheel_joint</right_joint>
+      <right_joint>br_wheel_joint</right_joint>
+      <left_steering_joint>fl_steering_joint</left_steering_joint>
+      <right_steering_joint>fr_steering_joint</right_steering_joint>
+
+      <wheel_separation>1</wheel_separation>
+      <wheel_radius>0.235</wheel_radius>
+      <kingpin_width>1.0</kingpin_width>
+      <topic>cmd_vel</topic>
+
+
+      
+    </plugin>
+  </gazebo>
+
+
+
+  <gazebo reference="imu_link">
+    <material>Gazebo/Grey</material>
+    <sensor name="imu_sensor" type="imu">
+      <always_on>true</always_on>
+      <update_rate>250</update_rate>
+      <enable_orientation>1</enable_orientation>
+      <visualize>true</visualize>
+      <topic>imu/data</topic>
+      <gz_frame_id>base_link</gz_frame_id>
+      <imu>
+
+        <orientation>
+          <x>
+            <noise type="gaussian">
+              <mean>0.0</mean>
+              <stddev>0.01</stddev>
+            </noise>
+          </x>
+          <y>
+            <noise type="gaussian">
+                <mean>0.0</mean>
+                <stddev>0.01</stddev>
+            </noise>
+          </y>
+          <z>
+            <noise type="gaussian">
+              <mean>0.0</mean>
+              <stddev>0.01</stddev>
+            </noise>
+          </z>
+        </orientation>
+        <angular_velocity>
+          <x>
+            <noise type="gaussian">
+              <mean>0.0</mean>
+              <stddev>2e-4</stddev>
+              <bias_mean>0.0000075</bias_mean>
+              <bias_stddev>0.0000008</bias_stddev>
+            </noise>
+          </x>
+          <y>
+            <noise type="gaussian">
+              <mean>0.0</mean>
+              <stddev>2e-4</stddev>
+              <bias_mean>0.0000075</bias_mean>
+              <bias_stddev>0.0000008</bias_stddev>
+            </noise>
+          </y>
+          <z>
+            <noise type="gaussian">
+              <mean>0.0</mean>
+              <stddev>0.001</stddev>
+              <bias_mean>0.0000075</bias_mean>
+              <bias_stddev>0.0000008</bias_stddev>
+            </noise>
+          </z>
+        </angular_velocity>
+        <linear_acceleration>
+          <x>
+            <noise type="gaussian">
+              <mean>0.0</mean>
+              <stddev>1.7e-2</stddev>
+              <bias_mean>0.1</bias_mean>
+              <bias_stddev>0.001</bias_stddev>
+            </noise>
+          </x>
+          <y>
+            <noise type="gaussian">
+              <mean>0.0</mean>
+              <stddev>1.7e-2</stddev>
+              <bias_mean>0.1</bias_mean>
+              <bias_stddev>0.001</bias_stddev>
+            </noise>
+          </y>
+          <z>
+            <noise type="gaussian">
+              <mean>0.0</mean>
+              <stddev>1.7e-2</stddev>
+              <bias_mean>0.1</bias_mean>
+              <bias_stddev>0.001</bias_stddev>
+            </noise>
+          </z>
+        </linear_acceleration>
+      </imu>
+    </sensor>
+  </gazebo>
+
+
+  <gazebo reference="gps_link">
+    <material>Gazebo/Black</material>
+    <sensor name="gps_sensor" type="navsat">
+      <always_on>1</always_on>
+      <update_rate>30.0</update_rate>
+      <topic>navsat/fix</topic>
+      <gz_frame_id>base_link</gz_frame_id>
+    </sensor>
+  </gazebo>
+
+
+
+
+  <gazebo reference="laser_frame">
+        <material>Gazebo/Black</material>
+
+        <sensor name="laser" type="gpu_lidar">
+            <pose> 0 0 0 0 0 0 </pose>
+            <visualize>false</visualize>
+            <update_rate>10</update_rate>
+            <lidar>
+                <scan>
+                    <horizontal>
+                        <samples>360</samples>
+                        <min_angle>-3.14</min_angle>
+                        <max_angle>3.14</max_angle>
+                    </horizontal>
+                </scan>
+                <range>
+                    <min>0.3</min>
+                    <max>12</max>
+                </range>
+            </lidar>
+            <topic>scan</topic>
+            <gz_frame_id>laser_frame</gz_frame_id>
+        </sensor>
+    </gazebo>
+
+
+</robot>

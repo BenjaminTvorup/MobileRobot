@@ -1,1 +1,0 @@
-/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/controller_interface/include/semantic_components/semantic_component_command_interface.hpp

@@ -1,3 +1,0 @@
-/home/thomas/MobileRobot/ws_new/install/tricycle_controller/lib/libtricycle_controller.so
-/home/thomas/MobileRobot/ws_new/install/tricycle_controller/share/tricycle_controller/cmake/export_tricycle_controllerExport.cmake
-/home/thomas/MobileRobot/ws_new/install/tricycle_controller/share/tricycle_controller/cmake/export_tricycle_controllerExport-noconfig.cmake

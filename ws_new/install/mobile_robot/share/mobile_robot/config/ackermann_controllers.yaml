@@ -1,1 +1,26 @@
-/home/thomas/MobileRobot/ws_new/src/mobile_robot/config/ackermann_controllers.yaml
+controller_manager:
+  ros__parameters:
+    update_rate: 30
+    use_sim_time: true  
+
+    ackermann_steering_controller:
+      type: ackermann_steering_controller/AckermannSteeringController
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+ackermann_steering_controller:
+  ros__parameters:
+    cmd_vel_topic: "cmd_vel"
+    front_wheels_names: [fr_steering_joint, fl_steering_joint]  # Steering joints
+    rear_wheels_names: [br_wheel_joint, bl_wheel_joint]          # Rear drive joints
+    wheelbase: 1.364          
+    front_wheel_track: 1.0
+    rear_wheel_track: 1.0     
+    front_wheels_radius: 0.235
+    rear_wheels_radius: 0.235    
+    reference_timeout: 0.5
+    open_loop: true
+    use_stamped_vel: false 
+    base_frame_id: "base_link"
+    odom_frame_id: "odom"   

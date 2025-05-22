@@ -1,0 +1,136 @@
+[0.072s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/rqt_joint_trajectory_controller:/home/thomas/MobileRobot/ws_new/install/ros2controlcli:/home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/thomas/MobileRobot/ws_new/src/mobile_robot -DCMAKE_INSTALL_PREFIX=/home/thomas/MobileRobot/ws_new/install/mobile_robot
+[1.494s] -- The C compiler identification is GNU 13.3.0
+[2.297s] -- The CXX compiler identification is GNU 13.3.0
+[2.453s] -- Detecting C compiler ABI info
+[2.934s] -- Detecting C compiler ABI info - done
+[2.971s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.972s] -- Detecting C compile features
+[2.973s] -- Detecting C compile features - done
+[3.010s] -- Detecting CXX compiler ABI info
+[3.395s] -- Detecting CXX compiler ABI info - done
+[3.433s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.435s] -- Detecting CXX compile features
+[3.436s] -- Detecting CXX compile features - done
+[3.506s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[4.172s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[4.647s] -- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+[4.878s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[4.947s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[5.118s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.203s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.531s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[5.552s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[5.694s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[5.963s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[6.042s] -- Found ros_gz_sim: 1.0.9 (/opt/ros/jazzy/share/ros_gz_sim/cmake)
+[6.067s] -- Found ros_gz_bridge: 1.0.9 (/opt/ros/jazzy/share/ros_gz_bridge/cmake)
+[6.380s] -- Looking for gz-msgs10 -- found version 10.3.2
+[6.400s] -- Searching for dependencies of gz-msgs10
+[7.076s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.21.12") 
+[7.086s] -- Looking for gz-utils2 -- found version 2.2.1
+[7.087s] -- Searching for dependencies of gz-utils2
+[7.111s] -- Looking for gz-math7 -- found version 7.5.2
+[7.113s] -- Searching for dependencies of gz-math7
+[7.113s] -- Looking for gz-utils2 -- found version 2.2.1
+[7.139s] -- Checking for module 'tinyxml2'
+[7.203s] --   Found tinyxml2, version 10.0.0
+[7.361s] -- Looking for gz-transport13 -- found version 13.4.1
+[7.361s] -- Searching for dependencies of gz-transport13
+[7.462s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[7.475s] -- Checking for module 'libzmq >= 4'
+[7.537s] --   Found libzmq, version 4.3.5
+[7.677s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[7.716s] -- Checking for module 'uuid'
+[7.770s] --   Found uuid, version 2.39.3
+[7.874s] -- Found UUID: TRUE  
+[7.875s] -- Looking for gz-utils2 -- found version 2.2.1
+[7.876s] -- Searching for dependencies of gz-utils2
+[7.876s] -- Searching for <gz-utils2> component [cli]
+[7.885s] -- Looking for gz-utils2-cli -- found version 2.2.1
+[7.887s] -- Searching for dependencies of gz-utils2-cli
+[7.888s] -- Looking for gz-msgs10 -- found version 10.3.2
+[8.921s] -- Found controller_manager: 4.27.0 (/opt/ros/jazzy/share/controller_manager/cmake)
+[9.490s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[10.143s] -- Found gz_ros2_control: 1.2.11 (/opt/ros/jazzy/share/gz_ros2_control/cmake)
+[10.174s] -- Found xacro: 2.0.11 (/opt/ros/jazzy/share/xacro/cmake)
+[10.233s] -- Found libdw: /usr/lib/x86_64-linux-gnu/libdw.so  
+[10.253s] -- Found libbfd: /usr/lib/x86_64-linux-gnu/libbfd.so  
+[10.276s] -- Could NOT find libdwarf (missing: LIBDWARF_LIBRARY LIBDWARF_INCLUDE_DIR) 
+[10.279s] -- Found Backward: $<BUILD_INTERFACE:/home/thomas/backward-cpp/backward-cpp>;$<INSTALL_INTERFACE:include>  
+[10.293s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[10.728s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.728s] -- Configured 'flake8' exclude dirs and/or files: 
+[10.736s] -- Added test 'lint_cmake' to check CMake code style
+[10.741s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[10.755s] -- Added test 'xmllint' to check XML markup files
+[10.768s] -- Configuring done (10.5s)
+[10.846s] -- Generating done (0.1s)
+[10.864s] -- Build files have been written to: /home/thomas/MobileRobot/ws_new/build/mobile_robot
+[10.927s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/rqt_joint_trajectory_controller:/home/thomas/MobileRobot/ws_new/install/ros2controlcli:/home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/thomas/MobileRobot/ws_new/src/mobile_robot -DCMAKE_INSTALL_PREFIX=/home/thomas/MobileRobot/ws_new/install/mobile_robot
+[10.928s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/rqt_joint_trajectory_controller:/home/thomas/MobileRobot/ws_new/install/ros2controlcli:/home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/mobile_robot -- -j8 -l8
+[11.225s] [ 33%] [32mBuilding CXX object backward/CMakeFiles/backward_object.dir/backward.cpp.o[0m
+[14.830s] [ 33%] Built target backward_object
+[14.893s] [ 66%] [32mBuilding CXX object backward/CMakeFiles/backward.dir/backward.cpp.o[0m
+[17.732s] [100%] [32m[1mLinking CXX static library libbackward.a[0m
+[17.949s] [100%] Built target backward
+[17.984s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/rqt_joint_trajectory_controller:/home/thomas/MobileRobot/ws_new/install/ros2controlcli:/home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/mobile_robot -- -j8 -l8
+[18.010s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/mobile_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/rqt_joint_trajectory_controller:/home/thomas/MobileRobot/ws_new/install/ros2controlcli:/home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/mobile_robot
+[18.035s] -- Install configuration: ""
+[18.035s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//map
+[18.036s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//map/empty_map.yaml
+[18.057s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//map/map_publisher.py
+[18.078s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//map/my_map.yaml
+[18.112s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//map/empty_map.pgm
+[18.131s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//map/create_empty_map.py
+[18.147s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//map/my_map.pgm
+[18.157s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//map/my_map1.pgm
+[18.166s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//map/my_map1.yaml
+[18.179s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//launch
+[18.179s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//launch/robot_gps_nav2.launch.py
+[18.200s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//launch/robot_gps_nav2_1.launch.py
+[18.220s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//launch/gazebo_model_environement.launch.py
+[18.233s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//launch/gazebo_model.launch.py
+[18.234s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//launch/test.launch.py
+[18.245s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//launch/ekf.launch.py
+[18.255s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//launch/camera.launch.py
+[18.255s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//launch/controller_server_node.py
+[18.264s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//launch/farm_world.launch.py
+[18.274s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//model
+[18.275s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//model/farm_world.sdf
+[18.284s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//model/empty_world.world
+[18.285s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//model/robot.gazebo
+[18.295s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//model/robot.xacro
+[18.309s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//config
+[18.309s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//config/main.rviz
+[18.309s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//config/mapper_params_online_async.yaml
+[18.310s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//config/ackermann_controllers.yaml
+[18.310s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//config/nav2_params.yaml
+[18.325s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//config/ekf.yaml
+[18.344s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//config/navsat_transform.yaml
+[18.358s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//config/gz_bridge.yaml
+[18.358s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//config/waypoint_follower.yaml
+[18.367s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//config/twist_mux.yaml
+[18.379s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//config/ekf1.yaml
+[18.388s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//config/map_server.yaml
+[18.399s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//description
+[18.400s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//description/lidar.xacro
+[18.416s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//description/gps.xacro
+[18.417s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot//description/camera.xacro
+[18.418s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/ament_index/resource_index/package_run_dependencies/mobile_robot
+[18.418s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/ament_index/resource_index/parent_prefix_path/mobile_robot
+[18.419s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.sh
+[18.419s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/environment/ament_prefix_path.dsv
+[18.419s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/environment/path.sh
+[18.421s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/environment/path.dsv
+[18.421s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/local_setup.bash
+[18.421s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/local_setup.sh
+[18.422s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/local_setup.zsh
+[18.422s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/local_setup.dsv
+[18.422s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/package.dsv
+[18.423s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/ament_index/resource_index/packages/mobile_robot
+[18.423s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig.cmake
+[18.423s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/cmake/mobile_robotConfig-version.cmake
+[18.424s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/share/mobile_robot/package.xml
+[18.424s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/include/backward.hpp
+[18.424s] -- Installing: /home/thomas/MobileRobot/ws_new/install/mobile_robot/lib/cmake/backward/BackwardConfig.cmake
+[18.427s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/mobile_robot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/thomas/MobileRobot/ws_new/install/rqt_joint_trajectory_controller:/home/thomas/MobileRobot/ws_new/install/ros2controlcli:/home/thomas/MobileRobot/ws_new/install/ros2_controllers_test_nodes:/home/thomas/MobileRobot/ws_new/install/publisher_subscriber:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/mobile_robot

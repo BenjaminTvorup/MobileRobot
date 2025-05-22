@@ -1,1 +1,0 @@
-/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_controllers/steering_controllers_library/include/steering_controllers_library/steering_odometry.hpp

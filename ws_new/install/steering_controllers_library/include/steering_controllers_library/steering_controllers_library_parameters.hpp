@@ -1,1 +1,0 @@
-/home/thomas/MobileRobot/ws_new/build/steering_controllers_library/include/steering_controllers_library/steering_controllers_library_parameters.hpp

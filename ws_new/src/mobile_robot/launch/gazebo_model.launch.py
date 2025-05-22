@@ -94,7 +94,6 @@ def generate_launch_description():
         output='screen'
     )
 
-
     # Spawn controllers
     controller_spawner = TimerAction(
     period=5.0,  # Wait 5 seconds to ensure controller manager is ready
@@ -102,11 +101,13 @@ def generate_launch_description():
         Node(
             package='controller_manager',
             executable='spawner',
-            arguments=['ackermann_steering_controller', 'joint_state_broadcaster', '--controller-manager', '/controller_manager'],
+            arguments=['--controller-manager', '/controller_manager','ackermann_steering_controller', 'joint_state_broadcaster'],
             parameters=[{'use_sim_time': True}, controller_file],
             output='screen'
         )
     ])
+
+
 
     # Add twist_mux node
     twist_mux_params = os.path.join(get_package_share_directory(package_name), 'config', 'twist_mux.yaml')
@@ -213,9 +214,9 @@ def generate_launch_description():
         rvizconfig_arg,
         gazebo_launch,
         spawn_node,
+        controller_spawner,
         robot_state_publisher_node,
         bridge_node,
-        controller_spawner,
         joint_state_publisher_node,
         #joint_state_publisher_gui_node,
         #robot_localization_node,

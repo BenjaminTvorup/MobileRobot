@@ -215,9 +215,9 @@ def generate_launch_description():
             amcl,
             controller_server,
             planner_server,
-            behavior_server,
-            bt_navigator,
-            waypoint_follower,
+            behnavigator,
+            wayavior_server,
+            bt_point_follower,
             lifecycle_manager
             
         ]

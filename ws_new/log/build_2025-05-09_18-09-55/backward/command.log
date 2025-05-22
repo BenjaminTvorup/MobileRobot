@@ -1,6 +1,0 @@
-Invoking command in '/home/thomas/MobileRobot/ws_new/build/backward': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/thomas/MobileRobot/ws_new/backward-cpp -DCMAKE_INSTALL_PREFIX=/home/thomas/MobileRobot/ws_new/install/backward
-Invoked command in '/home/thomas/MobileRobot/ws_new/build/backward' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/thomas/MobileRobot/ws_new/backward-cpp -DCMAKE_INSTALL_PREFIX=/home/thomas/MobileRobot/ws_new/install/backward
-Invoking command in '/home/thomas/MobileRobot/ws_new/build/backward': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/backward -- -j8 -l8
-Invoked command in '/home/thomas/MobileRobot/ws_new/build/backward' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/backward -- -j8 -l8
-Invoking command in '/home/thomas/MobileRobot/ws_new/build/backward': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/backward
-Invoked command in '/home/thomas/MobileRobot/ws_new/build/backward' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/backward

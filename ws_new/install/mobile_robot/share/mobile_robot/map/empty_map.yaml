@@ -1,1 +1,6 @@
-/home/thomas/MobileRobot/ws_new/src/mobile_robot/map/empty_map.yaml
+image: src/mobile_robot/map/empty_map.pgm
+resolution: 0.1
+origin: [0.0, 0.0, 0.0]
+negate: 1
+occupied_thresh: 0.65
+free_thresh: 0.196

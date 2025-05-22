@@ -1,1 +1,0 @@
-/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/hardware_interface/include/hardware_interface/types/trigger_type.hpp

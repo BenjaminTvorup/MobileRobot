@@ -1,4 +1,0 @@
-Invoking command in '/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg -- -j8 -l8
-Invoked command in '/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg -- -j8 -l8
-Invoking command in '/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg
-Invoked command in '/home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/my_kinematics_pkg

@@ -97,16 +97,17 @@ def generate_launch_description():
     ]
 
 
-        # 1) Include the SLAM launch
+    # 1) Include the SLAM launch
     slam_launch = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
             os.path.join(slam_toolbox_share, 'launch', 'online_async_launch.py')
         ),
         launch_arguments={
-            'use_sim_time': LaunchConfiguration('use_sim_time'),
-            # you can also pass 'params_file': '/path/to/your_slam_params.yaml'
+            'use_sim_time': use_sim_time,
+            'params_file': params_file
         }.items()
     )
+
 
     # Nodes
     map_server = Node(

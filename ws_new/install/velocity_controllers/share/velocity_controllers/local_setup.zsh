@@ -1,1 +1,0 @@
-/home/thomas/MobileRobot/ws_new/build/velocity_controllers/ament_cmake_environment_hooks/local_setup.zsh

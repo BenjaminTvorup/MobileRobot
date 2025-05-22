@@ -1,1 +1,0 @@
-/home/thomas/MobileRobot/ws_new/build/controller_manager/include/controller_manager/controller_manager_parameters.hpp

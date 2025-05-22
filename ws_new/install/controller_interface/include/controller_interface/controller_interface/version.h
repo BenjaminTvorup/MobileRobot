@@ -1,1 +1,0 @@
-/home/thomas/MobileRobot/ws_new/build/controller_interface/ament_generate_version_header/controller_interface/controller_interface/version.h

@@ -1,1 +1,0 @@
-/home/thomas/MobileRobot/ws_new/install/ros2_control_test_assets/share/ros2_control_test_assets/cmake/export_ros2_control_test_assetsExport.cmake

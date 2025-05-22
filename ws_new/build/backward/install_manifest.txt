@@ -1,5 +1,0 @@
-/home/thomas/MobileRobot/ws_new/install/backward/include/backward.hpp
-/home/thomas/MobileRobot/ws_new/install/backward/lib/cmake/backward/BackwardConfig.cmake
-/home/thomas/MobileRobot/ws_new/install/backward/lib/libbackward.a
-/home/thomas/MobileRobot/ws_new/install/backward/lib/cmake/backward/BackwardTargets.cmake
-/home/thomas/MobileRobot/ws_new/install/backward/lib/cmake/backward/BackwardTargets-noconfig.cmake

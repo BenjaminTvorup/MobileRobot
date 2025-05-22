@@ -1,1 +1,0 @@
-/home/thomas/MobileRobot/ws_new/build/kinematics_interface/ament_cmake_core/kinematics_interfaceConfig-version.cmake

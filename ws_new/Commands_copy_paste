@@ -16,9 +16,6 @@ ros2 launch mobile_robot ekf.launch.py
 
 
 
-
-
-
 #navigation
 colcon build --packages-select mobile_robot
 source install/setup.bash
@@ -30,4 +27,5 @@ source install/setup.bash
 python3 src/navigation/navigation/gps_save_xy_subscriber.py
 
 
+ros2 launch slam_toolbox online_async_launch.py use_sim_time:=true
 

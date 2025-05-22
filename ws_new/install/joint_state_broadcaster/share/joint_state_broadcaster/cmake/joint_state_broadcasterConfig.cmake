@@ -1,1 +1,0 @@
-/home/thomas/MobileRobot/ws_new/build/joint_state_broadcaster/ament_cmake_core/joint_state_broadcasterConfig.cmake

@@ -1,4 +1,0 @@
-/home/thomas/MobileRobot/ws_new/install/hardware_interface/lib/libmock_components.so
-/home/thomas/MobileRobot/ws_new/install/hardware_interface/lib/libhardware_interface.so
-/home/thomas/MobileRobot/ws_new/install/hardware_interface/share/hardware_interface/cmake/export_hardware_interfaceExport.cmake
-/home/thomas/MobileRobot/ws_new/install/hardware_interface/share/hardware_interface/cmake/export_hardware_interfaceExport-noconfig.cmake

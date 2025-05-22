@@ -1,1 +1,0 @@
-/home/thomas/MobileRobot/ws_new/src/ros-controls/ros2_control/transmission_interface/include/transmission_interface/handle.hpp

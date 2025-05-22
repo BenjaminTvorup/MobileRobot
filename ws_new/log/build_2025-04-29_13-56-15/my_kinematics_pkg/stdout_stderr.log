@@ -1,3 +1,0 @@
-gmake[2]: *** [CMakeFiles/kinematics_node.dir/build.make:235: CMakeFiles/kinematics_node.dir/depend] Interrupt
-gmake[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/kinematics_node.dir/all] Interrupt
-gmake: *** [Makefile:146: all] Interrupt
