@@ -225,6 +225,6 @@ def generate_launch_description():
         #nav2_controller_node,
         #lifecycle_manage_node
         #kinematics_node,
-        #ekf_node,
-        #navsat_transform
+        ekf_node,
+        navsat_transform
     ])  

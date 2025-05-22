@@ -29,3 +29,7 @@ python3 src/navigation/navigation/gps_save_xy_subscriber.py
 
 ros2 launch slam_toolbox online_async_launch.py use_sim_time:=true
 
+
+ros2 launch my_package my_launch.py params_file:=/home/thomas/MobileRobot/ws_new/src/mobile_robot/config/nav2_params_doc.yaml
+ros2 launch my_package my_launch.py params_file:=/src/mobile_robot/config/nav2_params_doc.yaml
+
