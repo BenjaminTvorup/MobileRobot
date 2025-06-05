@@ -1,0 +1,430 @@
+[0.232s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/nav2_behavior_tree': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_util:/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_util:/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_util/lib:/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib:/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/nav2_behavior_tree -- -j8 -l8
+[0.753s] [  1%] Built target nav2_wait_cancel_bt_node
+[0.754s] [  2%] Built target nav2_controller_cancel_bt_node
+[0.759s] [  3%] Built target nav2_compute_path_to_pose_action_bt_node
+[0.762s] [  4%] Built target nav2_compute_path_through_poses_action_bt_node
+[0.779s] [  4%] Built target nav2_behavior_tree
+[0.894s] [  5%] Built target nav2_back_up_cancel_bt_node
+[0.895s] [  6%] Built target nav2_assisted_teleop_cancel_bt_node
+[0.906s] [  7%] Built target nav2_follow_path_action_bt_node
+[0.910s] [  8%] Built target nav2_smooth_path_action_bt_node
+[0.933s] [  9%] Built target nav2_back_up_action_bt_node
+[0.970s] [  9%] Built target nav2_drive_on_heading_bt_node
+[0.970s] [ 10%] Built target nav2_spin_action_bt_node
+[1.020s] [ 11%] Built target nav2_assisted_teleop_action_bt_node
+[1.031s] [ 13%] Built target nav2_wait_action_bt_node
+[1.031s] [ 13%] Built target nav2_clear_costmap_service_bt_node
+[1.145s] [ 14%] Built target nav2_is_stuck_condition_bt_node
+[1.186s] [ 15%] Built target nav2_drive_on_heading_cancel_bt_node
+[1.199s] [ 16%] Built target nav2_globally_updated_goal_condition_bt_node
+[1.201s] [ 17%] Built target nav2_transform_available_condition_bt_node
+[1.225s] [ 18%] Built target nav2_goal_reached_condition_bt_node
+[1.236s] [ 19%] Built target nav2_is_path_valid_condition_bt_node
+[1.249s] [ 20%] Built target nav2_time_expired_condition_bt_node
+[1.266s] [ 21%] Built target nav2_path_expiring_timer_condition
+[1.341s] [ 22%] Built target nav2_is_battery_low_condition_bt_node
+[1.347s] [ 23%] Built target nav2_is_battery_charging_condition_bt_node
+[1.348s] [ 24%] Built target nav2_distance_traveled_condition_bt_node
+[1.350s] [ 24%] Built target nav2_spin_cancel_bt_node
+[1.352s] [ 25%] Built target nav2_goal_updated_condition_bt_node
+[1.361s] [ 26%] Built target nav2_initial_pose_received_condition_bt_node
+[1.384s] [ 28%] Built target nav2_are_error_codes_active_condition_bt_node
+[1.384s] [ 28%] Built target nav2_would_a_controller_recovery_help_condition_bt_node
+[1.559s] [ 28%] Built target nav2_reinitialize_global_localization_service_bt_node
+[1.559s] [ 29%] Built target nav2_would_a_planner_recovery_help_condition_bt_node
+[1.568s] [ 29%] Built target nav2_would_a_smoother_recovery_help_condition_bt_node
+[1.578s] [ 30%] Built target nav2_speed_controller_bt_node
+[1.579s] [ 31%] Built target nav2_truncate_path_action_bt_node
+[1.582s] [ 32%] Built target nav2_truncate_path_local_action_bt_node
+[1.582s] [ 33%] Built target nav2_distance_controller_bt_node
+[1.582s] [ 34%] Built target nav2_rate_controller_bt_node
+[1.744s] [ 36%] Built target nav2_recovery_node_bt_node
+[1.744s] [ 36%] Built target nav2_goal_updater_node_bt_node
+[1.750s] [ 37%] Built target nav2_path_longer_on_approach_bt_node
+[1.756s] [ 38%] Built target nav2_pipeline_sequence_bt_node
+[1.757s] [ 39%] Built target nav2_navigate_through_poses_action_bt_node
+[1.759s] [ 39%] Built target nav2_navigate_to_pose_action_bt_node
+[1.763s] [ 40%] Built target nav2_remove_passed_goals_action_bt_node
+[1.767s] [ 41%] Built target nav2_get_pose_from_path_action_bt_node
+[1.966s] [ 43%] Built target nav2_single_trigger_bt_node
+[1.966s] [ 44%] Built target nav2_controller_selector_bt_node
+[1.967s] [ 45%] Built target nav2_planner_selector_bt_node
+[1.967s] [ 45%] Built target nav2_round_robin_node_bt_node
+[1.969s] [ 46%] Built target nav2_progress_checker_selector_bt_node
+[1.973s] [ 46%] Built target nav2_goal_updated_controller_bt_node
+[1.974s] [ 47%] Built target nav2_smoother_selector_bt_node
+[1.978s] [ 48%] Built target nav2_goal_checker_selector_bt_node
+[2.158s] [ 49%] Built target gtest_main
+[2.175s] [ 49%] Built target generate_nav2_tree_nodes_xml
+[2.181s] [ 50%] Built target gtest
+[2.312s] [ 51%] Built target test_bt_utils
+[2.318s] [ 52%] Built target test_condition_goal_reached
+[2.321s] [ 53%] Built target test_condition_distance_traveled
+[2.325s] [ 54%] Built target test_condition_path_expiring_timer
+[2.325s] [ 54%] Built target test_condition_time_expired
+[2.379s] [ 54%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_is_stuck.dir/test_is_stuck.cpp.o[0m
+[2.381s] [ 55%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_is_battery_charging.dir/test_is_battery_charging.cpp.o[0m
+[2.382s] [ 56%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_transform_available.dir/test_transform_available.cpp.o[0m
+[2.408s] [ 57%] Built target test_condition_initial_pose_received
+[2.432s] [ 57%] Built target test_condition_globally_updated_goal
+[2.485s] [ 57%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_are_error_codes_present.dir/test_are_error_codes_present.cpp.o[0m
+[2.501s] [ 57%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_is_path_valid.dir/test_is_path_valid.cpp.o[0m
+[3.583s] [ 57%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_would_a_controller_recovery_help.dir/test_would_a_controller_recovery_help.cpp.o[0m
+[3.611s] [ 57%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_condition_is_battery_low.dir/test_is_battery_low.cpp.o[0m
+[3.639s] [ 58%] Built target test_condition_goal_updated
+[3.689s] [ 58%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_would_a_planner_recovery_help.dir/test_would_a_planner_recovery_help.cpp.o[0m
+[22.999s] [ 59%] [32m[1mLinking CXX executable test_condition_is_path_valid[0m
+[23.995s] [ 59%] [32m[1mLinking CXX executable test_condition_is_battery_charging[0m
+[24.086s] [ 59%] [32m[1mLinking CXX executable test_condition_transform_available[0m
+[24.762s] [ 60%] [32m[1mLinking CXX executable test_condition_is_battery_low[0m
+[25.331s] [ 61%] [32m[1mLinking CXX executable test_would_a_controller_recovery_help[0m
+[25.350s] [ 62%] [32m[1mLinking CXX executable test_are_error_codes_present[0m
+[25.891s] [ 63%] [32m[1mLinking CXX executable test_would_a_planner_recovery_help[0m
+[26.185s] [ 64%] [32m[1mLinking CXX executable test_condition_is_stuck[0m
+[26.897s] [ 64%] Built target test_condition_is_battery_low
+[26.900s] [ 64%] Built target test_condition_is_battery_charging
+[26.904s] [ 64%] Built target test_condition_is_path_valid
+[26.913s] [ 64%] Built target test_are_error_codes_present
+[26.915s] [ 64%] Built target test_condition_transform_available
+[26.917s] [ 64%] Built target test_would_a_controller_recovery_help
+[26.917s] [ 64%] Built target test_would_a_planner_recovery_help
+[26.931s] [ 64%] Built target test_condition_is_stuck
+[27.025s] [ 64%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_distance_controller.dir/test_distance_controller.cpp.o[0m
+[27.025s] [ 64%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_goal_updater_node.dir/test_goal_updater_node.cpp.o[0m
+[27.026s] [ 64%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_goal_updated_controller.dir/test_goal_updated_controller.cpp.o[0m
+[27.026s] [ 64%] [32mBuilding CXX object test/plugins/condition/CMakeFiles/test_would_a_smoother_recovery_help.dir/test_would_a_smoother_recovery_help.cpp.o[0m
+[27.026s] [ 66%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_rate_controller.dir/test_rate_controller.cpp.o[0m
+[27.026s] [ 66%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_path_longer_on_approach.dir/test_path_longer_on_approach.cpp.o[0m
+[27.026s] [ 66%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_decorator_speed_controller.dir/test_speed_controller.cpp.o[0m
+[27.031s] [ 67%] [32mBuilding CXX object test/plugins/decorator/CMakeFiles/test_single_trigger_node.dir/test_single_trigger_node.cpp.o[0m
+[43.999s] [ 67%] [32m[1mLinking CXX executable test_decorator_path_longer_on_approach[0m
+[44.639s] [ 67%] Built target test_decorator_path_longer_on_approach
+[46.304s] [ 68%] [32m[1mLinking CXX executable test_goal_updater_node[0m
+[46.958s] [ 68%] Built target test_goal_updater_node
+[47.117s] [ 68%] [32m[1mLinking CXX executable test_decorator_rate_controller[0m
+[47.612s] [ 68%] Built target test_decorator_rate_controller
+[48.078s] [ 69%] [32m[1mLinking CXX executable test_goal_updated_controller[0m
+[48.096s] [ 69%] [32m[1mLinking CXX executable test_single_trigger_node[0m
+[48.377s] [ 70%] [32m[1mLinking CXX executable test_decorator_distance_controller[0m
+[48.787s] [ 70%] Built target test_goal_updated_controller
+[48.798s] [ 70%] Built target test_single_trigger_node
+[48.925s] [ 70%] Built target test_decorator_distance_controller
+[49.393s] [ 71%] [32m[1mLinking CXX executable test_would_a_smoother_recovery_help[0m
+[49.796s] [ 71%] Built target test_would_a_smoother_recovery_help
+[49.864s] [ 72%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_spin_action.dir/test_spin_action.cpp.o[0m
+[49.865s] [ 72%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_back_up_action.dir/test_back_up_action.cpp.o[0m
+[49.865s] [ 72%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_bt_action_node.dir/test_bt_action_node.cpp.o[0m
+[50.471s] [ 72%] [32m[1mLinking CXX executable test_decorator_speed_controller[0m
+[50.947s] [ 72%] Built target test_decorator_speed_controller
+[50.957s] [ 73%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_drive_on_heading.dir/test_drive_on_heading_action.cpp.o[0m
+[50.971s] [ 73%] [32mBuilding CXX object test/plugins/control/CMakeFiles/test_control_round_robin_node.dir/test_round_robin_node.cpp.o[0m
+[50.988s] [ 74%] [32mBuilding CXX object test/plugins/control/CMakeFiles/test_control_pipeline_sequence.dir/test_pipeline_sequence.cpp.o[0m
+[52.338s] [ 75%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_wait_action.dir/test_wait_action.cpp.o[0m
+[52.342s] [ 76%] [32mBuilding CXX object test/plugins/control/CMakeFiles/test_control_recovery_node.dir/test_recovery_node.cpp.o[0m
+[68.938s] [ 76%] [32m[1mLinking CXX executable test_action_back_up_action[0m
+[69.260s] [ 76%] [32m[1mLinking CXX executable test_action_spin_action[0m
+[69.724s] [ 76%] Built target test_action_back_up_action
+[70.013s] [ 76%] Built target test_action_spin_action
+[70.882s] [ 76%] [32m[1mLinking CXX executable test_action_drive_on_heading[0m
+[71.298s] [ 76%] [32m[1mLinking CXX executable test_action_wait_action[0m
+[71.524s] [ 76%] Built target test_action_drive_on_heading
+[71.765s] [ 76%] Built target test_action_wait_action
+[72.279s] [ 77%] [32m[1mLinking CXX executable test_bt_action_node[0m
+[72.355s] [ 78%] [32m[1mLinking CXX executable test_control_round_robin_node[0m
+[72.790s] [ 78%] Built target test_bt_action_node
+[72.824s] [ 78%] [32m[1mLinking CXX executable test_control_pipeline_sequence[0m
+[72.840s] [ 78%] Built target test_control_round_robin_node
+[73.290s] [ 78%] Built target test_control_pipeline_sequence
+[73.885s] [ 78%] [32m[1mLinking CXX executable test_control_recovery_node[0m
+[74.230s] [ 78%] Built target test_control_recovery_node
+[74.316s] [ 79%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_drive_on_heading_cancel_action.dir/test_drive_on_heading_cancel_node.cpp.o[0m
+[75.349s] [ 80%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_clear_costmap_service.dir/test_clear_costmap_service.cpp.o[0m
+[75.349s] [ 80%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_assisted_teleop_cancel_action.dir/test_assisted_teleop_cancel_node.cpp.o[0m
+[76.411s] [ 80%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_back_up_cancel_action.dir/test_back_up_cancel_node.cpp.o[0m
+[77.445s] [ 82%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_spin_cancel_action.dir/test_spin_cancel_node.cpp.o[0m
+[77.445s] [ 82%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_wait_cancel_action.dir/test_wait_cancel_node.cpp.o[0m
+[78.487s] [ 82%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_controller_cancel_action.dir/test_controller_cancel_node.cpp.o[0m
+[79.543s] [ 83%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_assisted_teleop_action.dir/test_assisted_teleop_action.cpp.o[0m
+[92.121s] [ 83%] [32m[1mLinking CXX executable test_action_drive_on_heading_cancel_action[0m
+[92.830s] [ 83%] Built target test_action_drive_on_heading_cancel_action
+[93.059s] [ 83%] [32m[1mLinking CXX executable test_action_assisted_teleop_cancel_action[0m
+[93.752s] [ 83%] Built target test_action_assisted_teleop_cancel_action
+[94.809s] [ 83%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_compute_path_to_pose_action.dir/test_compute_path_to_pose_action.cpp.o[0m
+[95.150s] [ 84%] [32m[1mLinking CXX executable test_action_back_up_cancel_action[0m
+[95.780s] [ 84%] Built target test_action_back_up_cancel_action
+[95.836s] [ 84%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_reinitialize_global_localization_service.dir/test_reinitialize_global_localization_service.cpp.o[0m
+[95.836s] [ 84%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_compute_path_through_poses_action.dir/test_compute_path_through_poses_action.cpp.o[0m
+[96.167s] [ 85%] [32m[1mLinking CXX executable test_action_clear_costmap_service[0m
+[96.973s] [ 85%] Built target test_action_clear_costmap_service
+[97.074s] [ 85%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_smooth_path_action.dir/test_smooth_path_action.cpp.o[0m
+[98.042s] [ 85%] [32m[1mLinking CXX executable test_action_wait_cancel_action[0m
+[98.161s] [ 85%] [32m[1mLinking CXX executable test_action_spin_cancel_action[0m
+[98.758s] [ 85%] Built target test_action_wait_cancel_action
+[98.838s] [ 86%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_follow_path_action.dir/test_follow_path_action.cpp.o[0m
+[98.886s] [ 86%] Built target test_action_spin_cancel_action
+[98.965s] [ 86%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_navigate_to_pose_action.dir/test_navigate_to_pose_action.cpp.o[0m
+[99.247s] [ 86%] [32m[1mLinking CXX executable test_action_controller_cancel_action[0m
+[99.977s] [ 86%] Built target test_action_controller_cancel_action
+[100.055s] [ 86%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_action_navigate_through_poses_action.dir/test_navigate_through_poses_action.cpp.o[0m
+[100.219s] [ 86%] [32m[1mLinking CXX executable test_action_assisted_teleop_action[0m
+[100.937s] [ 86%] Built target test_action_assisted_teleop_action
+[101.033s] [ 87%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_truncate_path_action.dir/test_truncate_path_action.cpp.o[0m
+[113.440s] [ 88%] [32m[1mLinking CXX executable test_action_reinitialize_global_localization_service[0m
+[114.115s] [ 88%] Built target test_action_reinitialize_global_localization_service
+[115.203s] [ 88%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_truncate_path_local_action.dir/test_truncate_path_local_action.cpp.o[0m
+[115.932s] [ 89%] [32m[1mLinking CXX executable test_action_compute_path_to_pose_action[0m
+[116.685s] [ 89%] Built target test_action_compute_path_to_pose_action
+[116.755s] [ 90%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_remove_passed_goals_action.dir/test_remove_passed_goals_action.cpp.o[0m
+[117.213s] [ 90%] [32m[1mLinking CXX executable test_truncate_path_action[0m
+[117.483s] [ 91%] [32m[1mLinking CXX executable test_action_smooth_path_action[0m
+[117.796s] [ 91%] Built target test_truncate_path_action
+[117.854s] [ 92%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_get_pose_from_path_action.dir/test_get_pose_from_path_action.cpp.o[0m
+[118.106s] [ 93%] [32m[1mLinking CXX executable test_action_compute_path_through_poses_action[0m
+[118.157s] [ 93%] Built target test_action_smooth_path_action
+[118.220s] [ 93%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_planner_selector_node.dir/test_planner_selector_node.cpp.o[0m
+[118.756s] [ 93%] Built target test_action_compute_path_through_poses_action
+[118.812s] [ 93%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_controller_selector_node.dir/test_controller_selector_node.cpp.o[0m
+[119.106s] [ 94%] [32m[1mLinking CXX executable test_action_navigate_to_pose_action[0m
+[119.142s] [ 94%] [32m[1mLinking CXX executable test_action_follow_path_action[0m
+[119.778s] [ 94%] Built target test_action_navigate_to_pose_action
+[119.848s] [ 94%] Built target test_action_follow_path_action
+[119.866s] [ 95%] [32m[1mLinking CXX executable test_action_navigate_through_poses_action[0m
+[120.508s] [ 95%] Built target test_action_navigate_through_poses_action
+[131.332s] [ 96%] [32m[1mLinking CXX executable test_planner_selector_node[0m
+[131.433s] [ 97%] [32m[1mLinking CXX executable test_controller_selector_node[0m
+[131.832s] [ 97%] Built target test_planner_selector_node
+[131.898s] [ 98%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_goal_checker_selector_node.dir/test_goal_checker_selector_node.cpp.o[0m
+[131.908s] [ 98%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_progress_checker_selector_node.dir/test_progress_checker_selector_node.cpp.o[0m
+[131.925s] [ 98%] Built target test_controller_selector_node
+[131.982s] [ 99%] [32mBuilding CXX object test/plugins/action/CMakeFiles/test_smoother_selector_node.dir/test_smoother_selector_node.cpp.o[0m
+[132.377s] [ 99%] [32m[1mLinking CXX executable test_remove_passed_goals_action[0m
+[132.799s] [ 99%] Built target test_remove_passed_goals_action
+[134.439s] [ 99%] [32m[1mLinking CXX executable test_get_pose_from_path_action[0m
+[134.853s] [ 99%] Built target test_get_pose_from_path_action
+[137.507s] [100%] [32m[1mLinking CXX executable test_truncate_path_local_action[0m
+[137.956s] [100%] Built target test_truncate_path_local_action
+[143.563s] [100%] [32m[1mLinking CXX executable test_smoother_selector_node[0m
+[143.962s] [100%] Built target test_smoother_selector_node
+[144.494s] [100%] [32m[1mLinking CXX executable test_progress_checker_selector_node[0m
+[144.531s] [100%] [32m[1mLinking CXX executable test_goal_checker_selector_node[0m
+[144.876s] [100%] Built target test_progress_checker_selector_node
+[144.926s] [100%] Built target test_goal_checker_selector_node
+[144.947s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/nav2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_util:/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_util:/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_util/lib:/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib:/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/nav2_behavior_tree -- -j8 -l8
+[145.032s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/nav2_behavior_tree': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_util:/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_util:/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_util/lib:/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib:/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/nav2_behavior_tree
+[145.084s] -- Install configuration: "Release"
+[145.094s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_behavior_tree.so
+[145.106s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_behavior_tree.so" to ""
+[145.106s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_compute_path_to_pose_action_bt_node.so
+[145.125s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_compute_path_to_pose_action_bt_node.so" to ""
+[145.125s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_compute_path_through_poses_action_bt_node.so
+[145.135s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_compute_path_through_poses_action_bt_node.so" to ""
+[145.136s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_controller_cancel_bt_node.so
+[145.138s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_controller_cancel_bt_node.so" to ""
+[145.139s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_wait_cancel_bt_node.so
+[145.141s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_wait_cancel_bt_node.so" to ""
+[145.142s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_spin_cancel_bt_node.so
+[145.145s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_spin_cancel_bt_node.so" to ""
+[145.145s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_back_up_cancel_bt_node.so
+[145.147s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_back_up_cancel_bt_node.so" to ""
+[145.148s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_cancel_bt_node.so
+[145.151s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_cancel_bt_node.so" to ""
+[145.151s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_cancel_bt_node.so
+[145.154s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_cancel_bt_node.so" to ""
+[145.154s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_smooth_path_action_bt_node.so
+[145.158s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_smooth_path_action_bt_node.so" to ""
+[145.158s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_follow_path_action_bt_node.so
+[145.173s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_follow_path_action_bt_node.so" to ""
+[145.173s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_back_up_action_bt_node.so
+[145.186s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_back_up_action_bt_node.so" to ""
+[145.187s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_bt_node.so
+[145.200s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_drive_on_heading_bt_node.so" to ""
+[145.200s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_spin_action_bt_node.so
+[145.219s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_spin_action_bt_node.so" to ""
+[145.220s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_wait_action_bt_node.so
+[145.239s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_wait_action_bt_node.so" to ""
+[145.239s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_action_bt_node.so
+[145.243s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_assisted_teleop_action_bt_node.so" to ""
+[145.243s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_clear_costmap_service_bt_node.so
+[145.257s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_clear_costmap_service_bt_node.so" to ""
+[145.257s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_is_stuck_condition_bt_node.so
+[145.276s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_is_stuck_condition_bt_node.so" to ""
+[145.277s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_transform_available_condition_bt_node.so
+[145.294s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_transform_available_condition_bt_node.so" to ""
+[145.295s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_goal_reached_condition_bt_node.so
+[145.312s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_goal_reached_condition_bt_node.so" to ""
+[145.312s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_globally_updated_goal_condition_bt_node.so
+[145.321s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_globally_updated_goal_condition_bt_node.so" to ""
+[145.321s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_goal_updated_condition_bt_node.so
+[145.332s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_goal_updated_condition_bt_node.so" to ""
+[145.332s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_is_path_valid_condition_bt_node.so
+[145.334s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_is_path_valid_condition_bt_node.so" to ""
+[145.334s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_time_expired_condition_bt_node.so
+[145.351s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_time_expired_condition_bt_node.so" to ""
+[145.351s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_path_expiring_timer_condition.so
+[145.371s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_path_expiring_timer_condition.so" to ""
+[145.372s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_distance_traveled_condition_bt_node.so
+[145.398s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_distance_traveled_condition_bt_node.so" to ""
+[145.399s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_initial_pose_received_condition_bt_node.so
+[145.414s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_initial_pose_received_condition_bt_node.so" to ""
+[145.414s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_is_battery_charging_condition_bt_node.so
+[145.434s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_is_battery_charging_condition_bt_node.so" to ""
+[145.435s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_is_battery_low_condition_bt_node.so
+[145.458s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_is_battery_low_condition_bt_node.so" to ""
+[145.459s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_are_error_codes_active_condition_bt_node.so
+[145.461s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_are_error_codes_active_condition_bt_node.so" to ""
+[145.462s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_would_a_controller_recovery_help_condition_bt_node.so
+[145.476s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_would_a_controller_recovery_help_condition_bt_node.so" to ""
+[145.476s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_would_a_planner_recovery_help_condition_bt_node.so
+[145.483s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_would_a_planner_recovery_help_condition_bt_node.so" to ""
+[145.484s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_would_a_smoother_recovery_help_condition_bt_node.so
+[145.487s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_would_a_smoother_recovery_help_condition_bt_node.so" to ""
+[145.488s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_reinitialize_global_localization_service_bt_node.so
+[145.491s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_reinitialize_global_localization_service_bt_node.so" to ""
+[145.492s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_rate_controller_bt_node.so
+[145.494s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_rate_controller_bt_node.so" to ""
+[145.495s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_distance_controller_bt_node.so
+[145.497s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_distance_controller_bt_node.so" to ""
+[145.498s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_speed_controller_bt_node.so
+[145.500s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_speed_controller_bt_node.so" to ""
+[145.500s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_truncate_path_action_bt_node.so
+[145.503s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_truncate_path_action_bt_node.so" to ""
+[145.503s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_truncate_path_local_action_bt_node.so
+[145.505s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_truncate_path_local_action_bt_node.so" to ""
+[145.505s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_goal_updater_node_bt_node.so
+[145.514s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_goal_updater_node_bt_node.so" to ""
+[145.514s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_path_longer_on_approach_bt_node.so
+[145.515s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_path_longer_on_approach_bt_node.so" to ""
+[145.515s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_recovery_node_bt_node.so
+[145.522s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_recovery_node_bt_node.so" to ""
+[145.522s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_navigate_to_pose_action_bt_node.so
+[145.540s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_navigate_to_pose_action_bt_node.so" to ""
+[145.540s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_navigate_through_poses_action_bt_node.so
+[145.550s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_navigate_through_poses_action_bt_node.so" to ""
+[145.550s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_remove_passed_goals_action_bt_node.so
+[145.552s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_remove_passed_goals_action_bt_node.so" to ""
+[145.552s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_get_pose_from_path_action_bt_node.so
+[145.554s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_get_pose_from_path_action_bt_node.so" to ""
+[145.554s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_pipeline_sequence_bt_node.so
+[145.555s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_pipeline_sequence_bt_node.so" to ""
+[145.556s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_round_robin_node_bt_node.so
+[145.557s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_round_robin_node_bt_node.so" to ""
+[145.557s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_single_trigger_bt_node.so
+[145.575s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_single_trigger_bt_node.so" to ""
+[145.575s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_planner_selector_bt_node.so
+[145.591s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_planner_selector_bt_node.so" to ""
+[145.592s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_controller_selector_bt_node.so
+[145.599s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_controller_selector_bt_node.so" to ""
+[145.599s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_smoother_selector_bt_node.so
+[145.608s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_smoother_selector_bt_node.so" to ""
+[145.609s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_goal_checker_selector_bt_node.so
+[145.616s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_goal_checker_selector_bt_node.so" to ""
+[145.617s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_progress_checker_selector_bt_node.so
+[145.625s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_progress_checker_selector_bt_node.so" to ""
+[145.626s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_goal_updated_controller_bt_node.so
+[145.643s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/libnav2_goal_updated_controller_bt_node.so" to ""
+[145.643s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/nav2_behavior_tree/generate_nav2_tree_nodes_xml
+[145.660s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/lib/nav2_behavior_tree/generate_nav2_tree_nodes_xml" to ""
+[145.661s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include/
+[145.661s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree
+[145.662s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/behavior_tree_engine.hpp
+[145.667s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_cancel_action_node.hpp
+[145.668s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_utils.hpp
+[145.669s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_service_node.hpp
+[145.669s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_server.hpp
+[145.670s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/ros_topic_logger.hpp
+[145.676s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_node.hpp
+[145.677s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/bt_action_server_impl.hpp
+[145.677s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins
+[145.678s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator
+[145.679s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/rate_controller.hpp
+[145.679s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/path_longer_on_approach.hpp
+[145.680s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/speed_controller.hpp
+[145.680s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updater_node.hpp
+[145.680s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/single_trigger_node.hpp
+[145.681s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/goal_updated_controller.hpp
+[145.681s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/decorator/distance_controller.hpp
+[145.682s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition
+[145.682s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/globally_updated_goal_condition.hpp
+[145.682s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_updated_condition.hpp
+[145.683s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/goal_reached_condition.hpp
+[145.684s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/would_a_smoother_recovery_help_condition.hpp
+[145.684s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_battery_charging_condition.hpp
+[145.686s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/are_error_codes_present_condition.hpp
+[145.686s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_battery_low_condition.hpp
+[145.687s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/initial_pose_received_condition.hpp
+[145.695s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/time_expired_condition.hpp
+[145.696s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/path_expiring_timer_condition.hpp
+[145.697s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/transform_available_condition.hpp
+[145.698s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/would_a_planner_recovery_help_condition.hpp
+[145.698s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/would_a_controller_recovery_help_condition.hpp
+[145.699s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_path_valid_condition.hpp
+[145.700s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/distance_traveled_condition.hpp
+[145.706s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/condition/is_stuck_condition.hpp
+[145.707s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control
+[145.708s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/pipeline_sequence.hpp
+[145.709s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/recovery_node.hpp
+[145.710s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/control/round_robin_node.hpp
+[145.711s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action
+[145.712s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/assisted_teleop_action.hpp
+[145.713s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/drive_on_heading_cancel_node.hpp
+[145.713s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/planner_selector_node.hpp
+[145.713s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/goal_checker_selector_node.hpp
+[145.714s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/smooth_path_action.hpp
+[145.714s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/controller_cancel_node.hpp
+[145.714s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/remove_passed_goals_action.hpp
+[145.714s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/reinitialize_global_localization_service.hpp
+[145.715s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/spin_cancel_node.hpp
+[145.715s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/back_up_cancel_node.hpp
+[145.715s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_through_poses_action.hpp
+[145.715s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/back_up_action.hpp
+[145.716s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/get_pose_from_path_action.hpp
+[145.716s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/assisted_teleop_cancel_node.hpp
+[145.716s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/clear_costmap_service.hpp
+[145.717s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/compute_path_to_pose_action.hpp
+[145.717s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/drive_on_heading_action.hpp
+[145.717s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_through_poses_action.hpp
+[145.717s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/controller_selector_node.hpp
+[145.717s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/spin_action.hpp
+[145.718s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/smoother_selector_node.hpp
+[145.718s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/wait_cancel_node.hpp
+[145.718s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/progress_checker_selector_node.hpp
+[145.718s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/follow_path_action.hpp
+[145.719s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/truncate_path_action.hpp
+[145.719s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/wait_action.hpp
+[145.719s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/navigate_to_pose_action.hpp
+[145.719s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include//nav2_behavior_tree/plugins/action/truncate_path_local_action.hpp
+[145.719s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include/nav2_behavior_tree/utils/
+[145.720s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include/nav2_behavior_tree/utils//test_action_server.hpp
+[145.720s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include/nav2_behavior_tree/utils//test_dummy_tree_node.hpp
+[145.720s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include/nav2_behavior_tree/utils//test_transform_handler.hpp
+[145.720s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include/nav2_behavior_tree/utils//test_behavior_tree_fixture.hpp
+[145.721s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include/nav2_behavior_tree/utils//test_service.hpp
+[145.721s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/test/utils
+[145.721s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/test/utils/test_action_server.hpp
+[145.721s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/test/utils/test_dummy_tree_node.hpp
+[145.721s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/test/utils/test_transform_handler.hpp
+[145.721s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/test/utils/test_behavior_tree_fixture.hpp
+[145.722s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include/nav2_behavior_tree/nav2_behavior_tree/test/utils/test_service.hpp
+[145.722s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/share/nav2_behavior_tree/nav2_tree_nodes.xml
+[145.722s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/include/nav2_behavior_tree/plugins_list.hpp
+[145.739s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.sh
+[145.753s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/library_path.dsv
+[145.772s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/share/ament_index/resource_index/package_run_dependencies/nav2_behavior_tree
+[145.793s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/share/ament_index/resource_index/parent_prefix_path/nav2_behavior_tree
+[145.793s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.sh
+[145.794s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/ament_prefix_path.dsv
+[145.795s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.sh
+[145.797s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/share/nav2_behavior_tree/environment/path.dsv
+[145.798s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.bash
+[145.811s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.sh
+[145.812s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.zsh
+[145.813s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/share/nav2_behavior_tree/local_setup.dsv
+[145.814s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/share/nav2_behavior_tree/package.dsv
+[145.815s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/share/ament_index/resource_index/packages/nav2_behavior_tree
+[145.816s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_include_directories-extras.cmake
+[145.817s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_libraries-extras.cmake
+[145.818s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/ament_cmake_export_dependencies-extras.cmake
+[145.819s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig.cmake
+[145.820s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/share/nav2_behavior_tree/cmake/nav2_behavior_treeConfig-version.cmake
+[145.821s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_behavior_tree/share/nav2_behavior_tree/package.xml
+[145.896s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/nav2_behavior_tree' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_util:/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_util:/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_util/lib:/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib:/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/nav2_behavior_tree

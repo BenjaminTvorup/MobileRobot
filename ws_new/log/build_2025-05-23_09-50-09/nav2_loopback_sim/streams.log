@@ -1,0 +1,38 @@
+[13.597s] Invoking command in '/home/thomas/MobileRobot/ws_new/src/navigation2/nav2_loopback_sim': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/thomas/MobileRobot/ws_new/build/nav2_loopback_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas/MobileRobot/ws_new/install/nav2_loopback_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/nav2_loopback_sim build --build-base /home/thomas/MobileRobot/ws_new/build/nav2_loopback_sim/build install --record /home/thomas/MobileRobot/ws_new/build/nav2_loopback_sim/install.log --single-version-externally-managed install_data
+[14.223s] running egg_info
+[14.223s] creating ../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info
+[14.266s] writing ../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info/PKG-INFO
+[14.267s] writing dependency_links to ../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info/dependency_links.txt
+[14.268s] writing entry points to ../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info/entry_points.txt
+[14.268s] writing requirements to ../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info/requires.txt
+[14.268s] writing top-level names to ../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info/top_level.txt
+[14.268s] writing manifest file '../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info/SOURCES.txt'
+[14.372s] reading manifest file '../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info/SOURCES.txt'
+[14.373s] writing manifest file '../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info/SOURCES.txt'
+[14.373s] running build
+[14.374s] running build_py
+[14.374s] creating /home/thomas/MobileRobot/ws_new/build/nav2_loopback_sim/build
+[14.374s] creating /home/thomas/MobileRobot/ws_new/build/nav2_loopback_sim/build/lib
+[14.374s] creating /home/thomas/MobileRobot/ws_new/build/nav2_loopback_sim/build/lib/nav2_loopback_sim
+[14.374s] copying nav2_loopback_sim/utils.py -> /home/thomas/MobileRobot/ws_new/build/nav2_loopback_sim/build/lib/nav2_loopback_sim
+[14.374s] copying nav2_loopback_sim/loopback_simulator.py -> /home/thomas/MobileRobot/ws_new/build/nav2_loopback_sim/build/lib/nav2_loopback_sim
+[14.375s] running install
+[14.386s] running install_lib
+[14.426s] creating /home/thomas/MobileRobot/ws_new/install/nav2_loopback_sim/lib/python3.12/site-packages/nav2_loopback_sim
+[14.426s] copying /home/thomas/MobileRobot/ws_new/build/nav2_loopback_sim/build/lib/nav2_loopback_sim/utils.py -> /home/thomas/MobileRobot/ws_new/install/nav2_loopback_sim/lib/python3.12/site-packages/nav2_loopback_sim
+[14.426s] copying /home/thomas/MobileRobot/ws_new/build/nav2_loopback_sim/build/lib/nav2_loopback_sim/loopback_simulator.py -> /home/thomas/MobileRobot/ws_new/install/nav2_loopback_sim/lib/python3.12/site-packages/nav2_loopback_sim
+[14.427s] byte-compiling /home/thomas/MobileRobot/ws_new/install/nav2_loopback_sim/lib/python3.12/site-packages/nav2_loopback_sim/utils.py to utils.cpython-312.pyc
+[14.429s] byte-compiling /home/thomas/MobileRobot/ws_new/install/nav2_loopback_sim/lib/python3.12/site-packages/nav2_loopback_sim/loopback_simulator.py to loopback_simulator.cpython-312.pyc
+[14.433s] running install_data
+[14.434s] creating /home/thomas/MobileRobot/ws_new/install/nav2_loopback_sim/share/ament_index
+[14.434s] creating /home/thomas/MobileRobot/ws_new/install/nav2_loopback_sim/share/ament_index/resource_index
+[14.434s] creating /home/thomas/MobileRobot/ws_new/install/nav2_loopback_sim/share/ament_index/resource_index/packages
+[14.434s] copying resource/nav2_loopback_sim -> /home/thomas/MobileRobot/ws_new/install/nav2_loopback_sim/share/ament_index/resource_index/packages
+[14.434s] copying package.xml -> /home/thomas/MobileRobot/ws_new/install/nav2_loopback_sim/share/nav2_loopback_sim
+[14.435s] copying launch/loopback_simulation.launch.py -> /home/thomas/MobileRobot/ws_new/install/nav2_loopback_sim/share/nav2_loopback_sim
+[14.435s] running install_egg_info
+[14.482s] Copying ../../../build/nav2_loopback_sim/nav2_loopback_sim.egg-info to /home/thomas/MobileRobot/ws_new/install/nav2_loopback_sim/lib/python3.12/site-packages/nav2_loopback_sim-1.0.0-py3.12.egg-info
+[14.483s] running install_scripts
+[14.841s] Installing loopback_simulator script to /home/thomas/MobileRobot/ws_new/install/nav2_loopback_sim/lib/nav2_loopback_sim
+[14.844s] writing list of installed files to '/home/thomas/MobileRobot/ws_new/build/nav2_loopback_sim/install.log'
+[14.905s] Invoked command in '/home/thomas/MobileRobot/ws_new/src/navigation2/nav2_loopback_sim' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/thomas/MobileRobot/ws_new/build/nav2_loopback_sim/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas/MobileRobot/ws_new/install/nav2_loopback_sim/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/nav2_loopback_sim build --build-base /home/thomas/MobileRobot/ws_new/build/nav2_loopback_sim/build install --record /home/thomas/MobileRobot/ws_new/build/nav2_loopback_sim/install.log --single-version-externally-managed install_data

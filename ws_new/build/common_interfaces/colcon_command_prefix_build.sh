@@ -1,0 +1,12 @@
+# generated from colcon_core/shell/template/command_prefix.sh.em
+. "/home/thomas/MobileRobot/ws_new/install/std_msgs/share/std_msgs/package.sh"
+. "/home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/package.sh"
+. "/home/thomas/MobileRobot/ws_new/install/actionlib_msgs/share/actionlib_msgs/package.sh"
+. "/home/thomas/MobileRobot/ws_new/install/geometry_msgs/share/geometry_msgs/package.sh"
+. "/home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/package.sh"
+. "/home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/package.sh"
+. "/home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/package.sh"
+. "/home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/package.sh"
+. "/home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/package.sh"
+. "/home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/package.sh"
+. "/home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/package.sh"

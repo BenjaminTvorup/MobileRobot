@@ -1,0 +1,15 @@
+/home/thomas/MobileRobot/ws_new/install/common_interfaces/share/ament_index/resource_index/package_run_dependencies/common_interfaces
+/home/thomas/MobileRobot/ws_new/install/common_interfaces/share/ament_index/resource_index/parent_prefix_path/common_interfaces
+/home/thomas/MobileRobot/ws_new/install/common_interfaces/share/common_interfaces/environment/ament_prefix_path.sh
+/home/thomas/MobileRobot/ws_new/install/common_interfaces/share/common_interfaces/environment/ament_prefix_path.dsv
+/home/thomas/MobileRobot/ws_new/install/common_interfaces/share/common_interfaces/environment/path.sh
+/home/thomas/MobileRobot/ws_new/install/common_interfaces/share/common_interfaces/environment/path.dsv
+/home/thomas/MobileRobot/ws_new/install/common_interfaces/share/common_interfaces/local_setup.bash
+/home/thomas/MobileRobot/ws_new/install/common_interfaces/share/common_interfaces/local_setup.sh
+/home/thomas/MobileRobot/ws_new/install/common_interfaces/share/common_interfaces/local_setup.zsh
+/home/thomas/MobileRobot/ws_new/install/common_interfaces/share/common_interfaces/local_setup.dsv
+/home/thomas/MobileRobot/ws_new/install/common_interfaces/share/common_interfaces/package.dsv
+/home/thomas/MobileRobot/ws_new/install/common_interfaces/share/ament_index/resource_index/packages/common_interfaces
+/home/thomas/MobileRobot/ws_new/install/common_interfaces/share/common_interfaces/cmake/common_interfacesConfig.cmake
+/home/thomas/MobileRobot/ws_new/install/common_interfaces/share/common_interfaces/cmake/common_interfacesConfig-version.cmake
+/home/thomas/MobileRobot/ws_new/install/common_interfaces/share/common_interfaces/package.xml

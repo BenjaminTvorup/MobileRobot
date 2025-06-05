@@ -1,0 +1,558 @@
+[0.047s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/nav_msgs': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/thomas/MobileRobot/ws_new/src/common_interfaces/nav_msgs -DCMAKE_INSTALL_PREFIX=/home/thomas/MobileRobot/ws_new/install/nav_msgs
+[0.155s] -- The C compiler identification is GNU 13.3.0
+[0.270s] -- The CXX compiler identification is GNU 13.3.0
+[0.296s] -- Detecting C compiler ABI info
+[0.495s] -- Detecting C compiler ABI info - done
+[0.520s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.522s] -- Detecting C compile features
+[0.522s] -- Detecting C compile features - done
+[0.541s] -- Detecting CXX compiler ABI info
+[0.759s] -- Detecting CXX compiler ABI info - done
+[0.794s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.794s] -- Detecting CXX compile features
+[0.794s] -- Detecting CXX compile features - done
+[0.802s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.134s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.430s] -- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[1.541s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.585s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.634s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.684s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.730s] -- Found geometry_msgs: 5.3.6 (/home/thomas/MobileRobot/ws_new/install/geometry_msgs/share/geometry_msgs/cmake)
+[1.813s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.861s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.377s] -- Found ament_cmake_cppcheck: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[3.388s] -- Found ament_cmake_cpplint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[3.398s] -- Found ament_cmake_uncrustify: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[3.409s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[5.627s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.476s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.490s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[6.758s] -- Found PythonExtra: /usr/bin/python3  
+[7.687s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[7.902s] -- Found ament_cmake_flake8: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[7.956s] -- Found ament_cmake_pep257: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[7.978s] -- Configuring done (7.9s)
+[8.138s] -- Generating done (0.1s)
+[8.166s] -- Build files have been written to: /home/thomas/MobileRobot/ws_new/build/nav_msgs
+[8.195s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/nav_msgs' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/thomas/MobileRobot/ws_new/src/common_interfaces/nav_msgs -DCMAKE_INSTALL_PREFIX=/home/thomas/MobileRobot/ws_new/install/nav_msgs
+[8.198s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/nav_msgs': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/nav_msgs -- -j8 -l8
+[8.351s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[8.381s] [  1%] Built target ament_cmake_python_copy_nav_msgs
+[9.075s] running egg_info
+[9.077s] creating nav_msgs.egg-info
+[9.149s] writing nav_msgs.egg-info/PKG-INFO
+[9.158s] writing dependency_links to nav_msgs.egg-info/dependency_links.txt
+[9.158s] writing top-level names to nav_msgs.egg-info/top_level.txt
+[9.158s] writing manifest file 'nav_msgs.egg-info/SOURCES.txt'
+[9.390s] reading manifest file 'nav_msgs.egg-info/SOURCES.txt'
+[9.391s] writing manifest file 'nav_msgs.egg-info/SOURCES.txt'
+[9.478s] [  1%] Built target ament_cmake_python_build_nav_msgs_egg
+[11.031s] [  1%] Built target nav_msgs__rosidl_generator_type_description
+[11.108s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[11.156s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[15.583s] [  2%] Built target nav_msgs__cpp
+[19.030s] [  3%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/goals__description.c.o[0m
+[19.249s] [  3%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/map_meta_data__functions.c.o[0m
+[19.418s] [  4%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/map_meta_data__type_support.c.o[0m
+[19.540s] [  5%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/occupancy_grid__description.c.o[0m
+[19.723s] [  6%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/occupancy_grid__functions.c.o[0m
+[19.858s] [  7%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/occupancy_grid__type_support.c.o[0m
+[19.929s] [  7%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/odometry__description.c.o[0m
+[20.033s] [  8%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/odometry__functions.c.o[0m
+[20.151s] [  9%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/odometry__type_support.c.o[0m
+[20.233s] [ 10%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/path__description.c.o[0m
+[20.333s] [ 11%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/path__functions.c.o[0m
+[20.451s] [ 11%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/path__type_support.c.o[0m
+[20.603s] [ 12%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/get_map__description.c.o[0m
+[20.795s] [ 13%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/get_map__functions.c.o[0m
+[20.962s] [ 14%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/get_map__type_support.c.o[0m
+[21.064s] [ 15%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/get_plan__description.c.o[0m
+[21.228s] [ 15%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/get_plan__functions.c.o[0m
+[21.406s] [ 16%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/get_plan__type_support.c.o[0m
+[21.497s] [ 17%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/load_map__description.c.o[0m
+[21.623s] [ 18%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/load_map__functions.c.o[0m
+[21.770s] [ 19%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/load_map__type_support.c.o[0m
+[21.856s] [ 20%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/set_map__description.c.o[0m
+[21.997s] [ 20%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/set_map__functions.c.o[0m
+[22.161s] [ 21%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/srv/detail/set_map__type_support.c.o[0m
+[22.249s] [ 22%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/map_meta_data__description.c.o[0m
+[22.338s] [ 23%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/grid_cells__type_support.c.o[0m
+[22.397s] [ 24%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/grid_cells__functions.c.o[0m
+[22.498s] [ 25%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/grid_cells__description.c.o[0m
+[22.641s] [ 25%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/goals__type_support.c.o[0m
+[22.929s] [ 26%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_msgs/msg/detail/goals__functions.c.o[0m
+[23.098s] [ 27%] [32m[1mLinking C shared library libnav_msgs__rosidl_generator_c.so[0m
+[23.342s] [ 27%] Built target nav_msgs__rosidl_generator_c
+[23.364s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[25.302s] [ 29%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/goals__type_support.c.o[0m
+[25.390s] [ 30%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/map_meta_data__type_support.c.o[0m
+[25.457s] [ 30%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/occupancy_grid__type_support.c.o[0m
+[25.528s] [ 31%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/odometry__type_support.c.o[0m
+[25.620s] [ 32%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/path__type_support.c.o[0m
+[25.710s] [ 33%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/srv/detail/get_map__type_support.c.o[0m
+[25.827s] [ 34%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/srv/detail/get_plan__type_support.c.o[0m
+[25.913s] [ 34%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/srv/detail/load_map__type_support.c.o[0m
+[26.027s] [ 35%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/srv/detail/set_map__type_support.c.o[0m
+[26.131s] [ 36%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_msgs/msg/detail/grid_cells__type_support.c.o[0m
+[26.197s] [ 37%] [32m[1mLinking C shared library libnav_msgs__rosidl_typesupport_introspection_c.so[0m
+[26.251s] [ 37%] Built target nav_msgs__rosidl_typesupport_introspection_c
+[26.268s] [ 37%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[28.373s] [ 38%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/goals__type_support.cpp.o[0m
+[29.067s] [ 39%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/occupancy_grid__type_support.cpp.o[0m
+[29.965s] [ 39%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/odometry__type_support.cpp.o[0m
+[30.663s] [ 40%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/path__type_support.cpp.o[0m
+[31.458s] [ 41%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/srv/detail/dds_fastrtps/get_map__type_support.cpp.o[0m
+[32.487s] [ 42%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/srv/detail/dds_fastrtps/get_plan__type_support.cpp.o[0m
+[33.493s] [ 43%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/srv/detail/dds_fastrtps/load_map__type_support.cpp.o[0m
+[34.788s] [ 44%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/srv/detail/dds_fastrtps/set_map__type_support.cpp.o[0m
+[35.800s] [ 45%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/map_meta_data__type_support.cpp.o[0m
+[36.508s] [ 46%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_msgs/msg/detail/dds_fastrtps/grid_cells__type_support.cpp.o[0m
+[37.172s] [ 46%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[37.347s] [ 46%] Built target nav_msgs__rosidl_typesupport_fastrtps_cpp
+[37.365s] [ 47%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[39.411s] [ 47%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/grid_cells__type_support_c.cpp.o[0m
+[39.668s] [ 48%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/goals__type_support_c.cpp.o[0m
+[39.685s] [ 49%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/odometry__type_support_c.cpp.o[0m
+[40.257s] [ 50%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/occupancy_grid__type_support_c.cpp.o[0m
+[40.379s] [ 51%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/path__type_support_c.cpp.o[0m
+[40.646s] [ 51%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/srv/detail/get_map__type_support_c.cpp.o[0m
+[41.022s] [ 52%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/srv/detail/get_plan__type_support_c.cpp.o[0m
+[41.160s] [ 53%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/srv/detail/load_map__type_support_c.cpp.o[0m
+[41.626s] [ 54%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/srv/detail/set_map__type_support_c.cpp.o[0m
+[41.988s] [ 55%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_msgs/msg/detail/map_meta_data__type_support_c.cpp.o[0m
+[42.660s] [ 56%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[42.781s] [ 56%] Built target nav_msgs__rosidl_typesupport_fastrtps_c
+[42.798s] [ 57%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[42.803s] [ 58%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[42.803s] [ 58%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[44.082s] [ 59%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/goals__type_support.cpp.o[0m
+[44.090s] [ 60%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/grid_cells__type_support.cpp.o[0m
+[44.100s] [ 61%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/map_meta_data__type_support.cpp.o[0m
+[44.190s] [ 62%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/path__type_support.cpp.o[0m
+[44.192s] [ 62%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/odometry__type_support.cpp.o[0m
+[44.234s] [ 63%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/get_map__type_support.cpp.o[0m
+[44.292s] [ 64%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/load_map__type_support.cpp.o[0m
+[44.315s] [ 64%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/set_map__type_support.cpp.o[0m
+[44.317s] [ 65%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/goals__type_support.cpp.o[0m
+[44.341s] [ 65%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/grid_cells__type_support.cpp.o[0m
+[44.356s] [ 66%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/srv/get_plan__type_support.cpp.o[0m
+[44.366s] [ 67%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/map_meta_data__type_support.cpp.o[0m
+[44.409s] [ 68%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_msgs/msg/occupancy_grid__type_support.cpp.o[0m
+[44.507s] [ 69%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/path__type_support.cpp.o[0m
+[44.520s] [ 70%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_c.so[0m
+[44.665s] [ 70%] Built target nav_msgs__rosidl_typesupport_c
+[44.937s] [ 71%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/goals__type_support.cpp.o[0m
+[45.243s] [ 72%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/grid_cells__type_support.cpp.o[0m
+[45.243s] [ 72%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/srv/detail/get_map__type_support.cpp.o[0m
+[45.393s] [ 73%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/srv/detail/get_plan__type_support.cpp.o[0m
+[45.393s] [ 74%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/map_meta_data__type_support.cpp.o[0m
+[45.433s] [ 75%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/odometry__type_support.cpp.o[0m
+[45.463s] [ 76%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/msg/detail/occupancy_grid__type_support.cpp.o[0m
+[46.151s] [ 76%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/occupancy_grid__type_support.cpp.o[0m
+[46.324s] [ 77%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/odometry__type_support.cpp.o[0m
+[46.347s] [ 78%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/srv/detail/set_map__type_support.cpp.o[0m
+[46.826s] [ 79%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/msg/path__type_support.cpp.o[0m
+[47.007s] [ 80%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_msgs/srv/detail/load_map__type_support.cpp.o[0m
+[47.013s] [ 81%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/get_map__type_support.cpp.o[0m
+[47.266s] [ 82%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/get_plan__type_support.cpp.o[0m
+[47.365s] [ 82%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/load_map__type_support.cpp.o[0m
+[48.715s] [ 83%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[48.757s] [ 84%] [32mBuilding CXX object CMakeFiles/nav_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_msgs/srv/set_map__type_support.cpp.o[0m
+[48.918s] [ 84%] Built target nav_msgs__rosidl_typesupport_introspection_cpp
+[49.348s] [ 85%] [32m[1mLinking CXX shared library libnav_msgs__rosidl_typesupport_cpp.so[0m
+[49.484s] [ 85%] Built target nav_msgs__rosidl_typesupport_cpp
+[49.517s] [ 85%] Built target nav_msgs
+[49.554s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[52.257s] [ 86%] Built target nav_msgs__py
+[52.293s] [ 87%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_goals_s.c.o[0m
+[52.486s] [ 87%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/srv/_get_plan_s.c.o[0m
+[52.487s] [ 88%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/srv/_get_map_s.c.o[0m
+[52.825s] [ 89%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/srv/_load_map_s.c.o[0m
+[52.837s] [ 90%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/srv/_set_map_s.c.o[0m
+[53.052s] [ 91%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_path_s.c.o[0m
+[53.070s] [ 92%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_odometry_s.c.o[0m
+[53.341s] [ 92%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_map_meta_data_s.c.o[0m
+[53.342s] [ 93%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_occupancy_grid_s.c.o[0m
+[53.605s] [ 94%] [32mBuilding C object CMakeFiles/nav_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_msgs/msg/_grid_cells_s.c.o[0m
+[53.905s] [ 95%] [32m[1mLinking C shared library libnav_msgs__rosidl_generator_py.so[0m
+[54.017s] [ 95%] Built target nav_msgs__rosidl_generator_py
+[54.061s] [ 96%] [32mBuilding C object CMakeFiles/nav_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[54.061s] [ 97%] [32mBuilding C object CMakeFiles/nav_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[54.413s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[54.418s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[54.487s] [ 99%] Built target nav_msgs_s__rosidl_typesupport_fastrtps_c
+[54.493s] [ 99%] Built target nav_msgs_s__rosidl_typesupport_introspection_c
+[54.522s] [ 99%] [32mBuilding C object CMakeFiles/nav_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[54.799s] [100%] [32m[1mLinking C shared module rosidl_generator_py/nav_msgs/nav_msgs_s__rosidl_typesupport_c.so[0m
+[54.937s] [100%] Built target nav_msgs_s__rosidl_typesupport_c
+[54.984s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/nav_msgs' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/nav_msgs -- -j8 -l8
+[54.987s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/nav_msgs': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/nav_msgs
+[55.010s] -- Install configuration: ""
+[55.012s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/ament_index/resource_index/rosidl_interfaces/nav_msgs
+[55.012s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/msg/Goals.json
+[55.013s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/msg/GridCells.json
+[55.015s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/msg/MapMetaData.json
+[55.015s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/msg/OccupancyGrid.json
+[55.015s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/msg/Odometry.json
+[55.015s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/msg/Path.json
+[55.016s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/srv/GetMap.json
+[55.016s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/srv/GetPlan.json
+[55.016s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/srv/LoadMap.json
+[55.016s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/srv/SetMap.json
+[55.016s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs
+[55.016s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[55.016s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[55.017s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__functions.h
+[55.017s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__struct.h
+[55.017s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__functions.c
+[55.017s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__functions.c
+[55.017s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__functions.c
+[55.017s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__type_support.c
+[55.017s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__type_support.c
+[55.018s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__type_support.h
+[55.023s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__functions.h
+[55.023s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__type_support.h
+[55.023s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__description.c
+[55.023s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__type_support.h
+[55.023s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__description.c
+[55.024s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__type_support.h
+[55.024s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__type_support.c
+[55.024s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__functions.h
+[55.024s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__description.c
+[55.024s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__type_support.c
+[55.024s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__description.c
+[55.025s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__struct.h
+[55.025s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__functions.h
+[55.025s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__functions.c
+[55.025s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__struct.h
+[55.025s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__struct.h
+[55.025s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/load_map.h
+[55.025s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/get_plan.h
+[55.026s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/get_map.h
+[55.026s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/set_map.h
+[55.026s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[55.026s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[55.026s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__description.c
+[55.026s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__type_support.h
+[55.026s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__type_support.c
+[55.031s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.h
+[55.031s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.h
+[55.031s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__type_support.c
+[55.031s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__type_support.h
+[55.031s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__functions.h
+[55.032s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__functions.c
+[55.032s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/goals__type_support.h
+[55.032s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__description.c
+[55.032s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__functions.c
+[55.032s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__functions.c
+[55.033s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/goals__functions.h
+[55.033s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__description.c
+[55.033s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__functions.c
+[55.033s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__functions.h
+[55.033s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__description.c
+[55.033s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__struct.h
+[55.034s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__functions.c
+[55.034s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__type_support.c
+[55.034s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__type_support.c
+[55.034s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__struct.h
+[55.034s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__functions.h
+[55.034s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__functions.h
+[55.034s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/goals__type_support.c
+[55.035s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/goals__struct.h
+[55.035s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/goals__description.c
+[55.035s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.c
+[55.035s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__description.c
+[55.035s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__functions.h
+[55.035s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__type_support.h
+[55.035s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__struct.h
+[55.040s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.h
+[55.040s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/goals__functions.c
+[55.040s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__type_support.h
+[55.040s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/rosidl_generator_c__visibility_control.h
+[55.040s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/map_meta_data.h
+[55.041s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/path.h
+[55.041s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/grid_cells.h
+[55.041s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/goals.h
+[55.041s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/odometry.h
+[55.041s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/occupancy_grid.h
+[55.042s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/environment/library_path.sh
+[55.042s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/environment/library_path.dsv
+[55.042s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/libnav_msgs__rosidl_generator_c.so
+[55.043s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/libnav_msgs__rosidl_generator_c.so" to ""
+[55.044s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs
+[55.044s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[55.044s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[55.048s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__rosidl_typesupport_fastrtps_c.h
+[55.048s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__rosidl_typesupport_fastrtps_c.h
+[55.048s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__rosidl_typesupport_fastrtps_c.h
+[55.049s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__rosidl_typesupport_fastrtps_c.h
+[55.049s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[55.049s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[55.049s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_fastrtps_c.h
+[55.050s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__rosidl_typesupport_fastrtps_c.h
+[55.051s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/goals__rosidl_typesupport_fastrtps_c.h
+[55.051s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_fastrtps_c.h
+[55.051s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__rosidl_typesupport_fastrtps_c.h
+[55.051s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_fastrtps_c.h
+[55.052s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[55.052s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so
+[55.052s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[55.052s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs
+[55.053s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[55.053s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[55.053s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__struct.hpp
+[55.057s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__type_support.hpp
+[55.057s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__type_support.hpp
+[55.057s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__struct.hpp
+[55.057s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__struct.hpp
+[55.057s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__builder.hpp
+[55.057s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__traits.hpp
+[55.058s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__builder.hpp
+[55.058s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__type_support.hpp
+[55.058s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__builder.hpp
+[55.058s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__struct.hpp
+[55.059s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__traits.hpp
+[55.059s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__type_support.hpp
+[55.059s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__builder.hpp
+[55.059s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__traits.hpp
+[55.059s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__traits.hpp
+[55.059s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/set_map.hpp
+[55.060s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/get_map.hpp
+[55.060s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/load_map.hpp
+[55.064s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/get_plan.hpp
+[55.064s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[55.064s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[55.064s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__type_support.hpp
+[55.065s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__traits.hpp
+[55.065s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__struct.hpp
+[55.065s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/goals__builder.hpp
+[55.065s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__struct.hpp
+[55.066s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__type_support.hpp
+[55.066s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__traits.hpp
+[55.066s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__builder.hpp
+[55.066s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__traits.hpp
+[55.066s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__struct.hpp
+[55.066s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/goals__struct.hpp
+[55.067s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__builder.hpp
+[55.067s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/goals__type_support.hpp
+[55.067s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.hpp
+[55.067s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__builder.hpp
+[55.067s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__struct.hpp
+[55.067s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/goals__traits.hpp
+[55.067s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__type_support.hpp
+[55.068s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__struct.hpp
+[55.068s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__builder.hpp
+[55.068s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__traits.hpp
+[55.068s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__traits.hpp
+[55.068s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__type_support.hpp
+[55.068s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__builder.hpp
+[55.068s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/map_meta_data.hpp
+[55.069s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/grid_cells.hpp
+[55.069s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/odometry.hpp
+[55.069s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/path.hpp
+[55.069s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/goals.hpp
+[55.069s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[55.070s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/occupancy_grid.hpp
+[55.073s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs
+[55.073s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[55.074s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[55.074s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__rosidl_typesupport_fastrtps_cpp.hpp
+[55.074s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__rosidl_typesupport_fastrtps_cpp.hpp
+[55.074s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[55.078s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__rosidl_typesupport_fastrtps_cpp.hpp
+[55.078s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/dds_fastrtps
+[55.078s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[55.079s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[55.079s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__rosidl_typesupport_fastrtps_cpp.hpp
+[55.079s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_fastrtps_cpp.hpp
+[55.079s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_fastrtps_cpp.hpp
+[55.079s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/goals__rosidl_typesupport_fastrtps_cpp.hpp
+[55.079s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_fastrtps_cpp.hpp
+[55.079s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__rosidl_typesupport_fastrtps_cpp.hpp
+[55.080s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/dds_fastrtps
+[55.080s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[55.080s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so
+[55.080s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[55.080s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs
+[55.080s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[55.080s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[55.081s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__type_support.c
+[55.085s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__type_support.c
+[55.085s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__rosidl_typesupport_introspection_c.h
+[55.085s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__type_support.c
+[55.086s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__rosidl_typesupport_introspection_c.h
+[55.086s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__rosidl_typesupport_introspection_c.h
+[55.086s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__type_support.c
+[55.086s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__rosidl_typesupport_introspection_c.h
+[55.087s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[55.087s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[55.087s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__type_support.c
+[55.087s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__type_support.c
+[55.087s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__rosidl_typesupport_introspection_c.h
+[55.088s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_introspection_c.h
+[55.088s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__type_support.c
+[55.088s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__type_support.c
+[55.088s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/goals__rosidl_typesupport_introspection_c.h
+[55.088s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/goals__type_support.c
+[55.090s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_introspection_c.h
+[55.090s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_introspection_c.h
+[55.093s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.c
+[55.093s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__rosidl_typesupport_introspection_c.h
+[55.093s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[55.093s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_introspection_c.so
+[55.093s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_introspection_c.so" to ""
+[55.094s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_c.so
+[55.094s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_c.so" to ""
+[55.094s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs
+[55.094s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv
+[55.094s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail
+[55.094s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__type_support.cpp
+[55.095s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__rosidl_typesupport_introspection_cpp.hpp
+[55.095s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__type_support.cpp
+[55.095s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/set_map__type_support.cpp
+[55.095s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_plan__rosidl_typesupport_introspection_cpp.hpp
+[55.095s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__type_support.cpp
+[55.095s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/load_map__rosidl_typesupport_introspection_cpp.hpp
+[55.095s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/srv/detail/get_map__rosidl_typesupport_introspection_cpp.hpp
+[55.096s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg
+[55.096s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail
+[55.096s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__type_support.cpp
+[55.096s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__type_support.cpp
+[55.096s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__rosidl_typesupport_introspection_cpp.hpp
+[55.096s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/map_meta_data__rosidl_typesupport_introspection_cpp.hpp
+[55.097s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/goals__rosidl_typesupport_introspection_cpp.hpp
+[55.097s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/odometry__rosidl_typesupport_introspection_cpp.hpp
+[55.097s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__rosidl_typesupport_introspection_cpp.hpp
+[55.097s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/occupancy_grid__type_support.cpp
+[55.097s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/goals__type_support.cpp
+[55.097s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__type_support.cpp
+[55.097s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/grid_cells__type_support.cpp
+[55.097s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/include/nav_msgs/nav_msgs/msg/detail/path__rosidl_typesupport_introspection_cpp.hpp
+[55.098s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so
+[55.098s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[55.098s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_cpp.so
+[55.098s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/libnav_msgs__rosidl_typesupport_cpp.so" to ""
+[55.098s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/environment/pythonpath.sh
+[55.098s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/environment/pythonpath.dsv
+[55.098s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs-5.3.6-py3.12.egg-info
+[55.099s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs-5.3.6-py3.12.egg-info/top_level.txt
+[55.099s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs-5.3.6-py3.12.egg-info/SOURCES.txt
+[55.099s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs-5.3.6-py3.12.egg-info/dependency_links.txt
+[55.099s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs-5.3.6-py3.12.egg-info/PKG-INFO
+[55.099s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs
+[55.099s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/__init__.py
+[55.099s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[55.099s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv
+[55.100s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_get_map_s.c
+[55.100s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_set_map.py
+[55.100s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/__init__.py
+[55.100s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_set_map_s.c
+[55.100s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_load_map.py
+[55.100s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_get_plan.py
+[55.101s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_get_plan_s.c
+[55.101s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_load_map_s.c
+[55.101s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_get_map.py
+[55.101s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_introspection_c.so
+[55.101s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg
+[55.101s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_goals.py
+[55.101s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/__init__.py
+[55.102s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_map_meta_data_s.c
+[55.102s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_odometry.py
+[55.102s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_goals_s.c
+[55.102s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_path_s.c
+[55.102s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_map_meta_data.py
+[55.102s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_odometry_s.c
+[55.103s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_occupancy_grid.py
+[55.103s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_grid_cells_s.c
+[55.103s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_occupancy_grid_s.c
+[55.103s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_path.py
+[55.103s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_grid_cells.py
+[55.103s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_fastrtps_c.so
+[55.104s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[55.104s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/_nav_msgs_s.ep.rosidl_typesupport_c.c
+[55.104s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_c.so
+[55.217s] Listing '/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs'...
+[55.218s] Compiling '/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/__init__.py'...
+[55.218s] Listing '/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg'...
+[55.218s] Compiling '/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/__init__.py'...
+[55.218s] Compiling '/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_goals.py'...
+[55.218s] Compiling '/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_grid_cells.py'...
+[55.219s] Compiling '/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_map_meta_data.py'...
+[55.219s] Compiling '/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_occupancy_grid.py'...
+[55.219s] Compiling '/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_odometry.py'...
+[55.219s] Compiling '/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/msg/_path.py'...
+[55.219s] Listing '/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv'...
+[55.219s] Compiling '/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/__init__.py'...
+[55.219s] Compiling '/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_get_map.py'...
+[55.220s] Compiling '/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_get_plan.py'...
+[55.220s] Compiling '/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_load_map.py'...
+[55.220s] Compiling '/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/srv/_set_map.py'...
+[55.229s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_fastrtps_c.so
+[55.230s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[55.231s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_introspection_c.so
+[55.232s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[55.233s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_c.so
+[55.234s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages/nav_msgs/nav_msgs_s__rosidl_typesupport_c.so" to ""
+[55.234s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/libnav_msgs__rosidl_generator_py.so
+[55.236s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/libnav_msgs__rosidl_generator_py.so" to ""
+[55.236s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/msg/Goals.idl
+[55.237s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/msg/GridCells.idl
+[55.238s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/msg/MapMetaData.idl
+[55.238s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/msg/OccupancyGrid.idl
+[55.238s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/msg/Odometry.idl
+[55.239s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/msg/Path.idl
+[55.240s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/srv/GetMap.idl
+[55.240s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/srv/GetPlan.idl
+[55.241s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/srv/LoadMap.idl
+[55.242s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/srv/SetMap.idl
+[55.242s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/msg/Goals.msg
+[55.243s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/msg/GridCells.msg
+[55.243s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/msg/MapMetaData.msg
+[55.244s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/msg/OccupancyGrid.msg
+[55.244s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/msg/Odometry.msg
+[55.245s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/msg/Path.msg
+[55.246s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/srv/GetMap.srv
+[55.247s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/srv/GetPlan.srv
+[55.247s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/srv/LoadMap.srv
+[55.247s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/srv/SetMap.srv
+[55.248s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/ament_index/resource_index/package_run_dependencies/nav_msgs
+[55.249s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/ament_index/resource_index/parent_prefix_path/nav_msgs
+[55.249s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/environment/ament_prefix_path.sh
+[55.250s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/environment/ament_prefix_path.dsv
+[55.251s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/environment/path.sh
+[55.251s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/environment/path.dsv
+[55.252s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/local_setup.bash
+[55.253s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/local_setup.sh
+[55.253s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/local_setup.zsh
+[55.254s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/local_setup.dsv
+[55.254s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/package.dsv
+[55.255s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/ament_index/resource_index/packages/nav_msgs
+[55.256s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_cExport.cmake
+[55.256s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_cExport-noconfig.cmake
+[55.257s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[55.257s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[55.258s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_cppExport.cmake
+[55.258s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[55.259s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[55.260s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cExport.cmake
+[55.261s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[55.261s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cExport.cmake
+[55.262s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[55.262s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[55.263s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[55.263s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cppExport.cmake
+[55.264s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/cmake/nav_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[55.265s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_pyExport.cmake
+[55.265s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/cmake/export_nav_msgs__rosidl_generator_pyExport-noconfig.cmake
+[55.266s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/cmake/rosidl_cmake-extras.cmake
+[55.266s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[55.267s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[55.267s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[55.268s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[55.269s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[55.270s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[55.271s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/cmake/nav_msgsConfig.cmake
+[55.273s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/cmake/nav_msgsConfig-version.cmake
+[55.273s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/package.xml
+[55.283s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/nav_msgs' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/nav_msgs

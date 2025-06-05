@@ -1,0 +1,8 @@
+{
+  "package_name": "actionlib_msgs",
+  "non_idl_tuples": [
+    "/home/thomas/MobileRobot/ws_new/src/common_interfaces/actionlib_msgs:msg/GoalID.msg",
+    "/home/thomas/MobileRobot/ws_new/src/common_interfaces/actionlib_msgs:msg/GoalStatus.msg",
+    "/home/thomas/MobileRobot/ws_new/src/common_interfaces/actionlib_msgs:msg/GoalStatusArray.msg"
+  ]
+}

@@ -1,0 +1,39 @@
+[1.881s] Invoking command in '/home/thomas/MobileRobot/ws_new/src/common_interfaces/sensor_msgs_py': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/build/sensor_msgs_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas/MobileRobot/ws_new/install/sensor_msgs_py/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sensor_msgs_py build --build-base /home/thomas/MobileRobot/ws_new/build/sensor_msgs_py/build install --record /home/thomas/MobileRobot/ws_new/build/sensor_msgs_py/install.log --single-version-externally-managed install_data
+[2.487s] running egg_info
+[2.489s] creating ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info
+[2.547s] writing ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/PKG-INFO
+[2.549s] writing dependency_links to ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/dependency_links.txt
+[2.549s] writing requirements to ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/requires.txt
+[2.550s] writing top-level names to ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/top_level.txt
+[2.550s] writing manifest file '../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/SOURCES.txt'
+[2.657s] reading manifest file '../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/SOURCES.txt'
+[2.657s] adding license file 'LICENSE'
+[2.657s] writing manifest file '../../../build/sensor_msgs_py/sensor_msgs_py.egg-info/SOURCES.txt'
+[2.657s] running build
+[2.658s] running build_py
+[2.658s] creating /home/thomas/MobileRobot/ws_new/build/sensor_msgs_py/build
+[2.658s] creating /home/thomas/MobileRobot/ws_new/build/sensor_msgs_py/build/lib
+[2.658s] creating /home/thomas/MobileRobot/ws_new/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[2.658s] copying sensor_msgs_py/numpy_compat.py -> /home/thomas/MobileRobot/ws_new/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[2.659s] copying sensor_msgs_py/__init__.py -> /home/thomas/MobileRobot/ws_new/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[2.659s] copying sensor_msgs_py/point_cloud2.py -> /home/thomas/MobileRobot/ws_new/build/sensor_msgs_py/build/lib/sensor_msgs_py
+[2.659s] running install
+[2.678s] running install_lib
+[2.743s] creating /home/thomas/MobileRobot/ws_new/install/sensor_msgs_py/lib/python3.12/site-packages/sensor_msgs_py
+[2.743s] copying /home/thomas/MobileRobot/ws_new/build/sensor_msgs_py/build/lib/sensor_msgs_py/numpy_compat.py -> /home/thomas/MobileRobot/ws_new/install/sensor_msgs_py/lib/python3.12/site-packages/sensor_msgs_py
+[2.743s] copying /home/thomas/MobileRobot/ws_new/build/sensor_msgs_py/build/lib/sensor_msgs_py/__init__.py -> /home/thomas/MobileRobot/ws_new/install/sensor_msgs_py/lib/python3.12/site-packages/sensor_msgs_py
+[2.743s] copying /home/thomas/MobileRobot/ws_new/build/sensor_msgs_py/build/lib/sensor_msgs_py/point_cloud2.py -> /home/thomas/MobileRobot/ws_new/install/sensor_msgs_py/lib/python3.12/site-packages/sensor_msgs_py
+[2.744s] byte-compiling /home/thomas/MobileRobot/ws_new/install/sensor_msgs_py/lib/python3.12/site-packages/sensor_msgs_py/numpy_compat.py to numpy_compat.cpython-312.pyc
+[2.750s] byte-compiling /home/thomas/MobileRobot/ws_new/install/sensor_msgs_py/lib/python3.12/site-packages/sensor_msgs_py/__init__.py to __init__.cpython-312.pyc
+[2.750s] byte-compiling /home/thomas/MobileRobot/ws_new/install/sensor_msgs_py/lib/python3.12/site-packages/sensor_msgs_py/point_cloud2.py to point_cloud2.cpython-312.pyc
+[2.751s] running install_data
+[2.751s] creating /home/thomas/MobileRobot/ws_new/install/sensor_msgs_py/share/ament_index
+[2.751s] creating /home/thomas/MobileRobot/ws_new/install/sensor_msgs_py/share/ament_index/resource_index
+[2.754s] creating /home/thomas/MobileRobot/ws_new/install/sensor_msgs_py/share/ament_index/resource_index/packages
+[2.754s] copying resource/sensor_msgs_py -> /home/thomas/MobileRobot/ws_new/install/sensor_msgs_py/share/ament_index/resource_index/packages
+[2.754s] copying package.xml -> /home/thomas/MobileRobot/ws_new/install/sensor_msgs_py/share/sensor_msgs_py
+[2.754s] running install_egg_info
+[2.820s] Copying ../../../build/sensor_msgs_py/sensor_msgs_py.egg-info to /home/thomas/MobileRobot/ws_new/install/sensor_msgs_py/lib/python3.12/site-packages/sensor_msgs_py-5.3.6-py3.12.egg-info
+[2.822s] running install_scripts
+[3.246s] writing list of installed files to '/home/thomas/MobileRobot/ws_new/build/sensor_msgs_py/install.log'
+[3.344s] Invoked command in '/home/thomas/MobileRobot/ws_new/src/common_interfaces/sensor_msgs_py' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/build/sensor_msgs_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas/MobileRobot/ws_new/install/sensor_msgs_py/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/sensor_msgs_py build --build-base /home/thomas/MobileRobot/ws_new/build/sensor_msgs_py/build install --record /home/thomas/MobileRobot/ws_new/build/sensor_msgs_py/install.log --single-version-externally-managed install_data

@@ -224,7 +224,7 @@ def generate_launch_description():
         #twist_mux,
         #nav2_controller_node,
         #lifecycle_manage_node
-        #kinematics_node,
+        kinematics_node,
         ekf_node,
         navsat_transform
     ])  

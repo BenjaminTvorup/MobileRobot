@@ -1,0 +1,9 @@
+{
+  "package_name": "trajectory_msgs",
+  "non_idl_tuples": [
+    "/home/thomas/MobileRobot/ws_new/src/common_interfaces/trajectory_msgs:msg/JointTrajectory.msg",
+    "/home/thomas/MobileRobot/ws_new/src/common_interfaces/trajectory_msgs:msg/JointTrajectoryPoint.msg",
+    "/home/thomas/MobileRobot/ws_new/src/common_interfaces/trajectory_msgs:msg/MultiDOFJointTrajectory.msg",
+    "/home/thomas/MobileRobot/ws_new/src/common_interfaces/trajectory_msgs:msg/MultiDOFJointTrajectoryPoint.msg"
+  ]
+}

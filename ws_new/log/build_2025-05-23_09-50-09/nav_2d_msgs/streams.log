@@ -1,0 +1,398 @@
+[0.041s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/thomas/MobileRobot/ws_new/src/navigation2/nav2_dwb_controller/nav_2d_msgs -DCMAKE_INSTALL_PREFIX=/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs
+[4.538s] -- The C compiler identification is GNU 13.3.0
+[7.754s] -- The CXX compiler identification is GNU 13.3.0
+[8.096s] -- Detecting C compiler ABI info
+[8.676s] -- Detecting C compiler ABI info - done
+[8.700s] -- Check for working C compiler: /usr/bin/cc - skipped
+[8.700s] -- Detecting C compile features
+[8.701s] -- Detecting C compile features - done
+[9.289s] -- Detecting CXX compiler ABI info
+[9.660s] -- Detecting CXX compiler ABI info - done
+[9.682s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[9.683s] -- Detecting CXX compile features
+[9.684s] -- Detecting CXX compile features - done
+[9.714s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[9.999s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[11.181s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[11.296s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[11.514s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.742s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[12.273s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[12.459s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[14.053s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[15.726s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[16.336s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[16.391s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[16.580s] -- Found PythonExtra: /usr/bin/python3  
+[19.782s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[19.957s] -- Configuring done (19.9s)
+[20.120s] -- Generating done (0.1s)
+[20.155s] -- Build files have been written to: /home/thomas/MobileRobot/ws_new/build/nav_2d_msgs
+[20.173s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/thomas/MobileRobot/ws_new/src/navigation2/nav2_dwb_controller/nav_2d_msgs -DCMAKE_INSTALL_PREFIX=/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs
+[20.174s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/nav_2d_msgs -- -j8 -l8
+[20.251s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[20.265s] [  1%] Built target ament_cmake_python_copy_nav_2d_msgs
+[20.772s] running egg_info
+[20.773s] creating nav_2d_msgs.egg-info
+[20.813s] writing nav_2d_msgs.egg-info/PKG-INFO
+[20.814s] writing dependency_links to nav_2d_msgs.egg-info/dependency_links.txt
+[20.814s] writing top-level names to nav_2d_msgs.egg-info/top_level.txt
+[20.814s] writing manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[20.927s] reading manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[20.928s] writing manifest file 'nav_2d_msgs.egg-info/SOURCES.txt'
+[20.980s] [  1%] Built target nav_2d_msgs__rosidl_generator_type_description
+[20.982s] [  1%] Built target ament_cmake_python_build_nav_2d_msgs_egg
+[21.004s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[21.019s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[21.682s] [  3%] Built target nav_2d_msgs__cpp
+[21.936s] [  4%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/pose2_d32__type_support.c.o[0m
+[21.939s] [  5%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/pose2_d32__description.c.o[0m
+[21.939s] [  7%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/path2_d__description.c.o[0m
+[21.942s] [  8%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/path2_d__type_support.c.o[0m
+[21.944s] [  9%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/pose2_d32__functions.c.o[0m
+[21.944s] [ 10%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/path2_d__functions.c.o[0m
+[21.952s] [ 11%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.c.o[0m
+[21.954s] [ 13%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/pose2_d_stamped__description.c.o[0m
+[22.035s] [ 14%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.c.o[0m
+[22.053s] [ 15%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d__description.c.o[0m
+[22.086s] [ 16%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d__type_support.c.o[0m
+[22.087s] [ 17%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d__functions.c.o[0m
+[22.121s] [ 19%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d32__description.c.o[0m
+[22.147s] [ 20%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d32__functions.c.o[0m
+[22.205s] [ 21%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d32__type_support.c.o[0m
+[22.206s] [ 22%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.c.o[0m
+[22.209s] [ 23%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d_stamped__description.c.o[0m
+[22.236s] [ 25%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_c.dir/rosidl_generator_c/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.c.o[0m
+[22.299s] [ 26%] [32m[1mLinking C shared library libnav_2d_msgs__rosidl_generator_c.so[0m
+[22.377s] [ 26%] Built target nav_2d_msgs__rosidl_generator_c
+[22.401s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[22.402s] [ 28%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[22.402s] [ 29%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[22.403s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[22.405s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[22.406s] [ 33%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[23.185s] [ 34%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/path2_d__type_support.cpp.o[0m
+[23.192s] [ 35%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/pose2_d32__type_support.cpp.o[0m
+[23.195s] [ 36%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/pose2_d_stamped__type_support.cpp.o[0m
+[23.267s] [ 38%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/path2_d__type_support.cpp.o[0m
+[23.357s] [ 39%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/twist2_d__type_support.cpp.o[0m
+[23.379s] [ 40%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/pose2_d32__type_support.cpp.o[0m
+[23.400s] [ 41%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/twist2_d32__type_support.cpp.o[0m
+[23.470s] [ 42%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/pose2_d_stamped__type_support.cpp.o[0m
+[23.511s] [ 44%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/path2_d__type_support.cpp.o[0m
+[23.518s] [ 45%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/nav_2d_msgs/msg/twist2_d_stamped__type_support.cpp.o[0m
+[23.583s] [ 46%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/path2_d__type_support.c.o[0m
+[23.630s] [ 47%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_c.so[0m
+[23.722s] [ 48%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/path2_d__type_support.cpp.o[0m
+[23.761s] [ 50%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/pose2_d32__type_support.c.o[0m
+[23.780s] [ 50%] Built target nav_2d_msgs__rosidl_typesupport_c
+[23.811s] [ 51%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/pose2_d32__type_support.cpp.o[0m
+[23.857s] [ 52%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.c.o[0m
+[23.873s] [ 53%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/path2_d__type_support_c.cpp.o[0m
+[24.029s] [ 54%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/twist2_d__type_support.c.o[0m
+[24.101s] [ 55%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/pose2_d_stamped__type_support.cpp.o[0m
+[24.165s] [ 57%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/twist2_d32__type_support.c.o[0m
+[24.215s] [ 58%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/pose2_d32__type_support_c.cpp.o[0m
+[24.217s] [ 59%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/twist2_d__type_support.cpp.o[0m
+[24.238s] [ 60%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.c.o[0m
+[24.316s] [ 61%] [32m[1mLinking C shared library libnav_2d_msgs__rosidl_typesupport_introspection_c.so[0m
+[24.551s] [ 63%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/pose2_d32__type_support.cpp.o[0m
+[24.664s] [ 63%] Built target nav_2d_msgs__rosidl_typesupport_introspection_c
+[24.680s] [ 64%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/twist2_d__type_support.cpp.o[0m
+[24.715s] [ 65%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/twist2_d32__type_support.cpp.o[0m
+[25.495s] [ 66%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.cpp.o[0m
+[25.632s] [ 67%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support_c.cpp.o[0m
+[25.656s] [ 69%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/nav_2d_msgs/msg/twist2_d_stamped__type_support.cpp.o[0m
+[25.749s] [ 70%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/twist2_d__type_support_c.cpp.o[0m
+[25.808s] [ 71%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/twist2_d32__type_support_c.cpp.o[0m
+[25.851s] [ 72%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/twist2_d__type_support.cpp.o[0m
+[25.890s] [ 73%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/twist2_d32__type_support.cpp.o[0m
+[25.932s] [ 75%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/twist2_d32__type_support.cpp.o[0m
+[26.321s] [ 76%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.cpp.o[0m
+[26.598s] [ 77%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support_c.cpp.o[0m
+[26.680s] [ 78%] [32mBuilding CXX object CMakeFiles/nav_2d_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/nav_2d_msgs/msg/detail/dds_fastrtps/twist2_d_stamped__type_support.cpp.o[0m
+[26.695s] [ 79%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_cpp.so[0m
+[26.816s] [ 79%] Built target nav_2d_msgs__rosidl_typesupport_cpp
+[27.169s] [ 80%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[27.349s] [ 82%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[27.373s] [ 82%] Built target nav_2d_msgs__rosidl_typesupport_introspection_cpp
+[27.476s] [ 83%] [32m[1mLinking CXX shared library libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[27.539s] [ 83%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_c
+[27.655s] [ 83%] Built target nav_2d_msgs__rosidl_typesupport_fastrtps_cpp
+[27.687s] [ 83%] Built target nav_2d_msgs
+[27.718s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[28.613s] [ 84%] Built target nav_2d_msgs__py
+[28.648s] [ 86%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_pose2_d_stamped_s.c.o[0m
+[28.649s] [ 89%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_twist2_d_s.c.o[0m
+[28.649s] [ 90%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_pose2_d32_s.c.o[0m
+[28.650s] [ 90%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_path2_d_s.c.o[0m
+[28.651s] [ 90%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_twist2_d_stamped_s.c.o[0m
+[28.651s] [ 91%] [32mBuilding C object CMakeFiles/nav_2d_msgs__rosidl_generator_py.dir/rosidl_generator_py/nav_2d_msgs/msg/_twist2_d32_s.c.o[0m
+[29.878s] [ 92%] [32m[1mLinking C shared library libnav_2d_msgs__rosidl_generator_py.so[0m
+[30.101s] [ 92%] Built target nav_2d_msgs__rosidl_generator_py
+[30.131s] [ 95%] [32mBuilding C object CMakeFiles/nav_2d_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[30.131s] [ 95%] [32mBuilding C object CMakeFiles/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[30.131s] [ 96%] [32mBuilding C object CMakeFiles/nav_2d_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[30.292s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.so[0m
+[30.297s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[30.308s] [100%] [32m[1mLinking C shared module rosidl_generator_py/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[30.338s] [100%] Built target nav_2d_msgs_s__rosidl_typesupport_c
+[30.344s] [100%] Built target nav_2d_msgs_s__rosidl_typesupport_introspection_c
+[30.364s] [100%] Built target nav_2d_msgs_s__rosidl_typesupport_fastrtps_c
+[30.382s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/nav_2d_msgs -- -j8 -l8
+[30.384s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/nav_2d_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/nav_2d_msgs
+[30.396s] -- Install configuration: ""
+[30.397s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/ament_index/resource_index/rosidl_interfaces/nav_2d_msgs
+[30.397s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.json
+[30.397s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.json
+[30.397s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.json
+[30.398s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.json
+[30.398s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.json
+[30.398s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.json
+[30.398s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[30.398s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[30.399s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[30.399s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__description.c
+[30.399s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__description.c
+[30.399s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__struct.h
+[30.399s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__struct.h
+[30.400s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__description.c
+[30.400s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__description.c
+[30.400s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.h
+[30.400s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__description.c
+[30.400s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__functions.c
+[30.401s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__struct.h
+[30.401s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.c
+[30.401s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__type_support.h
+[30.401s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.c
+[30.401s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__functions.c
+[30.402s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__type_support.c
+[30.402s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__type_support.h
+[30.402s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__functions.h
+[30.402s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__functions.h
+[30.402s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.c
+[30.403s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__type_support.c
+[30.403s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.h
+[30.403s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__functions.c
+[30.403s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__type_support.c
+[30.403s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__type_support.h
+[30.403s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__functions.h
+[30.404s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__functions.c
+[30.404s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.h
+[30.404s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__struct.h
+[30.404s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__functions.h
+[30.405s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__functions.h
+[30.405s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__functions.h
+[30.405s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.c
+[30.405s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.h
+[30.405s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__description.c
+[30.405s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.c
+[30.406s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.h
+[30.406s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/path2_d.h
+[30.406s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d32.h
+[30.406s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d_stamped.h
+[30.406s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d.h
+[30.407s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_generator_c__visibility_control.h
+[30.407s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d32.h
+[30.407s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d_stamped.h
+[30.407s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/environment/library_path.sh
+[30.407s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/environment/library_path.dsv
+[30.407s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_c.so
+[30.408s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_c.so" to ""
+[30.408s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[30.408s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[30.408s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[30.409s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_fastrtps_c.h
+[30.409s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_fastrtps_c.h
+[30.410s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_fastrtps_c.h
+[30.410s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_c.h
+[30.410s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_fastrtps_c.h
+[30.410s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_c.h
+[30.410s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[30.410s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so
+[30.411s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[30.411s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[30.411s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[30.411s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[30.412s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.hpp
+[30.412s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__traits.hpp
+[30.412s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__builder.hpp
+[30.412s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__traits.hpp
+[30.412s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__type_support.hpp
+[30.413s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__builder.hpp
+[30.413s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__builder.hpp
+[30.413s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__struct.hpp
+[30.413s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__type_support.hpp
+[30.413s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__struct.hpp
+[30.414s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__struct.hpp
+[30.414s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__struct.hpp
+[30.414s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__builder.hpp
+[30.414s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__struct.hpp
+[30.414s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__type_support.hpp
+[30.415s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__traits.hpp
+[30.415s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__builder.hpp
+[30.415s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.hpp
+[30.415s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.hpp
+[30.415s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__struct.hpp
+[30.415s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__traits.hpp
+[30.416s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__builder.hpp
+[30.416s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__traits.hpp
+[30.416s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__traits.hpp
+[30.416s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d.hpp
+[30.417s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d32.hpp
+[30.417s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d32.hpp
+[30.417s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/pose2_d_stamped.hpp
+[30.417s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/twist2_d_stamped.hpp
+[30.417s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/path2_d.hpp
+[30.418s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[30.418s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[30.418s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[30.418s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[30.418s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[30.419s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[30.419s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_fastrtps_cpp.hpp
+[30.419s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[30.419s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_fastrtps_cpp.hpp
+[30.419s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/dds_fastrtps
+[30.420s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_fastrtps_cpp.hpp
+[30.420s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[30.420s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so
+[30.420s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[30.420s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[30.421s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[30.421s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[30.421s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_c.h
+[30.421s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_introspection_c.h
+[30.421s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__type_support.c
+[30.422s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_c.h
+[30.422s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.c
+[30.422s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__type_support.c
+[30.422s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__type_support.c
+[30.422s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_introspection_c.h
+[30.423s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_introspection_c.h
+[30.423s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.c
+[30.423s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_introspection_c.h
+[30.423s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.c
+[30.424s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[30.424s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_c.so
+[30.424s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_c.so" to ""
+[30.424s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_c.so
+[30.425s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_c.so" to ""
+[30.425s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs
+[30.425s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg
+[30.426s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail
+[30.426s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__type_support.cpp
+[30.426s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__rosidl_typesupport_introspection_cpp.hpp
+[30.426s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__type_support.cpp
+[30.427s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d32__rosidl_typesupport_introspection_cpp.hpp
+[30.427s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__type_support.cpp
+[30.427s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__type_support.cpp
+[30.427s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/path2_d__rosidl_typesupport_introspection_cpp.hpp
+[30.428s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/pose2_d_stamped__type_support.cpp
+[30.428s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d32__rosidl_typesupport_introspection_cpp.hpp
+[30.428s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d__rosidl_typesupport_introspection_cpp.hpp
+[30.428s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__type_support.cpp
+[30.429s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/include/nav_2d_msgs/nav_2d_msgs/msg/detail/twist2_d_stamped__rosidl_typesupport_introspection_cpp.hpp
+[30.429s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so
+[30.429s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[30.430s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_cpp.so
+[30.430s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_typesupport_cpp.so" to ""
+[30.430s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/environment/pythonpath.sh
+[30.430s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/environment/pythonpath.dsv
+[30.431s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs-1.3.1-py3.12.egg-info
+[30.431s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs-1.3.1-py3.12.egg-info/top_level.txt
+[30.431s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs-1.3.1-py3.12.egg-info/SOURCES.txt
+[30.432s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs-1.3.1-py3.12.egg-info/dependency_links.txt
+[30.432s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs-1.3.1-py3.12.egg-info/PKG-INFO
+[30.432s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs
+[30.432s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.so
+[30.433s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/__init__.py
+[30.433s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.so
+[30.433s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[30.434s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[30.434s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.so
+[30.434s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg
+[30.434s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_pose2_d_stamped.py
+[30.434s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_twist2_d32.py
+[30.435s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/__init__.py
+[30.435s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_twist2_d.py
+[30.435s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_twist2_d_stamped.py
+[30.435s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_twist2_d_s.c
+[30.435s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_twist2_d32_s.c
+[30.435s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_pose2_d32.py
+[30.435s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_pose2_d_stamped_s.c
+[30.435s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_path2_d_s.c
+[30.435s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_pose2_d32_s.c
+[30.436s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_path2_d.py
+[30.436s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_twist2_d_stamped_s.c
+[30.436s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/_nav_2d_msgs_s.ep.rosidl_typesupport_c.c
+[30.494s] Listing '/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs'...
+[30.495s] Compiling '/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/__init__.py'...
+[30.495s] Listing '/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg'...
+[30.495s] Compiling '/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/__init__.py'...
+[30.495s] Compiling '/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_path2_d.py'...
+[30.495s] Compiling '/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_pose2_d32.py'...
+[30.495s] Compiling '/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_pose2_d_stamped.py'...
+[30.495s] Compiling '/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_twist2_d.py'...
+[30.495s] Compiling '/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_twist2_d32.py'...
+[30.495s] Compiling '/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/msg/_twist2_d_stamped.py'...
+[30.502s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.so
+[30.503s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[30.503s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.so
+[30.504s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[30.504s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.so
+[30.505s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages/nav_2d_msgs/nav_2d_msgs_s__rosidl_typesupport_c.so" to ""
+[30.505s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_py.so
+[30.506s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/libnav_2d_msgs__rosidl_generator_py.so" to ""
+[30.507s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.idl
+[30.507s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.idl
+[30.507s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.idl
+[30.508s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.idl
+[30.508s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.idl
+[30.508s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.idl
+[30.508s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/msg/Path2D.msg
+[30.509s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2D32.msg
+[30.509s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/msg/Pose2DStamped.msg
+[30.509s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D.msg
+[30.509s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2D32.msg
+[30.510s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/msg/Twist2DStamped.msg
+[30.510s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/ament_index/resource_index/package_run_dependencies/nav_2d_msgs
+[30.510s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/ament_index/resource_index/parent_prefix_path/nav_2d_msgs
+[30.510s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/environment/ament_prefix_path.sh
+[30.510s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/environment/ament_prefix_path.dsv
+[30.511s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/environment/path.sh
+[30.511s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/environment/path.dsv
+[30.511s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.bash
+[30.511s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.sh
+[30.511s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.zsh
+[30.512s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/local_setup.dsv
+[30.512s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/package.dsv
+[30.512s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/ament_index/resource_index/packages/nav_2d_msgs
+[30.512s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_cExport.cmake
+[30.513s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_cExport-noconfig.cmake
+[30.513s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[30.513s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[30.513s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_cppExport.cmake
+[30.514s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[30.514s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[30.514s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cExport.cmake
+[30.514s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[30.515s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cExport.cmake
+[30.515s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[30.515s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[30.515s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[30.516s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cppExport.cmake
+[30.516s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[30.516s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_pyExport.cmake
+[30.516s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/cmake/export_nav_2d_msgs__rosidl_generator_pyExport-noconfig.cmake
+[30.517s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake-extras.cmake
+[30.517s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[30.517s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[30.517s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[30.518s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[30.518s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[30.518s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[30.518s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgsConfig.cmake
+[30.519s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/cmake/nav_2d_msgsConfig-version.cmake
+[30.519s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/package.xml
+[30.523s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/nav_2d_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/nav_2d_msgs

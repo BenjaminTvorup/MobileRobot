@@ -26,11 +26,11 @@
 
 
 # Odemetry
-- ros_topic_name: "/demo/odom"
-  gz_topic_name: "/demo/odom"
-  ros_type_name: "nav_msgs/msg/Odometry"
-  gz_type_name: "gz.msgs.Odometry"
-  direction: GZ_TO_ROS
+# - ros_topic_name: "/demo/odom"
+#   gz_topic_name: "/demo/odom"
+#   ros_type_name: "nav_msgs/msg/Odometry"
+#   gz_type_name: "gz.msgs.Odometry"
+#   direction: GZ_TO_ROS
 
   # LiDAR scan data topic  
 - ros_topic_name: "/scan"  
@@ -46,19 +46,12 @@
   gz_type_name: "gz.msgs.PointCloudPacked"  
   direction: GZ_TO_ROS  
 
-  # Depth camera intrinsic parameters  
-- ros_topic_name: "/depth_camera/camera_info"  
-  gz_topic_name: "/depth_camera/camera_info"  
-  ros_type_name: "sensor_msgs/msg/CameraInfo"  
-  gz_type_name: "gz.msgs.CameraInfo"  
-  direction: GZ_TO_ROS  
-
-  # 3D point cloud from the depth camera  
-- ros_topic_name: "/depth_camera/points"  
-  gz_topic_name: "/depth_camera/points"  
-  ros_type_name: "sensor_msgs/msg/PointCloud2"  
-  gz_type_name: "gz.msgs.PointCloudPacked"  
-  direction: GZ_TO_ROS  
+#   # Depth camera intrinsic parameters  
+# - ros_topic_name: "/depth_camera/camera_info"  
+#   gz_topic_name: "/depth_camera/camera_info"  
+#   ros_type_name: "sensor_msgs/msg/CameraInfo"  
+#   gz_type_name: "gz.msgs.CameraInfo"  
+#   direction: GZ_TO_ROS  
 
 
 - ros_topic_name: "/tf"  

@@ -1,0 +1,1207 @@
+[0.043s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/sensor_msgs': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/thomas/MobileRobot/ws_new/src/common_interfaces/sensor_msgs -DCMAKE_INSTALL_PREFIX=/home/thomas/MobileRobot/ws_new/install/sensor_msgs
+[0.150s] -- The C compiler identification is GNU 13.3.0
+[0.283s] -- The CXX compiler identification is GNU 13.3.0
+[0.322s] -- Detecting C compiler ABI info
+[0.522s] -- Detecting C compiler ABI info - done
+[0.545s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.547s] -- Detecting C compile features
+[0.547s] -- Detecting C compile features - done
+[0.564s] -- Detecting CXX compiler ABI info
+[0.734s] -- Detecting CXX compiler ABI info - done
+[0.762s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.762s] -- Detecting CXX compile features
+[0.762s] -- Detecting CXX compile features - done
+[0.770s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.085s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.358s] -- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[1.446s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.480s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.513s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.552s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.583s] -- Found geometry_msgs: 5.3.6 (/home/thomas/MobileRobot/ws_new/install/geometry_msgs/share/geometry_msgs/cmake)
+[1.668s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.704s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.458s] -- Found ament_cmake_cppcheck: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[3.469s] -- Found ament_cmake_cpplint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[3.480s] -- Found ament_cmake_uncrustify: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[3.491s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[5.609s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.433s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.448s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[6.742s] -- Found PythonExtra: /usr/bin/python3  
+[7.664s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[7.856s] -- Found ament_cmake_flake8: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[7.866s] -- Found ament_cmake_pep257: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[7.957s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[8.087s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[8.090s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.360s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.364s] -- Found Threads: TRUE  
+[8.393s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.398s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/thomas/MobileRobot/ws_new/src/common_interfaces/sensor_msgs/include>
+[8.406s] -- Configured cppcheck exclude dirs and/or files: 
+[8.411s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.411s] -- Configured cpplint exclude dirs and/or files: 
+[8.417s] -- Added test 'uncrustify' to check C / C++ code style
+[8.420s] -- Configured uncrustify additional arguments: 
+[8.421s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.442s] -- Added test 'lint_cmake' to check CMake code style
+[8.449s] -- Added test 'xmllint' to check XML markup files
+[8.479s] -- Configuring done (8.4s)
+[8.809s] -- Generating done (0.3s)
+[8.892s] -- Build files have been written to: /home/thomas/MobileRobot/ws_new/build/sensor_msgs
+[8.936s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/sensor_msgs' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/thomas/MobileRobot/ws_new/src/common_interfaces/sensor_msgs -DCMAKE_INSTALL_PREFIX=/home/thomas/MobileRobot/ws_new/install/sensor_msgs
+[8.936s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/sensor_msgs': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/sensor_msgs -- -j8 -l8
+[9.222s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[9.223s] [  1%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[9.229s] [  1%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[9.278s] [  1%] Built target ament_cmake_python_copy_sensor_msgs
+[10.005s] running egg_info
+[10.007s] creating sensor_msgs.egg-info
+[10.074s] writing sensor_msgs.egg-info/PKG-INFO
+[10.075s] writing dependency_links to sensor_msgs.egg-info/dependency_links.txt
+[10.076s] writing top-level names to sensor_msgs.egg-info/top_level.txt
+[10.078s] writing manifest file 'sensor_msgs.egg-info/SOURCES.txt'
+[10.291s] reading manifest file 'sensor_msgs.egg-info/SOURCES.txt'
+[10.294s] writing manifest file 'sensor_msgs.egg-info/SOURCES.txt'
+[10.389s] [  1%] Built target ament_cmake_python_build_sensor_msgs_egg
+[12.697s] [  2%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[12.835s] [  2%] Built target gtest_main
+[21.564s] [  2%] Built target sensor_msgs__rosidl_generator_type_description
+[22.143s] [  2%] [32m[1mLinking CXX static library libgtest.a[0m
+[22.269s] [  2%] Built target gtest
+[22.295s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[32.662s] [  3%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/battery_state__description.c.o[0m
+[32.755s] [  3%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/channel_float32__description.c.o[0m
+[32.869s] [  3%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/channel_float32__functions.c.o[0m
+[32.985s] [  4%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/channel_float32__type_support.c.o[0m
+[33.055s] [  4%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/compressed_image__description.c.o[0m
+[33.146s] [  4%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/compressed_image__functions.c.o[0m
+[33.258s] [  5%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/compressed_image__type_support.c.o[0m
+[33.325s] [  5%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/fluid_pressure__description.c.o[0m
+[33.414s] [  5%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/fluid_pressure__functions.c.o[0m
+[33.499s] [  6%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/fluid_pressure__type_support.c.o[0m
+[33.548s] [  6%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/illuminance__description.c.o[0m
+[33.614s] [  6%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/illuminance__functions.c.o[0m
+[33.687s] [  7%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/illuminance__type_support.c.o[0m
+[33.736s] [  7%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/image__description.c.o[0m
+[33.796s] [  7%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/image__functions.c.o[0m
+[33.871s] [  7%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/image__type_support.c.o[0m
+[33.919s] [  8%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/imu__description.c.o[0m
+[33.982s] [  8%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/imu__functions.c.o[0m
+[34.076s] [  8%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/imu__type_support.c.o[0m
+[34.126s] [  9%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joint_state__description.c.o[0m
+[34.189s] [  9%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joint_state__functions.c.o[0m
+[34.271s] [  9%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joint_state__type_support.c.o[0m
+[34.323s] [ 10%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy__description.c.o[0m
+[34.382s] [ 10%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy__functions.c.o[0m
+[34.457s] [ 10%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy__type_support.c.o[0m
+[34.507s] [ 11%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy_feedback__description.c.o[0m
+[34.567s] [ 11%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy_feedback__functions.c.o[0m
+[34.637s] [ 11%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy_feedback__type_support.c.o[0m
+[34.683s] [ 12%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy_feedback_array__description.c.o[0m
+[34.744s] [ 12%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy_feedback_array__functions.c.o[0m
+[34.845s] [ 12%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/joy_feedback_array__type_support.c.o[0m
+[34.910s] [ 13%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/laser_echo__description.c.o[0m
+[34.988s] [ 13%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/laser_echo__functions.c.o[0m
+[35.075s] [ 13%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/laser_echo__type_support.c.o[0m
+[35.127s] [ 14%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/laser_scan__description.c.o[0m
+[35.198s] [ 14%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/laser_scan__functions.c.o[0m
+[35.273s] [ 14%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/laser_scan__type_support.c.o[0m
+[35.328s] [ 15%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/magnetic_field__description.c.o[0m
+[35.391s] [ 15%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/magnetic_field__functions.c.o[0m
+[35.498s] [ 15%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/magnetic_field__type_support.c.o[0m
+[35.567s] [ 15%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/multi_dof_joint_state__description.c.o[0m
+[35.660s] [ 16%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/multi_dof_joint_state__functions.c.o[0m
+[35.745s] [ 16%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.c.o[0m
+[35.794s] [ 16%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/multi_echo_laser_scan__description.c.o[0m
+[35.853s] [ 17%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/multi_echo_laser_scan__functions.c.o[0m
+[35.928s] [ 17%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.c.o[0m
+[35.996s] [ 17%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/nav_sat_fix__description.c.o[0m
+[36.064s] [ 18%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/nav_sat_fix__functions.c.o[0m
+[36.139s] [ 18%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/nav_sat_fix__type_support.c.o[0m
+[36.187s] [ 18%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/nav_sat_status__description.c.o[0m
+[36.249s] [ 19%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/nav_sat_status__functions.c.o[0m
+[36.319s] [ 19%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/nav_sat_status__type_support.c.o[0m
+[36.367s] [ 19%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_cloud__description.c.o[0m
+[36.430s] [ 20%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_cloud__functions.c.o[0m
+[36.501s] [ 20%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_cloud__type_support.c.o[0m
+[36.548s] [ 20%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_cloud2__description.c.o[0m
+[36.608s] [ 21%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_cloud2__functions.c.o[0m
+[36.681s] [ 21%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_cloud2__type_support.c.o[0m
+[36.728s] [ 21%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_field__description.c.o[0m
+[36.783s] [ 22%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_field__functions.c.o[0m
+[36.854s] [ 22%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/point_field__type_support.c.o[0m
+[36.900s] [ 22%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/range__description.c.o[0m
+[36.960s] [ 23%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/range__functions.c.o[0m
+[37.032s] [ 23%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/range__type_support.c.o[0m
+[37.080s] [ 23%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/region_of_interest__description.c.o[0m
+[37.135s] [ 24%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/region_of_interest__functions.c.o[0m
+[37.207s] [ 24%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/region_of_interest__type_support.c.o[0m
+[37.254s] [ 24%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/relative_humidity__description.c.o[0m
+[37.319s] [ 24%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/relative_humidity__functions.c.o[0m
+[37.391s] [ 25%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/relative_humidity__type_support.c.o[0m
+[37.438s] [ 26%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/camera_info__type_support.c.o[0m
+[37.442s] [ 26%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/temperature__description.c.o[0m
+[37.485s] [ 26%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/temperature__functions.c.o[0m
+[37.528s] [ 27%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/temperature__type_support.c.o[0m
+[37.581s] [ 27%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/time_reference__description.c.o[0m
+[37.595s] [ 27%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/time_reference__functions.c.o[0m
+[37.670s] [ 28%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/time_reference__type_support.c.o[0m
+[37.699s] [ 28%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/srv/detail/set_camera_info__description.c.o[0m
+[37.728s] [ 28%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/srv/detail/set_camera_info__functions.c.o[0m
+[37.831s] [ 29%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/srv/detail/set_camera_info__type_support.c.o[0m
+[37.883s] [ 29%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/camera_info__functions.c.o[0m
+[37.917s] [ 29%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/camera_info__description.c.o[0m
+[37.995s] [ 30%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/battery_state__type_support.c.o[0m
+[38.006s] [ 30%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_c.dir/rosidl_generator_c/sensor_msgs/msg/detail/battery_state__functions.c.o[0m
+[38.119s] [ 30%] [32m[1mLinking C shared library libsensor_msgs__rosidl_generator_c.so[0m
+[38.225s] [ 30%] Built target sensor_msgs__rosidl_generator_c
+[38.249s] [ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[38.264s] [ 30%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[46.610s] [ 30%] Built target sensor_msgs__cpp
+[46.668s] [ 30%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[46.685s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[46.950s] [ 31%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/camera_info__type_support_c.cpp.o[0m
+[46.955s] [ 31%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/channel_float32__type_support_c.cpp.o[0m
+[46.957s] [ 31%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/battery_state__type_support_c.cpp.o[0m
+[48.581s] [ 32%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/fluid_pressure__type_support_c.cpp.o[0m
+[49.491s] [ 32%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/illuminance__type_support_c.cpp.o[0m
+[50.361s] [ 32%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/image__type_support_c.cpp.o[0m
+[51.268s] [ 33%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/imu__type_support_c.cpp.o[0m
+[52.152s] [ 33%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/joint_state__type_support_c.cpp.o[0m
+[53.071s] [ 34%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/battery_state__type_support.c.o[0m
+[53.128s] [ 34%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/joy__type_support_c.cpp.o[0m
+[53.128s] [ 34%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/camera_info__type_support.c.o[0m
+[53.129s] [ 34%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/compressed_image__type_support_c.cpp.o[0m
+[53.159s] [ 34%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/channel_float32__type_support.c.o[0m
+[53.246s] [ 35%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/compressed_image__type_support.c.o[0m
+[53.267s] [ 35%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/battery_state__type_support.cpp.o[0m
+[53.341s] [ 35%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/fluid_pressure__type_support.c.o[0m
+[53.359s] [ 36%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/camera_info__type_support.cpp.o[0m
+[53.430s] [ 36%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/illuminance__type_support.c.o[0m
+[53.454s] [ 36%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/channel_float32__type_support.cpp.o[0m
+[53.518s] [ 37%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/image__type_support.c.o[0m
+[53.549s] [ 37%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/compressed_image__type_support.cpp.o[0m
+[53.602s] [ 37%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/imu__type_support.c.o[0m
+[53.645s] [ 38%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/fluid_pressure__type_support.cpp.o[0m
+[53.682s] [ 38%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/joint_state__type_support.c.o[0m
+[53.738s] [ 38%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/illuminance__type_support.cpp.o[0m
+[53.785s] [ 39%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/joy__type_support.c.o[0m
+[53.833s] [ 39%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/image__type_support.cpp.o[0m
+[53.873s] [ 39%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/joy_feedback__type_support.c.o[0m
+[53.919s] [ 39%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/imu__type_support.cpp.o[0m
+[53.952s] [ 39%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/joy_feedback_array__type_support.c.o[0m
+[54.004s] [ 40%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joint_state__type_support.cpp.o[0m
+[54.005s] [ 41%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/joy_feedback__type_support_c.cpp.o[0m
+[54.029s] [ 41%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/joy_feedback_array__type_support_c.cpp.o[0m
+[54.036s] [ 42%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/laser_echo__type_support.c.o[0m
+[54.099s] [ 42%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/laser_scan__type_support.c.o[0m
+[54.100s] [ 42%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joy__type_support.cpp.o[0m
+[54.166s] [ 42%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/magnetic_field__type_support.c.o[0m
+[54.198s] [ 42%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joy_feedback__type_support.cpp.o[0m
+[54.236s] [ 43%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.c.o[0m
+[54.294s] [ 44%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/joy_feedback_array__type_support.cpp.o[0m
+[54.341s] [ 44%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.c.o[0m
+[54.387s] [ 44%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/laser_echo__type_support.cpp.o[0m
+[54.448s] [ 44%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/nav_sat_fix__type_support.c.o[0m
+[54.487s] [ 44%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/laser_scan__type_support.cpp.o[0m
+[54.543s] [ 44%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/nav_sat_status__type_support.c.o[0m
+[54.580s] [ 45%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/magnetic_field__type_support.cpp.o[0m
+[54.622s] [ 46%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/point_cloud__type_support.c.o[0m
+[54.679s] [ 46%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/multi_dof_joint_state__type_support.cpp.o[0m
+[54.720s] [ 46%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/point_cloud2__type_support.c.o[0m
+[54.827s] [ 46%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/multi_echo_laser_scan__type_support.cpp.o[0m
+[54.936s] [ 47%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/range__type_support.c.o[0m
+[54.936s] [ 47%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/point_field__type_support.c.o[0m
+[54.940s] [ 47%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/laser_echo__type_support_c.cpp.o[0m
+[54.987s] [ 48%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/nav_sat_fix__type_support.cpp.o[0m
+[55.052s] [ 48%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/region_of_interest__type_support.c.o[0m
+[55.052s] [ 48%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/nav_sat_status__type_support.cpp.o[0m
+[55.072s] [ 48%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/relative_humidity__type_support.c.o[0m
+[55.132s] [ 48%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/point_cloud__type_support.cpp.o[0m
+[55.144s] [ 49%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/temperature__type_support.c.o[0m
+[55.163s] [ 50%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/laser_scan__type_support_c.cpp.o[0m
+[55.181s] [ 51%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/point_cloud2__type_support.cpp.o[0m
+[55.239s] [ 51%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/msg/detail/time_reference__type_support.c.o[0m
+[55.293s] [ 51%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/point_field__type_support.cpp.o[0m
+[55.389s] [ 51%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/sensor_msgs/srv/detail/set_camera_info__type_support.c.o[0m
+[55.413s] [ 51%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/range__type_support.cpp.o[0m
+[55.549s] [ 52%] [32m[1mLinking C shared library libsensor_msgs__rosidl_typesupport_introspection_c.so[0m
+[55.602s] [ 53%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/region_of_interest__type_support.cpp.o[0m
+[55.661s] [ 53%] Built target sensor_msgs__rosidl_typesupport_introspection_c
+[55.686s] [ 53%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/multi_dof_joint_state__type_support_c.cpp.o[0m
+[55.695s] [ 53%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[55.807s] [ 53%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/relative_humidity__type_support.cpp.o[0m
+[55.980s] [ 53%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/temperature__type_support.cpp.o[0m
+[56.046s] [ 54%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/msg/time_reference__type_support.cpp.o[0m
+[56.046s] [ 54%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/magnetic_field__type_support_c.cpp.o[0m
+[56.161s] [ 54%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/sensor_msgs/srv/set_camera_info__type_support.cpp.o[0m
+[56.270s] [ 55%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support_c.cpp.o[0m
+[56.378s] [ 55%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_c.so[0m
+[56.487s] [ 55%] Built target sensor_msgs__rosidl_typesupport_c
+[56.511s] [ 55%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/nav_sat_status__type_support_c.cpp.o[0m
+[56.517s] [ 56%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[56.939s] [ 56%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/nav_sat_fix__type_support_c.cpp.o[0m
+[57.243s] [ 57%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/point_cloud__type_support_c.cpp.o[0m
+[58.230s] [ 57%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/region_of_interest__type_support_c.cpp.o[0m
+[59.101s] [ 57%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/relative_humidity__type_support_c.cpp.o[0m
+[60.047s] [ 57%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/temperature__type_support_c.cpp.o[0m
+[60.909s] [ 58%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/time_reference__type_support_c.cpp.o[0m
+[61.744s] [ 58%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/srv/detail/set_camera_info__type_support_c.cpp.o[0m
+[62.538s] [ 59%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/range__type_support_c.cpp.o[0m
+[63.310s] [ 59%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/point_field__type_support_c.cpp.o[0m
+[63.361s] [ 59%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/battery_state__type_support.cpp.o[0m
+[63.886s] [ 59%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/compressed_image__type_support.cpp.o[0m
+[63.996s] [ 59%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/sensor_msgs/msg/detail/point_cloud2__type_support_c.cpp.o[0m
+[64.392s] [ 59%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/illuminance__type_support.cpp.o[0m
+[64.679s] [ 59%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[64.823s] [ 59%] Built target sensor_msgs__rosidl_typesupport_fastrtps_c
+[64.861s] [ 60%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/imu__type_support.cpp.o[0m
+[65.291s] [ 60%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/joint_state__type_support.cpp.o[0m
+[65.353s] [ 60%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/battery_state__type_support.cpp.o[0m
+[65.809s] [ 60%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/joy__type_support.cpp.o[0m
+[66.131s] [ 60%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/camera_info__type_support.cpp.o[0m
+[66.350s] [ 61%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/joy_feedback__type_support.cpp.o[0m
+[66.778s] [ 61%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/image__type_support.cpp.o[0m
+[66.827s] [ 61%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/compressed_image__type_support.cpp.o[0m
+[67.253s] [ 61%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/joy_feedback_array__type_support.cpp.o[0m
+[67.480s] [ 62%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/channel_float32__type_support.cpp.o[0m
+[67.484s] [ 62%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/laser_echo__type_support.cpp.o[0m
+[67.484s] [ 62%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/fluid_pressure__type_support.cpp.o[0m
+[67.724s] [ 63%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/fluid_pressure__type_support.cpp.o[0m
+[68.002s] [ 63%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/channel_float32__type_support.cpp.o[0m
+[68.248s] [ 64%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/camera_info__type_support.cpp.o[0m
+[68.487s] [ 64%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/laser_scan__type_support.cpp.o[0m
+[68.488s] [ 64%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/imu__type_support.cpp.o[0m
+[68.554s] [ 64%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/image__type_support.cpp.o[0m
+[68.644s] [ 65%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/magnetic_field__type_support.cpp.o[0m
+[68.966s] [ 65%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.cpp.o[0m
+[69.222s] [ 65%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.cpp.o[0m
+[69.329s] [ 66%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/nav_sat_fix__type_support.cpp.o[0m
+[69.636s] [ 66%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/nav_sat_status__type_support.cpp.o[0m
+[69.642s] [ 67%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/joint_state__type_support.cpp.o[0m
+[69.728s] [ 68%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/illuminance__type_support.cpp.o[0m
+[70.001s] [ 68%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/point_cloud__type_support.cpp.o[0m
+[70.578s] [ 69%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/point_cloud2__type_support.cpp.o[0m
+[70.585s] [ 69%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/laser_echo__type_support.cpp.o[0m
+[70.633s] [ 70%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/joy_feedback_array__type_support.cpp.o[0m
+[70.850s] [ 70%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/point_field__type_support.cpp.o[0m
+[71.346s] [ 70%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/laser_scan__type_support.cpp.o[0m
+[71.364s] [ 70%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/range__type_support.cpp.o[0m
+[71.472s] [ 71%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/region_of_interest__type_support.cpp.o[0m
+[71.642s] [ 72%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/magnetic_field__type_support.cpp.o[0m
+[72.022s] [ 72%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/relative_humidity__type_support.cpp.o[0m
+[72.072s] [ 72%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/temperature__type_support.cpp.o[0m
+[72.245s] [ 72%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/multi_dof_joint_state__type_support.cpp.o[0m
+[72.557s] [ 72%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/srv/detail/set_camera_info__type_support.cpp.o[0m
+[72.557s] [ 72%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/joy_feedback__type_support.cpp.o[0m
+[72.666s] [ 73%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/sensor_msgs/msg/detail/time_reference__type_support.cpp.o[0m
+[73.235s] [ 74%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/nav_sat_fix__type_support.cpp.o[0m
+[73.498s] [ 74%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/point_cloud__type_support.cpp.o[0m
+[73.503s] [ 74%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[73.723s] [ 74%] Built target sensor_msgs__rosidl_typesupport_introspection_cpp
+[73.747s] [ 75%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[74.029s] [ 75%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/point_field__type_support.cpp.o[0m
+[74.555s] [ 75%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/range__type_support.cpp.o[0m
+[74.942s] [ 75%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/region_of_interest__type_support.cpp.o[0m
+[75.458s] [ 76%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/relative_humidity__type_support.cpp.o[0m
+[75.881s] [ 76%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/temperature__type_support.cpp.o[0m
+[76.347s] [ 76%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/time_reference__type_support.cpp.o[0m
+[76.781s] [ 77%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/srv/detail/dds_fastrtps/set_camera_info__type_support.cpp.o[0m
+[77.296s] [ 78%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/point_cloud2__type_support.cpp.o[0m
+[78.036s] [ 78%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/multi_echo_laser_scan__type_support.cpp.o[0m
+[78.037s] [ 78%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/nav_sat_status__type_support.cpp.o[0m
+[78.267s] [ 78%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/sensor_msgs/msg/detail/dds_fastrtps/joy__type_support.cpp.o[0m
+[79.098s] [ 78%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[79.249s] [ 78%] Built target sensor_msgs__rosidl_typesupport_fastrtps_cpp
+[79.752s] [ 79%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/battery_state__type_support.cpp.o[0m
+[79.752s] [ 79%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/channel_float32__type_support.cpp.o[0m
+[79.753s] [ 79%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/camera_info__type_support.cpp.o[0m
+[80.370s] [ 79%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/imu__type_support.cpp.o[0m
+[80.374s] [ 79%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joint_state__type_support.cpp.o[0m
+[80.380s] [ 80%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joy__type_support.cpp.o[0m
+[80.933s] [ 80%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joy_feedback__type_support.cpp.o[0m
+[81.041s] [ 80%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/joy_feedback_array__type_support.cpp.o[0m
+[81.064s] [ 81%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/laser_echo__type_support.cpp.o[0m
+[81.610s] [ 81%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/laser_scan__type_support.cpp.o[0m
+[81.611s] [ 82%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/image__type_support.cpp.o[0m
+[81.696s] [ 82%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/magnetic_field__type_support.cpp.o[0m
+[81.752s] [ 83%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/multi_dof_joint_state__type_support.cpp.o[0m
+[82.286s] [ 83%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/multi_echo_laser_scan__type_support.cpp.o[0m
+[82.313s] [ 83%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/nav_sat_fix__type_support.cpp.o[0m
+[82.348s] [ 84%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/nav_sat_status__type_support.cpp.o[0m
+[82.795s] [ 84%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/point_cloud2__type_support.cpp.o[0m
+[82.854s] [ 85%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/point_field__type_support.cpp.o[0m
+[82.974s] [ 85%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/range__type_support.cpp.o[0m
+[83.316s] [ 85%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/region_of_interest__type_support.cpp.o[0m
+[83.408s] [ 86%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/relative_humidity__type_support.cpp.o[0m
+[83.622s] [ 86%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/temperature__type_support.cpp.o[0m
+[83.753s] [ 86%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/time_reference__type_support.cpp.o[0m
+[83.842s] [ 87%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/srv/set_camera_info__type_support.cpp.o[0m
+[84.175s] [ 87%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/point_cloud__type_support.cpp.o[0m
+[84.271s] [ 87%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/illuminance__type_support.cpp.o[0m
+[84.446s] [ 87%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/fluid_pressure__type_support.cpp.o[0m
+[84.797s] [ 87%] [32mBuilding CXX object CMakeFiles/sensor_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/sensor_msgs/msg/compressed_image__type_support.cpp.o[0m
+[85.255s] [ 87%] [32m[1mLinking CXX shared library libsensor_msgs__rosidl_typesupport_cpp.so[0m
+[85.386s] [ 87%] Built target sensor_msgs__rosidl_typesupport_cpp
+[85.418s] [ 88%] Built target sensor_msgs
+[85.418s] [ 88%] [32mBuilding CXX object CMakeFiles/test_sensor_msgs.dir/test/test_pointcloud_conversion.cpp.o[0m
+[85.418s] [ 88%] [32mBuilding CXX object CMakeFiles/test_sensor_msgs.dir/test/test_image_encodings.cpp.o[0m
+[85.451s] [ 88%] [34m[1mGenerating Python code for ROS interfaces[0m
+[87.478s] [ 88%] [32mBuilding CXX object CMakeFiles/test_sensor_msgs.dir/test/test_pointcloud_iterator.cpp.o[0m
+[89.915s] [ 89%] [32m[1mLinking CXX executable test_sensor_msgs[0m
+[90.259s] [ 89%] Built target test_sensor_msgs
+[97.579s] [ 89%] Built target sensor_msgs__py
+[97.616s] [ 90%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_camera_info_s.c.o[0m
+[97.617s] [ 90%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_battery_state_s.c.o[0m
+[97.618s] [ 90%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_compressed_image_s.c.o[0m
+[97.619s] [ 90%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_channel_float32_s.c.o[0m
+[97.867s] [ 91%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_imu_s.c.o[0m
+[97.915s] [ 91%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_joint_state_s.c.o[0m
+[97.939s] [ 91%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_joy_s.c.o[0m
+[97.978s] [ 92%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_joy_feedback_s.c.o[0m
+[98.160s] [ 92%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_joy_feedback_array_s.c.o[0m
+[98.170s] [ 92%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_laser_echo_s.c.o[0m
+[98.244s] [ 92%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_laser_scan_s.c.o[0m
+[98.277s] [ 93%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_magnetic_field_s.c.o[0m
+[98.447s] [ 93%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_image_s.c.o[0m
+[98.447s] [ 93%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_multi_dof_joint_state_s.c.o[0m
+[98.447s] [ 93%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_illuminance_s.c.o[0m
+[98.509s] [ 94%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_nav_sat_fix_s.c.o[0m
+[98.602s] [ 94%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_nav_sat_status_s.c.o[0m
+[98.718s] [ 94%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_point_cloud_s.c.o[0m
+[98.756s] [ 95%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_point_cloud2_s.c.o[0m
+[98.803s] [ 95%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_point_field_s.c.o[0m
+[98.807s] [ 95%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_multi_echo_laser_scan_s.c.o[0m
+[99.006s] [ 96%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_region_of_interest_s.c.o[0m
+[99.017s] [ 96%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_relative_humidity_s.c.o[0m
+[99.120s] [ 96%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_range_s.c.o[0m
+[99.121s] [ 96%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_temperature_s.c.o[0m
+[99.126s] [ 97%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_time_reference_s.c.o[0m
+[99.427s] [ 98%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/srv/_set_camera_info_s.c.o[0m
+[99.427s] [ 98%] [32mBuilding C object CMakeFiles/sensor_msgs__rosidl_generator_py.dir/rosidl_generator_py/sensor_msgs/msg/_fluid_pressure_s.c.o[0m
+[99.682s] [ 98%] [32m[1mLinking C shared library libsensor_msgs__rosidl_generator_py.so[0m
+[99.765s] [ 98%] Built target sensor_msgs__rosidl_generator_py
+[99.799s] [ 98%] [32mBuilding C object CMakeFiles/sensor_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[99.800s] [ 98%] [32mBuilding C object CMakeFiles/sensor_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[99.802s] [ 99%] [32mBuilding C object CMakeFiles/sensor_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[100.089s] [100%] [32m[1mLinking C shared module rosidl_generator_py/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[100.095s] [100%] [32m[1mLinking C shared module rosidl_generator_py/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[100.150s] [100%] Built target sensor_msgs_s__rosidl_typesupport_introspection_c
+[100.150s] [100%] Built target sensor_msgs_s__rosidl_typesupport_fastrtps_c
+[100.193s] [100%] [32m[1mLinking C shared module rosidl_generator_py/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.so[0m
+[100.242s] [100%] Built target sensor_msgs_s__rosidl_typesupport_c
+[100.260s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/sensor_msgs' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/sensor_msgs -- -j8 -l8
+[100.262s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/sensor_msgs': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/sensor_msgs
+[100.276s] -- Install configuration: ""
+[100.276s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/ament_index/resource_index/rosidl_interfaces/sensor_msgs
+[100.278s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/BatteryState.json
+[100.278s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/CameraInfo.json
+[100.278s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/ChannelFloat32.json
+[100.278s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/CompressedImage.json
+[100.278s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/FluidPressure.json
+[100.278s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/Illuminance.json
+[100.278s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/Image.json
+[100.279s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/Imu.json
+[100.279s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/JointState.json
+[100.279s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/Joy.json
+[100.279s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedback.json
+[100.279s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedbackArray.json
+[100.280s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/LaserEcho.json
+[100.280s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/LaserScan.json
+[100.280s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/MagneticField.json
+[100.280s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/MultiDOFJointState.json
+[100.281s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/MultiEchoLaserScan.json
+[100.281s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/NavSatFix.json
+[100.281s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/NavSatStatus.json
+[100.281s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/PointCloud.json
+[100.282s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/PointCloud2.json
+[100.282s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/PointField.json
+[100.282s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/Range.json
+[100.282s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/RegionOfInterest.json
+[100.282s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/RelativeHumidity.json
+[100.283s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/Temperature.json
+[100.283s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/TimeReference.json
+[100.283s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/srv/SetCameraInfo.json
+[100.283s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[100.284s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[100.284s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[100.284s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__description.c
+[100.284s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__functions.h
+[100.284s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.c
+[100.284s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__functions.c
+[100.285s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__struct.h
+[100.285s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.h
+[100.285s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/set_camera_info.h
+[100.285s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[100.285s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joint_state.h
+[100.285s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[100.286s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.h
+[100.286s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__type_support.h
+[100.286s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.h
+[100.286s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__type_support.h
+[100.286s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__functions.c
+[100.287s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__struct.h
+[100.287s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__struct.h
+[100.287s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.h
+[100.287s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__functions.c
+[100.287s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.h
+[100.288s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__functions.c
+[100.288s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__functions.h
+[100.288s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__description.c
+[100.288s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__type_support.c
+[100.288s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__description.c
+[100.289s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__type_support.h
+[100.289s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.h
+[100.289s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__functions.h
+[100.289s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__functions.c
+[100.289s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__struct.h
+[100.289s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__functions.c
+[100.290s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__description.c
+[100.290s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__functions.h
+[100.290s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__functions.c
+[100.290s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__functions.c
+[100.290s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__type_support.c
+[100.291s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__type_support.c
+[100.291s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__description.c
+[100.291s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__type_support.h
+[100.291s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__description.c
+[100.291s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__functions.c
+[100.292s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.c
+[100.292s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__functions.c
+[100.292s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__type_support.c
+[100.292s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__type_support.h
+[100.292s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.h
+[100.292s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__functions.c
+[100.293s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__struct.h
+[100.293s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__type_support.h
+[100.293s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__struct.h
+[100.293s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__struct.h
+[100.293s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__description.c
+[100.294s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__type_support.c
+[100.294s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__functions.h
+[100.294s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__type_support.c
+[100.294s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__type_support.h
+[100.295s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__functions.c
+[100.295s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__struct.h
+[100.295s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__type_support.c
+[100.295s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__description.c
+[100.295s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__description.c
+[100.296s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__functions.h
+[100.296s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__struct.h
+[100.296s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__type_support.h
+[100.296s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__struct.h
+[100.296s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.c
+[100.296s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__type_support.h
+[100.297s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__functions.h
+[100.297s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__type_support.h
+[100.297s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__type_support.c
+[100.297s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__functions.h
+[100.297s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__struct.h
+[100.298s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__description.c
+[100.298s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__type_support.h
+[100.298s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.h
+[100.298s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__functions.h
+[100.298s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__struct.h
+[100.299s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__description.c
+[100.299s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__description.c
+[100.299s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__description.c
+[100.299s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__type_support.h
+[100.299s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__description.c
+[100.300s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__type_support.c
+[100.300s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__struct.h
+[100.300s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.c
+[100.300s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__functions.h
+[100.300s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__struct.h
+[100.300s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.h
+[100.301s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__functions.h
+[100.301s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.h
+[100.301s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__description.c
+[100.301s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__type_support.c
+[100.301s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__functions.c
+[100.301s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__functions.c
+[100.302s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__description.c
+[100.302s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__functions.h
+[100.302s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__struct.h
+[100.302s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__functions.h
+[100.302s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__description.c
+[100.302s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__type_support.h
+[100.302s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__struct.h
+[100.303s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__description.c
+[100.303s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__description.c
+[100.303s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__functions.h
+[100.303s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__functions.c
+[100.303s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__functions.c
+[100.303s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__struct.h
+[100.303s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.c
+[100.303s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__functions.c
+[100.303s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__functions.c
+[100.304s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__type_support.h
+[100.304s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__type_support.h
+[100.304s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__functions.h
+[100.304s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.c
+[100.304s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__type_support.c
+[100.304s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__struct.h
+[100.305s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__description.c
+[100.305s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__description.c
+[100.305s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__functions.h
+[100.305s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__type_support.h
+[100.305s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__type_support.c
+[100.305s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.h
+[100.306s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.h
+[100.306s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__functions.h
+[100.306s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__functions.h
+[100.306s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__type_support.c
+[100.306s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__functions.h
+[100.306s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.c
+[100.306s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__functions.c
+[100.307s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__struct.h
+[100.307s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__struct.h
+[100.307s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__functions.c
+[100.307s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__description.c
+[100.307s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__functions.c
+[100.307s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__functions.c
+[100.308s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__description.c
+[100.308s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__functions.c
+[100.308s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__functions.h
+[100.308s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.c
+[100.308s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__functions.h
+[100.309s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__functions.c
+[100.309s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.h
+[100.309s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__description.c
+[100.309s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__functions.c
+[100.311s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__description.c
+[100.311s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__functions.h
+[100.311s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.h
+[100.311s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.h
+[100.311s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.c
+[100.311s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.c
+[100.311s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__type_support.c
+[100.312s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__description.c
+[100.312s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__functions.h
+[100.312s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__type_support.h
+[100.312s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__functions.c
+[100.312s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__functions.h
+[100.312s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__struct.h
+[100.313s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__functions.c
+[100.313s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.h
+[100.313s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__struct.h
+[100.313s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__functions.h
+[100.313s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__functions.h
+[100.314s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__type_support.c
+[100.314s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__functions.h
+[100.314s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.c
+[100.314s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__functions.h
+[100.314s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__functions.c
+[100.314s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.h
+[100.315s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__description.c
+[100.315s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__type_support.c
+[100.315s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__type_support.c
+[100.315s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__description.c
+[100.315s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/laser_echo.h
+[100.316s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/nav_sat_status.h
+[100.316s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/relative_humidity.h
+[100.316s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy.h
+[100.316s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/multi_dof_joint_state.h
+[100.316s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/illuminance.h
+[100.316s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_cloud2.h
+[100.317s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/magnetic_field.h
+[100.317s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy_feedback.h
+[100.317s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/fluid_pressure.h
+[100.317s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_cloud.h
+[100.317s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_c__visibility_control.h
+[100.317s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/region_of_interest.h
+[100.318s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/compressed_image.h
+[100.318s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/multi_echo_laser_scan.h
+[100.318s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/camera_info.h
+[100.318s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/range.h
+[100.318s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy_feedback_array.h
+[100.319s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/image.h
+[100.319s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/temperature.h
+[100.319s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/imu.h
+[100.319s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/laser_scan.h
+[100.319s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_field.h
+[100.319s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/time_reference.h
+[100.320s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/battery_state.h
+[100.320s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/nav_sat_fix.h
+[100.320s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/channel_float32.h
+[100.320s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/environment/library_path.sh
+[100.320s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/environment/library_path.dsv
+[100.320s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/libsensor_msgs__rosidl_generator_c.so
+[100.321s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/libsensor_msgs__rosidl_generator_c.so" to ""
+[100.321s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[100.322s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[100.322s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[100.322s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_fastrtps_c.h
+[100.322s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[100.322s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[100.322s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_fastrtps_c.h
+[100.322s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_fastrtps_c.h
+[100.323s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_fastrtps_c.h
+[100.323s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_fastrtps_c.h
+[100.323s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_fastrtps_c.h
+[100.323s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_fastrtps_c.h
+[100.323s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_fastrtps_c.h
+[100.323s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_fastrtps_c.h
+[100.323s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_fastrtps_c.h
+[100.323s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_fastrtps_c.h
+[100.323s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_fastrtps_c.h
+[100.324s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_fastrtps_c.h
+[100.324s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_fastrtps_c.h
+[100.324s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_fastrtps_c.h
+[100.324s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_fastrtps_c.h
+[100.325s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_fastrtps_c.h
+[100.325s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_fastrtps_c.h
+[100.325s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_fastrtps_c.h
+[100.325s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_fastrtps_c.h
+[100.325s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_fastrtps_c.h
+[100.325s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_fastrtps_c.h
+[100.326s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_fastrtps_c.h
+[100.326s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_fastrtps_c.h
+[100.326s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_fastrtps_c.h
+[100.326s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_c.h
+[100.326s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_fastrtps_c.h
+[100.327s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_fastrtps_c.h
+[100.327s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[100.327s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
+[100.329s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[100.329s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[100.329s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[100.329s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[100.330s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__struct.hpp
+[100.330s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__builder.hpp
+[100.330s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.hpp
+[100.330s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__traits.hpp
+[100.330s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/set_camera_info.hpp
+[100.330s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[100.331s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[100.331s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__traits.hpp
+[100.331s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__struct.hpp
+[100.331s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__traits.hpp
+[100.331s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.hpp
+[100.332s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__builder.hpp
+[100.332s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__struct.hpp
+[100.332s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__builder.hpp
+[100.332s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__builder.hpp
+[100.332s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.hpp
+[100.332s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__struct.hpp
+[100.332s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__traits.hpp
+[100.332s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__struct.hpp
+[100.333s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__traits.hpp
+[100.333s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__type_support.hpp
+[100.333s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__type_support.hpp
+[100.333s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__type_support.hpp
+[100.333s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.hpp
+[100.333s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__struct.hpp
+[100.334s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__struct.hpp
+[100.334s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__struct.hpp
+[100.334s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__type_support.hpp
+[100.334s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__type_support.hpp
+[100.334s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__builder.hpp
+[100.334s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__builder.hpp
+[100.335s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.hpp
+[100.335s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__builder.hpp
+[100.335s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__builder.hpp
+[100.335s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__builder.hpp
+[100.335s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__builder.hpp
+[100.336s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__struct.hpp
+[100.336s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__builder.hpp
+[100.336s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__builder.hpp
+[100.336s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__builder.hpp
+[100.336s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__builder.hpp
+[100.337s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__struct.hpp
+[100.337s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__traits.hpp
+[100.337s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__builder.hpp
+[100.337s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__traits.hpp
+[100.337s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__struct.hpp
+[100.338s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__traits.hpp
+[100.338s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__struct.hpp
+[100.338s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.hpp
+[100.338s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__type_support.hpp
+[100.338s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__builder.hpp
+[100.338s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__type_support.hpp
+[100.339s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__traits.hpp
+[100.339s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__type_support.hpp
+[100.339s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__builder.hpp
+[100.339s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__traits.hpp
+[100.339s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__builder.hpp
+[100.340s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__traits.hpp
+[100.340s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__traits.hpp
+[100.340s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__struct.hpp
+[100.340s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__builder.hpp
+[100.340s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__builder.hpp
+[100.341s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__struct.hpp
+[100.341s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__type_support.hpp
+[100.341s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__type_support.hpp
+[100.341s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__builder.hpp
+[100.341s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__type_support.hpp
+[100.342s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__builder.hpp
+[100.342s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__traits.hpp
+[100.342s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__traits.hpp
+[100.342s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__traits.hpp
+[100.342s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__traits.hpp
+[100.342s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__traits.hpp
+[100.343s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__type_support.hpp
+[100.343s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__builder.hpp
+[100.343s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__struct.hpp
+[100.343s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__type_support.hpp
+[100.343s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__type_support.hpp
+[100.344s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__struct.hpp
+[100.344s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__struct.hpp
+[100.344s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__traits.hpp
+[100.344s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__type_support.hpp
+[100.345s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__traits.hpp
+[100.345s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__traits.hpp
+[100.345s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__traits.hpp
+[100.345s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__builder.hpp
+[100.345s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.hpp
+[100.346s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.hpp
+[100.346s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__type_support.hpp
+[100.346s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__struct.hpp
+[100.346s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__type_support.hpp
+[100.346s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__builder.hpp
+[100.347s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__traits.hpp
+[100.347s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__traits.hpp
+[100.347s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__struct.hpp
+[100.347s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__traits.hpp
+[100.347s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.hpp
+[100.347s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp
+[100.348s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__traits.hpp
+[100.348s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__traits.hpp
+[100.348s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__struct.hpp
+[100.348s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__builder.hpp
+[100.348s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__struct.hpp
+[100.349s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__struct.hpp
+[100.349s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp
+[100.349s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__struct.hpp
+[100.349s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.hpp
+[100.349s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__struct.hpp
+[100.350s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__traits.hpp
+[100.350s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__builder.hpp
+[100.350s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.hpp
+[100.350s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__struct.hpp
+[100.350s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__struct.hpp
+[100.351s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__builder.hpp
+[100.351s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__struct.hpp
+[100.351s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/laser_echo.hpp
+[100.351s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/fluid_pressure.hpp
+[100.351s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/camera_info.hpp
+[100.352s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_field.hpp
+[100.352s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_cloud.hpp
+[100.352s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/relative_humidity.hpp
+[100.352s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/multi_echo_laser_scan.hpp
+[100.352s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/magnetic_field.hpp
+[100.352s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy_feedback.hpp
+[100.353s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/nav_sat_status.hpp
+[100.353s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/time_reference.hpp
+[100.353s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/temperature.hpp
+[100.353s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy.hpp
+[100.353s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/image.hpp
+[100.354s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/laser_scan.hpp
+[100.354s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/illuminance.hpp
+[100.354s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/nav_sat_fix.hpp
+[100.354s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/range.hpp
+[100.354s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joy_feedback_array.hpp
+[100.354s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/imu.hpp
+[100.355s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/channel_float32.hpp
+[100.355s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/point_cloud2.hpp
+[100.355s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/battery_state.hpp
+[100.355s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[100.355s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/joint_state.hpp
+[100.356s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/compressed_image.hpp
+[100.356s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/multi_dof_joint_state.hpp
+[100.356s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/region_of_interest.hpp
+[100.356s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[100.356s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[100.357s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[100.357s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_fastrtps_cpp.hpp
+[100.357s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/dds_fastrtps
+[100.357s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[100.357s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[100.357s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[100.357s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_fastrtps_cpp.hpp
+[100.358s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_fastrtps_cpp.hpp
+[100.358s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_fastrtps_cpp.hpp
+[100.358s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_fastrtps_cpp.hpp
+[100.358s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_fastrtps_cpp.hpp
+[100.358s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_fastrtps_cpp.hpp
+[100.358s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_fastrtps_cpp.hpp
+[100.359s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_fastrtps_cpp.hpp
+[100.359s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_fastrtps_cpp.hpp
+[100.359s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_fastrtps_cpp.hpp
+[100.359s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_fastrtps_cpp.hpp
+[100.359s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_fastrtps_cpp.hpp
+[100.360s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_fastrtps_cpp.hpp
+[100.360s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_fastrtps_cpp.hpp
+[100.360s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_fastrtps_cpp.hpp
+[100.360s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_fastrtps_cpp.hpp
+[100.360s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_fastrtps_cpp.hpp
+[100.361s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_fastrtps_cpp.hpp
+[100.361s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_fastrtps_cpp.hpp
+[100.361s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[100.361s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_fastrtps_cpp.hpp
+[100.361s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_fastrtps_cpp.hpp
+[100.362s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_fastrtps_cpp.hpp
+[100.362s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_fastrtps_cpp.hpp
+[100.362s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[100.362s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/dds_fastrtps
+[100.362s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_fastrtps_cpp.hpp
+[100.363s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[100.363s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
+[100.364s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[100.365s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[100.365s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[100.365s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[100.365s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_introspection_c.h
+[100.365s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.c
+[100.365s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[100.366s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[100.366s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_introspection_c.h
+[100.366s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_introspection_c.h
+[100.366s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_introspection_c.h
+[100.366s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__type_support.c
+[100.366s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_introspection_c.h
+[100.366s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_introspection_c.h
+[100.366s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_introspection_c.h
+[100.367s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__type_support.c
+[100.367s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__type_support.c
+[100.367s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_introspection_c.h
+[100.367s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_introspection_c.h
+[100.367s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_introspection_c.h
+[100.367s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.c
+[100.368s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__type_support.c
+[100.368s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__type_support.c
+[100.368s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__type_support.c
+[100.368s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__type_support.c
+[100.368s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_introspection_c.h
+[100.368s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.c
+[100.369s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_introspection_c.h
+[100.369s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__type_support.c
+[100.369s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_introspection_c.h
+[100.369s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__type_support.c
+[100.369s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_introspection_c.h
+[100.370s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_introspection_c.h
+[100.370s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_introspection_c.h
+[100.370s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.c
+[100.370s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_introspection_c.h
+[100.370s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_introspection_c.h
+[100.371s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__type_support.c
+[100.371s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.c
+[100.371s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_introspection_c.h
+[100.371s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.c
+[100.372s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__type_support.c
+[100.372s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__type_support.c
+[100.372s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_introspection_c.h
+[100.372s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__type_support.c
+[100.372s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_introspection_c.h
+[100.372s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_introspection_c.h
+[100.373s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_introspection_c.h
+[100.373s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_introspection_c.h
+[100.373s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.c
+[100.373s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_introspection_c.h
+[100.373s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.c
+[100.374s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_introspection_c.h
+[100.374s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.c
+[100.374s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.c
+[100.374s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__type_support.c
+[100.375s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__type_support.c
+[100.375s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.c
+[100.375s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_introspection_c.h
+[100.375s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__type_support.c
+[100.375s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__type_support.c
+[100.376s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_introspection_c.h
+[100.376s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[100.376s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
+[100.377s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so" to ""
+[100.378s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_c.so
+[100.378s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_c.so" to ""
+[100.379s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[100.379s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv
+[100.379s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail
+[100.379s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__rosidl_typesupport_introspection_cpp.hpp
+[100.380s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/srv/detail/set_camera_info__type_support.cpp
+[100.380s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg
+[100.380s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail
+[100.380s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__rosidl_typesupport_introspection_cpp.hpp
+[100.381s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__rosidl_typesupport_introspection_cpp.hpp
+[100.381s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__rosidl_typesupport_introspection_cpp.hpp
+[100.381s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__rosidl_typesupport_introspection_cpp.hpp
+[100.381s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__rosidl_typesupport_introspection_cpp.hpp
+[100.382s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__type_support.cpp
+[100.382s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__rosidl_typesupport_introspection_cpp.hpp
+[100.382s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__rosidl_typesupport_introspection_cpp.hpp
+[100.383s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__rosidl_typesupport_introspection_cpp.hpp
+[100.383s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_scan__rosidl_typesupport_introspection_cpp.hpp
+[100.383s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__rosidl_typesupport_introspection_cpp.hpp
+[100.383s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__rosidl_typesupport_introspection_cpp.hpp
+[100.384s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__rosidl_typesupport_introspection_cpp.hpp
+[100.384s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__type_support.cpp
+[100.384s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__type_support.cpp
+[100.385s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/camera_info__type_support.cpp
+[100.385s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__type_support.cpp
+[100.385s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/range__type_support.cpp
+[100.386s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__rosidl_typesupport_introspection_cpp.hpp
+[100.386s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy__type_support.cpp
+[100.386s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__rosidl_typesupport_introspection_cpp.hpp
+[100.386s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__rosidl_typesupport_introspection_cpp.hpp
+[100.387s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud2__type_support.cpp
+[100.387s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/laser_echo__rosidl_typesupport_introspection_cpp.hpp
+[100.387s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__type_support.cpp
+[100.388s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__type_support.cpp
+[100.388s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__type_support.cpp
+[100.388s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__rosidl_typesupport_introspection_cpp.hpp
+[100.388s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_cloud__type_support.cpp
+[100.389s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__type_support.cpp
+[100.389s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_dof_joint_state__type_support.cpp
+[100.389s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_fix__type_support.cpp
+[100.389s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joint_state__rosidl_typesupport_introspection_cpp.hpp
+[100.390s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__type_support.cpp
+[100.390s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__rosidl_typesupport_introspection_cpp.hpp
+[100.390s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/multi_echo_laser_scan__type_support.cpp
+[100.391s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/illuminance__rosidl_typesupport_introspection_cpp.hpp
+[100.391s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__type_support.cpp
+[100.391s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/region_of_interest__type_support.cpp
+[100.391s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__type_support.cpp
+[100.392s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/channel_float32__type_support.cpp
+[100.392s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__rosidl_typesupport_introspection_cpp.hpp
+[100.392s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback__rosidl_typesupport_introspection_cpp.hpp
+[100.392s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/relative_humidity__type_support.cpp
+[100.393s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/imu__type_support.cpp
+[100.393s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/point_field__rosidl_typesupport_introspection_cpp.hpp
+[100.393s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/temperature__rosidl_typesupport_introspection_cpp.hpp
+[100.393s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/image__rosidl_typesupport_introspection_cpp.hpp
+[100.394s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/nav_sat_status__rosidl_typesupport_introspection_cpp.hpp
+[100.394s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/time_reference__rosidl_typesupport_introspection_cpp.hpp
+[100.394s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/joy_feedback_array__type_support.cpp
+[100.394s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/battery_state__type_support.cpp
+[100.395s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/magnetic_field__type_support.cpp
+[100.395s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/msg/detail/fluid_pressure__type_support.cpp
+[100.395s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
+[100.396s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[100.396s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_cpp.so
+[100.397s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/libsensor_msgs__rosidl_typesupport_cpp.so" to ""
+[100.397s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/environment/pythonpath.sh
+[100.398s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/environment/pythonpath.dsv
+[100.398s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs-5.3.6-py3.12.egg-info
+[100.398s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs-5.3.6-py3.12.egg-info/top_level.txt
+[100.399s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs-5.3.6-py3.12.egg-info/SOURCES.txt
+[100.399s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs-5.3.6-py3.12.egg-info/dependency_links.txt
+[100.399s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs-5.3.6-py3.12.egg-info/PKG-INFO
+[100.400s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs
+[100.400s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/__init__.py
+[100.400s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/srv
+[100.401s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/srv/__init__.py
+[100.401s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/srv/_set_camera_info_s.c
+[100.401s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/srv/_set_camera_info.py
+[100.401s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.so
+[100.402s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.so
+[100.402s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[100.402s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.so
+[100.402s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg
+[100.403s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_nav_sat_fix.py
+[100.403s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_battery_state.py
+[100.403s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_compressed_image_s.c
+[100.404s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_range_s.c
+[100.404s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_region_of_interest_s.c
+[100.404s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_nav_sat_fix_s.c
+[100.404s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_relative_humidity.py
+[100.405s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_time_reference.py
+[100.405s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/__init__.py
+[100.405s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_fluid_pressure_s.c
+[100.405s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_time_reference_s.c
+[100.407s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_magnetic_field_s.c
+[100.407s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_point_cloud.py
+[100.407s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_imu_s.c
+[100.407s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_point_cloud_s.c
+[100.408s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_joy_feedback_array.py
+[100.408s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_compressed_image.py
+[100.408s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_joy_feedback_s.c
+[100.408s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_nav_sat_status_s.c
+[100.408s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_range.py
+[100.409s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_joy.py
+[100.409s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_nav_sat_status.py
+[100.409s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_point_field.py
+[100.410s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_imu.py
+[100.410s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_point_field_s.c
+[100.410s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_relative_humidity_s.c
+[100.410s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_laser_echo_s.c
+[100.411s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_temperature_s.c
+[100.411s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_battery_state_s.c
+[100.411s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_illuminance_s.c
+[100.411s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_laser_scan_s.c
+[100.412s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_multi_dof_joint_state.py
+[100.412s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_point_cloud2.py
+[100.412s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_region_of_interest.py
+[100.413s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_joy_feedback_array_s.c
+[100.413s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_magnetic_field.py
+[100.413s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_joy_feedback.py
+[100.413s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_channel_float32.py
+[100.414s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_multi_dof_joint_state_s.c
+[100.414s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_channel_float32_s.c
+[100.414s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_joy_s.c
+[100.414s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_joint_state_s.c
+[100.415s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_image.py
+[100.415s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_laser_echo.py
+[100.415s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_joint_state.py
+[100.416s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_laser_scan.py
+[100.416s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_camera_info.py
+[100.416s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_multi_echo_laser_scan_s.c
+[100.416s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_temperature.py
+[100.416s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_illuminance.py
+[100.417s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_multi_echo_laser_scan.py
+[100.417s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_point_cloud2_s.c
+[100.417s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_fluid_pressure.py
+[100.417s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_camera_info_s.c
+[100.417s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_image_s.c
+[100.417s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[100.417s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/_sensor_msgs_s.ep.rosidl_typesupport_c.c
+[100.532s] Listing '/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs'...
+[100.533s] Compiling '/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/__init__.py'...
+[100.533s] Listing '/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg'...
+[100.533s] Compiling '/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/__init__.py'...
+[100.533s] Compiling '/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_battery_state.py'...
+[100.533s] Compiling '/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_camera_info.py'...
+[100.533s] Compiling '/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_channel_float32.py'...
+[100.534s] Compiling '/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_compressed_image.py'...
+[100.534s] Compiling '/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_fluid_pressure.py'...
+[100.534s] Compiling '/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_illuminance.py'...
+[100.534s] Compiling '/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_image.py'...
+[100.534s] Compiling '/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_imu.py'...
+[100.534s] Compiling '/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_joint_state.py'...
+[100.534s] Compiling '/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_joy.py'...
+[100.535s] Compiling '/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_joy_feedback.py'...
+[100.535s] Compiling '/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_joy_feedback_array.py'...
+[100.535s] Compiling '/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_laser_echo.py'...
+[100.535s] Compiling '/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_laser_scan.py'...
+[100.535s] Compiling '/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_magnetic_field.py'...
+[100.535s] Compiling '/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_multi_dof_joint_state.py'...
+[100.536s] Compiling '/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_multi_echo_laser_scan.py'...
+[100.536s] Compiling '/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_nav_sat_fix.py'...
+[100.536s] Compiling '/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_nav_sat_status.py'...
+[100.536s] Compiling '/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_point_cloud.py'...
+[100.536s] Compiling '/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_point_cloud2.py'...
+[100.536s] Compiling '/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_point_field.py'...
+[100.536s] Compiling '/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_range.py'...
+[100.537s] Compiling '/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_region_of_interest.py'...
+[100.537s] Compiling '/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_relative_humidity.py'...
+[100.537s] Compiling '/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_temperature.py'...
+[100.537s] Compiling '/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/msg/_time_reference.py'...
+[100.537s] Listing '/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/srv'...
+[100.537s] Compiling '/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/srv/__init__.py'...
+[100.538s] Compiling '/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/srv/_set_camera_info.py'...
+[100.540s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.so
+[100.541s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[100.541s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.so
+[100.542s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[100.543s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.so
+[100.544s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages/sensor_msgs/sensor_msgs_s__rosidl_typesupport_c.so" to ""
+[100.544s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/libsensor_msgs__rosidl_generator_py.so
+[100.545s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/libsensor_msgs__rosidl_generator_py.so" to ""
+[100.545s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/BatteryState.idl
+[100.546s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/CameraInfo.idl
+[100.546s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/ChannelFloat32.idl
+[100.546s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/CompressedImage.idl
+[100.547s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/FluidPressure.idl
+[100.547s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/Illuminance.idl
+[100.547s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/Image.idl
+[100.548s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/Imu.idl
+[100.548s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/JointState.idl
+[100.548s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/Joy.idl
+[100.549s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedback.idl
+[100.549s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedbackArray.idl
+[100.550s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/LaserEcho.idl
+[100.550s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/LaserScan.idl
+[100.550s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/MagneticField.idl
+[100.551s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/MultiDOFJointState.idl
+[100.551s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/MultiEchoLaserScan.idl
+[100.551s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/NavSatFix.idl
+[100.552s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/NavSatStatus.idl
+[100.552s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/PointCloud.idl
+[100.552s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/PointCloud2.idl
+[100.553s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/PointField.idl
+[100.553s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/Range.idl
+[100.553s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/RegionOfInterest.idl
+[100.554s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/RelativeHumidity.idl
+[100.554s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/Temperature.idl
+[100.554s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/TimeReference.idl
+[100.555s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/srv/SetCameraInfo.idl
+[100.555s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/BatteryState.msg
+[100.555s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/CameraInfo.msg
+[100.556s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/ChannelFloat32.msg
+[100.556s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/CompressedImage.msg
+[100.556s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/FluidPressure.msg
+[100.556s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/Illuminance.msg
+[100.557s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/Image.msg
+[100.557s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/Imu.msg
+[100.557s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/JointState.msg
+[100.558s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/Joy.msg
+[100.558s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedback.msg
+[100.558s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/JoyFeedbackArray.msg
+[100.559s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/LaserEcho.msg
+[100.559s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/LaserScan.msg
+[100.559s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/MagneticField.msg
+[100.560s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/MultiDOFJointState.msg
+[100.560s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/MultiEchoLaserScan.msg
+[100.560s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/NavSatFix.msg
+[100.561s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/NavSatStatus.msg
+[100.561s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/PointCloud.msg
+[100.561s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/PointCloud2.msg
+[100.562s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/PointField.msg
+[100.562s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/Range.msg
+[100.562s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/RegionOfInterest.msg
+[100.563s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/RelativeHumidity.msg
+[100.563s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/Temperature.msg
+[100.563s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/msg/TimeReference.msg
+[100.564s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/srv/SetCameraInfo.srv
+[100.564s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs
+[100.564s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs
+[100.564s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/point_cloud2_iterator.hpp
+[100.564s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/image_encodings.hpp
+[100.565s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/point_cloud_conversion.hpp
+[100.565s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/impl
+[100.565s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/impl/point_cloud2_iterator.hpp
+[100.565s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/fill_image.hpp
+[100.565s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/point_field_conversion.hpp
+[100.565s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/include/sensor_msgs/sensor_msgs/distortion_models.hpp
+[100.566s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/ament_index/resource_index/package_run_dependencies/sensor_msgs
+[100.566s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/ament_index/resource_index/parent_prefix_path/sensor_msgs
+[100.566s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/environment/ament_prefix_path.sh
+[100.567s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/environment/ament_prefix_path.dsv
+[100.567s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/environment/path.sh
+[100.567s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/environment/path.dsv
+[100.568s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/local_setup.bash
+[100.568s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/local_setup.sh
+[100.568s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/local_setup.zsh
+[100.569s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/local_setup.dsv
+[100.569s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/package.dsv
+[100.569s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/ament_index/resource_index/packages/sensor_msgs
+[100.570s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_cExport.cmake
+[100.570s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_cExport-noconfig.cmake
+[100.571s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[100.571s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[100.571s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_cppExport.cmake
+[100.572s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[100.572s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[100.573s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cExport.cmake
+[100.573s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[100.573s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cExport.cmake
+[100.574s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[100.574s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[100.574s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[100.575s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cppExport.cmake
+[100.575s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[100.575s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_pyExport.cmake
+[100.576s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgs__rosidl_generator_pyExport-noconfig.cmake
+[100.576s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/cmake/export_sensor_msgsExport.cmake
+[100.577s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/cmake/rosidl_cmake-extras.cmake
+[100.577s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[100.577s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[100.578s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[100.578s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[100.579s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[100.579s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[100.579s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgsConfig.cmake
+[100.579s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/cmake/sensor_msgsConfig-version.cmake
+[100.580s] -- Installing: /home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/package.xml
+[100.584s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/sensor_msgs' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/sensor_msgs

@@ -12,6 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# i have removed navigation route as it is not compatible with jazzy.
+
 import os
 
 from ament_index_python.packages import get_package_share_directory
@@ -43,13 +45,13 @@ def generate_launch_description() -> LaunchDescription:
         'controller_server',
         'smoother_server',
         'planner_server',
-        'route_server',
+#        'route_server',
         'behavior_server',
         'velocity_smoother',
         'collision_monitor',
         'bt_navigator',
         'waypoint_follower',
-        'docking_server',
+#        'docking_server',  # no need as i do not have to go to a charging station or a specific point.
     ]
 
     # Map fully qualified names to relative ones so the node's namespace can be prepended.
@@ -157,16 +159,16 @@ def generate_launch_description() -> LaunchDescription:
                 arguments=['--ros-args', '--log-level', log_level],
                 remappings=remappings,
             ),
-            Node(
-                package='nav2_route',
-                executable='route_server',
-                name='route_server',
-                output='screen',
-                respawn=use_respawn,
-                respawn_delay=2.0,
-                parameters=[configured_params, {'graph_filepath': graph_filepath}],
-                arguments=['--ros-args', '--log-level', log_level],
-                remappings=remappings),
+            # Node(
+            #     package='nav2_route',
+            #     executable='route_server',
+            #     name='route_server',
+            #     output='screen',
+            #     respawn=use_respawn,
+            #     respawn_delay=2.0,
+            #     parameters=[configured_params, {'graph_filepath': graph_filepath}],
+            #     arguments=['--ros-args', '--log-level', log_level],
+            #     remappings=remappings),
             Node(
                 package='nav2_behaviors',
                 executable='behavior_server',
@@ -223,17 +225,17 @@ def generate_launch_description() -> LaunchDescription:
                 arguments=['--ros-args', '--log-level', log_level],
                 remappings=remappings,
             ),
-            Node(
-                package='opennav_docking',
-                executable='opennav_docking',
-                name='docking_server',
-                output='screen',
-                respawn=use_respawn,
-                respawn_delay=2.0,
-                parameters=[configured_params],
-                arguments=['--ros-args', '--log-level', log_level],
-                remappings=remappings,
-            ),
+            # Node(
+            #     package='opennav_docking',
+            #     executable='opennav_docking',
+            #     name='docking_server',
+            #     output='screen',
+            #     respawn=use_respawn,
+            #     respawn_delay=2.0,
+            #     parameters=[configured_params],
+            #     arguments=['--ros-args', '--log-level', log_level],
+            #     remappings=remappings,
+            # ),
             Node(
                 package='nav2_lifecycle_manager',
                 executable='lifecycle_manager',
@@ -273,12 +275,12 @@ def generate_launch_description() -> LaunchDescription:
                         parameters=[configured_params],
                         remappings=remappings,
                     ),
-                    ComposableNode(
-                        package='nav2_route',
-                        plugin='nav2_route::RouteServer',
-                        name='route_server',
-                        parameters=[configured_params, {'graph_filepath': graph_filepath}],
-                        remappings=remappings),
+                    # ComposableNode(
+                    #     package='nav2_route',
+                    #     plugin='nav2_route::RouteServer',
+                    #     name='route_server',
+                    #     parameters=[configured_params, {'graph_filepath': graph_filepath}],
+                    #     remappings=remappings),
                     ComposableNode(
                         package='nav2_behaviors',
                         plugin='behavior_server::BehaviorServer',
@@ -315,13 +317,13 @@ def generate_launch_description() -> LaunchDescription:
                         parameters=[configured_params],
                         remappings=remappings,
                     ),
-                    ComposableNode(
-                        package='opennav_docking',
-                        plugin='opennav_docking::DockingServer',
-                        name='docking_server',
-                        parameters=[configured_params],
-                        remappings=remappings,
-                    ),
+                    # ComposableNode(
+                    #     package='opennav_docking',
+                    #     plugin='opennav_docking::DockingServer',
+                    #     name='docking_server',
+                    #     parameters=[configured_params],
+                    #     remappings=remappings,
+                    # ),
                     ComposableNode(
                         package='nav2_lifecycle_manager',
                         plugin='nav2_lifecycle_manager::LifecycleManager',

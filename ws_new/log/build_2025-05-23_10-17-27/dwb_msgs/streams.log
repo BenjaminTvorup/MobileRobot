@@ -1,0 +1,389 @@
+[0.813s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/dwb_msgs': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib:/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/dwb_msgs -- -j8 -l8
+[1.104s] -- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[1.209s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.651s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.698s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.756s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.820s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.878s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[2.015s] -- Found nav_2d_msgs: 1.3.6 (/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/share/nav_2d_msgs/cmake)
+[2.112s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.223s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.245s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.285s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[4.064s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.374s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.377s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.844s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.934s] -- Configuring done (3.9s)
+[5.156s] -- Generating done (0.2s)
+[5.189s] -- Build files have been written to: /home/thomas/MobileRobot/ws_new/build/dwb_msgs
+[5.265s] [  1%] Built target dwb_msgs__rosidl_generator_type_description
+[5.429s] [  1%] Built target ament_cmake_python_copy_dwb_msgs
+[5.544s] [ 27%] Built target dwb_msgs__rosidl_generator_c
+[6.171s] running egg_info
+[6.216s] writing dwb_msgs.egg-info/PKG-INFO
+[6.216s] writing dependency_links to dwb_msgs.egg-info/dependency_links.txt
+[6.216s] writing top-level names to dwb_msgs.egg-info/top_level.txt
+[6.361s] reading manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[6.389s] writing manifest file 'dwb_msgs.egg-info/SOURCES.txt'
+[6.442s] [ 27%] Built target ament_cmake_python_build_dwb_msgs_egg
+[7.005s] [ 36%] Built target dwb_msgs__rosidl_typesupport_fastrtps_c
+[7.081s] [ 46%] Built target dwb_msgs__rosidl_typesupport_c
+[7.148s] [ 56%] Built target dwb_msgs__rosidl_typesupport_introspection_c
+[7.203s] [ 56%] Built target dwb_msgs__cpp
+[7.277s] [ 66%] Built target dwb_msgs__rosidl_typesupport_fastrtps_cpp
+[7.355s] [ 76%] Built target dwb_msgs__rosidl_typesupport_cpp
+[7.432s] [ 85%] Built target dwb_msgs__rosidl_typesupport_introspection_cpp
+[7.473s] [ 85%] Built target dwb_msgs
+[7.519s] [ 86%] Built target dwb_msgs__py
+[7.618s] [ 94%] Built target dwb_msgs__rosidl_generator_py
+[7.665s] [ 96%] Built target dwb_msgs_s__rosidl_typesupport_fastrtps_c
+[7.705s] [ 98%] Built target dwb_msgs_s__rosidl_typesupport_c
+[7.760s] [100%] Built target dwb_msgs_s__rosidl_typesupport_introspection_c
+[7.785s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib:/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/dwb_msgs -- -j8 -l8
+[7.789s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/dwb_msgs': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib:/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/dwb_msgs
+[7.807s] -- Install configuration: ""
+[7.808s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/ament_index/resource_index/rosidl_interfaces/dwb_msgs
+[7.808s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.json
+[7.821s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.json
+[7.822s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.json
+[7.822s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.json
+[7.823s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.json
+[7.824s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.json
+[7.824s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.json
+[7.825s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.json
+[7.825s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.json
+[7.825s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[7.842s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[7.851s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/get_critic_score.h
+[7.865s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[7.866s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.h
+[7.867s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.h
+[7.874s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.c
+[7.875s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__struct.h
+[7.875s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__description.c
+[7.876s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__functions.c
+[7.877s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__functions.h
+[7.878s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__struct.h
+[7.879s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.c
+[7.879s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__struct.h
+[7.879s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__functions.h
+[7.880s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__functions.c
+[7.880s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__functions.h
+[7.880s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__functions.c
+[7.881s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.h
+[7.881s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__description.c
+[7.882s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__functions.c
+[7.882s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__description.c
+[7.882s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.c
+[7.883s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.c
+[7.883s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.h
+[7.883s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__functions.h
+[7.884s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__functions.h
+[7.884s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__functions.c
+[7.884s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.h
+[7.885s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.c
+[7.885s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__struct.h
+[7.885s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__description.c
+[7.886s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__description.c
+[7.887s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__struct.h
+[7.888s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/score_trajectory.h
+[7.890s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_trajectory.h
+[7.890s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_twists.h
+[7.890s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/debug_local_plan.h
+[7.890s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[7.891s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[7.891s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.c
+[7.892s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.h
+[7.892s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__description.c
+[7.894s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.h
+[7.894s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.c
+[7.895s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__struct.h
+[7.896s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__struct.h
+[7.896s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__functions.c
+[7.897s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__functions.c
+[7.898s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__functions.h
+[7.898s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__struct.h
+[7.899s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.h
+[7.900s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__functions.h
+[7.900s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.h
+[7.901s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.c
+[7.901s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__functions.h
+[7.902s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__functions.c
+[7.903s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.c
+[7.903s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__struct.h
+[7.903s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__description.c
+[7.903s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__description.c
+[7.904s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__functions.c
+[7.904s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__functions.h
+[7.905s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__description.c
+[7.905s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory_score.h
+[7.905s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/critic_score.h
+[7.906s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory2_d.h
+[7.906s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/local_plan_evaluation.h
+[7.906s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_generator_c__visibility_control.h
+[7.906s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/environment/library_path.sh
+[7.907s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/environment/library_path.dsv
+[7.907s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_c.so
+[7.915s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_c.so" to ""
+[7.915s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[7.915s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[7.915s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[7.916s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_fastrtps_c.h
+[7.916s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_fastrtps_c.h
+[7.916s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_fastrtps_c.h
+[7.925s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_fastrtps_c.h
+[7.926s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_fastrtps_c.h
+[7.934s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[7.934s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[7.934s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_fastrtps_c.h
+[7.935s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_fastrtps_c.h
+[7.935s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_fastrtps_c.h
+[7.936s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_fastrtps_c.h
+[7.937s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[7.938s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_c.so
+[7.954s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[7.955s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[7.955s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[7.956s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[7.956s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__traits.hpp
+[7.956s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__traits.hpp
+[7.956s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__struct.hpp
+[7.957s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__builder.hpp
+[7.957s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__traits.hpp
+[7.957s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.hpp
+[7.957s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__struct.hpp
+[7.958s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__traits.hpp
+[7.958s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.hpp
+[7.958s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__struct.hpp
+[7.959s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__struct.hpp
+[7.959s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__builder.hpp
+[7.959s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__builder.hpp
+[7.959s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__traits.hpp
+[7.960s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__struct.hpp
+[7.961s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__builder.hpp
+[7.961s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.hpp
+[7.961s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.hpp
+[7.962s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.hpp
+[7.962s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__builder.hpp
+[7.962s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_trajectory.hpp
+[7.962s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/generate_twists.hpp
+[7.963s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/score_trajectory.hpp
+[7.963s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/debug_local_plan.hpp
+[7.963s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/get_critic_score.hpp
+[7.964s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[7.964s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[7.964s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__struct.hpp
+[7.964s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.hpp
+[7.965s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__traits.hpp
+[7.965s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__traits.hpp
+[7.966s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.hpp
+[7.966s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__builder.hpp
+[7.966s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__struct.hpp
+[7.966s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__struct.hpp
+[7.967s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.hpp
+[7.967s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__builder.hpp
+[7.967s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__traits.hpp
+[7.968s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.hpp
+[7.968s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__struct.hpp
+[7.968s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__builder.hpp
+[7.969s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__builder.hpp
+[7.969s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__traits.hpp
+[7.969s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/critic_score.hpp
+[7.969s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory_score.hpp
+[7.970s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/trajectory2_d.hpp
+[7.970s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[7.970s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/local_plan_evaluation.hpp
+[7.971s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[7.971s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[7.979s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[7.979s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[7.980s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_fastrtps_cpp.hpp
+[7.980s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_fastrtps_cpp.hpp
+[7.981s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_fastrtps_cpp.hpp
+[7.981s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[7.982s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/dds_fastrtps
+[7.982s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[7.982s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[7.982s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[7.983s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_fastrtps_cpp.hpp
+[7.983s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_fastrtps_cpp.hpp
+[7.983s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_fastrtps_cpp.hpp
+[7.983s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/dds_fastrtps
+[7.984s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[7.984s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so
+[8.007s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[8.007s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[8.007s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[8.008s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[8.008s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.c
+[8.008s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_introspection_c.h
+[8.008s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_introspection_c.h
+[8.009s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.c
+[8.009s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.c
+[8.010s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_introspection_c.h
+[8.012s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.c
+[8.013s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_introspection_c.h
+[8.013s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_introspection_c.h
+[8.013s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.c
+[8.013s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[8.014s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[8.014s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.c
+[8.014s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_introspection_c.h
+[8.015s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.c
+[8.015s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_introspection_c.h
+[8.015s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_introspection_c.h
+[8.015s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.c
+[8.016s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.c
+[8.016s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_introspection_c.h
+[8.016s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.017s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_c.so
+[8.036s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_c.so" to ""
+[8.037s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_c.so
+[8.047s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_c.so" to ""
+[8.048s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs
+[8.048s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv
+[8.048s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail
+[8.049s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__rosidl_typesupport_introspection_cpp.hpp
+[8.049s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__type_support.cpp
+[8.049s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_twists__type_support.cpp
+[8.049s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[8.050s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[8.050s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/score_trajectory__type_support.cpp
+[8.050s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/get_critic_score__rosidl_typesupport_introspection_cpp.hpp
+[8.050s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/generate_trajectory__type_support.cpp
+[8.051s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__type_support.cpp
+[8.051s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/srv/detail/debug_local_plan__rosidl_typesupport_introspection_cpp.hpp
+[8.051s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg
+[8.052s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail
+[8.052s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__type_support.cpp
+[8.052s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__rosidl_typesupport_introspection_cpp.hpp
+[8.052s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__rosidl_typesupport_introspection_cpp.hpp
+[8.052s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory2_d__type_support.cpp
+[8.053s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/trajectory_score__rosidl_typesupport_introspection_cpp.hpp
+[8.053s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__type_support.cpp
+[8.053s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/critic_score__rosidl_typesupport_introspection_cpp.hpp
+[8.053s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/include/dwb_msgs/dwb_msgs/msg/detail/local_plan_evaluation__type_support.cpp
+[8.054s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_cpp.so
+[8.076s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[8.077s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_cpp.so
+[8.094s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/libdwb_msgs__rosidl_typesupport_cpp.so" to ""
+[8.095s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/environment/pythonpath.sh
+[8.095s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/environment/pythonpath.dsv
+[8.095s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs-1.3.6-py3.12.egg-info
+[8.095s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs-1.3.6-py3.12.egg-info/top_level.txt
+[8.096s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs-1.3.6-py3.12.egg-info/SOURCES.txt
+[8.096s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs-1.3.6-py3.12.egg-info/dependency_links.txt
+[8.096s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs-1.3.6-py3.12.egg-info/PKG-INFO
+[8.096s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs
+[8.096s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/__init__.py
+[8.096s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.so
+[8.096s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv
+[8.098s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_generate_trajectory.py
+[8.099s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_debug_local_plan_s.c
+[8.099s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/__init__.py
+[8.099s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_generate_trajectory_s.c
+[8.100s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_generate_twists_s.c
+[8.100s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_generate_twists.py
+[8.100s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_get_critic_score.py
+[8.100s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_debug_local_plan.py
+[8.100s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_score_trajectory_s.c
+[8.100s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_score_trajectory.py
+[8.101s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_get_critic_score_s.c
+[8.101s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_c.c
+[8.101s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.so
+[8.103s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg
+[8.103s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/__init__.py
+[8.103s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_local_plan_evaluation_s.c
+[8.103s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_trajectory_score.py
+[8.103s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_trajectory2_d_s.c
+[8.103s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_trajectory2_d.py
+[8.104s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_critic_score.py
+[8.104s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_trajectory_score_s.c
+[8.104s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_local_plan_evaluation.py
+[8.105s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_critic_score_s.c
+[8.105s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[8.106s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/_dwb_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[8.106s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.so
+[8.223s] Listing '/home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs'...
+[8.223s] Compiling '/home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/__init__.py'...
+[8.223s] Listing '/home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg'...
+[8.223s] Compiling '/home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/__init__.py'...
+[8.224s] Compiling '/home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_critic_score.py'...
+[8.224s] Compiling '/home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_local_plan_evaluation.py'...
+[8.224s] Compiling '/home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_trajectory2_d.py'...
+[8.224s] Compiling '/home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/msg/_trajectory_score.py'...
+[8.224s] Listing '/home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv'...
+[8.225s] Compiling '/home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/__init__.py'...
+[8.225s] Compiling '/home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_debug_local_plan.py'...
+[8.225s] Compiling '/home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_generate_trajectory.py'...
+[8.225s] Compiling '/home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_generate_twists.py'...
+[8.225s] Compiling '/home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_get_critic_score.py'...
+[8.225s] Compiling '/home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/srv/_score_trajectory.py'...
+[8.235s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.so
+[8.236s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[8.237s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.so
+[8.237s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[8.238s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.so
+[8.239s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/python3.12/site-packages/dwb_msgs/dwb_msgs_s__rosidl_typesupport_c.so" to ""
+[8.239s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_py.so
+[8.257s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/dwb_msgs/lib/libdwb_msgs__rosidl_generator_py.so" to ""
+[8.257s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.idl
+[8.258s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.idl
+[8.258s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.idl
+[8.258s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.idl
+[8.258s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.idl
+[8.259s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.idl
+[8.259s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.idl
+[8.259s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.idl
+[8.259s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.idl
+[8.260s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/msg/CriticScore.msg
+[8.260s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/msg/LocalPlanEvaluation.msg
+[8.260s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/msg/Trajectory2D.msg
+[8.261s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/msg/TrajectoryScore.msg
+[8.263s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/srv/DebugLocalPlan.srv
+[8.263s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/srv/GenerateTrajectory.srv
+[8.264s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/srv/GenerateTwists.srv
+[8.264s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/srv/GetCriticScore.srv
+[8.264s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/srv/ScoreTrajectory.srv
+[8.264s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/ament_index/resource_index/package_run_dependencies/dwb_msgs
+[8.264s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/ament_index/resource_index/parent_prefix_path/dwb_msgs
+[8.265s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/environment/ament_prefix_path.sh
+[8.265s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/environment/ament_prefix_path.dsv
+[8.265s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/environment/path.sh
+[8.265s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/environment/path.dsv
+[8.266s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/local_setup.bash
+[8.266s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/local_setup.sh
+[8.266s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/local_setup.zsh
+[8.266s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/local_setup.dsv
+[8.266s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/package.dsv
+[8.267s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/ament_index/resource_index/packages/dwb_msgs
+[8.267s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cExport.cmake
+[8.267s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cExport-noconfig.cmake
+[8.267s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[8.267s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[8.268s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_cppExport.cmake
+[8.268s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[8.268s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[8.268s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cExport.cmake
+[8.269s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.269s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cExport.cmake
+[8.269s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[8.269s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[8.270s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.270s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cppExport.cmake
+[8.270s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[8.270s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_pyExport.cmake
+[8.271s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/cmake/export_dwb_msgs__rosidl_generator_pyExport-noconfig.cmake
+[8.271s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake-extras.cmake
+[8.271s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.272s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.272s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[8.272s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[8.272s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.273s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.273s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgsConfig.cmake
+[8.273s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/cmake/dwb_msgsConfig-version.cmake
+[8.274s] -- Installing: /home/thomas/MobileRobot/ws_new/install/dwb_msgs/share/dwb_msgs/package.xml
+[8.281s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/dwb_msgs' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib:/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav_2d_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/dwb_msgs

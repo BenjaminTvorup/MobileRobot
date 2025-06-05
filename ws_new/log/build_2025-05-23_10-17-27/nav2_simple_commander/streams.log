@@ -1,0 +1,93 @@
+[1.428s] Invoking command in '/home/thomas/MobileRobot/ws_new/src/navigation2/nav2_simple_commander': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/nav2_simple_commander build --build-base /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build install --record /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/install.log --single-version-externally-managed install_data
+[1.896s] running egg_info
+[1.896s] creating ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info
+[1.934s] writing ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/PKG-INFO
+[1.934s] writing dependency_links to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/dependency_links.txt
+[1.935s] writing entry points to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/entry_points.txt
+[1.935s] writing requirements to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/requires.txt
+[1.935s] writing top-level names to ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/top_level.txt
+[1.935s] writing manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[2.014s] reading manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[2.015s] writing manifest file '../../../build/nav2_simple_commander/nav2_simple_commander.egg-info/SOURCES.txt'
+[2.015s] running build
+[2.015s] running build_py
+[2.016s] creating /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build
+[2.016s] creating /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build/lib
+[2.016s] creating /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.016s] copying nav2_simple_commander/example_nav_to_pose.py -> /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.016s] copying nav2_simple_commander/demo_picking.py -> /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.016s] copying nav2_simple_commander/__init__.py -> /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.017s] copying nav2_simple_commander/demo_recoveries.py -> /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.017s] copying nav2_simple_commander/utils.py -> /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.017s] copying nav2_simple_commander/example_assisted_teleop.py -> /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.017s] copying nav2_simple_commander/robot_navigator.py -> /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.017s] copying nav2_simple_commander/demo_inspection.py -> /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.017s] copying nav2_simple_commander/demo_security.py -> /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.018s] copying nav2_simple_commander/costmap_2d.py -> /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.018s] copying nav2_simple_commander/example_nav_through_poses.py -> /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.018s] copying nav2_simple_commander/example_waypoint_follower.py -> /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.018s] copying nav2_simple_commander/footprint_collision_checker.py -> /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.018s] copying nav2_simple_commander/example_follow_path.py -> /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.018s] copying nav2_simple_commander/line_iterator.py -> /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build/lib/nav2_simple_commander
+[2.036s] running install
+[2.043s] running install_lib
+[2.094s] creating /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[2.094s] copying /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_nav_to_pose.py -> /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[2.094s] copying /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_picking.py -> /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[2.095s] copying /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build/lib/nav2_simple_commander/__init__.py -> /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[2.095s] copying /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_recoveries.py -> /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[2.095s] copying /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build/lib/nav2_simple_commander/utils.py -> /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[2.096s] copying /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_assisted_teleop.py -> /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[2.096s] copying /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build/lib/nav2_simple_commander/robot_navigator.py -> /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[2.096s] copying /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_inspection.py -> /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[2.097s] copying /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build/lib/nav2_simple_commander/demo_security.py -> /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[2.097s] copying /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build/lib/nav2_simple_commander/costmap_2d.py -> /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[2.097s] copying /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_nav_through_poses.py -> /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[2.098s] copying /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_waypoint_follower.py -> /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[2.098s] copying /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build/lib/nav2_simple_commander/footprint_collision_checker.py -> /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[2.098s] copying /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build/lib/nav2_simple_commander/example_follow_path.py -> /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[2.098s] copying /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build/lib/nav2_simple_commander/line_iterator.py -> /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander
+[2.100s] byte-compiling /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/example_nav_to_pose.py to example_nav_to_pose.cpython-312.pyc
+[2.102s] byte-compiling /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/demo_picking.py to demo_picking.cpython-312.pyc
+[2.103s] byte-compiling /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/__init__.py to __init__.cpython-312.pyc
+[2.104s] byte-compiling /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/demo_recoveries.py to demo_recoveries.cpython-312.pyc
+[2.105s] byte-compiling /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/utils.py to utils.cpython-312.pyc
+[2.105s] byte-compiling /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/example_assisted_teleop.py to example_assisted_teleop.cpython-312.pyc
+[2.106s] byte-compiling /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/robot_navigator.py to robot_navigator.cpython-312.pyc
+[2.114s] byte-compiling /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/demo_inspection.py to demo_inspection.cpython-312.pyc
+[2.115s] byte-compiling /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/demo_security.py to demo_security.cpython-312.pyc
+[2.116s] byte-compiling /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/costmap_2d.py to costmap_2d.cpython-312.pyc
+[2.117s] byte-compiling /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/example_nav_through_poses.py to example_nav_through_poses.cpython-312.pyc
+[2.118s] byte-compiling /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/example_waypoint_follower.py to example_waypoint_follower.cpython-312.pyc
+[2.119s] byte-compiling /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/footprint_collision_checker.py to footprint_collision_checker.cpython-312.pyc
+[2.121s] byte-compiling /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/example_follow_path.py to example_follow_path.cpython-312.pyc
+[2.122s] byte-compiling /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander/line_iterator.py to line_iterator.cpython-312.pyc
+[2.124s] running install_data
+[2.124s] creating /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/share/ament_index
+[2.124s] creating /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/share/ament_index/resource_index
+[2.125s] creating /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[2.125s] copying resource/nav2_simple_commander -> /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/share/ament_index/resource_index/packages
+[2.125s] copying package.xml -> /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/share/nav2_simple_commander
+[2.125s] copying launch/inspection_demo_launch.py -> /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/share/nav2_simple_commander
+[2.125s] copying launch/picking_demo_launch.py -> /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/share/nav2_simple_commander
+[2.125s] copying launch/recoveries_example_launch.py -> /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/share/nav2_simple_commander
+[2.126s] copying launch/nav_through_poses_example_launch.py -> /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/share/nav2_simple_commander
+[2.141s] copying launch/follow_path_example_launch.py -> /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/share/nav2_simple_commander
+[2.141s] copying launch/waypoint_follower_example_launch.py -> /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/share/nav2_simple_commander
+[2.141s] copying launch/security_demo_launch.py -> /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/share/nav2_simple_commander
+[2.141s] copying launch/nav_to_pose_example_launch.py -> /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/share/nav2_simple_commander
+[2.141s] copying launch/assisted_teleop_example_launch.py -> /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/share/nav2_simple_commander
+[2.142s] running install_egg_info
+[2.206s] Copying ../../../build/nav2_simple_commander/nav2_simple_commander.egg-info to /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/python3.12/site-packages/nav2_simple_commander-1.0.0-py3.12.egg-info
+[2.208s] running install_scripts
+[2.450s] Installing demo_inspection script to /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.451s] Installing demo_picking script to /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.451s] Installing demo_recoveries script to /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.451s] Installing demo_security script to /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.451s] Installing example_assisted_teleop script to /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.452s] Installing example_follow_path script to /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.452s] Installing example_nav_through_poses script to /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.452s] Installing example_nav_to_pose script to /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.452s] Installing example_waypoint_follower script to /home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/nav2_simple_commander
+[2.452s] writing list of installed files to '/home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/install.log'
+[2.491s] Invoked command in '/home/thomas/MobileRobot/ws_new/src/navigation2/nav2_simple_commander' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/thomas/MobileRobot/ws_new/install/nav2_simple_commander/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/nav2_simple_commander build --build-base /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/build install --record /home/thomas/MobileRobot/ws_new/build/nav2_simple_commander/install.log --single-version-externally-managed install_data

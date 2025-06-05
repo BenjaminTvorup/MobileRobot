@@ -1,0 +1,157 @@
+[0.063s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/nav2_map_server': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_util:/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_util:/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_util/lib:/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/thomas/MobileRobot/ws_new/src/navigation2/nav2_map_server -DCMAKE_INSTALL_PREFIX=/home/thomas/MobileRobot/ws_new/install/nav2_map_server
+[1.855s] -- The C compiler identification is GNU 13.3.0
+[1.961s] -- The CXX compiler identification is GNU 13.3.0
+[2.037s] -- Detecting C compiler ABI info
+[2.255s] -- Detecting C compiler ABI info - done
+[2.279s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.279s] -- Detecting C compile features
+[2.279s] -- Detecting C compile features - done
+[2.295s] -- Detecting CXX compiler ABI info
+[2.472s] -- Detecting CXX compiler ABI info - done
+[2.495s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.495s] -- Detecting CXX compile features
+[2.496s] -- Detecting CXX compile features - done
+[2.508s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.862s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.129s] -- Found nav2_common: 1.3.6 (/home/thomas/MobileRobot/ws_new/install/nav2_common/share/nav2_common/cmake)
+[3.136s] -- Found rclcpp: 28.1.8 (/opt/ros/jazzy/share/rclcpp/cmake)
+[3.239s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[3.278s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[3.311s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.347s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.492s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[3.500s] -- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[3.560s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[3.676s] -- Found rclcpp_lifecycle: 28.1.6 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[3.753s] -- Found rclcpp_components: 28.1.6 (/opt/ros/jazzy/share/rclcpp_components/cmake)
+[3.945s] -- Found nav_msgs: 5.3.6 (/home/thomas/MobileRobot/ws_new/install/nav_msgs/share/nav_msgs/cmake)
+[4.068s] -- Found nav2_msgs: 1.3.6 (/home/thomas/MobileRobot/ws_new/install/nav2_msgs/share/nav2_msgs/cmake)
+[4.279s] -- Found yaml_cpp_vendor: 9.0.1 (/opt/ros/jazzy/share/yaml_cpp_vendor/cmake)
+[4.280s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[4.286s] -- Found tf2: 0.36.8 (/opt/ros/jazzy/share/tf2/cmake)
+[4.292s] -- Found nav2_util: 1.3.6 (/home/thomas/MobileRobot/ws_new/install/nav2_util/share/nav2_util/cmake)
+[4.430s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[4.432s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.432s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.707s] -- Found GRAPHICSMAGICKCPP: /usr/include/GraphicsMagick  
+[4.752s] -- Setting build type to Release as none was specified.
+[4.789s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[5.216s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.274s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.579s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.582s] -- Found Threads: TRUE  
+[5.596s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.608s] -- Found gtest sources under '/opt/ros/jazzy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[5.650s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.653s] -- Configured cppcheck include dirs: /home/thomas/MobileRobot/ws_new/src/navigation2/nav2_map_server/include
+[5.653s] -- Configured cppcheck exclude dirs and/or files: 
+[5.665s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.666s] -- Configured cpplint exclude dirs and/or files: 
+[5.669s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.669s] -- Configured 'flake8' exclude dirs and/or files: 
+[5.673s] -- Added test 'lint_cmake' to check CMake code style
+[5.676s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.684s] -- Added test 'uncrustify' to check C / C++ code style
+[5.684s] -- Configured uncrustify additional arguments: 
+[5.687s] -- Added test 'xmllint' to check XML markup files
+[5.694s] -- Configuring done (5.6s)
+[6.015s] -- Generating done (0.3s)
+[6.202s] -- Build files have been written to: /home/thomas/MobileRobot/ws_new/build/nav2_map_server
+[6.263s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_util:/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_util:/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_util/lib:/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/thomas/MobileRobot/ws_new/src/navigation2/nav2_map_server -DCMAKE_INSTALL_PREFIX=/home/thomas/MobileRobot/ws_new/install/nav2_map_server
+[6.264s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/nav2_map_server': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_util:/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_util:/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_util/lib:/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/nav2_map_server -- -j8 -l8
+[6.542s] [  2%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_mode.cpp.o[0m
+[6.543s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[6.546s] [  8%] [32mBuilding CXX object CMakeFiles/map_io.dir/src/map_io.cpp.o[0m
+[6.554s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[11.573s] [ 13%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[11.736s] [ 13%] Built target gtest_main
+[241.205s] [ 16%] [32m[1mLinking CXX static library libgtest.a[0m
+[242.425s] [ 16%] Built target gtest
+[278.843s] [ 19%] [32m[1mLinking CXX shared library libmap_io.so[0m
+[278.994s] [ 19%] Built target map_io
+[279.136s] [ 22%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/test_map_saver_cli.cpp.o[0m
+[290.865s] [ 25%] [32mBuilding CXX object test/map_saver_cli/CMakeFiles/test_map_saver_cli.dir/__/test_constants.cpp.o[0m
+[291.139s] [ 27%] [32m[1mLinking CXX executable test_map_saver_cli[0m
+[291.451s] [ 27%] Built target test_map_saver_cli
+[291.486s] [ 30%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/test_map_saver_publisher.cpp.o[0m
+[298.888s] [ 33%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_publisher.dir/__/test_constants.cpp.o[0m
+[299.134s] [ 36%] [32m[1mLinking CXX executable test_map_saver_publisher[0m
+[299.789s] [ 36%] Built target test_map_saver_publisher
+[299.842s] [ 38%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/test_map_io.cpp.o[0m
+[307.960s] [ 41%] [32mBuilding CXX object test/unit/CMakeFiles/test_map_io.dir/__/test_constants.cpp.o[0m
+[308.186s] [ 44%] [32m[1mLinking CXX executable test_map_io[0m
+[308.532s] [ 44%] Built target test_map_io
+[308.711s] [ 47%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_server/map_server.cpp.o[0m
+[318.916s] [ 50%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/costmap_filter_info/costmap_filter_info_server.cpp.o[0m
+[326.978s] [ 52%] [32mBuilding CXX object CMakeFiles/map_server_core.dir/src/map_saver/map_saver.cpp.o[0m
+[348.088s] [ 55%] [32m[1mLinking CXX shared library libmap_server_core.so[0m
+[349.142s] [ 55%] Built target map_server_core
+[349.254s] [ 58%] [32mBuilding CXX object CMakeFiles/map_server.dir/src/map_server/main.cpp.o[0m
+[349.260s] [ 61%] [32mBuilding CXX object CMakeFiles/map_saver_cli.dir/src/map_saver/main_cli.cpp.o[0m
+[357.536s] [ 63%] [32m[1mLinking CXX executable map_server[0m
+[358.303s] [ 63%] Built target map_server
+[358.720s] [ 66%] [32m[1mLinking CXX executable map_saver_cli[0m
+[359.257s] [ 66%] Built target map_saver_cli
+[359.335s] [ 69%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/test_map_saver_node.cpp.o[0m
+[367.589s] [ 72%] [32mBuilding CXX object test/component/CMakeFiles/test_map_saver_node.dir/__/test_constants.cpp.o[0m
+[367.849s] [ 75%] [32m[1mLinking CXX executable test_map_saver_node[0m
+[368.299s] [ 75%] Built target test_map_saver_node
+[368.371s] [ 77%] [32mBuilding CXX object test/unit/CMakeFiles/test_costmap_filter_info_server.dir/test_costmap_filter_info_server.cpp.o[0m
+[368.382s] [ 80%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/test_map_server_node.cpp.o[0m
+[368.383s] [ 83%] [32mBuilding CXX object test/component/CMakeFiles/test_map_server_node.dir/__/test_constants.cpp.o[0m
+[390.048s] [ 86%] [32m[1mLinking CXX executable test_map_server_node[0m
+[390.953s] [ 86%] Built target test_map_server_node
+[392.963s] [ 88%] [32m[1mLinking CXX executable test_costmap_filter_info_server[0m
+[393.489s] [ 88%] Built target test_costmap_filter_info_server
+[393.559s] [ 91%] [32mBuilding CXX object CMakeFiles/costmap_filter_info_server.dir/src/costmap_filter_info/main.cpp.o[0m
+[397.754s] [ 94%] [32m[1mLinking CXX executable costmap_filter_info_server[0m
+[398.106s] [ 94%] Built target costmap_filter_info_server
+[398.156s] [ 97%] [32mBuilding CXX object CMakeFiles/map_saver_server.dir/src/map_saver/main_server.cpp.o[0m
+[402.704s] [100%] [32m[1mLinking CXX executable map_saver_server[0m
+[403.036s] [100%] Built target map_saver_server
+[403.245s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_util:/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_util:/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_util/lib:/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/nav2_map_server -- -j8 -l8
+[403.285s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/nav2_map_server': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_util:/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_util:/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_util/lib:/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/nav2_map_server
+[403.301s] -- Install configuration: "Release"
+[403.301s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/lib/libmap_server_core.so
+[403.304s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_map_server/lib/libmap_server_core.so" to ""
+[403.305s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/lib/libmap_io.so
+[403.305s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_map_server/lib/libmap_io.so" to ""
+[403.306s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/lib/nav2_map_server/map_server
+[403.306s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_map_server/lib/nav2_map_server/map_server" to ""
+[403.306s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/lib/nav2_map_server/map_saver_cli
+[403.307s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_map_server/lib/nav2_map_server/map_saver_cli" to ""
+[403.307s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/lib/nav2_map_server/map_saver_server
+[403.308s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_map_server/lib/nav2_map_server/map_saver_server" to ""
+[403.308s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server
+[403.309s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_map_server/lib/nav2_map_server/costmap_filter_info_server" to ""
+[403.309s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/include/
+[403.309s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/include//nav2_map_server
+[403.309s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/include//nav2_map_server/map_mode.hpp
+[403.309s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/include//nav2_map_server/costmap_filter_info_server.hpp
+[403.310s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/include//nav2_map_server/map_saver.hpp
+[403.310s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/include//nav2_map_server/map_io.hpp
+[403.310s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/include//nav2_map_server/map_server.hpp
+[403.310s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/share/nav2_map_server/launch
+[403.326s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/share/nav2_map_server/launch/map_saver_server.launch.py
+[403.356s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/share/nav2_map_server/environment/library_path.sh
+[403.357s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/share/nav2_map_server/environment/library_path.dsv
+[403.368s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/share/ament_index/resource_index/package_run_dependencies/nav2_map_server
+[403.368s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/share/ament_index/resource_index/parent_prefix_path/nav2_map_server
+[403.368s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.sh
+[403.369s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/share/nav2_map_server/environment/ament_prefix_path.dsv
+[403.369s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/share/nav2_map_server/environment/path.sh
+[403.369s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/share/nav2_map_server/environment/path.dsv
+[403.369s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/share/nav2_map_server/local_setup.bash
+[403.382s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/share/nav2_map_server/local_setup.sh
+[403.383s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/share/nav2_map_server/local_setup.zsh
+[403.383s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/share/nav2_map_server/local_setup.dsv
+[403.383s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/share/nav2_map_server/package.dsv
+[403.383s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/share/ament_index/resource_index/packages/nav2_map_server
+[403.384s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/share/ament_index/resource_index/rclcpp_components/nav2_map_server
+[403.384s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_include_directories-extras.cmake
+[403.391s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_libraries-extras.cmake
+[403.391s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/share/nav2_map_server/cmake/ament_cmake_export_dependencies-extras.cmake
+[403.392s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig.cmake
+[403.392s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/share/nav2_map_server/cmake/nav2_map_serverConfig-version.cmake
+[403.392s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_map_server/share/nav2_map_server/package.xml
+[403.408s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/nav2_map_server' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_util:/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_util:/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_util/lib:/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/nav2_map_server

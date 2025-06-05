@@ -1,0 +1,40 @@
+{
+  "package_name": "sensor_msgs",
+  "output_dir": "/home/thomas/MobileRobot/ws_new/build/sensor_msgs/rosidl_generator_type_description/sensor_msgs",
+  "idl_tuples": [
+    "/home/thomas/MobileRobot/ws_new/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/BatteryState.idl",
+    "/home/thomas/MobileRobot/ws_new/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/CameraInfo.idl",
+    "/home/thomas/MobileRobot/ws_new/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/ChannelFloat32.idl",
+    "/home/thomas/MobileRobot/ws_new/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/CompressedImage.idl",
+    "/home/thomas/MobileRobot/ws_new/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/FluidPressure.idl",
+    "/home/thomas/MobileRobot/ws_new/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/Illuminance.idl",
+    "/home/thomas/MobileRobot/ws_new/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/Image.idl",
+    "/home/thomas/MobileRobot/ws_new/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/Imu.idl",
+    "/home/thomas/MobileRobot/ws_new/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/JointState.idl",
+    "/home/thomas/MobileRobot/ws_new/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/Joy.idl",
+    "/home/thomas/MobileRobot/ws_new/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/JoyFeedback.idl",
+    "/home/thomas/MobileRobot/ws_new/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/JoyFeedbackArray.idl",
+    "/home/thomas/MobileRobot/ws_new/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/LaserEcho.idl",
+    "/home/thomas/MobileRobot/ws_new/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/LaserScan.idl",
+    "/home/thomas/MobileRobot/ws_new/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/MagneticField.idl",
+    "/home/thomas/MobileRobot/ws_new/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/MultiDOFJointState.idl",
+    "/home/thomas/MobileRobot/ws_new/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/MultiEchoLaserScan.idl",
+    "/home/thomas/MobileRobot/ws_new/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/NavSatFix.idl",
+    "/home/thomas/MobileRobot/ws_new/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/NavSatStatus.idl",
+    "/home/thomas/MobileRobot/ws_new/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/PointCloud.idl",
+    "/home/thomas/MobileRobot/ws_new/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/PointCloud2.idl",
+    "/home/thomas/MobileRobot/ws_new/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/PointField.idl",
+    "/home/thomas/MobileRobot/ws_new/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/Range.idl",
+    "/home/thomas/MobileRobot/ws_new/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/RegionOfInterest.idl",
+    "/home/thomas/MobileRobot/ws_new/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/RelativeHumidity.idl",
+    "/home/thomas/MobileRobot/ws_new/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/Temperature.idl",
+    "/home/thomas/MobileRobot/ws_new/build/sensor_msgs/rosidl_adapter/sensor_msgs:msg/TimeReference.idl",
+    "/home/thomas/MobileRobot/ws_new/build/sensor_msgs/rosidl_adapter/sensor_msgs:srv/SetCameraInfo.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/share/geometry_msgs",
+    "std_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs/share/std_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

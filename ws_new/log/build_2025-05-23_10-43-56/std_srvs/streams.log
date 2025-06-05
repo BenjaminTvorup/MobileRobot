@@ -1,0 +1,198 @@
+[0.195s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/std_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/std_srvs -- -j8 -l8
+[1.457s] [  1%] Built target std_srvs__rosidl_generator_type_description
+[1.501s] [  3%] Built target std_srvs__cpp
+[1.715s] [  3%] Built target ament_cmake_python_copy_std_srvs
+[2.192s] [ 24%] Built target std_srvs__rosidl_generator_c
+[2.293s] running egg_info
+[2.339s] writing std_srvs.egg-info/PKG-INFO
+[2.339s] writing dependency_links to std_srvs.egg-info/dependency_links.txt
+[2.339s] writing top-level names to std_srvs.egg-info/top_level.txt
+[2.482s] reading manifest file 'std_srvs.egg-info/SOURCES.txt'
+[2.485s] writing manifest file 'std_srvs.egg-info/SOURCES.txt'
+[2.520s] [ 24%] Built target ament_cmake_python_build_std_srvs_egg
+[3.300s] [ 33%] Built target std_srvs__rosidl_typesupport_introspection_c
+[3.313s] [ 42%] Built target std_srvs__rosidl_typesupport_c
+[3.416s] [ 70%] Built target std_srvs__rosidl_typesupport_fastrtps_c
+[3.417s] [ 70%] Built target std_srvs__rosidl_typesupport_introspection_cpp
+[3.417s] [ 70%] Built target std_srvs__rosidl_typesupport_cpp
+[3.417s] [ 79%] Built target std_srvs__rosidl_typesupport_fastrtps_cpp
+[3.500s] [ 79%] Built target std_srvs
+[3.654s] [ 81%] Built target std_srvs__py
+[4.205s] [ 88%] Built target std_srvs__rosidl_generator_py
+[4.342s] [ 92%] Built target std_srvs_s__rosidl_typesupport_introspection_c
+[4.343s] [100%] Built target std_srvs_s__rosidl_typesupport_fastrtps_c
+[4.343s] [100%] Built target std_srvs_s__rosidl_typesupport_c
+[4.360s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/std_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/std_srvs -- -j8 -l8
+[4.392s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/std_srvs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/std_srvs
+[4.425s] -- Install configuration: ""
+[4.449s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/ament_index/resource_index/rosidl_interfaces/std_srvs
+[4.460s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/srv/Empty.json
+[4.461s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/srv/SetBool.json
+[4.461s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/srv/Trigger.json
+[4.464s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs
+[4.470s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv
+[4.473s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[4.474s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__description.c
+[4.474s] -- Installing: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.c
+[4.554s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__functions.h
+[4.554s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__struct.h
+[4.555s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.h
+[4.555s] -- Installing: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__type_support.c
+[4.559s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__functions.c
+[4.560s] -- Installing: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__type_support.c
+[4.561s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__struct.h
+[4.562s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__type_support.h
+[4.562s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__struct.h
+[4.563s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__functions.h
+[4.564s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__functions.c
+[4.564s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__functions.h
+[4.565s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__description.c
+[4.565s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__type_support.h
+[4.566s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__functions.c
+[4.566s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__description.c
+[4.567s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/set_bool.h
+[4.567s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/empty.h
+[4.568s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/trigger.h
+[4.568s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/msg
+[4.569s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_generator_c__visibility_control.h
+[4.569s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/environment/library_path.sh
+[4.569s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/environment/library_path.dsv
+[4.681s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/lib/libstd_srvs__rosidl_generator_c.so
+[4.683s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs
+[4.683s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv
+[4.684s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[4.685s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__rosidl_typesupport_fastrtps_c.h
+[4.685s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__rosidl_typesupport_fastrtps_c.h
+[4.686s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__rosidl_typesupport_fastrtps_c.h
+[4.686s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/msg
+[4.686s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.727s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_fastrtps_c.so
+[4.729s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs
+[4.729s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv
+[4.730s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[4.730s] -- Installing: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.c
+[4.778s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__rosidl_typesupport_introspection_c.h
+[4.778s] -- Installing: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__type_support.c
+[4.784s] -- Installing: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__type_support.c
+[4.847s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__rosidl_typesupport_introspection_c.h
+[4.847s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__rosidl_typesupport_introspection_c.h
+[4.848s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/msg
+[4.848s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.926s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_introspection_c.so
+[4.945s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_c.so
+[4.946s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs
+[4.947s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv
+[4.948s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[4.949s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__type_support.hpp
+[4.949s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.hpp
+[4.950s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__type_support.hpp
+[4.951s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__struct.hpp
+[4.951s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__traits.hpp
+[4.952s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__struct.hpp
+[4.952s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__builder.hpp
+[4.953s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__builder.hpp
+[4.953s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__traits.hpp
+[4.953s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__builder.hpp
+[4.953s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__struct.hpp
+[4.954s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__traits.hpp
+[4.954s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/empty.hpp
+[4.954s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/trigger.hpp
+[4.954s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/set_bool.hpp
+[4.955s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/msg
+[4.955s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.955s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs
+[4.956s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv
+[4.956s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[4.956s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__rosidl_typesupport_fastrtps_cpp.hpp
+[4.956s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__rosidl_typesupport_fastrtps_cpp.hpp
+[4.957s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/dds_fastrtps
+[4.957s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__rosidl_typesupport_fastrtps_cpp.hpp
+[4.957s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/msg
+[4.957s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[5.007s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_fastrtps_cpp.so
+[5.009s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs
+[5.009s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv
+[5.010s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail
+[5.010s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__rosidl_typesupport_introspection_cpp.hpp
+[5.011s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__type_support.cpp
+[5.011s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__type_support.cpp
+[5.011s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/empty__type_support.cpp
+[5.012s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/set_bool__rosidl_typesupport_introspection_cpp.hpp
+[5.012s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/include/std_srvs/std_srvs/srv/detail/trigger__rosidl_typesupport_introspection_cpp.hpp
+[5.078s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_introspection_cpp.so
+[5.127s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/lib/libstd_srvs__rosidl_typesupport_cpp.so
+[5.128s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/environment/pythonpath.sh
+[5.129s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/environment/pythonpath.dsv
+[5.145s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages/std_srvs-5.3.6-py3.12.egg-info
+[5.160s] -- Installing: /home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages/std_srvs-5.3.6-py3.12.egg-info/top_level.txt
+[5.162s] -- Installing: /home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages/std_srvs-5.3.6-py3.12.egg-info/SOURCES.txt
+[5.163s] -- Installing: /home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages/std_srvs-5.3.6-py3.12.egg-info/dependency_links.txt
+[5.169s] -- Installing: /home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages/std_srvs-5.3.6-py3.12.egg-info/PKG-INFO
+[5.170s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages/std_srvs
+[5.173s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages/std_srvs/__init__.py
+[5.173s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages/std_srvs/_std_srvs_s.ep.rosidl_typesupport_introspection_c.c
+[5.174s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages/std_srvs/_std_srvs_s.ep.rosidl_typesupport_fastrtps_c.c
+[5.175s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages/std_srvs/srv
+[5.176s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages/std_srvs/srv/__init__.py
+[5.178s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages/std_srvs/srv/_set_bool_s.c
+[5.179s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages/std_srvs/srv/_set_bool.py
+[5.180s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages/std_srvs/srv/_trigger.py
+[5.181s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages/std_srvs/srv/_trigger_s.c
+[5.182s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages/std_srvs/srv/_empty_s.c
+[5.182s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages/std_srvs/srv/_empty.py
+[5.183s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_c.so
+[5.184s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_introspection_c.so
+[5.184s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_fastrtps_c.so
+[5.185s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages/std_srvs/_std_srvs_s.ep.rosidl_typesupport_c.c
+[5.287s] Listing '/home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages/std_srvs'...
+[5.287s] Listing '/home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages/std_srvs/srv'...
+[5.299s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_fastrtps_c.so
+[5.313s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_introspection_c.so
+[5.324s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages/std_srvs/std_srvs_s__rosidl_typesupport_c.so
+[5.341s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/lib/libstd_srvs__rosidl_generator_py.so
+[5.341s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/srv/Empty.idl
+[5.341s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/srv/SetBool.idl
+[5.341s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/srv/Trigger.idl
+[5.341s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/srv/Empty.srv
+[5.342s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/srv/SetBool.srv
+[5.342s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/srv/Trigger.srv
+[5.343s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/ament_index/resource_index/package_run_dependencies/std_srvs
+[5.343s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/ament_index/resource_index/parent_prefix_path/std_srvs
+[5.344s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/environment/ament_prefix_path.sh
+[5.344s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/environment/ament_prefix_path.dsv
+[5.344s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/environment/path.sh
+[5.344s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/environment/path.dsv
+[5.344s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/local_setup.bash
+[5.344s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/local_setup.sh
+[5.344s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/local_setup.zsh
+[5.345s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/local_setup.dsv
+[5.345s] -- Installing: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/package.dsv
+[5.452s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/ament_index/resource_index/packages/std_srvs
+[5.589s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_cExport.cmake
+[5.590s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_cExport-noconfig.cmake
+[5.590s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_typesupport_fastrtps_cExport.cmake
+[5.591s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[5.598s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cExport.cmake
+[5.598s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[5.613s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cExport.cmake
+[5.614s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cExport-noconfig.cmake
+[5.618s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_cppExport.cmake
+[5.619s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_typesupport_fastrtps_cppExport.cmake
+[5.620s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[5.664s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cppExport.cmake
+[5.665s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[5.666s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cppExport.cmake
+[5.666s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/cmake/std_srvs__rosidl_typesupport_cppExport-noconfig.cmake
+[5.676s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_pyExport.cmake
+[5.677s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/cmake/export_std_srvs__rosidl_generator_pyExport-noconfig.cmake
+[5.678s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/cmake/rosidl_cmake-extras.cmake
+[5.678s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.679s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.680s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_libraries-extras.cmake
+[5.680s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/cmake/ament_cmake_export_targets-extras.cmake
+[5.680s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[5.681s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[5.681s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/cmake/std_srvsConfig.cmake
+[5.681s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/cmake/std_srvsConfig-version.cmake
+[5.682s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/std_srvs/share/std_srvs/package.xml
+[5.705s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/std_srvs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/std_srvs

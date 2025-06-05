@@ -1,0 +1,14 @@
+{
+  "package_name": "stereo_msgs",
+  "output_dir": "/home/thomas/MobileRobot/ws_new/build/stereo_msgs/rosidl_generator_type_description/stereo_msgs",
+  "idl_tuples": [
+    "/home/thomas/MobileRobot/ws_new/build/stereo_msgs/rosidl_adapter/stereo_msgs:msg/DisparityImage.idl"
+  ],
+  "include_paths": [
+    "sensor_msgs:/home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/share/geometry_msgs",
+    "std_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs/share/std_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

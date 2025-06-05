@@ -1,0 +1,105 @@
+[0.062s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/nav2_util': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/nav2_util -- -j8 -l8
+[0.292s] [  3%] Built target gtest_main
+[0.303s] [  7%] Built target gtest
+[0.428s] [ 29%] Built target nav2_util_core
+[0.492s] [ 31%] [32mBuilding CXX object test/CMakeFiles/test_service_client.dir/test_service_client.cpp.o[0m
+[0.493s] [ 33%] [32mBuilding CXX object src/CMakeFiles/base_footprint_publisher.dir/base_footprint_publisher.cpp.o[0m
+[0.497s] [ 35%] [32mBuilding CXX object test/CMakeFiles/test_node_utils.dir/test_node_utils.cpp.o[0m
+[0.500s] [ 39%] Built target test_execution_timer
+[0.503s] [ 43%] Built target test_string_utils
+[0.511s] [ 47%] Built target lifecycle_bringup
+[0.549s] [ 49%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_node.dir/test_lifecycle_node.cpp.o[0m
+[0.554s] [ 52%] [32mBuilding CXX object test/CMakeFiles/test_actions.dir/test_actions.cpp.o[0m
+[0.554s] [ 52%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_cli_node.dir/test_lifecycle_cli_node.cpp.o[0m
+[1.653s] [ 54%] [32mBuilding CXX object test/CMakeFiles/test_geometry_utils.dir/test_geometry_utils.cpp.o[0m
+[1.655s] [ 56%] [32mBuilding CXX object test/CMakeFiles/test_lifecycle_utils.dir/test_lifecycle_utils.cpp.o[0m
+[12.215s] [ 58%] [32m[1mLinking CXX executable test_lifecycle_utils[0m
+[12.216s] [ 60%] [32m[1mLinking CXX executable test_geometry_utils[0m
+[12.251s] [ 62%] [32m[1mLinking CXX executable test_lifecycle_cli_node[0m
+[12.919s] [ 64%] [32m[1mLinking CXX executable test_lifecycle_node[0m
+[13.479s] [ 66%] [32m[1mLinking CXX executable test_node_utils[0m
+[14.621s] [ 66%] Built target test_lifecycle_node
+[14.622s] [ 66%] Built target test_lifecycle_cli_node
+[14.642s] [ 66%] Built target test_lifecycle_utils
+[14.650s] [ 66%] Built target test_node_utils
+[14.667s] [ 66%] Built target test_geometry_utils
+[14.716s] [ 68%] [32mBuilding CXX object test/CMakeFiles/test_robot_utils.dir/test_robot_utils.cpp.o[0m
+[14.717s] [ 72%] [32mBuilding CXX object test/CMakeFiles/test_twist_publisher.dir/test_twist_publisher.cpp.o[0m
+[14.717s] [ 72%] [32mBuilding CXX object test/CMakeFiles/test_base_footprint_publisher.dir/test_base_footprint_publisher.cpp.o[0m
+[14.719s] [ 74%] [32mBuilding CXX object test/CMakeFiles/test_array_parser.dir/test_array_parser.cpp.o[0m
+[14.733s] [ 76%] [32mBuilding CXX object test/CMakeFiles/test_odometry_utils.dir/test_odometry_utils.cpp.o[0m
+[17.121s] [ 78%] [32m[1mLinking CXX executable base_footprint_publisher[0m
+[17.591s] [ 78%] Built target base_footprint_publisher
+[17.667s] [ 80%] [32mBuilding CXX object test/CMakeFiles/test_twist_subscriber.dir/test_twist_subscriber.cpp.o[0m
+[18.254s] [ 82%] [32m[1mLinking CXX executable test_array_parser[0m
+[18.698s] [ 82%] Built target test_array_parser
+[18.752s] [ 84%] [32mBuilding CXX object test/CMakeFiles/test_validation_messages.dir/test_validation_messages.cpp.o[0m
+[23.012s] [ 86%] [32m[1mLinking CXX executable test_validation_messages[0m
+[23.885s] [ 86%] Built target test_validation_messages
+[26.904s] [ 88%] [32m[1mLinking CXX executable test_robot_utils[0m
+[27.448s] [ 88%] Built target test_robot_utils
+[27.483s] [ 90%] [32m[1mLinking CXX executable test_odometry_utils[0m
+[28.020s] [ 90%] Built target test_odometry_utils
+[28.493s] [ 92%] [32m[1mLinking CXX executable test_service_client[0m
+[29.110s] [ 92%] Built target test_service_client
+[29.316s] [ 94%] [32m[1mLinking CXX executable test_base_footprint_publisher[0m
+[29.639s] [ 94%] Built target test_base_footprint_publisher
+[34.115s] [ 96%] [32m[1mLinking CXX executable test_actions[0m
+[34.571s] [ 96%] Built target test_actions
+[39.496s] [ 98%] [32m[1mLinking CXX executable test_twist_publisher[0m
+[39.848s] [ 98%] Built target test_twist_publisher
+[41.082s] [100%] [32m[1mLinking CXX executable test_twist_subscriber[0m
+[41.421s] [100%] Built target test_twist_subscriber
+[41.440s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/nav2_util -- -j8 -l8
+[41.463s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/nav2_util': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/nav2_util
+[41.500s] -- Install configuration: "Release"
+[41.501s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/include/nav2_util
+[41.501s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/include/nav2_util/nav2_util
+[41.502s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/include/nav2_util/nav2_util/lifecycle_service_client.hpp
+[41.509s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/include/nav2_util/nav2_util/costmap.hpp
+[41.519s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/include/nav2_util/nav2_util/execution_timer.hpp
+[41.520s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/include/nav2_util/nav2_util/simple_action_server.hpp
+[41.520s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/include/nav2_util/nav2_util/line_iterator.hpp
+[41.520s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/include/nav2_util/nav2_util/geometry_utils.hpp
+[41.520s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/include/nav2_util/nav2_util/array_parser.hpp
+[41.520s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/include/nav2_util/nav2_util/service_client.hpp
+[41.521s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/include/nav2_util/nav2_util/robot_utils.hpp
+[41.521s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/include/nav2_util/nav2_util/node_thread.hpp
+[41.521s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/include/nav2_util/nav2_util/clear_entirely_costmap_service_client.hpp
+[41.521s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/include/nav2_util/nav2_util/string_utils.hpp
+[41.521s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/include/nav2_util/nav2_util/twist_publisher.hpp
+[41.521s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/include/nav2_util/nav2_util/odometry_utils.hpp
+[41.521s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/include/nav2_util/nav2_util/occ_grid_values.hpp
+[41.522s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/include/nav2_util/nav2_util/node_utils.hpp
+[41.522s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/include/nav2_util/nav2_util/validate_messages.hpp
+[41.522s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/include/nav2_util/nav2_util/lifecycle_node.hpp
+[41.522s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/include/nav2_util/nav2_util/lifecycle_utils.hpp
+[41.522s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/include/nav2_util/nav2_util/twist_subscriber.hpp
+[41.523s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/share/nav2_util/environment/library_path.sh
+[41.536s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/share/nav2_util/environment/library_path.dsv
+[41.536s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/share/ament_index/resource_index/package_run_dependencies/nav2_util
+[41.537s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/share/ament_index/resource_index/parent_prefix_path/nav2_util
+[41.537s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/share/nav2_util/environment/ament_prefix_path.sh
+[41.539s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/share/nav2_util/environment/ament_prefix_path.dsv
+[41.539s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/share/nav2_util/environment/path.sh
+[41.540s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/share/nav2_util/environment/path.dsv
+[41.540s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/share/nav2_util/local_setup.bash
+[41.556s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/share/nav2_util/local_setup.sh
+[41.557s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/share/nav2_util/local_setup.zsh
+[41.557s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/share/nav2_util/local_setup.dsv
+[41.558s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/share/nav2_util/package.dsv
+[41.559s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/share/ament_index/resource_index/packages/nav2_util
+[41.560s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/share/nav2_util/cmake/nav2_util_coreExport.cmake
+[41.561s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/share/nav2_util/cmake/nav2_util_coreExport-release.cmake
+[41.562s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_include_directories-extras.cmake
+[41.562s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_libraries-extras.cmake
+[41.563s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_dependencies-extras.cmake
+[41.564s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/share/nav2_util/cmake/ament_cmake_export_targets-extras.cmake
+[41.564s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig.cmake
+[41.565s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/share/nav2_util/cmake/nav2_utilConfig-version.cmake
+[41.566s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/share/nav2_util/package.xml
+[41.567s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/lib/libnav2_util_core.so
+[41.587s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_util/lib/libnav2_util_core.so" to ""
+[41.588s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_util/lib/nav2_util/lifecycle_bringup
+[41.600s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_util/lib/nav2_util/lifecycle_bringup" to ""
+[41.609s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/nav2_util' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/nav2_util

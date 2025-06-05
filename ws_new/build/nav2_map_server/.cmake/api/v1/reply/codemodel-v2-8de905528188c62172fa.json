@@ -1,0 +1,296 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-e628fb297618470b761f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						15
+					]
+				},
+				{
+					"build" : "test",
+					"childIndexes" : 
+					[
+						2,
+						4,
+						5
+					],
+					"jsonFile" : "directory-test-Release-451c0598f41488bb20b9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "test"
+				},
+				{
+					"build" : "test/unit",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-test.unit-Release-95f19909738940399904.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "test/unit",
+					"targetIndexes" : 
+					[
+						9,
+						10
+					]
+				},
+				{
+					"build" : "gtest",
+					"jsonFile" : "directory-gtest-Release-0908a8c91ddba5d6c989.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "/opt/ros/jazzy/src/gtest_vendor",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"build" : "test/component",
+					"jsonFile" : "directory-test.component-Release-c22c1a5a0343d9cd40a3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "test/component",
+					"targetIndexes" : 
+					[
+						12,
+						13,
+						14
+					]
+				},
+				{
+					"build" : "test/map_saver_cli",
+					"jsonFile" : "directory-test.map_saver_cli-Release-dfb7ec1602815e14b5f0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "test/map_saver_cli",
+					"targetIndexes" : 
+					[
+						11
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						4,
+						5
+					],
+					"name" : "nav2_map_server",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "gtest",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "costmap_filter_info_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-costmap_filter_info_server-Release-28fffb06b1f4c712d389.json",
+					"name" : "costmap_filter_info_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest-Release-2d705167af2a8f161183.json",
+					"name" : "gtest",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "gtest_main::@0af4add9fe94340e763e",
+					"jsonFile" : "target-gtest_main-Release-e81a50ea2e5c42c05de6.json",
+					"name" : "gtest_main",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_io::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_io-Release-d58829905c18fddefbde.json",
+					"name" : "map_io",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_saver_cli::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_saver_cli-Release-fe54eb7a89183b6ddf9e.json",
+					"name" : "map_saver_cli",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_saver_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_saver_server-Release-7f94726fef1561134881.json",
+					"name" : "map_saver_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_server-Release-69af1d3f0d96f4d10a44.json",
+					"name" : "map_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "map_server_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-map_server_core-Release-0f230c3ac8b2e877603c.json",
+					"name" : "map_server_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "nav2_map_server_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-nav2_map_server_uninstall-Release-c37966d86e9afc7b8d09.json",
+					"name" : "nav2_map_server_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_costmap_filter_info_server::@eef10db73b2f22524f92",
+					"jsonFile" : "target-test_costmap_filter_info_server-Release-057553b0f0678ba70687.json",
+					"name" : "test_costmap_filter_info_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "test_map_io::@eef10db73b2f22524f92",
+					"jsonFile" : "target-test_map_io-Release-6bd3366f99e30337492f.json",
+					"name" : "test_map_io",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "test_map_saver_cli::@3a480c0dfaa8f09c333f",
+					"jsonFile" : "target-test_map_saver_cli-Release-57f9db4ab72c61ff9d8c.json",
+					"name" : "test_map_saver_cli",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "test_map_saver_node::@f2300501851289dddd1e",
+					"jsonFile" : "target-test_map_saver_node-Release-53a99d459a248920b459.json",
+					"name" : "test_map_saver_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "test_map_saver_publisher::@f2300501851289dddd1e",
+					"jsonFile" : "target-test_map_saver_publisher-Release-19048c25c2d9a72dc72d.json",
+					"name" : "test_map_saver_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "test_map_server_node::@f2300501851289dddd1e",
+					"jsonFile" : "target-test_map_server_node-Release-fb9e2bc0e47707f4c470.json",
+					"name" : "test_map_server_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-16535945ed265589400e.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/thomas/MobileRobot/ws_new/build/nav2_map_server",
+		"source" : "/home/thomas/MobileRobot/ws_new/src/navigation2/nav2_map_server"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

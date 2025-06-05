@@ -1,0 +1,22 @@
+{
+  "package_name": "nav_msgs",
+  "output_dir": "/home/thomas/MobileRobot/ws_new/build/nav_msgs/rosidl_generator_type_description/nav_msgs",
+  "idl_tuples": [
+    "/home/thomas/MobileRobot/ws_new/build/nav_msgs/rosidl_adapter/nav_msgs:msg/Goals.idl",
+    "/home/thomas/MobileRobot/ws_new/build/nav_msgs/rosidl_adapter/nav_msgs:msg/GridCells.idl",
+    "/home/thomas/MobileRobot/ws_new/build/nav_msgs/rosidl_adapter/nav_msgs:msg/MapMetaData.idl",
+    "/home/thomas/MobileRobot/ws_new/build/nav_msgs/rosidl_adapter/nav_msgs:msg/OccupancyGrid.idl",
+    "/home/thomas/MobileRobot/ws_new/build/nav_msgs/rosidl_adapter/nav_msgs:msg/Odometry.idl",
+    "/home/thomas/MobileRobot/ws_new/build/nav_msgs/rosidl_adapter/nav_msgs:msg/Path.idl",
+    "/home/thomas/MobileRobot/ws_new/build/nav_msgs/rosidl_adapter/nav_msgs:srv/GetMap.idl",
+    "/home/thomas/MobileRobot/ws_new/build/nav_msgs/rosidl_adapter/nav_msgs:srv/GetPlan.idl",
+    "/home/thomas/MobileRobot/ws_new/build/nav_msgs/rosidl_adapter/nav_msgs:srv/LoadMap.idl",
+    "/home/thomas/MobileRobot/ws_new/build/nav_msgs/rosidl_adapter/nav_msgs:srv/SetMap.idl"
+  ],
+  "include_paths": [
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/share/geometry_msgs",
+    "std_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs/share/std_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

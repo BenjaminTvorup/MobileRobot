@@ -1,0 +1,385 @@
+[0.069s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/diagnostic_msgs': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/thomas/MobileRobot/ws_new/src/common_interfaces/diagnostic_msgs -DCMAKE_INSTALL_PREFIX=/home/thomas/MobileRobot/ws_new/install/diagnostic_msgs
+[0.182s] -- The C compiler identification is GNU 13.3.0
+[0.304s] -- The CXX compiler identification is GNU 13.3.0
+[0.349s] -- Detecting C compiler ABI info
+[0.540s] -- Detecting C compiler ABI info - done
+[0.566s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.567s] -- Detecting C compile features
+[0.568s] -- Detecting C compile features - done
+[0.585s] -- Detecting CXX compiler ABI info
+[0.783s] -- Detecting CXX compiler ABI info - done
+[0.809s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.810s] -- Detecting CXX compile features
+[0.811s] -- Detecting CXX compile features - done
+[0.821s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.160s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.445s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.469s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.653s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.798s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.804s] -- Found std_msgs: 5.3.6 (/home/thomas/MobileRobot/ws_new/install/std_msgs/share/std_msgs/cmake)
+[3.232s] -- Found ament_cmake_cppcheck: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[3.240s] -- Found ament_cmake_cpplint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[3.252s] -- Found ament_cmake_uncrustify: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[3.262s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[4.283s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.806s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.854s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[6.146s] -- Found PythonExtra: /usr/bin/python3  
+[7.063s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[7.194s] -- Found ament_cmake_flake8: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[7.204s] -- Found ament_cmake_pep257: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[7.222s] -- Configuring done (7.1s)
+[7.358s] -- Generating done (0.1s)
+[7.391s] -- Build files have been written to: /home/thomas/MobileRobot/ws_new/build/diagnostic_msgs
+[7.415s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/diagnostic_msgs' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/thomas/MobileRobot/ws_new/src/common_interfaces/diagnostic_msgs -DCMAKE_INSTALL_PREFIX=/home/thomas/MobileRobot/ws_new/install/diagnostic_msgs
+[7.417s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/diagnostic_msgs': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/diagnostic_msgs -- -j8 -l8
+[7.532s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[7.546s] [  1%] Built target ament_cmake_python_copy_diagnostic_msgs
+[8.161s] running egg_info
+[8.163s] creating diagnostic_msgs.egg-info
+[8.241s] writing diagnostic_msgs.egg-info/PKG-INFO
+[8.242s] writing dependency_links to diagnostic_msgs.egg-info/dependency_links.txt
+[8.243s] writing top-level names to diagnostic_msgs.egg-info/top_level.txt
+[8.243s] writing manifest file 'diagnostic_msgs.egg-info/SOURCES.txt'
+[8.502s] reading manifest file 'diagnostic_msgs.egg-info/SOURCES.txt'
+[8.503s] writing manifest file 'diagnostic_msgs.egg-info/SOURCES.txt'
+[8.532s] [  1%] Built target diagnostic_msgs__rosidl_generator_type_description
+[8.588s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.588s] [  2%] Built target ament_cmake_python_build_diagnostic_msgs_egg
+[8.612s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[10.859s] [  4%] Built target diagnostic_msgs__cpp
+[11.442s] [  6%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/msg/detail/diagnostic_status__description.c.o[0m
+[11.442s] [  6%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/msg/detail/diagnostic_array__description.c.o[0m
+[11.442s] [  8%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/msg/detail/diagnostic_array__functions.c.o[0m
+[11.446s] [  9%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/msg/detail/diagnostic_array__type_support.c.o[0m
+[11.465s] [ 10%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/msg/detail/diagnostic_status__functions.c.o[0m
+[11.469s] [ 12%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/msg/detail/diagnostic_status__type_support.c.o[0m
+[11.618s] [ 13%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/msg/detail/key_value__functions.c.o[0m
+[11.642s] [ 14%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/msg/detail/key_value__description.c.o[0m
+[11.650s] [ 16%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/msg/detail/key_value__type_support.c.o[0m
+[11.652s] [ 17%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/srv/detail/add_diagnostics__type_support.c.o[0m
+[11.661s] [ 18%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/srv/detail/add_diagnostics__functions.c.o[0m
+[11.800s] [ 20%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/srv/detail/self_test__description.c.o[0m
+[11.840s] [ 21%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/srv/detail/self_test__functions.c.o[0m
+[11.853s] [ 22%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/srv/detail/self_test__type_support.c.o[0m
+[11.949s] [ 24%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_c.dir/rosidl_generator_c/diagnostic_msgs/srv/detail/add_diagnostics__description.c.o[0m
+[12.231s] [ 25%] [32m[1mLinking C shared library libdiagnostic_msgs__rosidl_generator_c.so[0m
+[12.412s] [ 25%] Built target diagnostic_msgs__rosidl_generator_c
+[12.453s] [ 27%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[12.458s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[14.462s] [ 29%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/diagnostic_msgs/msg/diagnostic_array__type_support.cpp.o[0m
+[14.469s] [ 31%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/diagnostic_msgs/msg/diagnostic_status__type_support.cpp.o[0m
+[16.150s] [ 32%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/diagnostic_msgs/srv/add_diagnostics__type_support.cpp.o[0m
+[16.292s] [ 33%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/diagnostic_msgs/msg/detail/diagnostic_array__type_support_c.cpp.o[0m
+[18.231s] [ 35%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/diagnostic_msgs/srv/self_test__type_support.cpp.o[0m
+[18.379s] [ 36%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/diagnostic_msgs/msg/detail/diagnostic_status__type_support_c.cpp.o[0m
+[19.567s] [ 37%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/diagnostic_msgs/msg/key_value__type_support.cpp.o[0m
+[19.694s] [ 39%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/diagnostic_msgs/srv/detail/add_diagnostics__type_support_c.cpp.o[0m
+[20.373s] [ 40%] [32m[1mLinking CXX shared library libdiagnostic_msgs__rosidl_typesupport_cpp.so[0m
+[20.715s] [ 40%] Built target diagnostic_msgs__rosidl_typesupport_cpp
+[20.819s] [ 41%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/diagnostic_msgs/srv/detail/self_test__type_support_c.cpp.o[0m
+[21.865s] [ 43%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/diagnostic_msgs/msg/detail/key_value__type_support_c.cpp.o[0m
+[22.906s] [ 44%] [32m[1mLinking CXX shared library libdiagnostic_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[23.146s] [ 44%] Built target diagnostic_msgs__rosidl_typesupport_fastrtps_c
+[23.168s] [ 45%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[24.472s] [ 47%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/diagnostic_msgs/msg/detail/diagnostic_array__type_support.cpp.o[0m
+[25.263s] [ 48%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/diagnostic_msgs/srv/detail/self_test__type_support.cpp.o[0m
+[26.258s] [ 50%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/diagnostic_msgs/srv/detail/add_diagnostics__type_support.cpp.o[0m
+[26.826s] [ 51%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/diagnostic_msgs/msg/detail/key_value__type_support.cpp.o[0m
+[27.312s] [ 52%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/diagnostic_msgs/msg/detail/diagnostic_status__type_support.cpp.o[0m
+[27.796s] [ 54%] [32m[1mLinking CXX shared library libdiagnostic_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[27.923s] [ 54%] Built target diagnostic_msgs__rosidl_typesupport_introspection_cpp
+[27.938s] [ 55%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[29.172s] [ 56%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/diagnostic_msgs/msg/detail/dds_fastrtps/diagnostic_array__type_support.cpp.o[0m
+[29.910s] [ 58%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/diagnostic_msgs/srv/detail/dds_fastrtps/self_test__type_support.cpp.o[0m
+[30.948s] [ 59%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/diagnostic_msgs/srv/detail/dds_fastrtps/add_diagnostics__type_support.cpp.o[0m
+[31.895s] [ 60%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/diagnostic_msgs/msg/detail/dds_fastrtps/key_value__type_support.cpp.o[0m
+[32.631s] [ 62%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/diagnostic_msgs/msg/detail/dds_fastrtps/diagnostic_status__type_support.cpp.o[0m
+[33.463s] [ 63%] [32m[1mLinking CXX shared library libdiagnostic_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[33.603s] [ 63%] Built target diagnostic_msgs__rosidl_typesupport_fastrtps_cpp
+[33.619s] [ 64%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[34.319s] [ 66%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/diagnostic_msgs/msg/diagnostic_array__type_support.cpp.o[0m
+[34.382s] [ 67%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/diagnostic_msgs/srv/self_test__type_support.cpp.o[0m
+[34.459s] [ 68%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/diagnostic_msgs/srv/add_diagnostics__type_support.cpp.o[0m
+[34.529s] [ 70%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/diagnostic_msgs/msg/key_value__type_support.cpp.o[0m
+[34.593s] [ 71%] [32mBuilding CXX object CMakeFiles/diagnostic_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/diagnostic_msgs/msg/diagnostic_status__type_support.cpp.o[0m
+[34.655s] [ 72%] [32m[1mLinking CXX shared library libdiagnostic_msgs__rosidl_typesupport_c.so[0m
+[34.724s] [ 72%] Built target diagnostic_msgs__rosidl_typesupport_c
+[34.744s] [ 74%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[35.777s] [ 75%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/diagnostic_msgs/msg/detail/diagnostic_array__type_support.c.o[0m
+[35.838s] [ 77%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/diagnostic_msgs/srv/detail/self_test__type_support.c.o[0m
+[35.907s] [ 78%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/diagnostic_msgs/srv/detail/add_diagnostics__type_support.c.o[0m
+[36.013s] [ 79%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/diagnostic_msgs/msg/detail/key_value__type_support.c.o[0m
+[36.069s] [ 81%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/diagnostic_msgs/msg/detail/diagnostic_status__type_support.c.o[0m
+[36.131s] [ 82%] [32m[1mLinking C shared library libdiagnostic_msgs__rosidl_typesupport_introspection_c.so[0m
+[36.182s] [ 82%] Built target diagnostic_msgs__rosidl_typesupport_introspection_c
+[36.218s] [ 82%] Built target diagnostic_msgs
+[36.249s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[37.698s] [ 83%] Built target diagnostic_msgs__py
+[37.729s] [ 85%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_py.dir/rosidl_generator_py/diagnostic_msgs/msg/_diagnostic_array_s.c.o[0m
+[37.734s] [ 86%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_py.dir/rosidl_generator_py/diagnostic_msgs/msg/_diagnostic_status_s.c.o[0m
+[37.934s] [ 87%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_py.dir/rosidl_generator_py/diagnostic_msgs/srv/_self_test_s.c.o[0m
+[37.979s] [ 89%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_py.dir/rosidl_generator_py/diagnostic_msgs/srv/_add_diagnostics_s.c.o[0m
+[38.195s] [ 90%] [32mBuilding C object CMakeFiles/diagnostic_msgs__rosidl_generator_py.dir/rosidl_generator_py/diagnostic_msgs/msg/_key_value_s.c.o[0m
+[38.386s] [ 91%] [32m[1mLinking C shared library libdiagnostic_msgs__rosidl_generator_py.so[0m
+[38.454s] [ 91%] Built target diagnostic_msgs__rosidl_generator_py
+[38.490s] [ 93%] [32mBuilding C object CMakeFiles/diagnostic_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[38.492s] [ 94%] [32mBuilding C object CMakeFiles/diagnostic_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[38.770s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[38.775s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[38.832s] [ 97%] Built target diagnostic_msgs_s__rosidl_typesupport_introspection_c
+[38.839s] [ 97%] Built target diagnostic_msgs_s__rosidl_typesupport_fastrtps_c
+[38.865s] [ 98%] [32mBuilding C object CMakeFiles/diagnostic_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[39.043s] [100%] [32m[1mLinking C shared module rosidl_generator_py/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_c.so[0m
+[39.118s] [100%] Built target diagnostic_msgs_s__rosidl_typesupport_c
+[39.137s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/diagnostic_msgs' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/diagnostic_msgs -- -j8 -l8
+[39.139s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/diagnostic_msgs': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/diagnostic_msgs
+[39.151s] -- Install configuration: ""
+[39.152s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/ament_index/resource_index/rosidl_interfaces/diagnostic_msgs
+[39.152s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/msg/DiagnosticArray.json
+[39.152s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/msg/DiagnosticStatus.json
+[39.152s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/msg/KeyValue.json
+[39.153s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/srv/AddDiagnostics.json
+[39.153s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/srv/SelfTest.json
+[39.153s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[39.153s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[39.153s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[39.154s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__type_support.c
+[39.154s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__struct.h
+[39.154s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__type_support.c
+[39.154s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__type_support.h
+[39.154s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__description.c
+[39.155s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__type_support.h
+[39.155s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__description.c
+[39.155s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__struct.h
+[39.155s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__functions.h
+[39.155s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__functions.h
+[39.156s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__functions.c
+[39.156s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__functions.c
+[39.156s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/self_test.h
+[39.156s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/add_diagnostics.h
+[39.156s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[39.157s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[39.157s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__functions.h
+[39.157s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__struct.h
+[39.157s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__description.c
+[39.158s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__type_support.h
+[39.158s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__type_support.c
+[39.158s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__type_support.h
+[39.158s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__functions.h
+[39.158s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__type_support.h
+[39.159s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__struct.h
+[39.159s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__functions.c
+[39.159s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__functions.c
+[39.160s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.h
+[39.160s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__type_support.c
+[39.160s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__description.c
+[39.161s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__functions.h
+[39.161s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__type_support.c
+[39.161s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__functions.c
+[39.161s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__description.c
+[39.162s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_array.h
+[39.162s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_status.h
+[39.162s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_generator_c__visibility_control.h
+[39.162s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/key_value.h
+[39.162s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/environment/library_path.sh
+[39.163s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/environment/library_path.dsv
+[39.163s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_generator_c.so
+[39.163s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_generator_c.so" to ""
+[39.164s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[39.164s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[39.164s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[39.165s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__rosidl_typesupport_fastrtps_c.h
+[39.165s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__rosidl_typesupport_fastrtps_c.h
+[39.165s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[39.165s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[39.165s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__rosidl_typesupport_fastrtps_c.h
+[39.166s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__rosidl_typesupport_fastrtps_c.h
+[39.166s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__rosidl_typesupport_fastrtps_c.h
+[39.166s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[39.167s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_fastrtps_c.so
+[39.167s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[39.167s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[39.167s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[39.167s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[39.168s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__type_support.c
+[39.168s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__type_support.c
+[39.168s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__rosidl_typesupport_introspection_c.h
+[39.169s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__rosidl_typesupport_introspection_c.h
+[39.169s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[39.169s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[39.169s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__rosidl_typesupport_introspection_c.h
+[39.169s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__type_support.c
+[39.170s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__rosidl_typesupport_introspection_c.h
+[39.170s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__type_support.c
+[39.170s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__rosidl_typesupport_introspection_c.h
+[39.170s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__type_support.c
+[39.171s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[39.171s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_introspection_c.so
+[39.171s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_introspection_c.so" to ""
+[39.172s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_c.so
+[39.172s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_c.so" to ""
+[39.172s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[39.172s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[39.173s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[39.173s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__traits.hpp
+[39.174s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__type_support.hpp
+[39.174s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__builder.hpp
+[39.174s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__struct.hpp
+[39.174s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__type_support.hpp
+[39.175s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__struct.hpp
+[39.175s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__builder.hpp
+[39.175s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__traits.hpp
+[39.176s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/add_diagnostics.hpp
+[39.176s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/self_test.hpp
+[39.176s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[39.176s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[39.177s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__type_support.hpp
+[39.177s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__traits.hpp
+[39.177s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__traits.hpp
+[39.178s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__struct.hpp
+[39.178s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__struct.hpp
+[39.178s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__struct.hpp
+[39.179s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__type_support.hpp
+[39.179s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__type_support.hpp
+[39.179s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__builder.hpp
+[39.179s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__builder.hpp
+[39.180s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__traits.hpp
+[39.180s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__builder.hpp
+[39.180s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/key_value.hpp
+[39.180s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_status.hpp
+[39.181s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/diagnostic_array.hpp
+[39.181s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[39.181s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[39.182s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[39.182s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[39.182s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__rosidl_typesupport_fastrtps_cpp.hpp
+[39.182s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__rosidl_typesupport_fastrtps_cpp.hpp
+[39.183s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/dds_fastrtps
+[39.183s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[39.183s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[39.184s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__rosidl_typesupport_fastrtps_cpp.hpp
+[39.184s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__rosidl_typesupport_fastrtps_cpp.hpp
+[39.184s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/dds_fastrtps
+[39.184s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__rosidl_typesupport_fastrtps_cpp.hpp
+[39.184s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[39.185s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_fastrtps_cpp.so
+[39.185s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[39.185s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs
+[39.185s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv
+[39.186s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail
+[39.186s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__type_support.cpp
+[39.186s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__rosidl_typesupport_introspection_cpp.hpp
+[39.186s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/self_test__type_support.cpp
+[39.186s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/srv/detail/add_diagnostics__rosidl_typesupport_introspection_cpp.hpp
+[39.187s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg
+[39.187s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail
+[39.187s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__type_support.cpp
+[39.188s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__rosidl_typesupport_introspection_cpp.hpp
+[39.188s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_array__type_support.cpp
+[39.188s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/key_value__rosidl_typesupport_introspection_cpp.hpp
+[39.189s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__rosidl_typesupport_introspection_cpp.hpp
+[39.189s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/include/diagnostic_msgs/diagnostic_msgs/msg/detail/diagnostic_status__type_support.cpp
+[39.189s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_introspection_cpp.so
+[39.189s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[39.189s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_cpp.so
+[39.190s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_typesupport_cpp.so" to ""
+[39.190s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/environment/pythonpath.sh
+[39.190s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/environment/pythonpath.dsv
+[39.190s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs-5.3.6-py3.12.egg-info
+[39.190s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs-5.3.6-py3.12.egg-info/top_level.txt
+[39.191s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs-5.3.6-py3.12.egg-info/SOURCES.txt
+[39.191s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs-5.3.6-py3.12.egg-info/dependency_links.txt
+[39.191s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs-5.3.6-py3.12.egg-info/PKG-INFO
+[39.191s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs
+[39.191s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/__init__.py
+[39.192s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_introspection_c.so
+[39.192s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/srv
+[39.192s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/srv/_self_test_s.c
+[39.193s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/srv/__init__.py
+[39.193s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/srv/_self_test.py
+[39.193s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/srv/_add_diagnostics.py
+[39.193s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/srv/_add_diagnostics_s.c
+[39.193s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_fastrtps_c.so
+[39.194s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg
+[39.194s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg/_diagnostic_status.py
+[39.194s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg/_diagnostic_array.py
+[39.194s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg/__init__.py
+[39.194s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg/_key_value_s.c
+[39.195s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg/_diagnostic_array_s.c
+[39.195s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg/_diagnostic_status_s.c
+[39.195s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg/_key_value.py
+[39.197s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_c.so
+[39.198s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[39.198s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_c.c
+[39.198s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/_diagnostic_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[39.300s] Listing '/home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs'...
+[39.301s] Compiling '/home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/__init__.py'...
+[39.301s] Listing '/home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg'...
+[39.301s] Compiling '/home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg/__init__.py'...
+[39.301s] Compiling '/home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg/_diagnostic_array.py'...
+[39.301s] Compiling '/home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg/_diagnostic_status.py'...
+[39.301s] Compiling '/home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/msg/_key_value.py'...
+[39.302s] Listing '/home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/srv'...
+[39.302s] Compiling '/home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/srv/__init__.py'...
+[39.302s] Compiling '/home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/srv/_add_diagnostics.py'...
+[39.302s] Compiling '/home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/srv/_self_test.py'...
+[39.311s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_fastrtps_c.so
+[39.312s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[39.312s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_introspection_c.so
+[39.313s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[39.313s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_c.so
+[39.314s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/python3.12/site-packages/diagnostic_msgs/diagnostic_msgs_s__rosidl_typesupport_c.so" to ""
+[39.314s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_generator_py.so
+[39.315s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/lib/libdiagnostic_msgs__rosidl_generator_py.so" to ""
+[39.315s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/msg/DiagnosticArray.idl
+[39.315s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/msg/DiagnosticStatus.idl
+[39.316s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/msg/KeyValue.idl
+[39.316s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/srv/AddDiagnostics.idl
+[39.316s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/srv/SelfTest.idl
+[39.316s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/msg/DiagnosticArray.msg
+[39.317s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/msg/DiagnosticStatus.msg
+[39.317s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/msg/KeyValue.msg
+[39.317s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/srv/AddDiagnostics.srv
+[39.317s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/srv/SelfTest.srv
+[39.318s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/ament_index/resource_index/package_run_dependencies/diagnostic_msgs
+[39.318s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/ament_index/resource_index/parent_prefix_path/diagnostic_msgs
+[39.318s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/environment/ament_prefix_path.sh
+[39.318s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/environment/ament_prefix_path.dsv
+[39.319s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/environment/path.sh
+[39.319s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/environment/path.dsv
+[39.319s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/local_setup.bash
+[39.320s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/local_setup.sh
+[39.320s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/local_setup.zsh
+[39.320s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/local_setup.dsv
+[39.320s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/package.dsv
+[39.321s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/ament_index/resource_index/packages/diagnostic_msgs
+[39.321s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_cExport.cmake
+[39.321s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_cExport-noconfig.cmake
+[39.322s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[39.322s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[39.322s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_introspection_cExport.cmake
+[39.322s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[39.323s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_cExport.cmake
+[39.323s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[39.323s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_cppExport.cmake
+[39.323s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[39.324s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[39.324s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[39.324s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[39.325s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_cppExport.cmake
+[39.325s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[39.325s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_pyExport.cmake
+[39.325s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/cmake/export_diagnostic_msgs__rosidl_generator_pyExport-noconfig.cmake
+[39.326s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/cmake/rosidl_cmake-extras.cmake
+[39.326s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[39.326s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[39.327s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[39.327s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[39.327s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[39.327s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[39.328s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgsConfig.cmake
+[39.328s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/cmake/diagnostic_msgsConfig-version.cmake
+[39.328s] -- Installing: /home/thomas/MobileRobot/ws_new/install/diagnostic_msgs/share/diagnostic_msgs/package.xml
+[39.332s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/diagnostic_msgs' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/diagnostic_msgs

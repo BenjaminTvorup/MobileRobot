@@ -1,0 +1,187 @@
+[0.151s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/nav2_costmap_2d': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_map_server:/home/thomas/MobileRobot/ws_new/install/nav2_lifecycle_manager:/home/thomas/MobileRobot/ws_new/install/nav2_util:/home/thomas/MobileRobot/ws_new/install/visualization_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_voxel_grid:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_map_server:/home/thomas/MobileRobot/ws_new/install/nav2_lifecycle_manager:/home/thomas/MobileRobot/ws_new/install/nav2_util:/home/thomas/MobileRobot/ws_new/install/visualization_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_voxel_grid:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_map_server/lib:/home/thomas/MobileRobot/ws_new/install/nav2_lifecycle_manager/lib:/home/thomas/MobileRobot/ws_new/install/nav2_util/lib:/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib:/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib:/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib:/home/thomas/MobileRobot/ws_new/install/nav2_voxel_grid/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/nav2_costmap_2d -- -j8 -l8
+[0.532s] [  2%] Built target gtest_main
+[0.532s] [  4%] Built target gtest
+[0.628s] [ 18%] Built target nav2_costmap_2d_core
+[0.685s] [ 21%] [32mBuilding CXX object CMakeFiles/filters.dir/plugins/costmap_filters/keepout_filter.cpp.o[0m
+[0.685s] [ 21%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/inflation_layer.cpp.o[0m
+[0.686s] [ 22%] [32mBuilding CXX object test/unit/CMakeFiles/collision_footprint_test.dir/footprint_collision_checker_test.cpp.o[0m
+[0.688s] [ 23%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_cloud.dir/src/costmap_2d_cloud.cpp.o[0m
+[0.690s] [ 24%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_markers.dir/src/costmap_2d_markers.cpp.o[0m
+[0.694s] [ 26%] [32mBuilding CXX object test/unit/CMakeFiles/costmap_cost_service_test.dir/costmap_cost_service_test.cpp.o[0m
+[0.694s] [ 26%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/footprint_subscriber.cpp.o[0m
+[0.726s] [ 27%] [32mBuilding CXX object test/unit/CMakeFiles/costmap_convesion_test.dir/costmap_conversion_test.cpp.o[0m
+[12.469s] [ 28%] [32m[1mLinking CXX executable costmap_convesion_test[0m
+[15.476s] [ 30%] [32m[1mLinking CXX executable collision_footprint_test[0m
+[15.719s] [ 30%] Built target costmap_convesion_test
+[15.806s] [ 31%] [32mBuilding CXX object test/unit/CMakeFiles/declare_parameter_test.dir/declare_parameter_test.cpp.o[0m
+[16.112s] [ 31%] Built target collision_footprint_test
+[16.134s] [ 32%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/costmap_subscriber.cpp.o[0m
+[19.380s] [ 33%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/static_layer.cpp.o[0m
+[19.888s] [ 34%] [32m[1mLinking CXX executable costmap_cost_service_test[0m
+[20.632s] [ 34%] Built target costmap_cost_service_test
+[20.655s] [ 35%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d_client.dir/src/costmap_topic_collision_checker.cpp.o[0m
+[27.496s] [ 36%] [32mBuilding CXX object CMakeFiles/filters.dir/plugins/costmap_filters/speed_filter.cpp.o[0m
+[27.847s] [ 37%] [32m[1mLinking CXX executable nav2_costmap_2d_markers[0m
+[28.265s] [ 38%] [32m[1mLinking CXX executable declare_parameter_test[0m
+[28.505s] [ 38%] Built target nav2_costmap_2d_markers
+[28.528s] [ 40%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/obstacle_layer.cpp.o[0m
+[28.969s] [ 40%] Built target declare_parameter_test
+[28.992s] [ 41%] [32mBuilding CXX object CMakeFiles/layers.dir/src/observation_buffer.cpp.o[0m
+[29.056s] [ 42%] [32m[1mLinking CXX executable nav2_costmap_2d_cloud[0m
+[29.458s] [ 43%] [32mBuilding CXX object test/unit/CMakeFiles/costmap_filter_test.dir/costmap_filter_test.cpp.o[0m
+[29.697s] [ 43%] Built target nav2_costmap_2d_cloud
+[29.722s] [ 44%] [32mBuilding CXX object CMakeFiles/filters.dir/plugins/costmap_filters/binary_filter.cpp.o[0m
+[34.200s] [ 45%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/voxel_layer.cpp.o[0m
+[39.395s] [ 46%] [32m[1mLinking CXX executable costmap_filter_test[0m
+[40.102s] [ 46%] Built target costmap_filter_test
+[40.126s] [ 47%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/range_sensor_layer.cpp.o[0m
+[42.027s] [ 48%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/denoise_layer.cpp.o[0m
+[46.691s] [ 50%] [32m[1mLinking CXX shared library libnav2_costmap_2d_client.so[0m
+[47.659s] [ 50%] Built target nav2_costmap_2d_client
+[47.683s] [ 51%] [32mBuilding CXX object CMakeFiles/layers.dir/plugins/plugin_container_layer.cpp.o[0m
+[52.845s] [ 52%] [32mBuilding CXX object test/unit/CMakeFiles/copy_window_test.dir/copy_window_test.cpp.o[0m
+[55.002s] [ 53%] [32mBuilding CXX object test/unit/CMakeFiles/costmap_filter_service_test.dir/costmap_filter_service_test.cpp.o[0m
+[56.291s] [ 54%] [32mBuilding CXX object test/unit/CMakeFiles/lifecycle_test.dir/lifecycle_test.cpp.o[0m
+[60.945s] [ 55%] [32m[1mLinking CXX executable copy_window_test[0m
+[61.633s] [ 55%] Built target copy_window_test
+[61.712s] [ 56%] [32mBuilding CXX object test/integration/CMakeFiles/dyn_params_tests.dir/dyn_params_tests.cpp.o[0m
+[61.931s] [ 57%] [32mBuilding CXX object test/integration/CMakeFiles/test_costmap_subscriber_exec.dir/test_costmap_subscriber.cpp.o[0m
+[65.166s] [ 58%] [32m[1mLinking CXX shared library libfilters.so[0m
+[65.669s] [ 60%] [32mBuilding CXX object test/regression/CMakeFiles/costmap_bresenham_2d.dir/costmap_bresenham_2d.cpp.o[0m
+[66.036s] [ 60%] Built target filters
+[66.102s] [ 61%] [32mBuilding CXX object test/regression/CMakeFiles/order_layer.dir/order_layer.cpp.o[0m
+[68.144s] [ 62%] [32m[1mLinking CXX executable costmap_filter_service_test[0m
+[68.878s] [ 62%] Built target costmap_filter_service_test
+[68.936s] [ 63%] [32mBuilding CXX object test/regression/CMakeFiles/plugin_api_order.dir/plugin_api_order.cpp.o[0m
+[68.979s] [ 64%] [32m[1mLinking CXX executable lifecycle_test[0m
+[69.194s] [ 65%] [32m[1mLinking CXX executable costmap_bresenham_2d[0m
+[69.711s] [ 65%] Built target lifecycle_test
+[69.789s] [ 66%] [32mBuilding CXX object test/unit/CMakeFiles/keepout_filter_test.dir/keepout_filter_test.cpp.o[0m
+[69.825s] [ 66%] Built target costmap_bresenham_2d
+[69.878s] [ 67%] [32mBuilding CXX object test/unit/CMakeFiles/speed_filter_test.dir/speed_filter_test.cpp.o[0m
+[73.737s] [ 68%] [32mBuilding CXX object test/unit/CMakeFiles/binary_filter_test.dir/binary_filter_test.cpp.o[0m
+[73.778s] [ 70%] [32m[1mLinking CXX shared library liblayers.so[0m
+[74.836s] [ 71%] [32m[1mLinking CXX shared library liborder_layer.so[0m
+[74.842s] [ 71%] Built target layers
+[74.931s] [ 72%] [32mBuilding CXX object CMakeFiles/nav2_costmap_2d.dir/src/costmap_2d_node.cpp.o[0m
+[75.290s] [ 72%] Built target order_layer
+[75.346s] [ 73%] [32mBuilding CXX object test/unit/CMakeFiles/denoise_layer_test.dir/denoise_layer_test.cpp.o[0m
+[78.949s] [ 74%] [32m[1mLinking CXX executable dyn_params_tests[0m
+[79.696s] [ 74%] Built target dyn_params_tests
+[79.719s] [ 75%] [32mBuilding CXX object test/unit/CMakeFiles/denoise_layer_test.dir/image_test.cpp.o[0m
+[81.366s] [ 76%] [32m[1mLinking CXX executable plugin_api_order[0m
+[82.071s] [ 76%] Built target plugin_api_order
+[82.097s] [ 77%] [32mBuilding CXX object test/unit/CMakeFiles/denoise_layer_test.dir/image_processing_test.cpp.o[0m
+[83.986s] [ 78%] [32mBuilding CXX object test/integration/CMakeFiles/footprint_tests_exec.dir/footprint_tests.cpp.o[0m
+[86.282s] [ 80%] [32m[1mLinking CXX executable nav2_costmap_2d[0m
+[86.945s] [ 80%] Built target nav2_costmap_2d
+[87.002s] [ 81%] [32mBuilding CXX object test/integration/CMakeFiles/test_collision_checker_exec.dir/test_costmap_topic_collision_checker.cpp.o[0m
+[90.407s] [ 82%] [32mBuilding CXX object test/integration/CMakeFiles/inflation_tests_exec.dir/inflation_tests.cpp.o[0m
+[90.431s] [ 83%] [32m[1mLinking CXX executable denoise_layer_test[0m
+[91.439s] [ 83%] Built target denoise_layer_test
+[91.497s] [ 84%] [32mBuilding CXX object test/integration/CMakeFiles/obstacle_tests_exec.dir/obstacle_tests.cpp.o[0m
+[92.392s] [ 85%] [32m[1mLinking CXX executable keepout_filter_test[0m
+[93.368s] [ 85%] Built target keepout_filter_test
+[93.425s] [ 86%] [32mBuilding CXX object test/integration/CMakeFiles/range_tests_exec.dir/range_tests.cpp.o[0m
+[94.572s] [ 87%] [32m[1mLinking CXX executable footprint_tests_exec[0m
+[95.296s] [ 87%] Built target footprint_tests_exec
+[95.372s] [ 88%] [32m[1mLinking CXX executable test_costmap_subscriber_exec[0m
+[95.388s] [ 90%] [32mBuilding CXX object test/integration/CMakeFiles/plugin_container_tests_exec.dir/plugin_container_tests.cpp.o[0m
+[96.415s] [ 90%] Built target test_costmap_subscriber_exec
+[96.480s] [ 91%] [32mBuilding CXX object test/integration/CMakeFiles/test_costmap_publisher_exec.dir/test_costmap_2d_publisher.cpp.o[0m
+[107.307s] [ 92%] [32m[1mLinking CXX executable speed_filter_test[0m
+[108.463s] [ 92%] Built target speed_filter_test
+[110.886s] [ 93%] [32m[1mLinking CXX executable binary_filter_test[0m
+[111.974s] [ 93%] Built target binary_filter_test
+[118.816s] [ 94%] [32m[1mLinking CXX executable obstacle_tests_exec[0m
+[119.729s] [ 94%] Built target obstacle_tests_exec
+[119.943s] [ 95%] [32m[1mLinking CXX executable test_collision_checker_exec[0m
+[120.020s] [ 96%] [32m[1mLinking CXX executable range_tests_exec[0m
+[120.793s] [ 96%] Built target test_collision_checker_exec
+[120.835s] [ 96%] Built target range_tests_exec
+[121.600s] [ 97%] [32m[1mLinking CXX executable inflation_tests_exec[0m
+[122.190s] [ 97%] Built target inflation_tests_exec
+[122.295s] [ 98%] [32m[1mLinking CXX executable test_costmap_publisher_exec[0m
+[122.739s] [ 98%] Built target test_costmap_publisher_exec
+[124.959s] [100%] [32m[1mLinking CXX executable plugin_container_tests_exec[0m
+[125.425s] [100%] Built target plugin_container_tests_exec
+[125.526s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/nav2_costmap_2d' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_map_server:/home/thomas/MobileRobot/ws_new/install/nav2_lifecycle_manager:/home/thomas/MobileRobot/ws_new/install/nav2_util:/home/thomas/MobileRobot/ws_new/install/visualization_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_voxel_grid:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_map_server:/home/thomas/MobileRobot/ws_new/install/nav2_lifecycle_manager:/home/thomas/MobileRobot/ws_new/install/nav2_util:/home/thomas/MobileRobot/ws_new/install/visualization_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_voxel_grid:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_map_server/lib:/home/thomas/MobileRobot/ws_new/install/nav2_lifecycle_manager/lib:/home/thomas/MobileRobot/ws_new/install/nav2_util/lib:/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib:/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib:/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib:/home/thomas/MobileRobot/ws_new/install/nav2_voxel_grid/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/nav2_costmap_2d -- -j8 -l8
+[125.568s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/nav2_costmap_2d': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_map_server:/home/thomas/MobileRobot/ws_new/install/nav2_lifecycle_manager:/home/thomas/MobileRobot/ws_new/install/nav2_util:/home/thomas/MobileRobot/ws_new/install/visualization_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_voxel_grid:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_map_server:/home/thomas/MobileRobot/ws_new/install/nav2_lifecycle_manager:/home/thomas/MobileRobot/ws_new/install/nav2_util:/home/thomas/MobileRobot/ws_new/install/visualization_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_voxel_grid:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_map_server/lib:/home/thomas/MobileRobot/ws_new/install/nav2_lifecycle_manager/lib:/home/thomas/MobileRobot/ws_new/install/nav2_util/lib:/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib:/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib:/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib:/home/thomas/MobileRobot/ws_new/install/nav2_voxel_grid/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/nav2_costmap_2d
+[125.612s] -- Install configuration: "Release"
+[125.613s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/lib/liblayers.so
+[125.620s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/lib/liblayers.so" to ""
+[125.620s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/lib/libfilters.so
+[125.624s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/lib/libfilters.so" to ""
+[125.624s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so
+[125.661s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/lib/libnav2_costmap_2d_core.so" to ""
+[125.661s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so
+[125.663s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/lib/libnav2_costmap_2d_client.so" to ""
+[125.664s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_markers
+[125.665s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_markers" to ""
+[125.666s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_cloud
+[125.667s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d_cloud" to ""
+[125.668s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d
+[125.668s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/lib/nav2_costmap_2d/nav2_costmap_2d" to ""
+[125.668s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml
+[125.680s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d
+[125.680s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d
+[125.680s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/observation.hpp
+[125.681s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/denoise_layer.hpp
+[125.681s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d.hpp
+[125.681s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/exceptions.hpp
+[125.681s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layer.hpp
+[125.681s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_topic_collision_checker.hpp
+[125.681s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/cost_values.hpp
+[125.682s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_math.hpp
+[125.682s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint.hpp
+[125.682s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/voxel_layer.hpp
+[125.682s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint_collision_checker.hpp
+[125.682s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_subscriber.hpp
+[125.683s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/layered_costmap.hpp
+[125.683s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters
+[125.683s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/costmap_filter.hpp
+[125.684s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/binary_filter.hpp
+[125.684s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/keepout_filter.hpp
+[125.684s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/speed_filter.hpp
+[125.684s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_filters/filter_values.hpp
+[125.684s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_publisher.hpp
+[125.685s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/observation_buffer.hpp
+[125.685s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/clear_costmap_service.hpp
+[125.685s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/plugin_container_layer.hpp
+[125.685s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_2d_ros.hpp
+[125.685s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/costmap_layer.hpp
+[125.685s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/obstacle_layer.hpp
+[125.686s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/denoise
+[125.686s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/denoise/image.hpp
+[125.686s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/denoise/image_processing.hpp
+[125.686s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/footprint_subscriber.hpp
+[125.687s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/static_layer.hpp
+[125.687s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/inflation_layer.hpp
+[125.687s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/include/nav2_costmap_2d/nav2_costmap_2d/range_sensor_layer.hpp
+[125.687s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/share/nav2_costmap_2d/test/regression/order_layer.xml
+[125.693s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.sh
+[125.711s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/library_path.dsv
+[125.726s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/share/nav2_costmap_2d/costmap_plugins.xml
+[125.726s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/share/ament_index/resource_index/package_run_dependencies/nav2_costmap_2d
+[125.727s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/share/ament_index/resource_index/parent_prefix_path/nav2_costmap_2d
+[125.728s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.sh
+[125.748s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/ament_prefix_path.dsv
+[125.748s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.sh
+[125.749s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/share/nav2_costmap_2d/environment/path.dsv
+[125.750s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.bash
+[125.750s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.sh
+[125.751s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.zsh
+[125.752s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/share/nav2_costmap_2d/local_setup.dsv
+[125.752s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/share/nav2_costmap_2d/package.dsv
+[125.753s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/share/ament_index/resource_index/packages/nav2_costmap_2d
+[125.754s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/share/ament_index/resource_index/nav2_costmap_2d__pluginlib__plugin/nav2_costmap_2d
+[125.769s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/export_nav2_costmap_2dExport.cmake
+[125.770s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/export_nav2_costmap_2dExport-release.cmake
+[125.771s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_targets-extras.cmake
+[125.771s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/ament_cmake_export_dependencies-extras.cmake
+[125.772s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig.cmake
+[125.773s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/share/nav2_costmap_2d/cmake/nav2_costmap_2dConfig-version.cmake
+[125.774s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/share/nav2_costmap_2d/package.xml
+[125.799s] -- Installing: /home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/lib/liborder_layer.so
+[125.801s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/nav2_costmap_2d/lib/liborder_layer.so" to ""
+[125.808s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/nav2_costmap_2d' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_map_server:/home/thomas/MobileRobot/ws_new/install/nav2_lifecycle_manager:/home/thomas/MobileRobot/ws_new/install/nav2_util:/home/thomas/MobileRobot/ws_new/install/visualization_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_voxel_grid:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_map_server:/home/thomas/MobileRobot/ws_new/install/nav2_lifecycle_manager:/home/thomas/MobileRobot/ws_new/install/nav2_util:/home/thomas/MobileRobot/ws_new/install/visualization_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_msgs:/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/nav_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_voxel_grid:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_srvs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/home/thomas/MobileRobot/ws_new/install/nav2_common:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/nav2_map_server/lib:/home/thomas/MobileRobot/ws_new/install/nav2_lifecycle_manager/lib:/home/thomas/MobileRobot/ws_new/install/nav2_util/lib:/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib:/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib:/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib:/home/thomas/MobileRobot/ws_new/install/nav2_voxel_grid/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav2_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_srvs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/nav2_common/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/nav2_costmap_2d

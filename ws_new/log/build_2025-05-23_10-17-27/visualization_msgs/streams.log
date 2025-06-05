@@ -1,0 +1,661 @@
+[0.041s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/visualization_msgs': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/thomas/MobileRobot/ws_new/src/common_interfaces/visualization_msgs -DCMAKE_INSTALL_PREFIX=/home/thomas/MobileRobot/ws_new/install/visualization_msgs
+[0.136s] -- The C compiler identification is GNU 13.3.0
+[0.234s] -- The CXX compiler identification is GNU 13.3.0
+[0.264s] -- Detecting C compiler ABI info
+[0.499s] -- Detecting C compiler ABI info - done
+[0.520s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.522s] -- Detecting C compile features
+[0.522s] -- Detecting C compile features - done
+[0.538s] -- Detecting CXX compiler ABI info
+[0.699s] -- Detecting CXX compiler ABI info - done
+[0.715s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.715s] -- Detecting CXX compile features
+[0.716s] -- Detecting CXX compile features - done
+[0.724s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.998s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.246s] -- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[1.342s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.375s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.408s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.443s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.474s] -- Found geometry_msgs: 5.3.6 (/home/thomas/MobileRobot/ws_new/install/geometry_msgs/share/geometry_msgs/cmake)
+[1.529s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.562s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.565s] -- Found sensor_msgs: 5.3.6 (/home/thomas/MobileRobot/ws_new/install/sensor_msgs/share/sensor_msgs/cmake)
+[3.183s] -- Found ament_cmake_cppcheck: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[3.229s] -- Found ament_cmake_cpplint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[3.267s] -- Found ament_cmake_uncrustify: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[3.304s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[5.530s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.366s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.380s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[6.649s] -- Found PythonExtra: /usr/bin/python3  
+[7.514s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[7.713s] -- Found ament_cmake_flake8: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[7.724s] -- Found ament_cmake_pep257: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[7.742s] -- Configuring done (7.7s)
+[7.933s] -- Generating done (0.2s)
+[7.970s] -- Build files have been written to: /home/thomas/MobileRobot/ws_new/build/visualization_msgs
+[7.994s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/visualization_msgs' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/thomas/MobileRobot/ws_new/src/common_interfaces/visualization_msgs -DCMAKE_INSTALL_PREFIX=/home/thomas/MobileRobot/ws_new/install/visualization_msgs
+[7.996s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/visualization_msgs': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/visualization_msgs -- -j8 -l8
+[8.155s] [  0%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[8.166s] [  0%] Built target ament_cmake_python_copy_visualization_msgs
+[8.824s] running egg_info
+[8.827s] creating visualization_msgs.egg-info
+[8.913s] writing visualization_msgs.egg-info/PKG-INFO
+[8.913s] writing dependency_links to visualization_msgs.egg-info/dependency_links.txt
+[8.913s] writing top-level names to visualization_msgs.egg-info/top_level.txt
+[8.913s] writing manifest file 'visualization_msgs.egg-info/SOURCES.txt'
+[9.184s] reading manifest file 'visualization_msgs.egg-info/SOURCES.txt'
+[9.185s] writing manifest file 'visualization_msgs.egg-info/SOURCES.txt'
+[9.262s] [  0%] Built target ament_cmake_python_build_visualization_msgs_egg
+[11.812s] [  0%] Built target visualization_msgs__rosidl_generator_type_description
+[11.870s] [  0%] [34m[1mGenerating C code for ROS interfaces[0m
+[11.927s] [  0%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[17.754s] [  0%] Built target visualization_msgs__cpp
+[18.619s] [  1%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/image_marker__description.c.o[0m
+[18.689s] [  2%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_control__functions.c.o[0m
+[18.775s] [  2%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_control__type_support.c.o[0m
+[18.830s] [  3%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_feedback__description.c.o[0m
+[18.900s] [  4%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_feedback__functions.c.o[0m
+[18.990s] [  4%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.c.o[0m
+[19.049s] [  5%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_init__description.c.o[0m
+[19.133s] [  6%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_init__functions.c.o[0m
+[19.213s] [  6%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_init__type_support.c.o[0m
+[19.266s] [  7%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_pose__description.c.o[0m
+[19.333s] [  7%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_pose__functions.c.o[0m
+[19.411s] [  8%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_pose__type_support.c.o[0m
+[19.459s] [  9%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_update__description.c.o[0m
+[19.536s] [  9%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_update__functions.c.o[0m
+[19.613s] [ 10%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_update__type_support.c.o[0m
+[19.664s] [ 11%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/marker__description.c.o[0m
+[19.737s] [ 11%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/marker__functions.c.o[0m
+[19.825s] [ 12%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/marker__type_support.c.o[0m
+[19.884s] [ 13%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/marker_array__description.c.o[0m
+[19.962s] [ 13%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/marker_array__functions.c.o[0m
+[20.040s] [ 14%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/marker_array__type_support.c.o[0m
+[20.096s] [ 15%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/menu_entry__description.c.o[0m
+[20.152s] [ 15%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/menu_entry__functions.c.o[0m
+[20.226s] [ 16%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/menu_entry__type_support.c.o[0m
+[20.276s] [ 17%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/mesh_file__description.c.o[0m
+[20.332s] [ 17%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/mesh_file__functions.c.o[0m
+[20.406s] [ 18%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/mesh_file__type_support.c.o[0m
+[20.458s] [ 19%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/uv_coordinate__description.c.o[0m
+[20.518s] [ 19%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/uv_coordinate__functions.c.o[0m
+[20.588s] [ 20%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/uv_coordinate__type_support.c.o[0m
+[20.635s] [ 20%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/srv/detail/get_interactive_markers__description.c.o[0m
+[20.744s] [ 21%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/srv/detail/get_interactive_markers__functions.c.o[0m
+[20.854s] [ 22%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/srv/detail/get_interactive_markers__type_support.c.o[0m
+[20.920s] [ 23%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker_control__description.c.o[0m
+[20.997s] [ 23%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker__type_support.c.o[0m
+[21.048s] [ 24%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker__functions.c.o[0m
+[21.136s] [ 25%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/interactive_marker__description.c.o[0m
+[21.212s] [ 25%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/image_marker__type_support.c.o[0m
+[21.266s] [ 26%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_c.dir/rosidl_generator_c/visualization_msgs/msg/detail/image_marker__functions.c.o[0m
+[21.352s] [ 26%] [32m[1mLinking C shared library libvisualization_msgs__rosidl_generator_c.so[0m
+[21.430s] [ 26%] Built target visualization_msgs__rosidl_generator_c
+[21.447s] [ 27%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[23.428s] [ 27%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/image_marker__type_support.cpp.o[0m
+[23.836s] [ 28%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_control__type_support.cpp.o[0m
+[24.248s] [ 28%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_feedback__type_support.cpp.o[0m
+[24.647s] [ 29%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_init__type_support.cpp.o[0m
+[25.056s] [ 29%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_pose__type_support.cpp.o[0m
+[25.464s] [ 30%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker_update__type_support.cpp.o[0m
+[25.878s] [ 31%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/marker__type_support.cpp.o[0m
+[26.287s] [ 31%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/marker_array__type_support.cpp.o[0m
+[26.692s] [ 32%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/menu_entry__type_support.cpp.o[0m
+[27.098s] [ 33%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/mesh_file__type_support.cpp.o[0m
+[27.098s] [ 34%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/interactive_marker__type_support.cpp.o[0m
+[27.748s] [ 34%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/msg/uv_coordinate__type_support.cpp.o[0m
+[27.776s] [ 35%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/visualization_msgs/srv/get_interactive_markers__type_support.cpp.o[0m
+[28.613s] [ 36%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_cpp.so[0m
+[28.749s] [ 36%] Built target visualization_msgs__rosidl_typesupport_cpp
+[28.769s] [ 37%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[28.771s] [ 38%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[28.773s] [ 39%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[32.607s] [ 40%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker__type_support.cpp.o[0m
+[32.612s] [ 40%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/image_marker__type_support.cpp.o[0m
+[32.635s] [ 40%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/image_marker__type_support.c.o[0m
+[32.749s] [ 41%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker__type_support.c.o[0m
+[32.761s] [ 41%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_feedback__type_support.cpp.o[0m
+[32.774s] [ 42%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_control__type_support.cpp.o[0m
+[32.781s] [ 43%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_control__type_support.c.o[0m
+[32.902s] [ 44%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_init__type_support.cpp.o[0m
+[32.928s] [ 45%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_pose__type_support.c.o[0m
+[32.992s] [ 45%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/image_marker__type_support.cpp.o[0m
+[33.015s] [ 46%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_pose__type_support.cpp.o[0m
+[33.025s] [ 46%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_update__type_support.c.o[0m
+[33.126s] [ 46%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/interactive_marker_update__type_support.cpp.o[0m
+[33.141s] [ 47%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/marker__type_support.c.o[0m
+[33.230s] [ 48%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker__type_support.cpp.o[0m
+[33.254s] [ 49%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/marker__type_support.cpp.o[0m
+[33.295s] [ 50%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_init__type_support.c.o[0m
+[33.397s] [ 51%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/marker_array__type_support.cpp.o[0m
+[33.410s] [ 51%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.c.o[0m
+[33.509s] [ 51%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/menu_entry__type_support.cpp.o[0m
+[33.557s] [ 52%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/marker_array__type_support.c.o[0m
+[33.637s] [ 53%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/mesh_file__type_support.cpp.o[0m
+[33.702s] [ 53%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/menu_entry__type_support.c.o[0m
+[33.746s] [ 54%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/msg/uv_coordinate__type_support.cpp.o[0m
+[33.800s] [ 55%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/mesh_file__type_support.c.o[0m
+[33.844s] [ 55%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/visualization_msgs/srv/get_interactive_markers__type_support.cpp.o[0m
+[33.910s] [ 56%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/msg/detail/uv_coordinate__type_support.c.o[0m
+[33.996s] [ 57%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_c.so[0m
+[34.010s] [ 57%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/visualization_msgs/srv/detail/get_interactive_markers__type_support.c.o[0m
+[34.065s] [ 58%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.cpp.o[0m
+[34.109s] [ 58%] Built target visualization_msgs__rosidl_typesupport_c
+[34.134s] [ 59%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[34.197s] [ 60%] [32m[1mLinking C shared library libvisualization_msgs__rosidl_typesupport_introspection_c.so[0m
+[34.308s] [ 60%] Built target visualization_msgs__rosidl_typesupport_introspection_c
+[34.345s] [ 60%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[34.782s] [ 61%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_update__type_support.cpp.o[0m
+[34.892s] [ 62%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/marker__type_support.cpp.o[0m
+[35.914s] [ 62%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/marker_array__type_support.cpp.o[0m
+[36.673s] [ 63%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/menu_entry__type_support.cpp.o[0m
+[37.560s] [ 63%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/uv_coordinate__type_support.cpp.o[0m
+[38.174s] [ 64%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/srv/detail/get_interactive_markers__type_support.cpp.o[0m
+[38.604s] [ 65%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/image_marker__type_support.cpp.o[0m
+[39.390s] [ 65%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker__type_support.cpp.o[0m
+[39.784s] [ 66%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/image_marker__type_support_c.cpp.o[0m
+[39.798s] [ 67%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/mesh_file__type_support.cpp.o[0m
+[40.230s] [ 68%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_feedback__type_support.cpp.o[0m
+[40.276s] [ 68%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_pose__type_support.cpp.o[0m
+[40.716s] [ 69%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_init__type_support.cpp.o[0m
+[40.826s] [ 70%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_feedback__type_support_c.cpp.o[0m
+[40.906s] [ 70%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_init__type_support.cpp.o[0m
+[41.721s] [ 70%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/visualization_msgs/msg/detail/interactive_marker_control__type_support.cpp.o[0m
+[41.849s] [ 71%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_init__type_support_c.cpp.o[0m
+[41.996s] [ 72%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_update__type_support.cpp.o[0m
+[42.513s] [ 73%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[42.724s] [ 73%] Built target visualization_msgs__rosidl_typesupport_introspection_cpp
+[42.816s] [ 74%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_update__type_support_c.cpp.o[0m
+[42.975s] [ 74%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/marker__type_support.cpp.o[0m
+[43.501s] [ 74%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/marker__type_support_c.cpp.o[0m
+[43.786s] [ 75%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/marker_array__type_support.cpp.o[0m
+[44.207s] [ 76%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/marker_array__type_support_c.cpp.o[0m
+[44.531s] [ 77%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/menu_entry__type_support.cpp.o[0m
+[44.820s] [ 78%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/menu_entry__type_support_c.cpp.o[0m
+[45.154s] [ 78%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/mesh_file__type_support.cpp.o[0m
+[45.443s] [ 78%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/mesh_file__type_support_c.cpp.o[0m
+[45.813s] [ 79%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/uv_coordinate__type_support.cpp.o[0m
+[46.070s] [ 80%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/uv_coordinate__type_support_c.cpp.o[0m
+[46.421s] [ 80%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/srv/detail/dds_fastrtps/get_interactive_markers__type_support.cpp.o[0m
+[46.679s] [ 81%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/srv/detail/get_interactive_markers__type_support_c.cpp.o[0m
+[47.711s] [ 81%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_control__type_support_c.cpp.o[0m
+[47.711s] [ 81%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker_pose__type_support_c.cpp.o[0m
+[48.181s] [ 82%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_pose__type_support.cpp.o[0m
+[48.184s] [ 83%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/visualization_msgs/msg/detail/dds_fastrtps/interactive_marker_control__type_support.cpp.o[0m
+[48.962s] [ 84%] [32mBuilding CXX object CMakeFiles/visualization_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/visualization_msgs/msg/detail/interactive_marker__type_support_c.cpp.o[0m
+[49.617s] [ 85%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[49.778s] [ 85%] Built target visualization_msgs__rosidl_typesupport_fastrtps_cpp
+[49.850s] [ 85%] [32m[1mLinking CXX shared library libvisualization_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[49.988s] [ 85%] Built target visualization_msgs__rosidl_typesupport_fastrtps_c
+[50.020s] [ 85%] Built target visualization_msgs
+[50.053s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[55.034s] [ 86%] Built target visualization_msgs__py
+[55.069s] [ 87%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_image_marker_s.c.o[0m
+[55.073s] [ 88%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_s.c.o[0m
+[55.295s] [ 89%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_marker_s.c.o[0m
+[55.407s] [ 89%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_marker_array_s.c.o[0m
+[55.555s] [ 90%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_menu_entry_s.c.o[0m
+[55.704s] [ 91%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_mesh_file_s.c.o[0m
+[55.800s] [ 91%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_uv_coordinate_s.c.o[0m
+[56.020s] [ 92%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/srv/_get_interactive_markers_s.c.o[0m
+[56.105s] [ 93%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_update_s.c.o[0m
+[56.298s] [ 93%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_pose_s.c.o[0m
+[56.449s] [ 94%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_init_s.c.o[0m
+[56.497s] [ 95%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_feedback_s.c.o[0m
+[56.732s] [ 95%] [32mBuilding C object CMakeFiles/visualization_msgs__rosidl_generator_py.dir/rosidl_generator_py/visualization_msgs/msg/_interactive_marker_control_s.c.o[0m
+[57.132s] [ 96%] [32m[1mLinking C shared library libvisualization_msgs__rosidl_generator_py.so[0m
+[57.285s] [ 96%] Built target visualization_msgs__rosidl_generator_py
+[57.365s] [ 96%] [32mBuilding C object CMakeFiles/visualization_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[57.365s] [ 97%] [32mBuilding C object CMakeFiles/visualization_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[57.390s] [ 98%] [32mBuilding C object CMakeFiles/visualization_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[57.800s] [ 98%] [32m[1mLinking C shared module rosidl_generator_py/visualization_msgs/visualization_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[57.806s] [ 99%] [32m[1mLinking C shared module rosidl_generator_py/visualization_msgs/visualization_msgs_s__rosidl_typesupport_c.so[0m
+[57.809s] [100%] [32m[1mLinking C shared module rosidl_generator_py/visualization_msgs/visualization_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[57.899s] [100%] Built target visualization_msgs_s__rosidl_typesupport_introspection_c
+[57.960s] [100%] Built target visualization_msgs_s__rosidl_typesupport_fastrtps_c
+[57.963s] [100%] Built target visualization_msgs_s__rosidl_typesupport_c
+[57.996s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/visualization_msgs' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/visualization_msgs -- -j8 -l8
+[57.996s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/visualization_msgs': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/visualization_msgs
+[58.030s] -- Install configuration: ""
+[58.030s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/ament_index/resource_index/rosidl_interfaces/visualization_msgs
+[58.035s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/ImageMarker.json
+[58.035s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarker.json
+[58.035s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerControl.json
+[58.036s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerFeedback.json
+[58.036s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerInit.json
+[58.036s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerPose.json
+[58.036s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerUpdate.json
+[58.036s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/Marker.json
+[58.037s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/MarkerArray.json
+[58.041s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/MenuEntry.json
+[58.041s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/MeshFile.json
+[58.041s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/UVCoordinate.json
+[58.041s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/srv/GetInteractiveMarkers.json
+[58.042s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs
+[58.042s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv
+[58.042s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail
+[58.042s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__struct.h
+[58.042s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__description.c
+[58.043s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__type_support.c
+[58.043s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__functions.c
+[58.043s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__functions.h
+[58.043s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__type_support.h
+[58.043s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/get_interactive_markers.h
+[58.043s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg
+[58.044s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail
+[58.044s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__type_support.h
+[58.044s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__description.c
+[58.044s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__type_support.c
+[58.049s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__struct.h
+[58.049s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__functions.h
+[58.049s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__functions.h
+[58.049s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.h
+[58.050s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__struct.h
+[58.050s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__type_support.c
+[58.050s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__type_support.c
+[58.050s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__type_support.c
+[58.050s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__functions.h
+[58.051s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__struct.h
+[58.051s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__functions.c
+[58.051s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__description.c
+[58.052s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__description.c
+[58.055s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.h
+[58.056s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__struct.h
+[58.056s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__functions.c
+[58.056s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__struct.h
+[58.056s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.h
+[58.057s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.c
+[58.057s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__description.c
+[58.057s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__struct.h
+[58.057s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.h
+[58.057s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__functions.c
+[58.057s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__functions.c
+[58.058s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__description.c
+[58.058s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__struct.h
+[58.058s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__functions.h
+[58.058s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__functions.h
+[58.058s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__type_support.h
+[58.058s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__type_support.h
+[58.059s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.c
+[58.059s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.h
+[58.059s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__functions.h
+[58.059s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__functions.c
+[58.059s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__description.c
+[58.059s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.h
+[58.060s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__functions.c
+[58.060s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__struct.h
+[58.060s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__functions.h
+[58.060s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.c
+[58.060s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__type_support.c
+[58.061s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__functions.h
+[58.061s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__description.c
+[58.061s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__functions.c
+[58.061s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__description.c
+[58.061s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__type_support.c
+[58.061s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.h
+[58.061s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__type_support.c
+[58.062s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__description.c
+[58.062s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__functions.h
+[58.062s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__functions.h
+[58.062s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__functions.c
+[58.062s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__functions.c
+[58.062s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__functions.c
+[58.062s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__type_support.h
+[58.063s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__type_support.c
+[58.063s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__functions.c
+[58.063s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__functions.h
+[58.063s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__description.c
+[58.067s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__type_support.h
+[58.067s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__functions.c
+[58.067s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__type_support.h
+[58.068s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__type_support.h
+[58.068s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__type_support.h
+[58.068s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__description.c
+[58.068s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__description.c
+[58.068s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__type_support.c
+[58.068s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__type_support.h
+[58.069s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__functions.h
+[58.069s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_init.h
+[58.069s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/marker_array.h
+[58.069s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/mesh_file.h
+[58.069s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/menu_entry.h
+[58.069s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_update.h
+[58.069s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/marker.h
+[58.070s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_generator_c__visibility_control.h
+[58.070s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_pose.h
+[58.070s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/uv_coordinate.h
+[58.071s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker.h
+[58.071s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_control.h
+[58.072s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/image_marker.h
+[58.073s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_feedback.h
+[58.073s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/environment/library_path.sh
+[58.074s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/environment/library_path.dsv
+[58.075s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/libvisualization_msgs__rosidl_generator_c.so
+[58.077s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/libvisualization_msgs__rosidl_generator_c.so" to ""
+[58.078s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs
+[58.078s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv
+[58.079s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail
+[58.079s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_fastrtps_c.h
+[58.080s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg
+[58.080s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail
+[58.081s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_fastrtps_c.h
+[58.082s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_fastrtps_c.h
+[58.082s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_fastrtps_c.h
+[58.083s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_fastrtps_c.h
+[58.083s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_fastrtps_c.h
+[58.084s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_fastrtps_c.h
+[58.085s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_fastrtps_c.h
+[58.085s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_fastrtps_c.h
+[58.086s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_c.h
+[58.086s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_fastrtps_c.h
+[58.087s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_c.h
+[58.087s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_fastrtps_c.h
+[58.088s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[58.089s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so
+[58.090s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[58.091s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs
+[58.091s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv
+[58.092s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail
+[58.092s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__struct.hpp
+[58.093s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__traits.hpp
+[58.093s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__type_support.hpp
+[58.094s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__builder.hpp
+[58.094s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/get_interactive_markers.hpp
+[58.095s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg
+[58.095s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail
+[58.096s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__builder.hpp
+[58.096s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp
+[58.097s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.hpp
+[58.098s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__traits.hpp
+[58.098s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__type_support.hpp
+[58.099s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__builder.hpp
+[58.100s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__builder.hpp
+[58.100s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__type_support.hpp
+[58.101s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__struct.hpp
+[58.101s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__builder.hpp
+[58.102s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__builder.hpp
+[58.103s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__builder.hpp
+[58.104s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__traits.hpp
+[58.105s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__traits.hpp
+[58.105s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__struct.hpp
+[58.106s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__traits.hpp
+[58.106s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__type_support.hpp
+[58.106s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__struct.hpp
+[58.106s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__struct.hpp
+[58.108s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__builder.hpp
+[58.108s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__builder.hpp
+[58.108s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__type_support.hpp
+[58.108s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__traits.hpp
+[58.111s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__type_support.hpp
+[58.112s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.hpp
+[58.112s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__type_support.hpp
+[58.112s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__traits.hpp
+[58.112s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__type_support.hpp
+[58.112s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__struct.hpp
+[58.112s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__struct.hpp
+[58.113s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__traits.hpp
+[58.113s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.hpp
+[58.113s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__builder.hpp
+[58.113s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__builder.hpp
+[58.113s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__struct.hpp
+[58.116s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__struct.hpp
+[58.132s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__traits.hpp
+[58.132s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__builder.hpp
+[58.132s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__struct.hpp
+[58.132s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__traits.hpp
+[58.132s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__traits.hpp
+[58.132s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__type_support.hpp
+[58.133s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__traits.hpp
+[58.133s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__struct.hpp
+[58.133s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__type_support.hpp
+[58.133s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__struct.hpp
+[58.133s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__builder.hpp
+[58.133s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__struct.hpp
+[58.134s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_control.hpp
+[58.134s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/image_marker.hpp
+[58.134s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/marker_array.hpp
+[58.134s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_update.hpp
+[58.134s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker.hpp
+[58.136s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/uv_coordinate.hpp
+[58.136s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/mesh_file.hpp
+[58.140s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/menu_entry.hpp
+[58.140s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/marker.hpp
+[58.140s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[58.140s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_feedback.hpp
+[58.140s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_init.hpp
+[58.140s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/interactive_marker_pose.hpp
+[58.141s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs
+[58.141s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv
+[58.141s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail
+[58.141s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_fastrtps_cpp.hpp
+[58.141s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/dds_fastrtps
+[58.142s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg
+[58.142s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail
+[58.142s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[58.142s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_fastrtps_cpp.hpp
+[58.143s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_fastrtps_cpp.hpp
+[58.143s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_fastrtps_cpp.hpp
+[58.143s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_fastrtps_cpp.hpp
+[58.143s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_fastrtps_cpp.hpp
+[58.147s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[58.147s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_fastrtps_cpp.hpp
+[58.147s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_fastrtps_cpp.hpp
+[58.147s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_fastrtps_cpp.hpp
+[58.147s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__rosidl_typesupport_fastrtps_cpp.hpp
+[58.148s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_fastrtps_cpp.hpp
+[58.148s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/dds_fastrtps
+[58.148s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[58.148s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so
+[58.148s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[58.149s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs
+[58.149s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv
+[58.149s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail
+[58.152s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_introspection_c.h
+[58.153s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__type_support.c
+[58.153s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg
+[58.153s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail
+[58.153s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__type_support.c
+[58.156s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__type_support.c
+[58.157s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__type_support.c
+[58.157s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__type_support.c
+[58.157s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__rosidl_typesupport_introspection_c.h
+[58.158s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_introspection_c.h
+[58.158s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.c
+[58.158s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_introspection_c.h
+[58.158s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_introspection_c.h
+[58.158s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_introspection_c.h
+[58.158s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.c
+[58.159s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_introspection_c.h
+[58.159s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.c
+[58.159s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__type_support.c
+[58.159s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_introspection_c.h
+[58.159s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__type_support.c
+[58.159s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__type_support.c
+[58.159s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_introspection_c.h
+[58.160s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__type_support.c
+[58.160s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_introspection_c.h
+[58.160s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_c.h
+[58.160s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_introspection_c.h
+[58.160s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__type_support.c
+[58.160s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_introspection_c.h
+[58.160s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[58.161s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_introspection_c.so
+[58.161s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_introspection_c.so" to ""
+[58.161s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_c.so
+[58.161s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_c.so" to ""
+[58.161s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs
+[58.167s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv
+[58.168s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail
+[58.168s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__rosidl_typesupport_introspection_cpp.hpp
+[58.168s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/srv/detail/get_interactive_markers__type_support.cpp
+[58.168s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg
+[58.168s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail
+[58.168s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__rosidl_typesupport_introspection_cpp.hpp
+[58.169s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__rosidl_typesupport_introspection_cpp.hpp
+[58.169s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__type_support.cpp
+[58.169s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__rosidl_typesupport_introspection_cpp.hpp
+[58.169s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__rosidl_typesupport_introspection_cpp.hpp
+[58.169s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__rosidl_typesupport_introspection_cpp.hpp
+[58.169s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__rosidl_typesupport_introspection_cpp.hpp
+[58.170s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_update__type_support.cpp
+[58.170s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__type_support.cpp
+[58.170s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__type_support.cpp
+[58.170s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__type_support.cpp
+[58.170s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__rosidl_typesupport_introspection_cpp.hpp
+[58.170s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_pose__rosidl_typesupport_introspection_cpp.hpp
+[58.171s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__rosidl_typesupport_introspection_cpp.hpp
+[58.171s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__type_support.cpp
+[58.171s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__rosidl_typesupport_introspection_cpp.hpp
+[58.171s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/menu_entry__type_support.cpp
+[58.171s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker_array__type_support.cpp
+[58.171s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_init__rosidl_typesupport_introspection_cpp.hpp
+[58.172s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/image_marker__type_support.cpp
+[58.172s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_feedback__type_support.cpp
+[58.172s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker_control__type_support.cpp
+[58.172s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/interactive_marker__rosidl_typesupport_introspection_cpp.hpp
+[58.175s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/include/visualization_msgs/visualization_msgs/msg/detail/marker__type_support.cpp
+[58.176s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so
+[58.176s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[58.176s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_cpp.so
+[58.179s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/libvisualization_msgs__rosidl_typesupport_cpp.so" to ""
+[58.180s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/environment/pythonpath.sh
+[58.180s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/environment/pythonpath.dsv
+[58.180s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs-5.3.6-py3.12.egg-info
+[58.180s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs-5.3.6-py3.12.egg-info/top_level.txt
+[58.180s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs-5.3.6-py3.12.egg-info/SOURCES.txt
+[58.181s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs-5.3.6-py3.12.egg-info/dependency_links.txt
+[58.181s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs-5.3.6-py3.12.egg-info/PKG-INFO
+[58.181s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs
+[58.181s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_c.so
+[58.181s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/__init__.py
+[58.182s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[58.182s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/srv
+[58.182s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/srv/__init__.py
+[58.183s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/srv/_get_interactive_markers.py
+[58.186s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/srv/_get_interactive_markers_s.c
+[58.187s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_fastrtps_c.so
+[58.187s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_c.c
+[58.187s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/_visualization_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[58.187s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg
+[58.187s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_control_s.c
+[58.187s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_uv_coordinate_s.c
+[58.188s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_feedback_s.c
+[58.188s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_image_marker_s.c
+[58.188s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/__init__.py
+[58.188s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_marker_s.c
+[58.188s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_init.py
+[58.188s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_marker_array_s.c
+[58.189s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_feedback.py
+[58.189s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_update.py
+[58.189s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_marker_array.py
+[58.190s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_mesh_file.py
+[58.190s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_menu_entry.py
+[58.190s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_s.c
+[58.193s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_uv_coordinate.py
+[58.194s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker.py
+[58.194s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_menu_entry_s.c
+[58.194s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_marker.py
+[58.194s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_update_s.c
+[58.194s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_init_s.c
+[58.194s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_pose_s.c
+[58.195s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_pose.py
+[58.195s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_image_marker.py
+[58.195s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_mesh_file_s.c
+[58.195s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_control.py
+[58.195s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_introspection_c.so
+[58.345s] Listing '/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs'...
+[58.346s] Compiling '/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/__init__.py'...
+[58.346s] Listing '/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg'...
+[58.346s] Compiling '/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/__init__.py'...
+[58.346s] Compiling '/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_image_marker.py'...
+[58.346s] Compiling '/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker.py'...
+[58.346s] Compiling '/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_control.py'...
+[58.347s] Compiling '/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_feedback.py'...
+[58.347s] Compiling '/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_init.py'...
+[58.347s] Compiling '/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_pose.py'...
+[58.347s] Compiling '/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_interactive_marker_update.py'...
+[58.348s] Compiling '/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_marker.py'...
+[58.348s] Compiling '/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_marker_array.py'...
+[58.348s] Compiling '/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_menu_entry.py'...
+[58.348s] Compiling '/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_mesh_file.py'...
+[58.348s] Compiling '/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/msg/_uv_coordinate.py'...
+[58.348s] Listing '/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/srv'...
+[58.349s] Compiling '/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/srv/__init__.py'...
+[58.349s] Compiling '/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/srv/_get_interactive_markers.py'...
+[58.361s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_fastrtps_c.so
+[58.361s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[58.362s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_introspection_c.so
+[58.364s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[58.365s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_c.so
+[58.366s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/python3.12/site-packages/visualization_msgs/visualization_msgs_s__rosidl_typesupport_c.so" to ""
+[58.368s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/libvisualization_msgs__rosidl_generator_py.so
+[58.369s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/visualization_msgs/lib/libvisualization_msgs__rosidl_generator_py.so" to ""
+[58.369s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/ImageMarker.idl
+[58.370s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarker.idl
+[58.371s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerControl.idl
+[58.372s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerFeedback.idl
+[58.372s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerInit.idl
+[58.374s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerPose.idl
+[58.374s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerUpdate.idl
+[58.375s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/Marker.idl
+[58.376s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/MarkerArray.idl
+[58.377s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/MenuEntry.idl
+[58.378s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/MeshFile.idl
+[58.378s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/UVCoordinate.idl
+[58.379s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/srv/GetInteractiveMarkers.idl
+[58.380s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/ImageMarker.msg
+[58.381s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarker.msg
+[58.381s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerControl.msg
+[58.382s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerFeedback.msg
+[58.383s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerInit.msg
+[58.384s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerPose.msg
+[58.385s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/InteractiveMarkerUpdate.msg
+[58.386s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/Marker.msg
+[58.386s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/MarkerArray.msg
+[58.387s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/MenuEntry.msg
+[58.388s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/MeshFile.msg
+[58.389s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/msg/UVCoordinate.msg
+[58.390s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/srv/GetInteractiveMarkers.srv
+[58.391s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/ament_index/resource_index/package_run_dependencies/visualization_msgs
+[58.391s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/ament_index/resource_index/parent_prefix_path/visualization_msgs
+[58.392s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/environment/ament_prefix_path.sh
+[58.393s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/environment/ament_prefix_path.dsv
+[58.394s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/environment/path.sh
+[58.394s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/environment/path.dsv
+[58.395s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/local_setup.bash
+[58.396s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/local_setup.sh
+[58.397s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/local_setup.zsh
+[58.397s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/local_setup.dsv
+[58.398s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/package.dsv
+[58.399s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/ament_index/resource_index/packages/visualization_msgs
+[58.400s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_cExport.cmake
+[58.400s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_cExport-noconfig.cmake
+[58.402s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[58.402s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[58.403s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_cppExport.cmake
+[58.404s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[58.405s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[58.405s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cExport.cmake
+[58.406s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[58.407s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cExport.cmake
+[58.408s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[58.409s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[58.409s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[58.411s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cppExport.cmake
+[58.411s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[58.412s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_pyExport.cmake
+[58.413s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/cmake/export_visualization_msgs__rosidl_generator_pyExport-noconfig.cmake
+[58.413s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/cmake/rosidl_cmake-extras.cmake
+[58.414s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[58.415s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[58.416s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[58.417s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[58.418s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[58.418s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[58.419s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgsConfig.cmake
+[58.420s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/cmake/visualization_msgsConfig-version.cmake
+[58.421s] -- Installing: /home/thomas/MobileRobot/ws_new/install/visualization_msgs/share/visualization_msgs/package.xml
+[58.425s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/visualization_msgs' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/visualization_msgs

@@ -1,0 +1,337 @@
+[0.062s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/trajectory_msgs': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/thomas/MobileRobot/ws_new/src/common_interfaces/trajectory_msgs -DCMAKE_INSTALL_PREFIX=/home/thomas/MobileRobot/ws_new/install/trajectory_msgs
+[0.170s] -- The C compiler identification is GNU 13.3.0
+[0.299s] -- The CXX compiler identification is GNU 13.3.0
+[0.335s] -- Detecting C compiler ABI info
+[0.518s] -- Detecting C compiler ABI info - done
+[0.544s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.544s] -- Detecting C compile features
+[0.545s] -- Detecting C compile features - done
+[0.566s] -- Detecting CXX compiler ABI info
+[0.747s] -- Detecting CXX compiler ABI info - done
+[0.774s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.775s] -- Detecting CXX compile features
+[0.776s] -- Detecting CXX compile features - done
+[0.790s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.127s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.352s] -- Found builtin_interfaces: 2.0.2 (/opt/ros/jazzy/share/builtin_interfaces/cmake)
+[1.465s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.511s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.558s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.611s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.652s] -- Found geometry_msgs: 5.3.6 (/home/thomas/MobileRobot/ws_new/install/geometry_msgs/share/geometry_msgs/cmake)
+[1.724s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.766s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.123s] -- Found ament_cmake_cppcheck: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[3.134s] -- Found ament_cmake_cpplint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[3.144s] -- Found ament_cmake_uncrustify: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[3.153s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[5.113s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.989s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.999s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[6.259s] -- Found PythonExtra: /usr/bin/python3  
+[7.106s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[7.273s] -- Found ament_cmake_flake8: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[7.282s] -- Found ament_cmake_pep257: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[7.293s] -- Configuring done (7.2s)
+[7.405s] -- Generating done (0.1s)
+[7.423s] -- Build files have been written to: /home/thomas/MobileRobot/ws_new/build/trajectory_msgs
+[7.445s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/trajectory_msgs' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/thomas/MobileRobot/ws_new/src/common_interfaces/trajectory_msgs -DCMAKE_INSTALL_PREFIX=/home/thomas/MobileRobot/ws_new/install/trajectory_msgs
+[7.447s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/trajectory_msgs': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/trajectory_msgs -- -j8 -l8
+[7.572s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[7.591s] [  1%] Built target ament_cmake_python_copy_trajectory_msgs
+[8.203s] running egg_info
+[8.207s] creating trajectory_msgs.egg-info
+[8.283s] writing trajectory_msgs.egg-info/PKG-INFO
+[8.285s] writing dependency_links to trajectory_msgs.egg-info/dependency_links.txt
+[8.286s] writing top-level names to trajectory_msgs.egg-info/top_level.txt
+[8.287s] writing manifest file 'trajectory_msgs.egg-info/SOURCES.txt'
+[8.540s] [  1%] Built target trajectory_msgs__rosidl_generator_type_description
+[8.540s] reading manifest file 'trajectory_msgs.egg-info/SOURCES.txt'
+[8.540s] writing manifest file 'trajectory_msgs.egg-info/SOURCES.txt'
+[8.594s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[8.620s] [  3%] Built target ament_cmake_python_build_trajectory_msgs_egg
+[8.630s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[10.419s] [  4%] Built target trajectory_msgs__cpp
+[10.731s] [  6%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory__description.c.o[0m
+[10.753s] [  7%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory__functions.c.o[0m
+[10.756s] [  9%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory__type_support.c.o[0m
+[10.765s] [ 10%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory_point__description.c.o[0m
+[10.901s] [ 12%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__functions.c.o[0m
+[10.923s] [ 14%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__description.c.o[0m
+[10.929s] [ 15%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__description.c.o[0m
+[11.011s] [ 17%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__functions.c.o[0m
+[11.092s] [ 18%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.c.o[0m
+[11.128s] [ 20%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.c.o[0m
+[11.152s] [ 21%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.c.o[0m
+[11.230s] [ 23%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_c.dir/rosidl_generator_c/trajectory_msgs/msg/detail/joint_trajectory_point__functions.c.o[0m
+[11.364s] [ 25%] [32m[1mLinking C shared library libtrajectory_msgs__rosidl_generator_c.so[0m
+[11.584s] [ 25%] Built target trajectory_msgs__rosidl_generator_c
+[11.642s] [ 26%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[11.658s] [ 28%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[11.660s] [ 29%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[11.667s] [ 31%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[13.460s] [ 32%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/joint_trajectory_point__type_support.cpp.o[0m
+[13.461s] [ 34%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/joint_trajectory__type_support.cpp.o[0m
+[13.787s] [ 35%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory__type_support.cpp.o[0m
+[14.042s] [ 37%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/joint_trajectory__type_support_c.cpp.o[0m
+[14.305s] [ 39%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/joint_trajectory__type_support.c.o[0m
+[14.478s] [ 40%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.c.o[0m
+[14.683s] [ 42%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.c.o[0m
+[14.852s] [ 43%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.c.o[0m
+[15.026s] [ 45%] [32m[1mLinking C shared library libtrajectory_msgs__rosidl_typesupport_introspection_c.so[0m
+[15.132s] [ 45%] Built target trajectory_msgs__rosidl_typesupport_introspection_c
+[15.177s] [ 46%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/joint_trajectory_point__type_support_c.cpp.o[0m
+[15.199s] [ 48%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[15.255s] [ 50%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp.o[0m
+[15.265s] [ 51%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[15.351s] [ 53%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[16.556s] [ 54%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support_c.cpp.o[0m
+[16.572s] [ 56%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[16.673s] [ 57%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/joint_trajectory__type_support.cpp.o[0m
+[16.816s] [ 59%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.cpp.o[0m
+[17.219s] [ 60%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support_c.cpp.o[0m
+[17.878s] [ 62%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/trajectory_msgs/msg/detail/dds_fastrtps/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[18.053s] [ 64%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_cpp.so[0m
+[18.257s] [ 64%] Built target trajectory_msgs__rosidl_typesupport_cpp
+[18.362s] [ 65%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[19.360s] [ 67%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[19.465s] [ 68%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[19.579s] [ 70%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[19.602s] [ 70%] Built target trajectory_msgs__rosidl_typesupport_fastrtps_c
+[19.773s] [ 70%] Built target trajectory_msgs__rosidl_typesupport_fastrtps_cpp
+[20.864s] [ 71%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[21.063s] [ 71%] Built target trajectory_msgs__rosidl_typesupport_introspection_cpp
+[21.090s] [ 73%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[21.983s] [ 75%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory__type_support.cpp.o[0m
+[22.077s] [ 76%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/multi_dof_joint_trajectory_point__type_support.cpp.o[0m
+[22.177s] [ 78%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/multi_dof_joint_trajectory__type_support.cpp.o[0m
+[22.257s] [ 79%] [32mBuilding CXX object CMakeFiles/trajectory_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/trajectory_msgs/msg/joint_trajectory_point__type_support.cpp.o[0m
+[22.342s] [ 81%] [32m[1mLinking CXX shared library libtrajectory_msgs__rosidl_typesupport_c.so[0m
+[22.412s] [ 81%] Built target trajectory_msgs__rosidl_typesupport_c
+[22.447s] [ 81%] Built target trajectory_msgs
+[22.493s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[23.791s] [ 82%] Built target trajectory_msgs__py
+[23.825s] [ 84%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_joint_trajectory_s.c.o[0m
+[24.029s] [ 85%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_multi_dof_joint_trajectory_point_s.c.o[0m
+[24.237s] [ 87%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_multi_dof_joint_trajectory_s.c.o[0m
+[24.471s] [ 89%] [32mBuilding C object CMakeFiles/trajectory_msgs__rosidl_generator_py.dir/rosidl_generator_py/trajectory_msgs/msg/_joint_trajectory_point_s.c.o[0m
+[24.853s] [ 90%] [32m[1mLinking C shared library libtrajectory_msgs__rosidl_generator_py.so[0m
+[24.957s] [ 90%] Built target trajectory_msgs__rosidl_generator_py
+[25.001s] [ 92%] [32mBuilding C object CMakeFiles/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[25.260s] [ 93%] [32m[1mLinking C shared module rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[25.329s] [ 93%] Built target trajectory_msgs_s__rosidl_typesupport_fastrtps_c
+[25.365s] [ 95%] [32mBuilding C object CMakeFiles/trajectory_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[25.530s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.so[0m
+[25.582s] [ 96%] Built target trajectory_msgs_s__rosidl_typesupport_c
+[25.614s] [ 98%] [32mBuilding C object CMakeFiles/trajectory_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[25.794s] [100%] [32m[1mLinking C shared module rosidl_generator_py/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[25.846s] [100%] Built target trajectory_msgs_s__rosidl_typesupport_introspection_c
+[25.869s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/trajectory_msgs' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/trajectory_msgs -- -j8 -l8
+[25.872s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/trajectory_msgs': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/trajectory_msgs
+[25.885s] -- Install configuration: ""
+[25.886s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/ament_index/resource_index/rosidl_interfaces/trajectory_msgs
+[25.886s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectory.json
+[25.886s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectoryPoint.json
+[25.887s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectory.json
+[25.887s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.json
+[25.887s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[25.887s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[25.888s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[25.888s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.h
+[25.888s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.h
+[25.889s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__description.c
+[25.889s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.c
+[25.889s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.h
+[25.889s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__functions.c
+[25.890s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.h
+[25.890s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__functions.h
+[25.890s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.c
+[25.891s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.h
+[25.891s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.h
+[25.891s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__functions.c
+[25.892s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__functions.c
+[25.892s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.c
+[25.892s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.c
+[25.892s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__struct.h
+[25.892s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__description.c
+[25.892s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__functions.h
+[25.892s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__description.c
+[25.893s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__functions.h
+[25.894s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__functions.h
+[25.894s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__functions.c
+[25.894s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__description.c
+[25.895s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.h
+[25.895s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory_point.h
+[25.895s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.h
+[25.896s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_generator_c__visibility_control.h
+[25.896s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory_point.h
+[25.896s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory.h
+[25.896s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/environment/library_path.sh
+[25.897s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/environment/library_path.dsv
+[25.897s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_c.so
+[25.897s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_c.so" to ""
+[25.898s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[25.898s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[25.898s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[25.899s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_fastrtps_c.h
+[25.899s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[25.899s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_fastrtps_c.h
+[25.899s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_fastrtps_c.h
+[25.900s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[25.900s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so
+[25.900s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[25.901s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[25.901s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[25.901s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[25.901s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__traits.hpp
+[25.902s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__builder.hpp
+[25.902s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__traits.hpp
+[25.902s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__builder.hpp
+[25.902s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__builder.hpp
+[25.903s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.hpp
+[25.903s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__traits.hpp
+[25.903s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.hpp
+[25.904s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__traits.hpp
+[25.904s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.hpp
+[25.904s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__builder.hpp
+[25.905s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.hpp
+[25.905s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__struct.hpp
+[25.905s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__struct.hpp
+[25.909s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__struct.hpp
+[25.910s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__struct.hpp
+[25.910s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory.hpp
+[25.910s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory.hpp
+[25.910s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/multi_dof_joint_trajectory_point.hpp
+[25.911s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/joint_trajectory_point.hpp
+[25.911s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[25.911s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[25.911s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[25.911s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[25.912s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[25.912s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp
+[25.912s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_fastrtps_cpp.hpp
+[25.912s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/dds_fastrtps
+[25.915s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_fastrtps_cpp.hpp
+[25.915s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[25.915s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so
+[25.916s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[25.916s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[25.916s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[25.916s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[25.917s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.c
+[25.917s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_introspection_c.h
+[25.917s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.c
+[25.917s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_c.h
+[25.918s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_introspection_c.h
+[25.918s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.c
+[25.918s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.c
+[25.919s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_introspection_c.h
+[25.921s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[25.924s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_c.so
+[25.925s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_c.so" to ""
+[25.925s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_c.so
+[25.925s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_c.so" to ""
+[25.925s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs
+[25.926s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg
+[25.926s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail
+[25.926s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp
+[25.926s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory_point__type_support.cpp
+[25.928s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__rosidl_typesupport_introspection_cpp.hpp
+[25.928s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory_point__type_support.cpp
+[25.928s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__type_support.cpp
+[25.928s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[25.929s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/multi_dof_joint_trajectory__rosidl_typesupport_introspection_cpp.hpp
+[25.929s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/include/trajectory_msgs/trajectory_msgs/msg/detail/joint_trajectory__type_support.cpp
+[25.929s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so
+[25.929s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[25.929s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so
+[25.930s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_typesupport_cpp.so" to ""
+[25.930s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/environment/pythonpath.sh
+[25.930s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/environment/pythonpath.dsv
+[25.930s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs-5.3.6-py3.12.egg-info
+[25.930s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs-5.3.6-py3.12.egg-info/top_level.txt
+[25.930s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs-5.3.6-py3.12.egg-info/SOURCES.txt
+[25.930s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs-5.3.6-py3.12.egg-info/dependency_links.txt
+[25.931s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs-5.3.6-py3.12.egg-info/PKG-INFO
+[25.931s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs
+[25.931s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[25.931s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.so
+[25.942s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/__init__.py
+[25.942s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_c.c
+[25.942s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.so
+[25.942s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.so
+[25.942s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/_trajectory_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[25.943s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg
+[25.943s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/__init__.py
+[25.943s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_joint_trajectory_s.c
+[25.943s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_joint_trajectory_point.py
+[25.944s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_joint_trajectory.py
+[25.944s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_point_s.c
+[25.944s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_s.c
+[25.944s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_point.py
+[25.944s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory.py
+[25.944s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_joint_trajectory_point_s.c
+[26.013s] Listing '/home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs'...
+[26.014s] Compiling '/home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/__init__.py'...
+[26.015s] Listing '/home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg'...
+[26.016s] Compiling '/home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/__init__.py'...
+[26.016s] Compiling '/home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_joint_trajectory.py'...
+[26.016s] Compiling '/home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_joint_trajectory_point.py'...
+[26.016s] Compiling '/home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory.py'...
+[26.016s] Compiling '/home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/msg/_multi_dof_joint_trajectory_point.py'...
+[26.023s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.so
+[26.024s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[26.025s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.so
+[26.026s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[26.027s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.so
+[26.028s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/python3.12/site-packages/trajectory_msgs/trajectory_msgs_s__rosidl_typesupport_c.so" to ""
+[26.029s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_py.so
+[26.030s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/trajectory_msgs/lib/libtrajectory_msgs__rosidl_generator_py.so" to ""
+[26.030s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectory.idl
+[26.030s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectoryPoint.idl
+[26.030s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectory.idl
+[26.031s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.idl
+[26.031s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectory.msg
+[26.031s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/msg/JointTrajectoryPoint.msg
+[26.031s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectory.msg
+[26.031s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/msg/MultiDOFJointTrajectoryPoint.msg
+[26.032s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/ament_index/resource_index/package_run_dependencies/trajectory_msgs
+[26.035s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/ament_index/resource_index/parent_prefix_path/trajectory_msgs
+[26.035s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/environment/ament_prefix_path.sh
+[26.035s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/environment/ament_prefix_path.dsv
+[26.035s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/environment/path.sh
+[26.035s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/environment/path.dsv
+[26.035s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/local_setup.bash
+[26.036s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/local_setup.sh
+[26.036s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/local_setup.zsh
+[26.036s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/local_setup.dsv
+[26.036s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/package.dsv
+[26.036s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/ament_index/resource_index/packages/trajectory_msgs
+[26.036s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_cExport.cmake
+[26.037s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_cExport-noconfig.cmake
+[26.037s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[26.037s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[26.037s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_cppExport.cmake
+[26.037s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[26.037s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[26.038s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cExport.cmake
+[26.038s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[26.038s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cExport.cmake
+[26.038s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[26.038s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[26.039s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[26.039s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cppExport.cmake
+[26.039s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[26.039s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_pyExport.cmake
+[26.040s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/cmake/export_trajectory_msgs__rosidl_generator_pyExport-noconfig.cmake
+[26.040s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/cmake/rosidl_cmake-extras.cmake
+[26.040s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.040s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.041s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[26.041s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[26.041s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[26.042s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[26.043s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgsConfig.cmake
+[26.046s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/cmake/trajectory_msgsConfig-version.cmake
+[26.046s] -- Installing: /home/thomas/MobileRobot/ws_new/install/trajectory_msgs/share/trajectory_msgs/package.xml
+[26.051s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/trajectory_msgs' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/trajectory_msgs

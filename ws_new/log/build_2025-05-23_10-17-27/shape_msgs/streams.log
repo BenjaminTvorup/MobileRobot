@@ -1,0 +1,336 @@
+[0.065s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/shape_msgs': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/thomas/MobileRobot/ws_new/src/common_interfaces/shape_msgs -DCMAKE_INSTALL_PREFIX=/home/thomas/MobileRobot/ws_new/install/shape_msgs
+[0.175s] -- The C compiler identification is GNU 13.3.0
+[0.301s] -- The CXX compiler identification is GNU 13.3.0
+[0.350s] -- Detecting C compiler ABI info
+[0.540s] -- Detecting C compiler ABI info - done
+[0.563s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.564s] -- Detecting C compile features
+[0.566s] -- Detecting C compile features - done
+[0.585s] -- Detecting CXX compiler ABI info
+[0.837s] -- Detecting CXX compiler ABI info - done
+[0.863s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.864s] -- Detecting CXX compile features
+[0.866s] -- Detecting CXX compile features - done
+[0.876s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.206s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.507s] -- Found geometry_msgs: 5.3.6 (/home/thomas/MobileRobot/ws_new/install/geometry_msgs/share/geometry_msgs/cmake)
+[1.643s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.696s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.749s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.811s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.943s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.995s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.386s] -- Found ament_cmake_cppcheck: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cppcheck/cmake)
+[3.394s] -- Found ament_cmake_cpplint: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_cpplint/cmake)
+[3.408s] -- Found ament_cmake_uncrustify: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_uncrustify/cmake)
+[3.419s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[5.590s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.407s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.417s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[6.668s] -- Found PythonExtra: /usr/bin/python3  
+[7.549s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[7.765s] -- Found ament_cmake_flake8: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_flake8/cmake)
+[7.779s] -- Found ament_cmake_pep257: 0.17.1 (/opt/ros/jazzy/share/ament_cmake_pep257/cmake)
+[7.816s] -- Configuring done (7.7s)
+[7.996s] -- Generating done (0.1s)
+[8.027s] -- Build files have been written to: /home/thomas/MobileRobot/ws_new/build/shape_msgs
+[8.049s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/shape_msgs' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/thomas/MobileRobot/ws_new/src/common_interfaces/shape_msgs -DCMAKE_INSTALL_PREFIX=/home/thomas/MobileRobot/ws_new/install/shape_msgs
+[8.051s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/shape_msgs': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/shape_msgs -- -j8 -l8
+[8.181s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[8.211s] [  1%] Built target ament_cmake_python_copy_shape_msgs
+[8.957s] running egg_info
+[8.960s] creating shape_msgs.egg-info
+[9.055s] writing shape_msgs.egg-info/PKG-INFO
+[9.055s] writing dependency_links to shape_msgs.egg-info/dependency_links.txt
+[9.056s] writing top-level names to shape_msgs.egg-info/top_level.txt
+[9.056s] writing manifest file 'shape_msgs.egg-info/SOURCES.txt'
+[9.346s] reading manifest file 'shape_msgs.egg-info/SOURCES.txt'
+[9.348s] writing manifest file 'shape_msgs.egg-info/SOURCES.txt'
+[9.454s] [  1%] Built target ament_cmake_python_build_shape_msgs_egg
+[9.601s] [  1%] Built target shape_msgs__rosidl_generator_type_description
+[9.643s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[9.682s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[11.881s] [  4%] Built target shape_msgs__cpp
+[12.171s] [  6%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/mesh__description.c.o[0m
+[12.172s] [  7%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/mesh__functions.c.o[0m
+[12.185s] [  9%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/mesh__type_support.c.o[0m
+[12.201s] [ 10%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/mesh_triangle__description.c.o[0m
+[12.340s] [ 12%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/plane__functions.c.o[0m
+[12.358s] [ 14%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/plane__type_support.c.o[0m
+[12.506s] [ 15%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/solid_primitive__type_support.c.o[0m
+[12.557s] [ 17%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/solid_primitive__functions.c.o[0m
+[12.642s] [ 18%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/solid_primitive__description.c.o[0m
+[12.788s] [ 20%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/plane__description.c.o[0m
+[12.819s] [ 21%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/mesh_triangle__type_support.c.o[0m
+[12.912s] [ 23%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_c.dir/rosidl_generator_c/shape_msgs/msg/detail/mesh_triangle__functions.c.o[0m
+[13.017s] [ 25%] [32m[1mLinking C shared library libshape_msgs__rosidl_generator_c.so[0m
+[13.112s] [ 25%] Built target shape_msgs__rosidl_generator_c
+[13.153s] [ 26%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[13.168s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[15.179s] [ 29%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_msgs/msg/mesh__type_support.cpp.o[0m
+[15.214s] [ 31%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_msgs/msg/mesh_triangle__type_support.cpp.o[0m
+[16.230s] [ 32%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shape_msgs/msg/detail/mesh__type_support_c.cpp.o[0m
+[16.365s] [ 34%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shape_msgs/msg/detail/mesh_triangle__type_support_c.cpp.o[0m
+[16.890s] [ 35%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_msgs/msg/plane__type_support.cpp.o[0m
+[17.856s] [ 37%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shape_msgs/msg/solid_primitive__type_support.cpp.o[0m
+[18.662s] [ 39%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shape_msgs/msg/detail/solid_primitive__type_support_c.cpp.o[0m
+[19.219s] [ 40%] [32m[1mLinking CXX shared library libshape_msgs__rosidl_typesupport_cpp.so[0m
+[19.403s] [ 40%] Built target shape_msgs__rosidl_typesupport_cpp
+[19.932s] [ 42%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shape_msgs/msg/detail/plane__type_support_c.cpp.o[0m
+[20.955s] [ 43%] [32m[1mLinking CXX shared library libshape_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[21.083s] [ 43%] Built target shape_msgs__rosidl_typesupport_fastrtps_c
+[21.107s] [ 45%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[22.273s] [ 46%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shape_msgs/msg/detail/mesh__type_support.cpp.o[0m
+[23.008s] [ 48%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shape_msgs/msg/detail/solid_primitive__type_support.cpp.o[0m
+[23.559s] [ 50%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shape_msgs/msg/detail/plane__type_support.cpp.o[0m
+[24.024s] [ 51%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shape_msgs/msg/detail/mesh_triangle__type_support.cpp.o[0m
+[24.500s] [ 53%] [32m[1mLinking CXX shared library libshape_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[24.669s] [ 53%] Built target shape_msgs__rosidl_typesupport_introspection_cpp
+[24.685s] [ 54%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[25.401s] [ 56%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_msgs/msg/mesh__type_support.cpp.o[0m
+[25.490s] [ 57%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_msgs/msg/solid_primitive__type_support.cpp.o[0m
+[25.558s] [ 59%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_msgs/msg/plane__type_support.cpp.o[0m
+[25.632s] [ 60%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/shape_msgs/msg/mesh_triangle__type_support.cpp.o[0m
+[25.706s] [ 62%] [32m[1mLinking CXX shared library libshape_msgs__rosidl_typesupport_c.so[0m
+[25.773s] [ 62%] Built target shape_msgs__rosidl_typesupport_c
+[25.790s] [ 64%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[26.952s] [ 65%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shape_msgs/msg/detail/mesh__type_support.c.o[0m
+[27.043s] [ 67%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shape_msgs/msg/detail/solid_primitive__type_support.c.o[0m
+[27.129s] [ 68%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shape_msgs/msg/detail/plane__type_support.c.o[0m
+[27.210s] [ 70%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shape_msgs/msg/detail/mesh_triangle__type_support.c.o[0m
+[27.291s] [ 71%] [32m[1mLinking C shared library libshape_msgs__rosidl_typesupport_introspection_c.so[0m
+[27.355s] [ 71%] Built target shape_msgs__rosidl_typesupport_introspection_c
+[27.376s] [ 73%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[28.568s] [ 75%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shape_msgs/msg/detail/dds_fastrtps/mesh__type_support.cpp.o[0m
+[29.628s] [ 76%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shape_msgs/msg/detail/dds_fastrtps/solid_primitive__type_support.cpp.o[0m
+[30.441s] [ 78%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shape_msgs/msg/detail/dds_fastrtps/plane__type_support.cpp.o[0m
+[31.148s] [ 79%] [32mBuilding CXX object CMakeFiles/shape_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shape_msgs/msg/detail/dds_fastrtps/mesh_triangle__type_support.cpp.o[0m
+[31.886s] [ 81%] [32m[1mLinking CXX shared library libshape_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[32.026s] [ 81%] Built target shape_msgs__rosidl_typesupport_fastrtps_cpp
+[32.070s] [ 81%] Built target shape_msgs
+[32.115s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[33.577s] [ 82%] Built target shape_msgs__py
+[33.611s] [ 84%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_py.dir/rosidl_generator_py/shape_msgs/msg/_mesh_s.c.o[0m
+[33.806s] [ 85%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_py.dir/rosidl_generator_py/shape_msgs/msg/_solid_primitive_s.c.o[0m
+[34.019s] [ 87%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_py.dir/rosidl_generator_py/shape_msgs/msg/_plane_s.c.o[0m
+[34.216s] [ 89%] [32mBuilding C object CMakeFiles/shape_msgs__rosidl_generator_py.dir/rosidl_generator_py/shape_msgs/msg/_mesh_triangle_s.c.o[0m
+[34.418s] [ 90%] [32m[1mLinking C shared library libshape_msgs__rosidl_generator_py.so[0m
+[34.492s] [ 90%] Built target shape_msgs__rosidl_generator_py
+[34.523s] [ 92%] [32mBuilding C object CMakeFiles/shape_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[34.696s] [ 93%] [32m[1mLinking C shared module rosidl_generator_py/shape_msgs/shape_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[34.747s] [ 93%] Built target shape_msgs_s__rosidl_typesupport_fastrtps_c
+[34.778s] [ 95%] [32mBuilding C object CMakeFiles/shape_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[34.941s] [ 96%] [32m[1mLinking C shared module rosidl_generator_py/shape_msgs/shape_msgs_s__rosidl_typesupport_c.so[0m
+[35.007s] [ 96%] Built target shape_msgs_s__rosidl_typesupport_c
+[35.050s] [ 98%] [32mBuilding C object CMakeFiles/shape_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[35.302s] [100%] [32m[1mLinking C shared module rosidl_generator_py/shape_msgs/shape_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[35.369s] [100%] Built target shape_msgs_s__rosidl_typesupport_introspection_c
+[35.389s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/shape_msgs' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/shape_msgs -- -j8 -l8
+[35.391s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/shape_msgs': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/shape_msgs
+[35.404s] -- Install configuration: ""
+[35.404s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/ament_index/resource_index/rosidl_interfaces/shape_msgs
+[35.404s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/msg/Mesh.json
+[35.405s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/msg/MeshTriangle.json
+[35.405s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/msg/Plane.json
+[35.405s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/msg/SolidPrimitive.json
+[35.405s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs
+[35.406s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[35.406s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[35.406s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__struct.h
+[35.406s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__description.c
+[35.407s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__struct.h
+[35.407s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__description.c
+[35.407s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__functions.c
+[35.408s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__functions.h
+[35.408s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__functions.h
+[35.408s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__struct.h
+[35.408s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__type_support.h
+[35.408s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__type_support.c
+[35.409s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__type_support.h
+[35.409s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__functions.h
+[35.409s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__functions.h
+[35.410s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__description.c
+[35.410s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__functions.c
+[35.410s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__type_support.h
+[35.411s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__description.c
+[35.411s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__struct.h
+[35.411s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.h
+[35.411s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__type_support.c
+[35.412s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.c
+[35.412s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__type_support.c
+[35.412s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__functions.c
+[35.412s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__functions.c
+[35.413s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/plane.h
+[35.413s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/mesh.h
+[35.413s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_generator_c__visibility_control.h
+[35.413s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/solid_primitive.h
+[35.414s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/mesh_triangle.h
+[35.414s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/environment/library_path.sh
+[35.414s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/environment/library_path.dsv
+[35.414s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/libshape_msgs__rosidl_generator_c.so
+[35.414s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/libshape_msgs__rosidl_generator_c.so" to ""
+[35.415s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs
+[35.415s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[35.415s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[35.415s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_fastrtps_c.h
+[35.415s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_fastrtps_c.h
+[35.416s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_fastrtps_c.h
+[35.416s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_fastrtps_c.h
+[35.416s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[35.417s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_fastrtps_c.so
+[35.417s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[35.417s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs
+[35.417s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[35.419s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[35.419s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__type_support.hpp
+[35.420s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__struct.hpp
+[35.420s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__traits.hpp
+[35.420s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__struct.hpp
+[35.421s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__builder.hpp
+[35.421s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__type_support.hpp
+[35.421s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__traits.hpp
+[35.422s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__builder.hpp
+[35.422s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__builder.hpp
+[35.422s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__struct.hpp
+[35.422s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.hpp
+[35.422s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__struct.hpp
+[35.423s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__type_support.hpp
+[35.423s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__traits.hpp
+[35.423s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__builder.hpp
+[35.423s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__traits.hpp
+[35.423s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/mesh_triangle.hpp
+[35.424s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/solid_primitive.hpp
+[35.424s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/plane.hpp
+[35.424s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[35.425s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/mesh.hpp
+[35.425s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs
+[35.425s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[35.425s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[35.426s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_fastrtps_cpp.hpp
+[35.426s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_fastrtps_cpp.hpp
+[35.426s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_fastrtps_cpp.hpp
+[35.426s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_fastrtps_cpp.hpp
+[35.427s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/dds_fastrtps
+[35.427s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[35.427s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_fastrtps_cpp.so
+[35.427s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[35.428s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs
+[35.428s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[35.428s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[35.428s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_introspection_c.h
+[35.429s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__type_support.c
+[35.429s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_introspection_c.h
+[35.429s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_introspection_c.h
+[35.430s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__type_support.c
+[35.430s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_introspection_c.h
+[35.430s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.c
+[35.430s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__type_support.c
+[35.431s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[35.431s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_introspection_c.so
+[35.431s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_introspection_c.so" to ""
+[35.431s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_c.so
+[35.431s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_c.so" to ""
+[35.432s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs
+[35.432s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg
+[35.432s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail
+[35.433s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__type_support.cpp
+[35.434s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__rosidl_typesupport_introspection_cpp.hpp
+[35.434s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__rosidl_typesupport_introspection_cpp.hpp
+[35.434s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__type_support.cpp
+[35.434s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh_triangle__rosidl_typesupport_introspection_cpp.hpp
+[35.434s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/solid_primitive__type_support.cpp
+[35.435s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/plane__type_support.cpp
+[35.435s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/include/shape_msgs/shape_msgs/msg/detail/mesh__rosidl_typesupport_introspection_cpp.hpp
+[35.435s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_introspection_cpp.so
+[35.435s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[35.436s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_cpp.so
+[35.436s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/libshape_msgs__rosidl_typesupport_cpp.so" to ""
+[35.437s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/environment/pythonpath.sh
+[35.437s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/environment/pythonpath.dsv
+[35.438s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs-5.3.6-py3.12.egg-info
+[35.438s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs-5.3.6-py3.12.egg-info/top_level.txt
+[35.438s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs-5.3.6-py3.12.egg-info/SOURCES.txt
+[35.438s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs-5.3.6-py3.12.egg-info/dependency_links.txt
+[35.438s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs-5.3.6-py3.12.egg-info/PKG-INFO
+[35.438s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs
+[35.439s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/__init__.py
+[35.439s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_c.c
+[35.439s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_c.so
+[35.439s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[35.439s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg
+[35.439s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_mesh_s.c
+[35.439s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/__init__.py
+[35.440s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_solid_primitive_s.c
+[35.440s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_solid_primitive.py
+[35.440s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_mesh_triangle_s.c
+[35.440s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_mesh.py
+[35.440s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_mesh_triangle.py
+[35.440s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_plane_s.c
+[35.440s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_plane.py
+[35.441s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_fastrtps_c.so
+[35.441s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/_shape_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[35.441s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_introspection_c.so
+[35.525s] Listing '/home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs'...
+[35.525s] Compiling '/home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/__init__.py'...
+[35.525s] Listing '/home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg'...
+[35.526s] Compiling '/home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/__init__.py'...
+[35.526s] Compiling '/home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_mesh.py'...
+[35.526s] Compiling '/home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_mesh_triangle.py'...
+[35.526s] Compiling '/home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_plane.py'...
+[35.526s] Compiling '/home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/msg/_solid_primitive.py'...
+[35.537s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_fastrtps_c.so
+[35.538s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""
+[35.538s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_introspection_c.so
+[35.539s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_introspection_c.so" to ""
+[35.539s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_c.so
+[35.540s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/python3.12/site-packages/shape_msgs/shape_msgs_s__rosidl_typesupport_c.so" to ""
+[35.544s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/libshape_msgs__rosidl_generator_py.so
+[35.544s] -- Set non-toolchain portion of runtime path of "/home/thomas/MobileRobot/ws_new/install/shape_msgs/lib/libshape_msgs__rosidl_generator_py.so" to ""
+[35.545s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/msg/Mesh.idl
+[35.545s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/msg/MeshTriangle.idl
+[35.545s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/msg/Plane.idl
+[35.545s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/msg/SolidPrimitive.idl
+[35.545s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/msg/Mesh.msg
+[35.546s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/msg/MeshTriangle.msg
+[35.546s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/msg/Plane.msg
+[35.546s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/msg/SolidPrimitive.msg
+[35.546s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/ament_index/resource_index/package_run_dependencies/shape_msgs
+[35.546s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/ament_index/resource_index/parent_prefix_path/shape_msgs
+[35.547s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/environment/ament_prefix_path.sh
+[35.547s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/environment/ament_prefix_path.dsv
+[35.547s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/environment/path.sh
+[35.547s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/environment/path.dsv
+[35.547s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/local_setup.bash
+[35.547s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/local_setup.sh
+[35.548s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/local_setup.zsh
+[35.548s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/local_setup.dsv
+[35.548s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/package.dsv
+[35.548s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/ament_index/resource_index/packages/shape_msgs
+[35.548s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_cExport.cmake
+[35.548s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_cExport-noconfig.cmake
+[35.549s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[35.551s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[35.551s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_cppExport.cmake
+[35.551s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[35.551s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[35.552s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cExport.cmake
+[35.552s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[35.552s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cExport.cmake
+[35.552s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[35.552s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[35.553s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[35.553s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cppExport.cmake
+[35.553s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/cmake/shape_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[35.553s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_pyExport.cmake
+[35.553s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/cmake/export_shape_msgs__rosidl_generator_pyExport-noconfig.cmake
+[35.553s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/cmake/rosidl_cmake-extras.cmake
+[35.554s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[35.554s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[35.554s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[35.554s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[35.554s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[35.554s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[35.555s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/cmake/shape_msgsConfig.cmake
+[35.555s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/cmake/shape_msgsConfig-version.cmake
+[35.555s] -- Installing: /home/thomas/MobileRobot/ws_new/install/shape_msgs/share/shape_msgs/package.xml
+[35.557s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/shape_msgs' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/shape_msgs

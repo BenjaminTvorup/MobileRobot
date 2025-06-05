@@ -1,0 +1,9 @@
+/home/thomas/MobileRobot/ws_new/build/opennav_docking_core/CMakeFiles/uninstall.dir
+/home/thomas/MobileRobot/ws_new/build/opennav_docking_core/CMakeFiles/opennav_docking_core_uninstall.dir
+/home/thomas/MobileRobot/ws_new/build/opennav_docking_core/CMakeFiles/test.dir
+/home/thomas/MobileRobot/ws_new/build/opennav_docking_core/CMakeFiles/edit_cache.dir
+/home/thomas/MobileRobot/ws_new/build/opennav_docking_core/CMakeFiles/rebuild_cache.dir
+/home/thomas/MobileRobot/ws_new/build/opennav_docking_core/CMakeFiles/list_install_components.dir
+/home/thomas/MobileRobot/ws_new/build/opennav_docking_core/CMakeFiles/install.dir
+/home/thomas/MobileRobot/ws_new/build/opennav_docking_core/CMakeFiles/install/local.dir
+/home/thomas/MobileRobot/ws_new/build/opennav_docking_core/CMakeFiles/install/strip.dir

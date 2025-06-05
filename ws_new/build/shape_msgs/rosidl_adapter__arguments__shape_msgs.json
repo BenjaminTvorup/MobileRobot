@@ -1,0 +1,9 @@
+{
+  "package_name": "shape_msgs",
+  "non_idl_tuples": [
+    "/home/thomas/MobileRobot/ws_new/src/common_interfaces/shape_msgs:msg/Mesh.msg",
+    "/home/thomas/MobileRobot/ws_new/src/common_interfaces/shape_msgs:msg/MeshTriangle.msg",
+    "/home/thomas/MobileRobot/ws_new/src/common_interfaces/shape_msgs:msg/Plane.msg",
+    "/home/thomas/MobileRobot/ws_new/src/common_interfaces/shape_msgs:msg/SolidPrimitive.msg"
+  ]
+}

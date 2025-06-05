@@ -1,0 +1,42 @@
+{
+  "package_name": "geometry_msgs",
+  "output_dir": "/home/thomas/MobileRobot/ws_new/build/geometry_msgs/rosidl_generator_type_description/geometry_msgs",
+  "idl_tuples": [
+    "/home/thomas/MobileRobot/ws_new/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Accel.idl",
+    "/home/thomas/MobileRobot/ws_new/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/AccelStamped.idl",
+    "/home/thomas/MobileRobot/ws_new/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/AccelWithCovariance.idl",
+    "/home/thomas/MobileRobot/ws_new/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/AccelWithCovarianceStamped.idl",
+    "/home/thomas/MobileRobot/ws_new/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Inertia.idl",
+    "/home/thomas/MobileRobot/ws_new/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/InertiaStamped.idl",
+    "/home/thomas/MobileRobot/ws_new/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Point.idl",
+    "/home/thomas/MobileRobot/ws_new/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Point32.idl",
+    "/home/thomas/MobileRobot/ws_new/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/PointStamped.idl",
+    "/home/thomas/MobileRobot/ws_new/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Polygon.idl",
+    "/home/thomas/MobileRobot/ws_new/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/PolygonInstance.idl",
+    "/home/thomas/MobileRobot/ws_new/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/PolygonInstanceStamped.idl",
+    "/home/thomas/MobileRobot/ws_new/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/PolygonStamped.idl",
+    "/home/thomas/MobileRobot/ws_new/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Pose.idl",
+    "/home/thomas/MobileRobot/ws_new/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Pose2D.idl",
+    "/home/thomas/MobileRobot/ws_new/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/PoseArray.idl",
+    "/home/thomas/MobileRobot/ws_new/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/PoseStamped.idl",
+    "/home/thomas/MobileRobot/ws_new/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/PoseWithCovariance.idl",
+    "/home/thomas/MobileRobot/ws_new/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/PoseWithCovarianceStamped.idl",
+    "/home/thomas/MobileRobot/ws_new/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Quaternion.idl",
+    "/home/thomas/MobileRobot/ws_new/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/QuaternionStamped.idl",
+    "/home/thomas/MobileRobot/ws_new/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Transform.idl",
+    "/home/thomas/MobileRobot/ws_new/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/TransformStamped.idl",
+    "/home/thomas/MobileRobot/ws_new/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Twist.idl",
+    "/home/thomas/MobileRobot/ws_new/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/TwistStamped.idl",
+    "/home/thomas/MobileRobot/ws_new/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/TwistWithCovariance.idl",
+    "/home/thomas/MobileRobot/ws_new/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/TwistWithCovarianceStamped.idl",
+    "/home/thomas/MobileRobot/ws_new/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Vector3.idl",
+    "/home/thomas/MobileRobot/ws_new/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Vector3Stamped.idl",
+    "/home/thomas/MobileRobot/ws_new/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/VelocityStamped.idl",
+    "/home/thomas/MobileRobot/ws_new/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/Wrench.idl",
+    "/home/thomas/MobileRobot/ws_new/build/geometry_msgs/rosidl_adapter/geometry_msgs:msg/WrenchStamped.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

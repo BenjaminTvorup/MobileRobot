@@ -1,0 +1,147 @@
+[0.561s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/stereo_msgs': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/stereo_msgs -- -j8 -l8
+[0.846s] [  2%] Built target stereo_msgs__rosidl_generator_type_description
+[0.888s] [  5%] Built target stereo_msgs__cpp
+[0.975s] [ 20%] Built target stereo_msgs__rosidl_generator_c
+[1.094s] [ 29%] Built target stereo_msgs__rosidl_typesupport_introspection_c
+[1.150s] [ 38%] Built target stereo_msgs__rosidl_typesupport_fastrtps_c
+[1.153s] [ 47%] Built target stereo_msgs__rosidl_typesupport_fastrtps_cpp
+[1.154s] [ 55%] Built target stereo_msgs__rosidl_typesupport_introspection_cpp
+[1.166s] [ 64%] Built target stereo_msgs__rosidl_typesupport_cpp
+[1.168s] [ 73%] Built target stereo_msgs__rosidl_typesupport_c
+[1.272s] [ 73%] Built target ament_cmake_python_copy_stereo_msgs
+[1.272s] [ 73%] Built target stereo_msgs
+[1.332s] [ 76%] Built target stereo_msgs__py
+[1.435s] [ 82%] Built target stereo_msgs__rosidl_generator_py
+[1.481s] [ 88%] Built target stereo_msgs_s__rosidl_typesupport_fastrtps_c
+[1.671s] [ 94%] Built target stereo_msgs_s__rosidl_typesupport_introspection_c
+[1.672s] [100%] Built target stereo_msgs_s__rosidl_typesupport_c
+[1.783s] running egg_info
+[1.824s] writing stereo_msgs.egg-info/PKG-INFO
+[1.824s] writing dependency_links to stereo_msgs.egg-info/dependency_links.txt
+[1.824s] writing top-level names to stereo_msgs.egg-info/top_level.txt
+[1.946s] reading manifest file 'stereo_msgs.egg-info/SOURCES.txt'
+[2.001s] writing manifest file 'stereo_msgs.egg-info/SOURCES.txt'
+[2.041s] [100%] Built target ament_cmake_python_build_stereo_msgs_egg
+[2.058s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/stereo_msgs' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/thomas/MobileRobot/ws_new/build/stereo_msgs -- -j8 -l8
+[2.099s] Invoking command in '/home/thomas/MobileRobot/ws_new/build/stereo_msgs': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/stereo_msgs
+[2.192s] -- Install configuration: ""
+[2.210s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/ament_index/resource_index/rosidl_interfaces/stereo_msgs
+[2.215s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/msg/DisparityImage.json
+[2.216s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+[2.216s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+[2.217s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+[2.217s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__functions.c
+[2.217s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__struct.h
+[2.218s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__functions.h
+[2.218s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__type_support.h
+[2.218s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__description.c
+[2.218s] -- Installing: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__type_support.c
+[2.231s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/disparity_image.h
+[2.232s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.235s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/environment/library_path.sh
+[2.235s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/environment/library_path.dsv
+[2.257s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/lib/libstereo_msgs__rosidl_generator_c.so
+[2.257s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+[2.257s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+[2.257s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+[2.258s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_fastrtps_c.h
+[2.258s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.266s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_fastrtps_c.so
+[2.267s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+[2.267s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+[2.267s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+[2.267s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_introspection_c.h
+[2.267s] -- Installing: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__type_support.c
+[2.290s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.291s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_introspection_c.so
+[2.301s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_c.so
+[2.302s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+[2.302s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+[2.302s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+[2.302s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__type_support.hpp
+[2.303s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__struct.hpp
+[2.303s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__builder.hpp
+[2.303s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__traits.hpp
+[2.303s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/disparity_image.hpp
+[2.303s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[2.304s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+[2.304s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+[2.304s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+[2.304s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_fastrtps_cpp.hpp
+[2.304s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/dds_fastrtps
+[2.305s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.361s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.363s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs
+[2.363s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg
+[2.363s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail
+[2.363s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__rosidl_typesupport_introspection_cpp.hpp
+[2.363s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/include/stereo_msgs/stereo_msgs/msg/detail/disparity_image__type_support.cpp
+[2.369s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_introspection_cpp.so
+[2.369s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/lib/libstereo_msgs__rosidl_typesupport_cpp.so
+[2.369s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/environment/pythonpath.sh
+[2.369s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/environment/pythonpath.dsv
+[2.369s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs-5.3.6-py3.12.egg-info
+[2.370s] -- Installing: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs-5.3.6-py3.12.egg-info/top_level.txt
+[2.370s] -- Installing: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs-5.3.6-py3.12.egg-info/SOURCES.txt
+[2.370s] -- Installing: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs-5.3.6-py3.12.egg-info/dependency_links.txt
+[2.370s] -- Installing: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs-5.3.6-py3.12.egg-info/PKG-INFO
+[2.370s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs
+[2.370s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/__init__.py
+[2.370s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_fastrtps_c.so
+[2.371s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_c.c
+[2.371s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_c.so
+[2.371s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.371s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/msg
+[2.371s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/msg/__init__.py
+[2.372s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/msg/_disparity_image_s.c
+[2.372s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/msg/_disparity_image.py
+[2.372s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/_stereo_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.372s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_introspection_c.so
+[2.402s] Listing '/home/thomas/MobileRobot/ws_new/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs'...
+[2.402s] Listing '/home/thomas/MobileRobot/ws_new/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/msg'...
+[2.411s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_fastrtps_c.so
+[2.416s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_introspection_c.so
+[2.418s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/lib/python3.12/site-packages/stereo_msgs/stereo_msgs_s__rosidl_typesupport_c.so
+[2.428s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/lib/libstereo_msgs__rosidl_generator_py.so
+[2.429s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/msg/DisparityImage.idl
+[2.429s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/msg/DisparityImage.msg
+[2.430s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/ament_index/resource_index/package_run_dependencies/stereo_msgs
+[2.439s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/ament_index/resource_index/parent_prefix_path/stereo_msgs
+[2.439s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/environment/ament_prefix_path.sh
+[2.439s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/environment/ament_prefix_path.dsv
+[2.440s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/environment/path.sh
+[2.440s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/environment/path.dsv
+[2.440s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/local_setup.bash
+[2.440s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/local_setup.sh
+[2.440s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/local_setup.zsh
+[2.441s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/local_setup.dsv
+[2.441s] -- Installing: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/package.dsv
+[2.469s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/ament_index/resource_index/packages/stereo_msgs
+[2.471s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_cExport.cmake
+[2.471s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.483s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.484s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.484s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.485s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.485s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_cExport.cmake
+[2.485s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.494s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_cppExport.cmake
+[2.517s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.518s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.521s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.521s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.534s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_cppExport.cmake
+[2.534s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.535s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_pyExport.cmake
+[2.535s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/cmake/export_stereo_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.535s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/cmake/rosidl_cmake-extras.cmake
+[2.535s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.537s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.537s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.537s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.537s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.537s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.537s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgsConfig.cmake
+[2.537s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/cmake/stereo_msgsConfig-version.cmake
+[2.538s] -- Up-to-date: /home/thomas/MobileRobot/ws_new/install/stereo_msgs/share/stereo_msgs/package.xml
+[2.540s] Invoked command in '/home/thomas/MobileRobot/ws_new/build/stereo_msgs' returned '0': AMENT_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs:/home/thomas/MobileRobot/ws_new/install/geometry_msgs:/home/thomas/MobileRobot/ws_new/install/std_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/thomas/dev_ws/install/basic_mobile_robot:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/thomas/MobileRobot/ws_new/install/sensor_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/geometry_msgs/lib/python3.12/site-packages:/home/thomas/MobileRobot/ws_new/install/std_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/thomas/MobileRobot/ws_new/build/stereo_msgs
